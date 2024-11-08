@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/*Grid*/
+/*Colors*/
+/*Fonts*/
+/*Shadows*/
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 18px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+@media (min-width: 0px) {
+  body {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+b {
+  font-weight: 500;
+}
+
+.containerInner {
+  margin: 0 auto;
+}
+@media (min-width: 0px) {
+  .containerInner {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .containerInner {
+    width: 528px;
+  }
+}
+@media (min-width: 768px) {
+  .containerInner {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .containerInner {
+    width: 864px;
+  }
+}
+@media (min-width: 1200px) {
+  .containerInner {
+    width: 1152px;
+  }
+}
+
+.containerFullwidth {
+  width: 100%;
+}
+
+.menushift {
+  margin-top: 144px;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  border-radius: 50%;
+  border: 2px solid #006666;
+  border-color: #006666 transparent #006666 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+div.react-datepicker__day--selected {
+  background-color: #006666 !important;
+}
+
+input, button {
+  -webkit-appearance: none;
+}
+
+.ql-snow{
+  border: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

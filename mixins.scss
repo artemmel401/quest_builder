@@ -1,0 +1,411 @@
+/*Grid*/
+$xxl: "1600px";
+$xxlc: 1552px;
+$xl: "1200px";
+$xlc: 1152px;
+$lg: "992px";
+$lgc: 864px;
+$md: "768px";
+$mdc: 720px;
+$sm: "576px";
+$smc: 528px;
+$xs: "0px";
+$xsc: 100%;
+/*Colors*/
+//Basic
+$ld_color_black: #333333;
+$ld_color_darkGreen: #006666;
+$ld_color_turquoise: #3AB8BC;
+$ld_color_brightTurquoise: #00ead9;
+$ld_color_yellow: #ffd003;
+$ld_color_white: #ffffff;
+$ld_color_orange: #FF8800;
+$ld_color_blackIntensive: #000000;
+$ld_color_negative: #D22D25;
+
+//Gradients
+$ld_color_g1: linear-gradient(225deg, #ffd003 0%, #3ab8bc 51.04%, #026666 100%);
+$ld_color_hoverG1: linear-gradient(
+  225deg,
+  #026666 0%,
+  #3ab8bc 51.04%,
+  #ffd003 100%
+);
+$ld_color_g2: linear-gradient(90deg, #f49c19 0%, #ffd003 100%);
+$ld_color_hoverG2: linear-gradient(90deg, #ffd003 0%, #f49c19 100%);
+//Gray
+$ld_color_gray1: #4f4f4f;
+$ld_color_gray2: #828282;
+$ld_color_gray3: #bdbdbd;
+$ld_color_gray4: #e0e0e0;
+$ld_color_gray5: #f2f2f2;
+$ld_color_gray6: #f8f8f8;
+//Check
+$ld_color_checkFail: #d22d25;
+$ld_color_checkFailLight: #FFEEED;
+$ld_color_checkFailDark: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #D22D25;
+$ld_color_checkSuccess: #10a376;
+$ld_color_checkSuccessDark: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #10A376;
+//Hover
+$ld_color_hover1: #e6f0f0;
+$ld_color_hover2: linear-gradient(
+  225deg,
+  #026666 0%,
+  #3ab8bc 51.04%,
+  #ffd003 100%
+);
+$ld_color_hover3: linear-gradient(90deg, #ffd003 0%, #f49c19 100%);
+
+$ld_color_link: #007aeb;
+/*Fonts*/
+@mixin ld_font_text() {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  @media (min-width: $xs) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  @media (min-width: $md) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (min-width: $lg) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (min-width: $xl) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@mixin ld_font_h1() {
+  font-family: "Russo One", serif;
+  font-weight: normal;
+  @media (min-width: $xs) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  @media (min-width: $md) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  @media (min-width: $lg) {
+    font-size: 44px;
+    line-height: 56px;
+  }
+  @media (min-width: $xl) {
+    font-size: 48px;
+    line-height: 64px;
+  }
+}
+@mixin ld_font_h2() {
+  font-family: "Russo One", serif;
+  font-weight: normal;
+  @media (min-width: $xs) {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  @media (min-width: $md) {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  @media (min-width: $lg) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  @media (min-width: $xl) {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+
+@mixin ld_font_h3() {
+  font-family: "Russo One", sans-serif;
+  font-weight: normal;
+  @media (min-width: $xs) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  @media (min-width: $md) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  @media (min-width: $lg) {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  @media (min-width: $xl) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+@mixin ld_font_h4() {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  @media (min-width: $xs) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  @media (min-width: $md) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  @media (min-width: $lg) {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  @media (min-width: $xl) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+@mixin ld_font_h5() {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  @media (min-width: $xs) {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  @media (min-width: $md) {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
+  @media (min-width: $lg) {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
+  @media (min-width: $xl) {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.36em;
+    text-transform: uppercase;
+  }
+}
+@mixin ld_font_medium() {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  @media (min-width: $xs) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  @media (min-width: $md) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (min-width: $lg) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (min-width: $xl) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@mixin ld_font_menu() {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  @media (min-width: $xs) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  @media (min-width: $md) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  @media (min-width: $lg) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  @media (min-width: $xl) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@mixin ld_font_small() {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  @media (min-width: $xs) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  @media (min-width: $md) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  @media (min-width: $lg) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  @media (min-width: $xl) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@mixin ld_font_subtitle_inner() {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  @media (min-width: $xs) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (min-width: $md) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (min-width: $lg) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (min-width: $xl) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@mixin joy_font_bt1() {
+  font-family: "Russo One", sans-serif;
+  @media (min-width: $xs) {
+    font-size: 72px;
+    line-height: 96px;
+  }
+  @media (min-width: $md) {
+    font-size: 72px;
+    line-height: 96px;
+  }
+  @media (min-width: $lg) {
+    font-size: 72px;
+    line-height: 96px;
+  }
+  @media (min-width: $xl) {
+    font-size: 120px;
+    line-height: 144px;
+  }
+}
+
+@mixin joy_font_bt2() {
+  font-family: "Russo One", sans-serif;
+  @media (min-width: $xs) {
+    font-size: 56px;
+    line-height: 72px;
+  }
+  @media (min-width: $md) {
+    font-size: 56px;
+    line-height: 72px;
+  }
+  @media (min-width: $lg) {
+    font-size: 56px;
+    line-height: 72px;
+  }
+  @media (min-width: $xl) {
+    font-size: 88px;
+    line-height: 112px;
+  }
+}
+
+/*Shadows*/
+@mixin ld_shadow_noHover() {
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+@mixin ld_shadow_hover() {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.06);
+  border-radius: 3px;
+}
+@mixin ld_shadow_pressed() {
+  box-shadow: 0px 0px 2px #bdbdbd;
+  border-radius: 3px;
+}
+@mixin ld_shadow_big() {
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+@mixin ld_shadow_simple() {
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.07);
+  border-radius: 3px;
+}
+
+@mixin ld_shadow_strong() {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+@mixin service_text() {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  @media (min-width: $xs) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  @media (min-width: $lg) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (min-width: $xl) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (min-width: $xxl) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+
+@mixin joy_font_screen_main_text() {
+  font-family: "Roboto", sans-serif;
+  @media (min-width: $xs) {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  @media (min-width: $lg) {
+    font-size: 32px;
+    line-height: 41px;
+  }
+  @media (min-width: $xl) {
+    font-size: 48px;
+    line-height: 62px;
+  }
+  @media (min-width: $xxl) {
+    font-size: 60px;
+    line-height: 78px;
+  }
+}
+
+
+/*Layout*/
+$baseIndent: 8px;
+$block_margin: 188px;
+$block_margin_sm: 120px;
+
+@mixin block_top_margin() {
+  margin-top: $block_margin;
+  @media (max-width: $md) {
+    margin-top: $block_margin_sm;
+  }
+}
+
+@mixin ld_button_secondary3 {
+  font-weight: 500;
+  background: $ld_color_g2;
+  color: $ld_color_black;
+  text-transform: uppercase;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 1;
+  @media (min-width: $xs) {font-size: 12px; line-height: 16px; padding: 8px 12px; height: 32px;}
+  @media (min-width: $md) {font-size: 14px; line-height: 18px; padding: 12px 24px; height: 42px;}
+  @media (min-width: $lg) {font-size: 14px; line-height: 18px; padding: 12px 24px; height: 42px;}
+  @media (min-width: $xl) {font-size: 14px; line-height: 18px; padding: 12px 24px; height: 42px;}
+  &:hover {
+    background: $ld_color_hoverG2;
+  }
+}

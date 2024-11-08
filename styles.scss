@@ -1,0 +1,182 @@
+@import "mixins";
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 18px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*--------------------*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  @media (min-width: $xs) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  @media (min-width: $md) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (min-width: $lg) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (min-width: $xl) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+b {
+  font-weight: 500;
+}
+
+.container {
+}
+
+.containerInner {
+  margin: 0 auto;
+  @media (min-width: $xs) {
+    width: $xsc;
+  }
+  @media (min-width: $sm) {
+    width: $smc;
+  }
+  @media (min-width: $md) {
+    width: $mdc;
+  }
+  @media (min-width: $lg) {
+    width: $lgc;
+  }
+  @media (min-width: $xl) {
+    width: $xlc;
+  }
+}
+
+.containerFullwidth {
+  width: 100%;
+}
+
+.menushift {
+  margin-top: 144px;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  border-radius: 50%;
+  border: 2px solid $ld_color_darkGreen;
+  border-color: $ld_color_darkGreen transparent $ld_color_darkGreen transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+div.react-datepicker__day--selected {
+  background-color: #006666 !important;
+}
+
+
+input, button { -webkit-appearance: none;}
+
+
+.tox-tinymce {border: 0px !important;}
+
+.ql-toolbar{
+  border: none !important;
+  border-bottom: 1px solid #ccc !important;
+}
+.ql-container{
+  border: none !important;
+}
+.ql-editor {
+  font-family: 'Roboto', 'Lora', sans-serif,;
+}

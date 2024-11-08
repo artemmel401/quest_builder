@@ -1,0 +1,30 @@
+@import 'mixins.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 465px;
+  flex-grow: 1;
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  &__preview {
+    background-color: aqua;
+    height: 200px;
+    width: 100%;
+  }
+  &__content {
+    background-color: $ld_color_gray5;
+    padding-left: 36px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex-grow: 1;
+  }
+  &__title {
+    @include ld_font_subtitle_inner();
+    margin-bottom: 20px;
+  }
+  &__text {
+    @include ld_font_small();
+  }
+}
