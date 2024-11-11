@@ -1,1 +1,0 @@
-export const dbTest = 'MongoDB-2565';

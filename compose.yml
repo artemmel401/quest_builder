@@ -1,0 +1,11 @@
+services:
+  quizdb:
+    image: mongo
+    restart: always
+    ports:
+      - 27071:27017
+    volumes:
+      - quizdata:/var/lib/quiz/data
+
+volumes:
+  quizdata:
