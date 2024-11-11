@@ -6,6 +6,9 @@ import { Button } from "@/components/button/button"
 import Card from "@/components/card/card"
 
 export default function Home(){
+  useEffect(()=>{
+    getAny()
+  })
   return (
     <>
       <Header isNewQuest/>
