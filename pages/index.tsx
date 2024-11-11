@@ -8,15 +8,7 @@ import Card from "@/components/card/card"
 export default function Home(){
   return (
     <>
-      <Header>
-        <div className={styles.header__content}>
-          <h2 className={styles.header__title}>КВЕСТРУКТОР</h2>
-          <div className={styles.header__textContent}>
-            <p className={styles.header__text}>Изменения сохраняются автоматически</p>
-            <img src='img/warning.svg'/>
-          </div>
-        </div>
-      </Header>
+      <Header isNewQuest/>
       <main className={styles.main}>
         <div className={styles.main__list}>
           <h1 className={styles.main__title}>ВАШИ КВЕСТЫ</h1>
@@ -27,6 +19,7 @@ export default function Home(){
           <Card title="Квест 1" description="описание" onClick={()=>{}}/>
           <Card title="Квест 2" onClick={()=>{}}/>
           <Card title="Безымянный" onClick={()=>{}}/>
+          <Card title="Квест 1" description="описание" onClick={()=>{}}/>
           <Card title="Квест 1" description="описание" onClick={()=>{}}/>
         </div>
       </main>

@@ -1,0 +1,35 @@
+@import 'mixins.scss';
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 130px;
+  .container {
+    width: 720px;
+  }
+  &__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    color: $ld_color_gray1;
+    margin-bottom: 38px;
+  }
+  &__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    color: $ld_color_gray1;
+    margin-bottom: 70px;
+  }
+  &__button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 95px;
+  }
+}

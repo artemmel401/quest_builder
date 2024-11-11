@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__book {
+    position: absolute;
+    left: 53px;
+  }
+}

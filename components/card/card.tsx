@@ -1,3 +1,4 @@
+import PreviewCard from '../previews/previewCard'
 import styles from './card.module.scss'
 
 type CardProps = {
@@ -9,7 +10,7 @@ type CardProps = {
 export default function Card({title, description, onClick}: CardProps){
   return (
     <div className={styles.container} onClick={onClick}>
-      <div className={styles.container__preview}></div>
+      <PreviewCard background='#000' isRoom/>
       <div className={styles.container__content}>
         <h3 className={styles.container__title}>{title}</h3>
         <p className={styles.container__text}>{description}</p>
