@@ -1,1 +1,37 @@
 @import "mixins";
+
+.container {
+  flex: 25%;
+  height: 100vh;
+  border-right: 1px solid $ld_color_gray4;
+  &__tabs {
+    display: flex;
+  }
+  &__content {
+    padding: 32px;
+  }
+}
+
+.tab {
+  cursor: pointer;
+  position: relative;
+  flex: 1;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $ld_color_gray6;
+  &_isActive {
+    background-color: $ld_color_darkGreen;
+  }
+  &__text {
+    @include ld_font_menu();
+    color: $ld_color_gray3;
+    margin-top: 6px;
+  }
+  &__arrow {
+    position: absolute;
+    bottom: -1px;
+  }
+}

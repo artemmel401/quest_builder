@@ -9,16 +9,19 @@ import { useParams } from 'next/navigation'
 import { LoaderFullScreen } from '../../components/loaders/Loaders'
 import { changeQuestField, getQuest } from '@/utils/requests'
 import { Quest } from '@/types/quest'
+import EditQuest from '@/components/questBuilder/editQuest/editQuest'
 
 export default function QuestConstructor(){
 
   const params = useParams()
 
-  const [stage, setStage] = useState(0)
+  const [stage, setStage] = useState(2)
+
 
   const [questTitle, setQuestTitle] = useState<string>()
   const [description, setDescription] = useState<string>()
   const [typeValue, setTypeValue] = useState<string>()
+  const [selectedRoom, setSelectedRoom] = useState<string>()
  
   const [number, setNumber] = useState<number>()
   const [quest, setQuest] = useState<Quest>()
@@ -28,6 +31,8 @@ export default function QuestConstructor(){
     setQuest(userQuest[0])
     setQuestTitle(userQuest[0].title)
     setDescription(userQuest[0].description)
+    setSelectedRoom(userQuest[0].variants[0] ? userQuest[0].variants[0] : undefined)
+
     setNumber(number)
   }
 
@@ -49,7 +54,7 @@ export default function QuestConstructor(){
     }
   },[description])
 
-  if (!number) {
+  if (!quest) {
     return <LoaderFullScreen/>
   }
 
@@ -60,8 +65,8 @@ export default function QuestConstructor(){
       </Head>
       <div>
         <Header isNewQuest/>
-        <main className={styles.main}>
-          <div className={styles.container}>
+        <main className={`${styles.main} ${stage == 2 ? styles.main_notPadding : ''}`}>
+          {stage !== 2 ? <div className={styles.container}>
             <h1 className={styles.main__title}>{stage === 0 ? 'создать новый квест' : !questTitle ? 'Безымянный' : questTitle}</h1>
             <h2 className={styles.main__subtitle}>{stage === 0 ? 'придумайте название квеста' : 'выберите тип квеста'}</h2>
             {stage === 0 ? <div className={styles.main__inputs}>
@@ -72,7 +77,8 @@ export default function QuestConstructor(){
             <div className={styles.main__button_container}>
               <Button text={stage === 0 ? 'СОЗДАТЬ КВЕСТ' : 'ПРОДОЛЖИТЬ'} onClick={()=>{setStage(stage + 1)}} mainClass='ld_button_secondary2' style={{width: '345px'}}/>
             </div>
-          </div>
+          </div> :
+          <EditQuest selectedRoom={selectedRoom} quest={quest} onChangeField={()=>{}}/>}
         </main>
       </div>
     </>

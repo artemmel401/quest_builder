@@ -5,6 +5,9 @@
   align-items: center;
   flex-direction: column;
   padding-top: 130px;
+  &_notPadding {
+    padding-top: 0;
+  }
   .container {
     width: 720px;
   }

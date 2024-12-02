@@ -50,12 +50,12 @@ export function DropdownListInput({label, list, placeholder, value, onChange}:Dr
     setSearch(value ? value.toString() : '')
   },[value])
 
-  useOutsideClick(container, ()=>(setIsOpen(false)))
+  //useOutsideClick(container, ()=>(setIsOpen(false)))
 
   return (
     <div className={styles.conainer}>
       <p className={styles.label}>{label}</p>
-      <div ref={container} onClick={()=>{setIsOpen(true)}} onFocus={()=>{setIsOpen(true)}} className={styles.inputContainer}>
+      <div ref={container} onClick={()=>{setIsOpen(!isOpen)}} className={styles.inputContainer}>
         <input className={styles.input} onChange={(e)=>{setSearch(e.target.value)}} value={search} placeholder={placeholder}/>
         <img className={styles.input__icon} src={`/icons/menu/${isOpen ? 'open' : 'close'}.svg`}/>
         {(filteredList.length !== 0 && isOpen) && 
