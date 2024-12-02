@@ -1,12 +1,13 @@
-import { dbTest } from './site';
-
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-export const MongoClient = require('mongodb').MongoClient;
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-export const ObjectId = require('mongodb').ObjectId;
+import { MongoClient, ObjectId } from 'mongodb';
 
 export async function connectToDatabase() {
-  const mongoClient = new MongoClient(process.env.dbTestString);
+  const dbTestString = process.env.dbTestString;
+
+  const mongoClient = new MongoClient(dbTestString);
+
   const client = await mongoClient.connect();
-  return { 'client': client, 'db': client.db(dbTest) };
+  const dbName = dbTestString.split('/')[3];
+  const db = client.db(dbName);
+
+  return { client, db };
 }

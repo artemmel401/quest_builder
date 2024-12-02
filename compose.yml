@@ -1,11 +1,22 @@
+version: '3'
 services:
-  quizdb:
-    image: mongo
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
     restart: always
     ports:
-      - 27071:27017
+      - "27017:27017"
     volumes:
-      - quizdata:/var/lib/quiz/data
+      - ./mongo-data:/data/db
+
+  mongo-seed:
+    build: ./mongo-seed
+    links:
+      - mongodb
+    volumes:
+      - ./mongo-seed:/docker-entrypoint-initdb.d
+    depends_on:
+      - mongodb
 
 volumes:
-  quizdata:
+  mongo-data:

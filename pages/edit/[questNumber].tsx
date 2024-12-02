@@ -5,19 +5,53 @@ import { useEffect, useState } from 'react'
 import {DropdownListInput, Input} from '@/components/input/input'
 import { Button } from '@/components/button/button'
 import { QUEST_TYPE } from '@/const'
+import { useParams } from 'next/navigation'
+import { LoaderFullScreen } from '../../components/loaders/Loaders'
+import { changeQuestField, getQuest } from '@/utils/requests'
+import { Quest } from '@/types/quest'
 
 export default function QuestConstructor(){
+
+  const params = useParams()
 
   const [stage, setStage] = useState(0)
 
   const [questTitle, setQuestTitle] = useState<string>()
   const [description, setDescription] = useState<string>()
   const [typeValue, setTypeValue] = useState<string>()
+ 
+  const [number, setNumber] = useState<number>()
+  const [quest, setQuest] = useState<Quest>()
+
+  const onGetQuest = async (number: number) => {
+    const userQuest = await getQuest(number)
+    setQuest(userQuest[0])
+    setQuestTitle(userQuest[0].title)
+    setDescription(userQuest[0].description)
+    setNumber(number)
+  }
 
   useEffect(()=>{
-    console.log(typeValue)
-  },[typeValue])
+    if (params && typeof params.questNumber === 'string') {
+      onGetQuest(parseInt(params.questNumber))
+    }
+  },[params])
 
+  useEffect(()=>{
+    if (number) {
+      changeQuestField(number, 'title', questTitle)
+    }
+  },[questTitle])
+
+  useEffect(()=>{
+    if (number) {
+      changeQuestField(number, 'description', description)
+    }
+  },[description])
+
+  if (!number) {
+    return <LoaderFullScreen/>
+  }
 
   return (
     <>

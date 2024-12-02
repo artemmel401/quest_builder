@@ -1,14 +1,38 @@
-import { useEffect, useState } from "react"
-import { getAny } from "../utils/requests"
 import styles from './index.module.scss'
 import Header from "@/components/header/header"
 import { Button } from "@/components/button/button"
 import Card from "@/components/card/card"
+import { useRouter } from "next/router"
+import { createQuest, getQuests } from "../utils/requests"
+import { useEffect, useState } from 'react'
+import { Quest } from '@/types/quest'
+import { LoaderFullScreen } from '@/components/loaders/Loaders'
 
 export default function Home(){
-  useEffect(()=>{
-    getAny()
-  })
+
+  const [quests, setQuests] = useState<Quest[]>()
+
+  const router = useRouter()
+
+  const onCreateQuest = async () => {
+    const number = await createQuest()
+    router.push(`/edit/${number}`)
+  }
+
+  const getAllQuests = async () => {
+    const quests = await getQuests()
+    setQuests(quests)
+  }
+
+  useEffect(() => {
+    getAllQuests()
+  },[])
+
+
+  if (!quests) {
+    return <LoaderFullScreen/>
+  }
+
   return (
     <>
       <Header isNewQuest/>
@@ -16,14 +40,10 @@ export default function Home(){
         <div className={styles.main__list}>
           <h1 className={styles.main__title}>ВАШИ КВЕСТЫ</h1>
           <div></div>
-          <Button mainClass="ld_button_secondary2" onClick={()=>{}} text='СОЗДАТЬ КВЕСТ' style={{width: '345px', height: '55px', fontSize: '20px'}}/>
+          <Button onClick={onCreateQuest} mainClass="ld_button_secondary2" text='СОЗДАТЬ КВЕСТ' style={{width: '345px', height: '55px', fontSize: '20px'}}/>
         </div>
         <div className={styles.main__cards}>
-          <Card title="Квест 1" description="описание" onClick={()=>{}}/>
-          <Card title="Квест 2" onClick={()=>{}}/>
-          <Card title="Безымянный" onClick={()=>{}}/>
-          <Card title="Квест 1" description="описание" onClick={()=>{}}/>
-          <Card title="Квест 1" description="описание" onClick={()=>{}}/>
+          {quests.map((quest)=>(<Card title={quest.title} description={quest.description} onClick={()=>{router.push(`/edit/${quest.number}`)}}/>))}
         </div>
       </main>
     </>
