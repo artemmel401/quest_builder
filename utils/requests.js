@@ -23,9 +23,17 @@ export const getQuests = async () => {
 }
 
 export const createQuest = async () => {
-  let response = await fetch('/api/db/createQuiz',{
+  let response = await fetch('/api/db/createQuest',{
     method: 'POST', headers: { 'Content-Type': 'application/json;charset=utf-8' },
     body: JSON.stringify()
 });
+  return response.ok ? await response.json() : { error: 'error createQuest' };
+}
+
+export const getFilesFromDirectory = async (dirpath) => {
+  let response = await fetch('/api/db/getFilesFromDirectory', {
+    method: 'POST', headers: { 'Content-Type': 'application/json;charset=utf-8' },
+    body: JSON.stringify({dirpath: dirpath})
+  });
   return response.ok ? await response.json() : { error: 'error createQuest' };
 }

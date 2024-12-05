@@ -36,7 +36,16 @@ export default function QuestConstructor(){
     setNumber(number)
   }
 
+  const changeQuestContentField = (newValue: any, field: 'rooms' | 'subjects') => {
+    const newVariants = quest?.variants
+    if (newVariants){
+      newVariants[0][field] = newValue
+    }
+    changeQuestField(number, 'variants', newVariants)
+  }
+
   useEffect(()=>{
+    console.log(params)
     if (params && typeof params.questNumber === 'string') {
       onGetQuest(parseInt(params.questNumber))
     }
@@ -78,7 +87,7 @@ export default function QuestConstructor(){
               <Button text={stage === 0 ? 'СОЗДАТЬ КВЕСТ' : 'ПРОДОЛЖИТЬ'} onClick={()=>{setStage(stage + 1)}} mainClass='ld_button_secondary2' style={{width: '345px'}}/>
             </div>
           </div> :
-          <EditQuest selectedRoom={selectedRoom} quest={quest} onChangeField={()=>{}}/>}
+          <EditQuest selectedRoom={selectedRoom} quest={quest.variants[0]} onChangeField={changeQuestContentField}/>}
         </main>
       </div>
     </>

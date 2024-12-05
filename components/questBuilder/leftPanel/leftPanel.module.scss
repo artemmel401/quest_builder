@@ -2,13 +2,25 @@
 
 .container {
   flex: 25%;
-  height: 100vh;
+  height: calc(100vh - 84px);
   border-right: 1px solid $ld_color_gray4;
   &__tabs {
     display: flex;
   }
   &__content {
     padding: 32px;
+    height: calc(100vh - 175px);
+    scrollbar-width: none;
+    overflow: auto;
+  }
+  &__emptyRooms {
+    margin-top: 50px;
+    @include ld_font_h4();
+  }
+  &__createRoom {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
   }
 }
 
@@ -33,5 +45,31 @@
   &__arrow {
     position: absolute;
     bottom: -1px;
+  }
+}
+
+.room {
+  position: relative;
+  width: 100%;
+  height: 110px;
+  border-radius: 15px;
+  padding-top: 15px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  &__title {
+    @include ld_font_menu();
+    margin-left: 14px;
+  }
+  &__book {
+    width: 45%;
+    position: absolute;
+    left: 50px;
+    top: 40px;
+  }
+  &_active {
+    border: 2px solid $ld_color_darkGreen;
   }
 }
