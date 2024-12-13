@@ -15,7 +15,7 @@ export default function QuestConstructor(){
 
   const params = useParams()
 
-  const [stage, setStage] = useState(2)
+  const [stage, setStage] = useState(0)
 
 
   const [questTitle, setQuestTitle] = useState<string>()

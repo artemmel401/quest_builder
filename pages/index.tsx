@@ -21,6 +21,7 @@ export default function Home(){
 
   const getAllQuests = async () => {
     const quests = await getQuests()
+    console.log(quests)
     setQuests(quests)
   }
 
@@ -43,7 +44,7 @@ export default function Home(){
           <Button onClick={onCreateQuest} mainClass="ld_button_secondary2" text='СОЗДАТЬ КВЕСТ' style={{width: '345px', height: '55px', fontSize: '20px'}}/>
         </div>
         <div className={styles.main__cards}>
-          {quests.map((quest)=>(<Card title={quest.title} description={quest.description} onClick={()=>{router.push(`/edit/${quest.number}`)}}/>))}
+          {quests.map((quest)=>(<Card background={quest.variants[0].rooms[0]?.background} title={quest.title} description={quest.description} onClick={()=>{router.push(`/edit/${quest.number}`)}}/>))}
         </div>
       </main>
     </>
