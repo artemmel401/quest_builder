@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73.66" height="305.69" viewBox="0 0 73.66 305.69">
+  <defs>
+    <style>
+      .a {
+        fill: #4c4040;
+      }
+
+      .b {
+        stroke-miterlimit: 10;
+        stroke-width: 0.22px;
+        fill: url(#a);
+        stroke: url(#b);
+      }
+    </style>
+    <linearGradient id="a" data-name="Unbenannter Verlauf 719" x1="-7476.69" y1="71.87" x2="-7581.85" y2="223.89" gradientTransform="matrix(-1, 0, 0, 1, -7492.03, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a0a09f"/>
+      <stop offset="0.18" stop-color="#afafaf"/>
+      <stop offset="0.19" stop-color="#ababab"/>
+      <stop offset="0.23" stop-color="#8f8f8f"/>
+      <stop offset="0.29" stop-color="#797979"/>
+      <stop offset="0.34" stop-color="#6a6a6a"/>
+      <stop offset="0.41" stop-color="#616161"/>
+      <stop offset="0.5" stop-color="#5e5e5e"/>
+      <stop offset="0.58" stop-color="#666"/>
+      <stop offset="0.71" stop-color="#7c7c7c"/>
+      <stop offset="0.86" stop-color="#a1a1a1"/>
+      <stop offset="1" stop-color="#c6c6c6"/>
+    </linearGradient>
+    <linearGradient id="b" data-name="Unbenannter Verlauf 47" x1="4.4" y1="153.65" x2="73.66" y2="153.65" gradientUnits="userSpaceOnUse">
+      <stop offset="0.01" stop-color="#4c4b4a"/>
+      <stop offset="0.39" stop-color="#5e5e5e"/>
+      <stop offset="0.62" stop-color="#fff"/>
+      <stop offset="0.67" stop-color="#bfbfbf"/>
+      <stop offset="0.72" stop-color="gray"/>
+      <stop offset="0.77" stop-color="#4e4e4e"/>
+      <stop offset="0.81" stop-color="#2b2b2b"/>
+      <stop offset="0.85" stop-color="#151515"/>
+      <stop offset="0.87" stop-color="#0d0d0d"/>
+      <stop offset="0.9" stop-color="#101010"/>
+      <stop offset="0.92" stop-color="#1a1a1a"/>
+      <stop offset="0.94" stop-color="#2a2a2a"/>
+      <stop offset="0.95" stop-color="#424242"/>
+      <stop offset="0.97" stop-color="#606060"/>
+      <stop offset="0.99" stop-color="#848484"/>
+      <stop offset="1" stop-color="#ababab"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="a" d="M73.18,2.27,8.27,42.91q.24,131.19.49,262.38l-7.26-.17L0,38.35,71.44,0Z"/>
+    <path class="b" d="M8.76,305.29,72.3,192.35,73.55,1.8,4.51,42Z"/>
+  </g>
+</svg>

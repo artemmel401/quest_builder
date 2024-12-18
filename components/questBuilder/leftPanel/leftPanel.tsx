@@ -4,7 +4,7 @@ import { Room } from '@/types/room'
 import { ClickType } from '@/types/object'
 import { BackgroundType } from '@/types/background'
 import { Button } from '@/components/button/button'
-import { getFilesFromDirectory } from '@/utils/requests'
+import { getDirectoriesInDirectory, getFilesFromDirectory } from '@/utils/requests'
 
 type LeftPanelProps = {
   rooms: Room[]
@@ -21,14 +21,27 @@ export default function LeftPanel({rooms, selectedRoomId, changeBackground, chan
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
 
   const [backgrounds, setBackgrounds] = useState<string[]>([])
+  const [objectNames, setObjectNames] = useState<{directory: string, files: string[]}[]>([])
 
   const getBackgrounds = async () => {
-    const files = await getFilesFromDirectory('/img/backgrounds')
+    const files:string[] = await getFilesFromDirectory('/img/backgrounds')
     setBackgrounds(files)
+  }
+
+  const getObjects = async () => {
+    const objects:{name: string, path: string}[] = await getDirectoriesInDirectory('/questBuilder/objects')
+    console.log(objects)
+    const result = []
+    for (const directory of objects) {
+      const files = await getFilesFromDirectory(`/questBuilder/objects/${directory.name}`)
+      result.push({directory: directory.name, files: files})
+    }
+    setObjectNames(result)
   }
 
   useEffect(()=>{
     getBackgrounds()
+    getObjects()
   },[])
 
   return (
@@ -53,13 +66,20 @@ export default function LeftPanel({rooms, selectedRoomId, changeBackground, chan
             </div>
           </div>
         }
-        {selectedTabIndex === 1 && selectedRoomId &&  
+        {selectedRoomId &&  selectedTabIndex === 1 ?
           <>
           {backgrounds.map((background) => (
             <div 
               onClick={()=>{changeBackground(background, selectedRoomId)}}
               style={{backgroundImage: `url(/img/backgrounds/${background})`}} 
               key={background} className={`${styles.room}`}>
+            </div>
+          ))}
+          </> :
+          <>
+          {objectNames.map((el)=>(
+            <div className={styles.container__objects}>
+              <ObjectList name={el.directory} list={el.files}/>
             </div>
           ))}
           </>
@@ -102,6 +122,33 @@ function RoomPreview ({background, title, isActive, onClick}:RoomPreview) {
       className={`${styles.room} ${isActive ? styles.room_active : ''}`}>
       <p className={styles.room__title}>{title}</p>
       <img className={styles.room__book} src='/img/openedBook.png'/>
+    </div>
+  )
+}
+
+type ObjectList = {
+  name: string
+  list: string[]
+}
+
+function ObjectList ({name, list}:ObjectList) {
+  const [isOpen, setIsOpen] = useState(false)
+
+  return (
+    <div className={styles.objectList__container}>
+      <div onClick={()=>{setIsOpen(!isOpen)}} className={styles.objectList__titleBlock}>
+        <p className={styles.objectList__title}>{name}</p>
+        <img src='/questBuilder/icons/arrowDown.svg'/>
+      </div>
+      {isOpen && 
+        <div className={styles.objectList__list}>
+          {list.map((el)=>(
+            <div className={styles.objectList__point}>
+              <img className={styles.objectList__img} src={`/questBuilder/objects/${name}/${el}`}/>
+            </div>
+          ))}
+        </div>
+      }
     </div>
   )
 }

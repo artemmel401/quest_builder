@@ -10,3 +10,22 @@ export async function getFilesInDirectory(directoryPath) {
     throw error;
   }
 }
+
+export async function getDirectoriesInDirectory(directoryPath) {
+  try {
+    const entries = await fs.readdir(directoryPath, { withFileTypes: true });
+
+    const directories = await Promise.all(
+      entries.filter(entry => entry.isDirectory())
+        .map(async entry => {
+          const fullPath = path.join(directoryPath, entry.name);
+          return { name: entry.name, path: fullPath };
+        })
+    );
+
+    return directories;
+  } catch (error) {
+    console.error(`Error reading directory: ${directoryPath}`, error);
+    throw error;
+  }
+}

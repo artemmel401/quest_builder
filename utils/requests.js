@@ -37,3 +37,11 @@ export const getFilesFromDirectory = async (dirpath) => {
   });
   return response.ok ? await response.json() : { error: 'error createQuest' };
 }
+
+export const getDirectoriesInDirectory = async (dirpath) => {
+  let response = await fetch('/api/db/getDirectoriesFromDirectory', {
+    method: 'POST', headers: { 'Content-Type': 'application/json;charset=utf-8' },
+    body: JSON.stringify({dirpath: dirpath})
+  });
+  return response.ok ? await response.json() : { error: 'error createQuest' };
+}

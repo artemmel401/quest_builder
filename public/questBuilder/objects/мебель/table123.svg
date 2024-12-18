@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="383.79" height="145.73" viewBox="0 0 383.79 145.73">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+
+      .b {
+        opacity: 0.1;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" x1="191.89" y1="-27.74" x2="191.89" y2="74.47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fafafa"/>
+      <stop offset="0.14" stop-color="#f6f6f6"/>
+      <stop offset="0.27" stop-color="#ebebeb"/>
+      <stop offset="0.39" stop-color="#d9d9d9"/>
+      <stop offset="0.51" stop-color="#bfbfbf"/>
+      <stop offset="0.63" stop-color="#9d9d9d"/>
+      <stop offset="0.75" stop-color="#747474"/>
+      <stop offset="0.87" stop-color="#434343"/>
+      <stop offset="0.98" stop-color="#0b0b0b"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polyline class="a" points="143.08 145.73 156.82 123.92 156.82 58.28 143.08 58.28 143.08 145.73"/>
+    <polyline class="a" points="361.63 145.73 347.89 123.92 347.89 58.28 361.63 58.28 361.63 145.73"/>
+    <polyline class="b" points="361.63 145.73 347.89 123.92 347.89 58.28 361.63 58.28 361.63 145.73"/>
+    <polyline class="b" points="143.08 145.73 156.82 123.92 156.82 58.28 143.08 58.28 143.08 145.73"/>
+    <rect class="a" x="361.63" y="43.93" width="10.75" height="101.8"/>
+    <rect class="a" x="11.4" y="43.93" width="131.68" height="101.8"/>
+    <rect class="a" x="11.4" y="43.93" width="360.99" height="15.58"/>
+    <g>
+      <rect class="a" y="36.4" width="383.79" height="7.53"/>
+      <polygon class="c" points="0 36.4 49.64 0 318.7 0 383.79 36.4 0 36.4"/>
+    </g>
+    <rect class="b" x="11.4" y="43.93" width="360.99" height="7.41"/>
+    <g>
+      <rect class="b" x="19.44" y="114.76" width="115.6" height="21.06"/>
+      <rect class="b" x="69.51" y="123.48" width="10.92" height="3.63"/>
+    </g>
+    <g>
+      <rect class="b" x="19.44" y="87.13" width="115.6" height="21.06"/>
+      <rect class="b" x="69.51" y="95.85" width="10.92" height="3.63"/>
+    </g>
+    <g>
+      <rect class="b" x="19.44" y="59.51" width="115.6" height="21.06"/>
+      <rect class="b" x="69.51" y="68.22" width="10.92" height="3.63"/>
+    </g>
+  </g>
+</svg>

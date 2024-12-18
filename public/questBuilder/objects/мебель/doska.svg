@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="353.22" height="373.43" viewBox="0 0 353.22 373.43">
+  <defs>
+    <style>
+      .a {
+        isolation: isolate;
+      }
+
+      .b {
+        fill: #bcb3ac;
+        mix-blend-mode: multiply;
+        opacity: 0.5;
+      }
+
+      .c {
+        fill: #4b1e0a;
+      }
+
+      .d {
+        fill: #e77500;
+      }
+
+      .e {
+        fill: #facb85;
+      }
+
+      .f {
+        fill: #a27556;
+      }
+    </style>
+  </defs>
+  <g class="a">
+    <g>
+      <rect class="b" x="4.92" y="4.37" width="348.3" height="369.06"/>
+      <rect class="c" width="348.3" height="369.05"/>
+      <rect class="d" x="2.7" y="2.4" width="343.82" height="360.67"/>
+      <rect class="e" x="1.61" y="2.3" width="346.36" height="361.74"/>
+      <rect class="f" x="9.08" y="12.2" width="331.04" height="341.42"/>
+    </g>
+  </g>
+</svg>

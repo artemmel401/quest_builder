@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="549.67" height="184.72" viewBox="0 0 549.67 184.72">
+  <defs>
+    <style>
+      .a {
+        isolation: isolate;
+      }
+
+      .b {
+        fill: #c4a37c;
+      }
+
+      .c {
+        fill: #bf9467;
+      }
+
+      .d {
+        fill: #a77b4f;
+      }
+
+      .e {
+        fill: #dbba91;
+      }
+
+      .f, .l {
+        fill: #4c4040;
+      }
+
+      .f {
+        mix-blend-mode: multiply;
+        opacity: 0.3;
+      }
+
+      .g {
+        fill: url(#a);
+      }
+
+      .h {
+        fill: #cbbba0;
+      }
+
+      .i {
+        fill: #432918;
+      }
+
+      .j {
+        fill: url(#b);
+      }
+
+      .k {
+        fill: url(#c);
+      }
+
+      .m {
+        fill: url(#d);
+      }
+    </style>
+    <linearGradient id="a" x1="396.77" y1="90.94" x2="415.36" y2="90.94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a77b4f"/>
+      <stop offset="1" stop-color="#75502a"/>
+    </linearGradient>
+    <linearGradient id="b" x1="1670.43" y1="90.94" x2="1689.02" y2="90.94" gradientTransform="matrix(-1, 0, 0, 1, 1822.9, 0)" xlink:href="#a"/>
+    <linearGradient id="c" x1="265.29" y1="62.71" x2="283.88" y2="62.71" xlink:href="#a"/>
+    <linearGradient id="d" x1="265.4" y1="133.91" x2="284" y2="133.91" xlink:href="#a"/>
+  </defs>
+  <g class="a">
+    <g>
+      <g>
+        <rect class="b" x="17.64" y="165.96" width="514.19" height="18.76"/>
+        <rect class="c" x="531.82" y="26.68" width="17.85" height="158.04"/>
+        <rect class="c" x="359.22" y="26.68" width="4.93" height="158.04" transform="translate(723.37 211.39) rotate(-180)"/>
+        <rect class="c" x="185.65" y="26.68" width="4.93" height="158.04" transform="translate(376.23 211.39) rotate(-180)"/>
+        <polygon class="d" points="5.04 160.05 5.05 26.67 12.87 26.67 12.86 184.71 5.04 160.05"/>
+        <rect class="c" x="12.86" y="26.67" width="4.93" height="158.04" transform="translate(30.65 211.38) rotate(-180)"/>
+        <rect class="e" x="364.15" y="26.67" width="167.44" height="139.3"/>
+        <circle class="f" cx="406.29" cy="93.66" r="9.3"/>
+        <circle class="g" cx="406.06" cy="90.94" r="9.3"/>
+        <rect class="h" x="404.06" y="84.62" width="4" height="12.64" rx="1.57"/>
+        <rect class="i" x="404.71" y="85.67" width="2.7" height="10.54" rx="1.18"/>
+        <rect class="e" x="17.64" y="26.67" width="168.01" height="139.3"/>
+        <circle class="j" cx="143.17" cy="90.94" r="9.3"/>
+        <g>
+          <rect class="e" x="190.58" y="26.67" width="168.64" height="68.21"/>
+          <g>
+            <circle class="f" cx="274.81" cy="65.43" r="9.3"/>
+            <circle class="k" cx="274.59" cy="62.71" r="9.3"/>
+          </g>
+          <rect class="l" x="190.58" y="94.89" width="168.64" height="2.99" transform="translate(549.8 192.76) rotate(-180)"/>
+        </g>
+        <g>
+          <rect class="e" x="190.69" y="97.87" width="168.52" height="68.24"/>
+          <g>
+            <circle class="f" cx="274.93" cy="136.63" r="9.3"/>
+            <circle class="m" cx="274.7" cy="133.91" r="9.3"/>
+          </g>
+        </g>
+        <rect class="c" y="26.68" width="17.85" height="158.04"/>
+      </g>
+      <path class="e" d="M549.67,22.27H0L54.8,0H495.21Z"/>
+      <rect class="c" x="272.3" y="-250.03" width="5.06" height="549.67" transform="translate(250.03 299.64) rotate(-90)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="167.44" height="139.3" viewBox="0 0 167.44 139.3">
+  <defs>
+    <style>
+      .a {
+        isolation: isolate;
+      }
+
+      .b {
+        fill: #dbba91;
+      }
+
+      .c {
+        fill: #4c4040;
+        mix-blend-mode: multiply;
+        opacity: 0.3;
+      }
+
+      .d {
+        fill: url(#a);
+      }
+
+      .e {
+        fill: #cbbba0;
+      }
+
+      .f {
+        fill: #432918;
+      }
+    </style>
+    <linearGradient id="a" x1="32.61" y1="64.27" x2="51.21" y2="64.27" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a77b4f"/>
+      <stop offset="1" stop-color="#75502a"/>
+    </linearGradient>
+  </defs>
+  <g class="a">
+    <g>
+      <rect class="b" width="167.44" height="139.3"/>
+      <circle class="c" cx="42.14" cy="66.99" r="9.3"/>
+      <circle class="d" cx="41.91" cy="64.27" r="9.3"/>
+      <rect class="e" x="39.91" y="57.95" width="4" height="12.64" rx="1.57"/>
+      <rect class="f" x="40.56" y="59" width="2.7" height="10.54" rx="1.18"/>
+    </g>
+  </g>
+</svg>
