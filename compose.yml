@@ -8,6 +8,12 @@ services:
       - "27017:27017"
     volumes:
       - ./mongo-data:/data/db
+  api:
+    build:
+      context: .
+      target: production
+    ports:
+      - "80:80"
 
   mongo-seed:
     build: ./mongo-seed
