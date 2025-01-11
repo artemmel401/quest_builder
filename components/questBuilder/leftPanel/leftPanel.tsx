@@ -5,18 +5,19 @@ import { ClickType } from '@/types/object'
 import { BackgroundType } from '@/types/background'
 import { Button } from '@/components/button/button'
 import { getDirectoriesInDirectory, getFilesFromDirectory } from '@/utils/requests'
+import { EntityType } from '@/types/entity'
 
 type LeftPanelProps = {
   rooms: Room[]
   selectedRoomId?: string
-  onSelect: (value: string, type: ClickType) => void
+  changeSelectedImage: (image?:{type: EntityType, src: string}) => void
   changeActiveRoom: (id: string) => void
   createRoom: () => void
   changeBackground: (newValue: string, roomId: string) => void
 }
 
 
-export default function LeftPanel({rooms, selectedRoomId, changeBackground, changeActiveRoom, createRoom}:LeftPanelProps){
+export default function LeftPanel({rooms, selectedRoomId, changeBackground, changeSelectedImage, changeActiveRoom, createRoom}:LeftPanelProps){
 
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
 
@@ -30,13 +31,20 @@ export default function LeftPanel({rooms, selectedRoomId, changeBackground, chan
 
   const getObjects = async () => {
     const objects:{name: string, path: string}[] = await getDirectoriesInDirectory('/questBuilder/objects')
-    console.log(objects)
     const result = []
     for (const directory of objects) {
       const files = await getFilesFromDirectory(`/questBuilder/objects/${directory.name}`)
       result.push({directory: directory.name, files: files})
     }
     setObjectNames(result)
+  }
+
+  const selectImage = (type: EntityType, src: string | undefined) => {
+    if (!src) {
+      changeSelectedImage()
+    } else {
+      changeSelectedImage({type, src})
+    }
   }
 
   useEffect(()=>{
@@ -66,7 +74,7 @@ export default function LeftPanel({rooms, selectedRoomId, changeBackground, chan
             </div>
           </div>
         }
-        {selectedRoomId &&  selectedTabIndex === 1 ?
+        {selectedRoomId && selectedTabIndex === 1 &&
           <>
           {backgrounds.map((background) => (
             <div 
@@ -75,15 +83,18 @@ export default function LeftPanel({rooms, selectedRoomId, changeBackground, chan
               key={background} className={`${styles.room}`}>
             </div>
           ))}
-          </> :
+          </>}
+          {selectedTabIndex !== 1 && selectedTabIndex !== 0 && 
           <>
-          {objectNames.map((el)=>(
-            <div className={styles.container__objects}>
-              <ObjectList name={el.directory} list={el.files}/>
+          {objectNames.map((el, index)=>(
+            <div key={`${el.directory}--${index}`} className={styles.container__objects}>
+              <ObjectList 
+                onSelect={(src)=>selectImage(selectedTabIndex === 2 ? 'Object' : 'Subject', src)} 
+                name={el.directory} list={el.files}
+              />
             </div>
           ))}
-          </>
-        }
+          </>}
       </div>
     </div>
   )
@@ -129,9 +140,10 @@ function RoomPreview ({background, title, isActive, onClick}:RoomPreview) {
 type ObjectList = {
   name: string
   list: string[]
+  onSelect: (src?: string) => void
 }
 
-function ObjectList ({name, list}:ObjectList) {
+function ObjectList ({name, list, onSelect}:ObjectList) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -143,8 +155,11 @@ function ObjectList ({name, list}:ObjectList) {
       {isOpen && 
         <div className={styles.objectList__list}>
           {list.map((el)=>(
-            <div className={styles.objectList__point}>
-              <img className={styles.objectList__img} src={`/questBuilder/objects/${name}/${el}`}/>
+            <div onMouseDown={()=>{onSelect(`/questBuilder/objects/${name}/${el}`)}} 
+            onMouseUp={()=>onSelect(undefined)} key={el} className={styles.objectList__point}>
+              <img
+                className={styles.objectList__img} src={`/questBuilder/objects/${name}/${el}`}
+              />
             </div>
           ))}
         </div>

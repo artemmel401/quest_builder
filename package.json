@@ -13,12 +13,16 @@
     "nanoid": "^5.0.9",
     "next": "14.2.15",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-draggable": "^4.4.6",
+    "react-resizable": "^3.0.5",
+    "react-responsive-image": "^5.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-resizable": "^3.0.8",
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
     "postcss": "^8",

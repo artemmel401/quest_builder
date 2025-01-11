@@ -30,6 +30,14 @@ export const createQuest = async () => {
   return response.ok ? await response.json() : { error: 'error createQuest' };
 }
 
+export const deleteQuest = async (number) => {
+  let response = await fetch('/api/db/deleteQuest',{
+    method: 'POST', headers: { 'Content-Type': 'application/json;charset=utf-8' },
+    body: JSON.stringify({number: number})
+});
+  return response.ok ? await response.json() : { error: 'error deleteQuest' };
+}
+
 export const getFilesFromDirectory = async (dirpath) => {
   let response = await fetch('/api/db/getFilesFromDirectory', {
     method: 'POST', headers: { 'Content-Type': 'application/json;charset=utf-8' },

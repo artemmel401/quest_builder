@@ -180,3 +180,8 @@ input, button { -webkit-appearance: none;}
 .ql-editor {
   font-family: 'Roboto', 'Lora', sans-serif,;
 }
+
+p {
+  color: $ld_color_black;
+  @include ld_font_text();
+}

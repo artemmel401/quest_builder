@@ -1,6 +1,7 @@
 @import 'mixins.scss';
 
 .container {
+  position: relative;
   display: flex;
   cursor: pointer;
   min-width: 400px;
@@ -24,5 +25,10 @@
   }
   &__text {
     @include ld_font_small();
+  }
+  &__delete {
+    position: absolute;
+    right: 10px;
+    top: 10px;
   }
 }
