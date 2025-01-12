@@ -310,7 +310,7 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
 
   return (
     <div className={styles.container}>
-      <LeftPanel changeSelectedImage={changeSelectedImage} changeBackground={changeRoomBackground} selectedRoomId={activeRoom?.id} createRoom={createRoom} changeActiveRoom={changeActiveRoom} rooms={quest.rooms} />
+      <LeftPanel changeSelectedImage={changeSelectedImage} changeBackground={changeRoomBackground} selectedRoomId={activeRoom?.id} createRoom={createRoom} changeActiveRoom={changeActiveRoom} rooms={rooms} />
       <div className={styles.container__content}>
         {activeRoom ?
           <div onClick={()=>{seletedSubject && setSeletedSubject(undefined)}} className={styles.content} ref={targetRef}
