@@ -15,7 +15,7 @@ export default function QuestConstructor(){
 
   const params = useParams()
 
-  const [stage, setStage] = useState(0)
+  const [stage, setStage] = useState(2)
 
 
   const [questTitle, setQuestTitle] = useState<string>()
@@ -36,7 +36,7 @@ export default function QuestConstructor(){
     setNumber(number)
   }
 
-  const changeQuestContentField = (newValue: any, field: 'rooms' | 'subjects') => {
+  const changeQuestContentField = (newValue: any, field: 'rooms' | 'subjects' | 'relations') => {
     const newVariants = quest?.variants
     if (newVariants){
       newVariants[0][field] = newValue

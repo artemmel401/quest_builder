@@ -7,3 +7,8 @@ export type Room = {
   background: BackgroundType
   objects: Object[]
 }
+
+export type StrippedRoom = {
+  id: string
+  name: string
+}

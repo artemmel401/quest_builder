@@ -1,5 +1,6 @@
 import { Subject } from './subject';
 import { Room } from "./room"
+import { Relation } from './relation';
 
 export type Quest = {
   _id: string,
@@ -16,4 +17,5 @@ export type Quest = {
 export type QuestContent = {
   rooms: Room[], 
   subjects: Subject[]
+  relations: Relation[]
 }

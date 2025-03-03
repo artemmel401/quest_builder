@@ -1,15 +1,6 @@
-import { Position } from "./position"
-import { Size } from "./size"
+import { Entity } from "./entity"
 
 export type Subject = {
-  id: string
-  title: string
-  position: Position
+  type: 'subject'
   roomId: string
-  src: string
-  size: Size
-  hoverWith?: string //ObjectId
-  hoverWithName?: string //object to display after Hover
-  hoverResult?:string
-  hoverResultName?:string
-}
+} & Entity

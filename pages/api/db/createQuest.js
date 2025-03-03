@@ -8,7 +8,7 @@ export async function createQuiz() {
       number: numbers + 100000863 + 1,
       type: 'questBuilder',
       userId: '6606e2dd22428850e0b5bf4f',
-      variants: [{rooms: [], subjects: []}],
+      variants: [{rooms: [], subjects: [], relations: []}],
       title: '',
       updateTime: Date.now(),
       description: "",

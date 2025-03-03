@@ -1,22 +1,23 @@
 import { QuestContent } from '@/types/quest'
 import styles from './editQuest.module.scss'
 import LeftPanel from '../leftPanel/leftPanel'
-import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Room } from '@/types/room'
 import { nanoid } from 'nanoid'
 import Draggable from 'react-draggable'
 import { Subject } from '@/types/subject'
-import { ClickType, Object } from '@/types/object'
+import { Object } from '@/types/object'
 import RightPanel from '../rightPanel/rightPanel'
 import { EntityType } from '@/types/entity'
 import { itemIsSubject } from '@/utils'
 import { Size } from '@/types/size'
 import { Position } from '@/types/position'
+import { Relation } from '@/types/relation'
 
 type EditQuest = {
   quest: QuestContent
   selectedRoom?: string
-  onChangeField: (newValue: Room[] | Subject[], field: 'rooms' | 'subjects') => void
+  onChangeField: (newValue: Room[] | Subject[] | Relation[], field: 'rooms' | 'subjects' | 'relations') => void
 }
 
 export default function EditQuest({ quest, onChangeField }: EditQuest) {
@@ -24,8 +25,8 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
   const [subjects, setSubjects] = useState<Subject[]>(quest.subjects)
   const [activeRoom, setActiveRoom] = useState<Room | undefined>(quest.rooms[0])
   const [rooms, setRooms] = useState(quest.rooms)
+  const [relations, setRelations] = useState(quest.relations)
   const [selectedImage, setSelectedImage] = useState<{ type: EntityType, src: string }>()
-
   const [seletedSubject, setSeletedSubject] = useState<{type: EntityType, item: Subject | Object}>()
 
   const targetRef = useRef<HTMLDivElement>(null);
@@ -94,6 +95,7 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
     let newSubjects = subjects.slice()
     if (toDelete){
       newSubjects = newSubjects.filter((item)=>item.id !== subject.id)
+      setRelations(relations.filter((rel)=>(rel.type === 'object' && rel.subject.id !== subject.id)))
     } else {
       const subjectIndex = newSubjects.findIndex((item) => item.id === subject.id)
       if (subjectIndex === -1) {
@@ -127,6 +129,7 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
     setSelectedImage(undefined)
     if (entity.type === 'Subject') {
       const subject: Subject = {
+        type: 'subject',
         id: id,
         title: `Предмет_${id.slice(0,5)}`,
         position: { x: 0, y: 0, rotate: 0 },
@@ -137,6 +140,7 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
       updateSubject(subject)
     } else {
       const object: Object = {
+        type: 'object',
         id: id,
         title: `Объект_${id.slice(0,5)}`,
         position: { x: 0, y: 0, rotate: 0 },
@@ -147,111 +151,7 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
     }
   }
 
-  const getFreeObjectsToHover = () => {
-    const result:Object[] = []
-    for (let room of rooms) {
-      for (let object of room.objects) {
-        if (!object.hoverWith){
-          result.push(object)
-        }
-      }
-    }
-    return result
-  }
-  const getFreeSubjects = () => {
-    return quest.subjects.filter((subject)=>!subject.hoverWith)
-  }
-  const getFreeObjectsToHoverResult = () => {
-    const result:Object[] = []
-    for (let room of rooms) {
-      for (let object of room.objects) {
-        if (!object.hoverResultBy){
-          result.push(object)
-        }
-      }
-    }
-    return result
-  }
 
-  function searchObjectsByField(field: keyof Object) {
-    const objectsWithField:Object[] = []
-    for (const room of rooms){
-      objectsWithField.push(...room.objects.filter((obj)=>obj[field]))
-    }
-    return objectsWithField
-  }
-
-  const clearOldEntities = (object: Object, subject: Subject, field: keyof(Object | Subject)) => {
-    const subjectsWithField = subjects.filter((subject) => (subject[field]))
-    const objectsWithField = searchObjectsByField(field)
-    for (let subject of subjectsWithField){
-      if (subject[field] === object.id){
-        updateSubject({...subject, [field]: undefined, [`${field}Name`]: undefined})
-      }
-    }
-    for (let object of objectsWithField){
-      if (object[field] === subject.id){
-        updateObjectInRoom({...object, [field]: undefined,  [`${field}Name`]: undefined})
-      }
-    }
-  }
-
-  const changeHoverWith = (object: Object, subject: Subject) => {
-    clearOldEntities(object, subject, 'hoverWith')
-
-    updateObjectInRoom({...object, hoverWith: subject.id, hoverWithName: subject.title})
-    updateSubject({...subject, hoverWith: object.id, hoverWithName: object.title})
-    if (seletedSubject){
-      setSeletedSubject(seletedSubject.type === 'Object' ? {...seletedSubject, item: {...object, hoverWith: subject.id, hoverWithName: subject.title}} :
-        {...seletedSubject, item:{...subject, hoverWith: object.id, hoverWithName: object.title}}
-      )
-    }
-  }
-  const changeHoverResult = (resultObject: Object, subject: Subject, objectId: string) => {
-    let objectToHover:Object | undefined = undefined
-    for (let room of rooms) {
-      for (let object of room.objects){
-        if (object.id === objectId){
-          objectToHover = object
-        }
-      }
-    }
-    if (!objectToHover) {
-      return
-    }
-    clearOldEntities(objectToHover, subject, 'hoverResult')
-
-    updateObjectInRoom({...objectToHover, hoverResult: resultObject.id, hoverResultName: resultObject.title})
-    updateSubject({...subject, hoverResult: resultObject.id, hoverResultName: resultObject.title})
-
-    const objectsWithField = searchObjectsByField('hoverResultBy')
-
-    for (const object of objectsWithField) {
-      if (object.hoverResultBy && object.hoverResultBy.objectId === object.id && object.hoverResultBy.subjectId === subject.id){
-        updateObjectInRoom({...object, hoverResultBy: undefined})
-      }
-    }
-
-    updateObjectInRoom(
-      {...resultObject, 
-        hoverResultBy: {
-          objectId: objectToHover.id, 
-          subjectId: subject.id, 
-          objectName: objectToHover.title, 
-          subjectName: subject.title
-        }
-      }
-    )
-    if (seletedSubject && seletedSubject.type === 'Subject'){
-      setSeletedSubject({...seletedSubject, item: {...seletedSubject.item, hoverResult: resultObject.id, hoverResultName: resultObject.title}})
-    }
-  }
-  const changeClick = (object: Object, clickType:ClickType) => {
-    updateObjectInRoom({...object, onClick: clickType})
-    if (seletedSubject?.type === 'Object') {
-      setSeletedSubject({...seletedSubject, item:{...seletedSubject.item, onClick: clickType}})
-    }
-  }
 
   const changeSize = (value: number, field: 'x' | 'y') => {
     if (seletedSubject) {
@@ -288,19 +188,20 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
     onChangeField(rooms, 'rooms')
   }, [rooms])
 
+  useEffect(()=>{
+    onChangeField(relations, 'relations')
+  },[relations])
+
   useEffect(() => {
     const targetElement = targetRef.current;
-
     const handleMouseEnter = () => {
       if (selectedImage) {
         addEntityToField(selectedImage)
       }
     };
-
     if (targetElement) {
       targetElement.addEventListener('mouseenter', handleMouseEnter);
     }
-
     return () => {
       if (targetElement) {
         targetElement.removeEventListener('mouseenter', handleMouseEnter);
@@ -340,17 +241,15 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
           <p className={styles.container__empty}>Выберите комнату или создайте новую</p>
         }
       </div>
-      {seletedSubject && 
-        <RightPanel 
+      {seletedSubject && activeRoom &&
+        <RightPanel
+          relations={relations} 
+          allObjects={activeRoom.objects}
+          allSubjects={subjects}
+          updateRelations={setRelations}
           changeSize={changeSize}
           changePosition={changePosition}
-          freeObjectsToHoverResult={getFreeObjectsToHoverResult()}
-          changeHoverWith={changeHoverWith}
-          changeHoverResult={changeHoverResult}
-          freeObjectsToHover={getFreeObjectsToHover()}
           roomIds={rooms.map((room)=>({id: room.id, name: room.title}))}
-          freeSubjects={getFreeSubjects()}
-          changeClick={changeClick}
           selectedEntity={seletedSubject.item} 
           onChangeTitle={(title)=>updateTitleInSelected(title, seletedSubject)}/>}
     </div>
