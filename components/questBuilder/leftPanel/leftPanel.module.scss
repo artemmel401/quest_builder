@@ -2,7 +2,6 @@
 
 .container {
   flex: 25%;
-  height: calc(100vh - 84px);
   max-width: 352px;
   border-right: 1px solid $ld_color_gray4;
   &__tabs {
@@ -10,7 +9,6 @@
   }
   &__content {
     padding: 32px;
-    height: calc(100vh - 175px);
     scrollbar-width: none;
     overflow: auto;
   }

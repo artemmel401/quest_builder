@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { Object } from '@/types/object'
 import { nanoid } from 'nanoid'
 import { Subject } from '@/types/subject'
+import { isRelation } from '@/utils'
 
 type BehaviourSubjectListProps = {
   activeSubject: Subject
@@ -14,7 +15,7 @@ type BehaviourSubjectListProps = {
 }
 
 export default function BehaviourSubjectList({ getFreeHoverObjects, getFreeEntityToResult, activeRelation, activeSubject, addNewRelation }: BehaviourSubjectListProps) {
-
+  console.log(activeRelation)
   const [newRelation, setNewRelation] = useState<Partial<typeof activeRelation>>(activeRelation)
   const [newFreeHoverObjects, setNewFreeHoverObjects] = useState(getFreeHoverObjects())
   const [newFreeResultObjects, setNewFreeResultObjects] = useState(getFreeEntityToResult())
@@ -34,7 +35,7 @@ export default function BehaviourSubjectList({ getFreeHoverObjects, getFreeEntit
   const addResult = (entity: Object | Subject) => {
     setNewFreeResultObjects(newFreeResultObjects.filter((obj)=>obj.id !== entity.id))
     if (!newRelation) {
-      setNewRelation({id: nanoid(), resultEntity: {id: entity.id, name: entity.title}})
+      setNewRelation({id: nanoid(), resultEntity: {id: entity.id, name: entity.title}, subject: { id: activeSubject.id, name: activeSubject.title }, type: 'object'})
     } else {
       setNewRelation({...newRelation, resultEntity: {id: entity.id, name: entity.title}})
     }
@@ -63,12 +64,8 @@ export default function BehaviourSubjectList({ getFreeHoverObjects, getFreeEntit
 
   useEffect(()=>{
     if (newRelation) {
-      if (newRelation.object && newRelation.resultEntity && newRelation.id) {
-        addNewRelation({
-          ...newRelation,
-          subject: { id: activeSubject.id, name: activeSubject.title },
-          type: 'object'
-        } as Relation);
+      if (isRelation(newRelation)) {
+        addNewRelation(newRelation);
         setIsOkRelation(true)
       }
       if (newRelation.object) {
@@ -105,7 +102,7 @@ export default function BehaviourSubjectList({ getFreeHoverObjects, getFreeEntit
           style={{ cursor: 'pointer' }} 
           className={`${styles.behaviourList__item} ${displayAdd ? styles.behaviourList__item_active : ''}`}
         >
-          <img src={`/icons/checkbox/${isOkRelation ? 'active' : 'disable'}.svg`} />
+          <img src={`/icons/radiobutton/${isOkRelation ? 'active' : 'disable'}.svg`} />
           <p className={`${styles.behaviourList__text} ${displayAdd ? styles.behaviourList__item_active : ''}`}>{
             `При наведении на ${newRelation ? newRelation.object ? newRelation.object.name : '____' : '____'} 
             появляется новый ${newRelation ? newRelation.resultEntity ? newRelation.resultEntity.name : '____' : '____'}`}</p>

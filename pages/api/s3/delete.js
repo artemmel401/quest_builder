@@ -1,14 +1,11 @@
-
-
 const AWS = require('aws-sdk');
-const S3 = require('aws-sdk/clients/s3');
-//import { getSession } from 'next-auth/client'
+
 AWS.config.update({
-    region: 'ru-msk',
-    endpoint: 'https://hb.vkcs.cloud',
-    accessKeyId: 'wL98Kj53bGek7TF3WV3L4T',
-      secretAccessKey: 'f3nny9Qr2BMaU7sRCNkzQuicUkuwCagzhGbcvbrmxzPo'
-  });
+    region: process.env.S3_REGION,
+    endpoint: process.env.S3_ENDPOINT,
+    accessKeyId: process.env.S3_ACCESSKEY_ID,
+    secretAccessKey: process.env.S3_SECRET_ACCESS_KEY
+});
 
 export default async function (req, res) {
     let s3 = new AWS.S3();

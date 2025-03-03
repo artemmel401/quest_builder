@@ -72,7 +72,7 @@ export default function QuestConstructor(){
       <Head>
         <title>Редактирование</title>
       </Head>
-      <div>
+      <div className={styles.content}>
         <Header isNewQuest/>
         <main className={`${styles.main} ${stage == 2 ? styles.main_notPadding : ''}`}>
           {stage !== 2 ? <div className={styles.container}>

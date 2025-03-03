@@ -54,6 +54,7 @@ export default function RightPanel({
         resultEntity = resultEntity.filter((obj)=>obj.id !== relation.resultEntity.id)
       }
     }
+    
     return resultEntity
   }
   const getActvieSubjectRelation = () => {
@@ -65,7 +66,7 @@ export default function RightPanel({
   }
   const getActiveObjectRelation = () => {
     for (const relation of relations) {
-      if ((relation.type === 'object' && relation.resultEntity.id === selectedEntity.id) || relation.object.id === selectedEntity.id) {
+      if (relation.type === 'object' && relation.object.id === selectedEntity.id) {
         return relation
       }
     }
