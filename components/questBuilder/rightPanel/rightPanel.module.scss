@@ -143,6 +143,7 @@
     }
     &__text {
       @include ld_font_text();
+      flex-grow: 1;
     }
     .addList {
       &__item {

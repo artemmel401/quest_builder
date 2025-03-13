@@ -2,7 +2,8 @@
 
 .container{
   width: 100%;
-  flex-basis: 88px;
+  flex-shrink: 0;
+  height: 88px;
   border-bottom: 2px solid #E0E0E0;
 }
 

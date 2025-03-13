@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import styles from './rightPanel.module.scss'
 import { Subject } from '@/types/subject'
 import { Object } from '@/types/object'
@@ -66,7 +66,7 @@ export default function RightPanel({
   }
   const getActiveObjectRelation = () => {
     for (const relation of relations) {
-      if (relation.type === 'object' && relation.object.id === selectedEntity.id) {
+      if (relation.object.id === selectedEntity.id) {
         return relation
       }
     }
@@ -77,11 +77,6 @@ export default function RightPanel({
   }
   const getFreeRooms = () => {
     let rooms = [...roomIds]
-    for (const relation of relations) {
-      if (relation.type === 'room') {
-        rooms.filter((room)=>(room.id !== relation.room.id))
-      }
-    }
     return rooms
   }
   const getFreeSubjects = () => {
@@ -109,9 +104,13 @@ export default function RightPanel({
     if (!found) {
       newRealtions.push(relation);
     }
-  
+    console.log(newRealtions, 'new')
     updateRelations(newRealtions);
   };
+
+  useEffect (() => {
+    setEntity(selectedEntity)
+  },[selectedEntity])
 
   return (
     <div className={styles.container}>

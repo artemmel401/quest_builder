@@ -101,7 +101,7 @@ export default function BehaviourSubjectList({ getFreeHoverObjects, getFreeEntit
         <div onClick={()=>setDisplayAdd(!displayAdd)} 
           style={{ cursor: 'pointer' }} 
           className={`${styles.behaviourList__item} ${displayAdd ? styles.behaviourList__item_active : ''}`}
-        >
+        >            
           <img src={`/icons/radiobutton/${isOkRelation ? 'active' : 'disable'}.svg`} />
           <p className={`${styles.behaviourList__text} ${displayAdd ? styles.behaviourList__item_active : ''}`}>{
             `При наведении на ${newRelation ? newRelation.object ? newRelation.object.name : '____' : '____'} 

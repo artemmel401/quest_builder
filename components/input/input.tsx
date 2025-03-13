@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
 import styles from './input.module.scss'
-import useOutsideClick from '@/hooks/useOutsideClick'
 
 type InputProps = {
   label: string
   placeholder: string
   value?: string | number
   onChange: (value: string | number) => void
+  onBlur?: () => void
 }
 
 type DropdownListInput = {
@@ -17,11 +17,11 @@ type DropdownListInput = {
   onChange: (value: string) => void
 }
 
-export function Input({label, placeholder, value, onChange}:InputProps){
+export function Input({label, placeholder, value, onChange, onBlur}:InputProps){
   return (
     <div className={styles.conainer}>
       <p className={styles.label}>{label}</p>
-      <input className={styles.input} onChange={(e)=>{onChange(e.target.value)}} value={value} placeholder={placeholder}/>
+      <input onBlur={onBlur} className={styles.input} onChange={(e)=>{onChange(e.target.value)}} value={value} placeholder={placeholder}/>
     </div>
   )
 }

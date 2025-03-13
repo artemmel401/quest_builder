@@ -13,6 +13,8 @@ import { itemIsSubject } from '@/utils'
 import { Size } from '@/types/size'
 import { Position } from '@/types/position'
 import { Relation } from '@/types/relation'
+import { Stage, Sprite } from '@pixi/react'
+import * as PIXI from 'pixi.js';
 
 type EditQuest = {
   quest: QuestContent
@@ -23,7 +25,7 @@ type EditQuest = {
 export default function EditQuest({ quest, onChangeField }: EditQuest) {
 
   const [subjects, setSubjects] = useState<Subject[]>(quest.subjects)
-  const [activeRoom, setActiveRoom] = useState<Room | undefined>(quest.rooms[0])
+  const [activeRoom, setActiveRoom] = useState<Room | undefined>()
   const [rooms, setRooms] = useState(quest.rooms)
   const [relations, setRelations] = useState(quest.relations)
   const [selectedImage, setSelectedImage] = useState<{ type: EntityType, src: string }>()
@@ -31,9 +33,12 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
 
   const targetRef = useRef<HTMLDivElement>(null);
 
+  const contentRef = useRef<HTMLDivElement>(null);
+
   const changeActiveRoom = (id: string) => {
     for (let room of quest.rooms) {
       if (room.id === id) {
+        setSeletedSubject(undefined)
         setActiveRoom(room)
         return
       }
@@ -111,7 +116,6 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
     if (!('roomId' in item.item)) {
       updateObjectInRoom({...item.item, title: value})
     } else if ('roomId' in item.item) {
-      console.log('in')
       updateSubject({...item.item, title: value})
     }
     item.item.title = value
@@ -150,8 +154,6 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
       updateObjectInRoom(object)
     }
   }
-
-
 
   const changeSize = (value: number, field: 'x' | 'y') => {
     if (seletedSubject) {
@@ -212,34 +214,18 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
   return (
     <div className={styles.container}>
       <LeftPanel changeSelectedImage={changeSelectedImage} changeBackground={changeRoomBackground} selectedRoomId={activeRoom?.id} createRoom={createRoom} changeActiveRoom={changeActiveRoom} rooms={rooms} />
-      <div className={styles.container__content}>
-        {activeRoom ?
-          <div onClick={()=>{seletedSubject && setSeletedSubject(undefined)}} className={styles.content} ref={targetRef}
-            style={activeRoom.background.type === 'color' ? { backgroundColor: activeRoom.background.value } : { backgroundImage: `url(/img/backgrounds/${activeRoom.background.value})` }}>
-            {subjects.map((item) => (
-              item.roomId === activeRoom.id &&
-              <EntityBlock 
-                key={item.id}
-                onSelect={()=>{setSeletedSubject({type:'Subject', item})}}
-                changeTitle={(title)=>updateSubject({...item, title: title})} 
-                changePosition={(position)=>updateSubject({...item, position: position})}
-                deleteEntity={()=>updateSubject(item,true)} item={item}
-                clearSelected={()=>setSeletedSubject(undefined)}
-              />
-            ))}
-            {activeRoom.objects.map((item) => (
-              <EntityBlock 
-                key={item.id}
-                onSelect={()=>{setSeletedSubject({type:'Object', item})}}
-                changeTitle={(title)=>updateObjectInRoom({...item, title: title})}
-                changePosition={(position)=>updateObjectInRoom({...item, position: position})} 
-                deleteEntity={()=>{updateObjectInRoom(item,true);}} item={item}
-                clearSelected={()=>setSeletedSubject(undefined)}
-              />
-            ))}
-          </div> :
-          <p className={styles.container__empty}>Выберите комнату или создайте новую</p>
-        }
+      <div ref={contentRef} className={styles.container__content}>
+        {contentRef.current && activeRoom ? <GameBoard 
+          size={contentRef.current.getBoundingClientRect()} 
+          background={
+            activeRoom.background.type === 'color' ? 
+              {type: 'color', value: activeRoom.background.value} : 
+              {type: 'file', value: `/img/backgrounds/${activeRoom.background.value}`} }
+          entities={[...subjects.filter((item)=>item.roomId === activeRoom.id), ...activeRoom.objects]}
+          onSelect={setSeletedSubject}
+          changePosition={(item, position)=>{item.type === 'subject' ? updateSubject({...item, position: position}) : updateObjectInRoom({...item, position: position})}}
+          deleteEntity={(entity)=>{entity.type === 'object' ? updateObjectInRoom(entity, true) : updateSubject(entity, true)}}
+          /> : <p className={styles.container__empty}>Выберите комнату или создайте новую</p> }
       </div>
       {seletedSubject && activeRoom &&
         <RightPanel
@@ -249,14 +235,140 @@ export default function EditQuest({ quest, onChangeField }: EditQuest) {
           updateRelations={setRelations}
           changeSize={changeSize}
           changePosition={changePosition}
-          roomIds={rooms.map((room)=>({id: room.id, name: room.title}))}
+          roomIds={rooms.filter((room)=>room.id !== activeRoom.id).map((room)=>({id: room.id, name: room.title}))}
           selectedEntity={seletedSubject.item} 
           onChangeTitle={(title)=>updateTitleInSelected(title, seletedSubject)}/>}
     </div>
   )
 }
 
-type EntityBlockProps = {
+type GameBoardProps = {
+  size: {width: number, height: number},
+  background: {type: 'file' | 'color', value: string}
+  entities: (Object | Subject)[]
+  onSelect: (entity: {type: 'Subject' | 'Object', item: Object | Subject}) => void
+  changePosition: (item: Object | Subject, position: {x: number, y: number, rotate: number}) => void
+  deleteEntity: (entity: Object | Subject) => void
+}
+
+const GameBoard = (props:GameBoardProps) => {
+
+  const appRef = useRef<PIXI.Application | null>(null);
+  const pixiContainerRef = useRef<HTMLDivElement | null>(null);
+  const [hoveredEntity, setHoveredEntity] = useState<Subject | Object>();
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  useEffect(() => {
+    const app = new PIXI.Application({ background: '#fff', width: props.size.width, height: props.size.height });
+    appRef.current = app;
+    if (pixiContainerRef.current) {
+      pixiContainerRef.current.appendChild(app.view as HTMLCanvasElement);
+    }
+
+    const backgroundTexture = PIXI.Texture.from(props.background.value);
+    const backgroundSprite = new PIXI.Sprite(backgroundTexture);
+    backgroundSprite.width = props.size.width;
+    backgroundSprite.height = props.size.height;
+    app.stage.addChild(backgroundSprite);
+
+    for (const sprite of props.entities) {
+      const texture = PIXI.Texture.from(sprite.src);
+      const spriteObject = new PIXI.Sprite(texture);
+      spriteObject.x = sprite.position.x;
+      spriteObject.width = sprite.size === 'default' ? 96 : sprite.size.x;
+      spriteObject.height = sprite.size === 'default' ? 96 : sprite.size.y;
+      spriteObject.y = sprite.position.y;
+      spriteObject.rotation = sprite.position.rotate%360 * (180 / Math.PI);
+      spriteObject.eventMode = 'static'
+      spriteObject.cursor = 'pointer'
+      spriteObject.on('click', () => props.onSelect(({type: sprite.type === 'object' ? 'Object' : 'Subject' , item: sprite})));
+      spriteObject.anchor.set(0.5);
+      spriteObject.on('pointerdown', onDragStart, spriteObject);
+      spriteObject.on('pointerup', 
+        ()=>{onDragEnd();props.changePosition(sprite, {x: Math.round(spriteObject.x), y: Math.round(spriteObject.y), rotate: sprite.position.rotate})}, 
+        spriteObject
+      );
+      spriteObject.on('pointerover', () => {
+        if (timeoutRef.current) {
+          clearTimeout(timeoutRef.current); // Очищаем таймер, если он есть
+        }
+        setHoveredEntity(sprite); // Устанавливаем текущий спрайт
+      });
+
+      spriteObject.on('pointerout', () => {
+        // Устанавливаем таймер для задержки перед скрытием
+        timeoutRef.current = setTimeout(() => {
+          setHoveredEntity(undefined); // Скрываем блок через 2 секунды
+        }, 500);
+      });
+      app.stage.addChild(spriteObject);
+    }
+
+    let dragTarget: PIXI.Sprite | null = null;
+    app.stage.eventMode = 'static';
+    app.stage.hitArea = app.screen;
+
+    function onDragMove(event: PIXI.FederatedPointerEvent) {
+      if (dragTarget) {
+        dragTarget.parent.toLocal(event.global, undefined, dragTarget.position);
+      }
+    }
+
+    function onDragStart(this: PIXI.Sprite) {
+      this.alpha = 0.5;
+      dragTarget = this;
+      setHoveredEntity(undefined)
+      app.stage.on('pointermove', onDragMove);
+    }
+
+    function onDragEnd() {
+      if (dragTarget) {
+        app.stage.off('pointermove', onDragMove);
+        dragTarget.alpha = 1;
+        dragTarget = null;
+      }
+    }
+
+    return () => {
+      console.log('unmount');
+      app.destroy(true, true);
+      if (pixiContainerRef.current && app.view) {
+        pixiContainerRef.current.removeChild(app.view as unknown as Node);
+      }
+    };
+  }, [props]);
+
+  return (
+    <div style={{position: 'relative'}}>
+      <div id="pixi-container" ref={pixiContainerRef} />
+      {hoveredEntity && (
+        <div className={styles.content__imgContent}
+        style={{
+          width: hoveredEntity.size !== 'default' ? `${hoveredEntity.size.x + 5}px` : '104px',
+          height: hoveredEntity.size !== 'default' ? `${hoveredEntity.size.y + 5}px` : '104px',
+          top: hoveredEntity.position.y - ((hoveredEntity.size !== 'default' ? hoveredEntity.size.y : 96) / 2 + 5),
+          left: hoveredEntity.position.x - ((hoveredEntity.size !== 'default' ? hoveredEntity.size.x : 96) / 2 + 5),
+        }}
+      >
+        <input
+          type="text"
+          value={hoveredEntity.title}
+          onChange={(e)=>setHoveredEntity({...hoveredEntity, title: e.target.value})}
+          className={styles.content__title}
+        />
+        <div onClick={()=>props.deleteEntity(hoveredEntity)} className={styles.content__delete}>
+          <img width={`16px`} height={`16px`} src='/icons/whiteTrash.svg'/>
+        </div>
+      </div>
+      )}
+    </div>
+);
+  
+};
+
+
+
+/* type EntityBlockProps = {
   item: Object | Subject
   deleteEntity: () => void
   changeTitle: (title: string) => void
@@ -298,4 +410,4 @@ function EntityBlock({item, deleteEntity, changeTitle, changePosition, onSelect,
       </div>
     </Draggable>
   )
-}
+} */

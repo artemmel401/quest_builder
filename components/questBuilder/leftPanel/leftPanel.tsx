@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import styles from './leftPanel.module.scss'
 import { Room } from '@/types/room'
-import { ClickType } from '@/types/object'
 import { BackgroundType } from '@/types/background'
 import { Button } from '@/components/button/button'
 import { getDirectoriesInDirectory, getFilesFromDirectory } from '@/utils/requests'

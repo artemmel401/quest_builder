@@ -2,6 +2,7 @@
 
 .content {
   height: 100vh;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -12,7 +13,8 @@
   align-items: center;
   flex-direction: column;
   padding-top: 130px;
-  flex: 1;
+  flex-grow: 1;
+  overflow: hidden;
   &_notPadding {
     padding-top: 0;
   }
