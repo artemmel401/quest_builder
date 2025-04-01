@@ -1,5 +1,5 @@
 
-export type RelationType = 'object' | 'room' | 'text' | 'question' | 'exit'
+export type RelationType = 'object' | 'room' | 'text' | 'question' | 'questionList' | 'exit'
 
 export type EntityRelationType = {id: string, name: string}
 
@@ -20,12 +20,16 @@ export type DisplayTextRelation = {
 }
 
 export type DisplayQuestionRelation = {
-  questionId: string
+  resultEntity: EntityRelationType
   type: 'question'
+}
+
+export type DisplayQuestionRelationList = {
+  type: 'questionList'
 }
 
 export type ExitQuestRelation = {
   type: 'exit'
 }
 
-export type Relation = { id: string, object: EntityRelationType } & (NewEntityRelation | ChangeRoomRelation | DisplayTextRelation | DisplayQuestionRelation | ExitQuestRelation)
+export type Relation = { id: string, object: EntityRelationType } & (NewEntityRelation | ChangeRoomRelation | DisplayTextRelation | DisplayQuestionRelation | ExitQuestRelation | DisplayQuestionRelationList)

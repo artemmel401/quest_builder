@@ -5,8 +5,9 @@ import Card from "@/components/card/card"
 import { useRouter } from "next/router"
 import { createQuest, deleteQuest, getQuests } from "../utils/requests"
 import { useEffect, useState } from 'react'
-import { Quest } from '@/types/quest'
+import { Template } from '@/types/template'
 import { LoaderFullScreen } from '@/components/loaders/Loaders'
+import { Quest } from '@/types/quest'
 
 export default function Home(){
 
@@ -15,8 +16,7 @@ export default function Home(){
   const router = useRouter()
 
   const onCreateQuest = async () => {
-    const number = await createQuest()
-    router.push(`/edit/${number}`)
+    router.push(`/create`)
   }
 
   const getAllQuests = async () => {
@@ -25,10 +25,10 @@ export default function Home(){
     setQuests(quests)
   }
 
-    const onDeleteQuest = (number:number) => {
-      deleteQuest(number)
-      getAllQuests()
-    }
+  const onDeleteQuest = (number:number) => {
+    deleteQuest(number)
+    getAllQuests()
+  }
 
   useEffect(() => {
     getAllQuests()
@@ -45,11 +45,10 @@ export default function Home(){
       <main className={styles.main}>
         <div className={styles.main__list}>
           <h1 className={styles.main__title}>ВАШИ КВЕСТЫ</h1>
-          <div></div>
           <Button onClick={onCreateQuest} mainClass="ld_button_secondary2" text='СОЗДАТЬ КВЕСТ' style={{width: '345px', height: '55px', fontSize: '20px'}}/>
         </div>
         <div className={styles.main__cards}>
-          {quests.map((quest)=>(<Card onDelete={()=>onDeleteQuest(quest.number)} background={quest.variants[0].rooms[0]?.background} title={quest.title} description={quest.description} onClick={()=>{router.push(`/edit/${quest.number}`)}}/>))}
+          {quests.map((quest)=>(<Card onDelete={()=>onDeleteQuest(quest.number)} background={{type:'color', value:'#000'}} title={quest.title} description={quest.description} onClick={()=>{router.push(`/edit/${quest.number}`)}}/>))}
         </div>
       </main>
     </>

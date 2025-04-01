@@ -7,8 +7,10 @@ import { Relation, RelationType } from '@/types/relation'
 import { nanoid } from 'nanoid'
 import { isRelation } from '@/utils'
 import { Input } from '@/components/input/input'
+import { ExitType } from '@/types/template'
 
 type BehaviourObjectListProps = {
+  templateType: ExitType
   activeObject: Object
   activeRelation: Relation | undefined
   getFreeSubjects: () => Subject[]
@@ -20,7 +22,7 @@ type BehaviourObjectListProps = {
 }
 
 export default function BehaviourObjectList({
-  activeObject, activeRelation, getFreeSubjects, getFreeEntityToResult, getFreeRooms, hintText, getFreeQuestions, addNewRelation
+  activeObject, activeRelation, templateType, getFreeSubjects, getFreeEntityToResult, getFreeRooms, hintText, getFreeQuestions, addNewRelation
 }: BehaviourObjectListProps) {
   const [newRelation, setNewRelation] = useState<Partial<Relation>>(activeRelation ? activeRelation :
     { id: nanoid(), type: 'object', object: { id: activeObject.id, name: activeObject.title } }
@@ -97,6 +99,16 @@ export default function BehaviourObjectList({
   return (
     <div className={styles.behaviourList}>
       <div className={styles.behaviourList__block}>
+        <div className={styles.behaviourList__item}>
+          <img src='/icons/checkbox/activeDisable.svg'/>
+          <p className={styles.behaviourList__text}>При наведении чуть увеличивается масштаб</p>
+        </div>
+        <div className={styles.behaviourList__item}>
+          <img src='/icons/checkbox/activeDisable.svg'/>
+          <p className={styles.behaviourList__text}>После использования исчезает с игрового поля</p>
+        </div>
+      </div>
+      <div className={styles.behaviourList__block}>
         <div style={{ cursor: 'pointer', justifyContent: 'flex-start' }} onClick={() => changeRelationType('object', true)} className={styles.behaviourList__item}>
           <img src={`/icons/radiobutton/${newRelation.type === 'object' ? 'active' : 'disable'}.svg`} />
           <p className={styles.behaviourList__text}>При соединении...</p>
@@ -116,7 +128,7 @@ export default function BehaviourObjectList({
           >
             <img src={`/icons/radiobutton/${isOkRelation ? 'active' : 'disable'}.svg`} />
             <p className={`${styles.behaviourList__text} ${displayAdd ? styles.behaviourList__item_active : ''}`}>{
-              `При наведении на ${newRelation.subject ? newRelation.subject.name : '____'} 
+              `с ${newRelation.subject ? newRelation.subject.name : '____'} 
             появляется новый ${newRelation.resultEntity ? newRelation.resultEntity.name : '____'}`}</p>
             <img src={`/icons/menu/${displayAdd ? 'open' : 'close'}.svg`} />
           </div>
@@ -167,10 +179,11 @@ export default function BehaviourObjectList({
             {newRelation.type === 'text' && displayAdd &&
               <>
                 <div className={styles.addList}>
-                  <Input onBlur={confirmText} label='Введите подсказку' placeholder='Введите подсказку' onChange={(value) => setNewHintText(value.toString())}/>
+                  <Input value={newHintText} onBlur={confirmText} label='Введите подсказку' placeholder='Введите подсказку' onChange={(value) => setNewHintText(value.toString())}/>
                 </div>
               </>}
           </div>
+          {templateType === 'object' && 
           <div className={styles.behaviourList__block}>
             <div onClick={() => changeRelationType('exit', false)}
               style={{ cursor: 'pointer' }}
@@ -179,7 +192,7 @@ export default function BehaviourObjectList({
               <img src={`/icons/radiobutton/${newRelation.type === 'exit' && isOkRelation ? 'active' : 'disable'}.svg`} />
               <p className={`${styles.behaviourList__text} ${newRelation.type === 'exit' && displayAdd ? styles.behaviourList__item_active : ''}`}>{`происходит выход из квеста`}</p>
             </div>
-          </div>
+          </div>}
           <div className={styles.behaviourList__block}>
             <div onClick={() => changeRelationType('question', false)}
               style={{ cursor: 'pointer' }}
@@ -189,14 +202,26 @@ export default function BehaviourObjectList({
               <p className={`${styles.behaviourList__text} ${newRelation.type === 'question' && displayAdd ? styles.behaviourList__item_active : ''}`}>{`появляется задание`}</p>
               <img src={`/icons/menu/${newRelation.type === 'question' && displayAdd ? 'open' : 'close'}.svg`} />
             </div>
-            {newRelation.type === 'question' && displayAdd &&
+            {(newRelation.type === 'question') && displayAdd &&
               <>
+                <p className={`${styles.behaviourList__text}`}>{
+                  `При правильном ответе появлется "${newRelation.resultEntity ? newRelation.resultEntity.name : '____'}"`}
+                  </p>
                 <div className={styles.addList}>
-                  {getFreeRooms().map((room) => (
-                    <p key={`${room.id}`} onClick={() => { addRoom(room) }} className={styles.addList__item}>{room.name}</p>
+                  {getFreeEntityToResult().map((entity) => (
+                    <p key={`${entity.id}`} onClick={() => { addResult(entity) }} className={styles.addList__item}>{entity.title}</p>
                   ))}
                 </div>
               </>}
+            {templateType === 'list' &&
+              <div onClick={() => changeRelationType('questionList', false)}
+                style={{ cursor: 'pointer' }}
+                className={`${styles.behaviourList__item}`}
+              >
+                <img src={`/icons/radiobutton/${newRelation.type === 'questionList' && isOkRelation ? 'active' : 'disable'}.svg`} />
+                <p className={`${styles.behaviourList__text} ${newRelation.type === 'questionList'}`}>{`появляется задание в списке заданий `}</p>
+              </div>
+            }
           </div>
         </>
       }

@@ -38,34 +38,6 @@
         border: 2px solid $ld_color_brightTurquoise;
       }
     }
-    &__imgContent {
-      position: absolute;
-      border-radius: 10px;
-      border: 2px solid $ld_color_brightTurquoise;
-      pointer-events: none;
-    }
-    &__delete {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      background-color: #fff;
-      width: 32px;
-      height: 32px;
-      position: absolute;
-      right: -40px;
-      top: 0;
-      cursor: pointer;
-      pointer-events: all;
-    }
-    &__title {
-      position: absolute;
-      bottom: 100%;
-      width: 100%;
-      background: none;
-      color: $ld_color_brightTurquoise;
-      pointer-events: all;
-    }
     &__input {
       position: absolute;
       width: 100%;

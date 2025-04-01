@@ -52,15 +52,21 @@ export function isRelation(newRelation: any): newRelation is Relation {
           return false;
         }
         break;
-  
       case 'question':
-        if (typeof relation.questionId !== 'string') {
+        if (
+          typeof relation.resultEntity !== 'object' ||
+          relation.resultEntity === null ||
+          typeof relation.resultEntity.id !== 'string' ||
+          typeof relation.resultEntity.name !== 'string'
+        ) {
           return false;
         }
         break;
-  
+        return true
+      case "questionList":
+        return true
       case 'exit':
-        break;
+        return true
   
       default:
         return false;

@@ -1,0 +1,23 @@
+@import 'mixins.scss';
+
+.main {
+  padding: 140px 85px;
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 90px;
+  }
+  &__title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 44.19px;
+    text-align: left;
+    color: $ld_color_black;
+  }
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

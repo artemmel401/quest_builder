@@ -1,6 +1,10 @@
 @import 'mixins.scss';
 
 .container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   flex-shrink: 0;
   height: 88px;

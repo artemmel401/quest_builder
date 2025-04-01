@@ -7,6 +7,7 @@ import BehaviourSubjectList from './behaviourSubjectList'
 import { Relation } from '@/types/relation'
 import BehaviourObjectList from './behaviourObjectList'
 import { StrippedRoom } from '@/types/room'
+import { ExitType } from '@/types/template'
 
 type RightPanelProps = {
   selectedEntity: Subject | Object
@@ -18,18 +19,17 @@ type RightPanelProps = {
   roomIds: StrippedRoom[]
   allSubjects: Subject[]
   allObjects: Object[]
+  templateType: ExitType
 }
 
 export default function RightPanel({ 
-  selectedEntity, relations, roomIds, allObjects, allSubjects, updateRelations,
-  onChangeTitle, changeSize, changePosition
+  selectedEntity, relations, roomIds, allObjects, allSubjects, templateType,
+  updateRelations, onChangeTitle, changeSize, changePosition
 }: RightPanelProps) {
 
   const [isDisplayInput, setIsDisplayInput] = useState(false)
 
   const [activeTabIndex, setActiveTabIndex] = useState(0)
-
-  const [entity, setEntity] = useState(selectedEntity)
 
   const onChangeSize = (value: string, field: 'x' | 'y') => {
     changeSize(parseInt(value), field)
@@ -108,14 +108,15 @@ export default function RightPanel({
     updateRelations(newRealtions);
   };
 
-  useEffect (() => {
-    setEntity(selectedEntity)
-  },[selectedEntity])
+  useEffect(() => {
+    setIsDisplayInput(false);
+    setActiveTabIndex(0);
+  }, [selectedEntity.id]); 
 
   return (
     <div className={styles.container}>
       <div className={styles.container__input}>
-        <input className={styles.container__inputTitle} disabled={!isDisplayInput} value={entity.title} onChange={(e) => { onChangeTitle(e.target.value) }} />
+        <input className={styles.container__inputTitle} disabled={!isDisplayInput} value={selectedEntity.title} onChange={(e) => { onChangeTitle(e.target.value) }} />
         <svg
           onClick={() => setIsDisplayInput(!isDisplayInput)}
           className={styles.container__inputImg} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -173,9 +174,9 @@ export default function RightPanel({
         </div>
         }
         {
-          activeTabIndex === 1 && entity.type === 'subject' && 
+          activeTabIndex === 1 && selectedEntity.type === 'subject' && 
             <BehaviourSubjectList 
-              activeSubject={entity}
+              activeSubject={selectedEntity}
               activeRelation={getActvieSubjectRelation()}
               getFreeEntityToResult={getFreeEntityToResult}
               getFreeHoverObjects={getFreeObjectsToHover} 
@@ -183,9 +184,10 @@ export default function RightPanel({
             />
         }
         {
-          activeTabIndex === 1 && entity.type === 'object' &&
+          activeTabIndex === 1 && selectedEntity.type === 'object' &&
             <BehaviourObjectList
-              activeObject={entity}
+              templateType={templateType}
+              activeObject={selectedEntity}
               activeRelation={getActiveObjectRelation()}
               addNewRelation={updateRelationList}
               getFreeEntityToResult={getFreeEntityToResult} 
