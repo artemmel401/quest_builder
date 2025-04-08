@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="123" height="68" viewBox="0 0 123 68">
+  <defs>
+    <style>
+      .a, .b {
+        fill: #336;
+      }
+
+      .a {
+        opacity: 0.2;
+      }
+
+      .b {
+        opacity: 0.25;
+      }
+
+      .c {
+        fill: #e6e6e6;
+      }
+
+      .d {
+        fill: #f2f2f2;
+      }
+
+      .e {
+        fill: #f93;
+      }
+
+      .f {
+        fill: #d37a29;
+      }
+
+      .g {
+        fill: #fff;
+      }
+
+      .h {
+        fill: #bf6b26;
+      }
+
+      .i {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" x1="102.33" y1="-12" x2="12.17" y2="78.17" gradientUnits="userSpaceOnUse">
+      <stop offset="0.08" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="0.24" stop-color="#fff" stop-opacity="0.33"/>
+      <stop offset="0.87" stop-color="#fff" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="123 1 50.33 1 8.33 67 82.33 67 123 1"/>
+      <polygon class="b" points="82.33 67 69.33 67 69.33 68 75.33 68 82.33 67"/>
+      <g>
+        <polygon class="c" points="75.33 68 1.33 68 0 66 74.33 66 75.33 68"/>
+        <polygon class="d" points="114.33 0 74.33 66 75.33 68 114.33 4 114.33 0"/>
+      </g>
+    </g>
+    <polygon class="e" points="114.33 0 40.33 0 0 66 74.33 66 114.33 0"/>
+    <polygon class="f" points="100 9 44.83 9 15 58 70.17 58 100 9"/>
+    <polygon class="g" points="72 3 61 3 59 6 70 6 72 3"/>
+    <polygon class="g" points="75 3 74 3 72 6 73 6 75 3"/>
+    <polygon class="g" points="78 3 77 3 75 6 76 6 78 3"/>
+    <polygon class="g" points="92 3 91 3 89 6 90 6 92 3"/>
+    <polygon class="g" points="82 3 80 3 78 6 80 6 82 3"/>
+    <polygon class="g" points="89 3 84 3 82 6 87 6 89 3"/>
+    <path class="h" d="M20,50.68c2.26-3.11,1.9-1.13,6-2.75,7.54-3,8.23-1.69,11-3.67,3.8-2.71,3.08-5.55,7-12.85,2.3-4.29,4.37-8.14,8-11,7.15-5.66,20.12-7.35,24-2.76s-1.2,14.54-6,20.19c-4.6,5.43-9,6.65-9,10.1,0,4.17,2.26,7.68,8,10.09-20.67.92-33.33-.91-54,0A85.76,85.76,0,0,1,20,50.68Z"/>
+    <polygon class="i" points="114.33 0 40.33 0 0 66 74.33 66 114.33 0"/>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .a {
+        fill: #f2f2f2;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: gray;
+      }
+
+      .d, .e {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .d {
+        stroke-width: 0.5px;
+      }
+    </style>
+    <linearGradient id="a" x1="960" y1="100" x2="960" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset="0.33" stop-color="#e0e0e0"/>
+      <stop offset="0.69" stop-color="#ededed"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" y="100" width="1920" height="730"/>
+    <rect class="b" width="1920" height="100"/>
+    <rect class="c" y="830" width="1920" height="250"/>
+    <line class="d" y1="100" x2="1920" y2="100"/>
+    <line class="e" y1="830" x2="1920" y2="830"/>
+  </g>
+</svg>

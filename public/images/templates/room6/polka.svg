@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="168.06" height="9.7" viewBox="0 0 168.06 9.7">
+  <defs>
+    <style>
+      .a {
+        isolation: isolate;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: url(#b);
+      }
+
+      .aa, .d, .e, .g, .i, .k, .m, .o, .q, .s, .u, .w, .y {
+        mix-blend-mode: multiply;
+      }
+
+      .d {
+        opacity: 0.77;
+      }
+
+      .ad, .e {
+        opacity: 0;
+      }
+
+      .f {
+        fill: #fff;
+      }
+
+      .g {
+        opacity: 0.09;
+      }
+
+      .h {
+        fill: #f7f1ec;
+      }
+
+      .i {
+        opacity: 0.18;
+      }
+
+      .j {
+        fill: #efe4da;
+      }
+
+      .k {
+        opacity: 0.27;
+      }
+
+      .l {
+        fill: #e7d6c7;
+      }
+
+      .m {
+        opacity: 0.36;
+      }
+
+      .n {
+        fill: #dfc8b5;
+      }
+
+      .o {
+        opacity: 0.45;
+      }
+
+      .p {
+        fill: #d7bba2;
+      }
+
+      .q {
+        opacity: 0.55;
+      }
+
+      .r {
+        fill: #d0ad90;
+      }
+
+      .s {
+        opacity: 0.64;
+      }
+
+      .t {
+        fill: #c8a07d;
+      }
+
+      .u {
+        opacity: 0.73;
+      }
+
+      .v {
+        fill: #c0926b;
+      }
+
+      .w {
+        opacity: 0.82;
+      }
+
+      .x {
+        fill: #b88458;
+      }
+
+      .y {
+        opacity: 0.91;
+      }
+
+      .z {
+        fill: #b07746;
+      }
+
+      .ab {
+        fill: #a86933;
+      }
+
+      .ac {
+        mix-blend-mode: screen;
+        opacity: 0.64;
+      }
+
+      .ad {
+        fill: #a87451;
+      }
+    </style>
+    <linearGradient id="a" x1="7.7" y1="2.54" x2="165.42" y2="2.54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dededd"/>
+      <stop offset="0.54" stop-color="#fff"/>
+      <stop offset="1" stop-color="#dbdbda"/>
+    </linearGradient>
+    <linearGradient id="b" x1="82.54" y1="3.61" x2="82.54" y2="9.57" gradientUnits="userSpaceOnUse">
+      <stop offset="0.34" stop-color="#b3b3b3"/>
+      <stop offset="0.6" stop-color="#d5d5d5"/>
+      <stop offset="0.87" stop-color="#fff"/>
+      <stop offset="1" stop-color="#b8b8b8"/>
+    </linearGradient>
+  </defs>
+  <g class="a">
+    <g>
+      <path class="b" d="M168.06.06,13.77,0,.53,5.08H164.82Z"/>
+      <path class="c" d="M165.08,7.12c0-.57-.1-1.15-.11-1.23a7.56,7.56,0,0,0-.14-.8H.51C.22,5.15,0,6.3,0,7.35s.22,2.2.51,2.27H164.83A11,11,0,0,0,165.08,7.12Z"/>
+      <g class="d">
+        <g class="e">
+          <path class="f" d="M.48,9.67h0l164.31,0h0c.13-.06.24-.36.32-.83l-165,0C.24,9.32.36,9.63.48,9.67Z"/>
+        </g>
+        <g class="g">
+          <path class="h" d="M.48,9.66h0l164.27,0h.05c.12-.06.23-.32.31-.77l-165,0C.27,9.34.36,9.62.48,9.66Z"/>
+        </g>
+        <g class="i">
+          <path class="j" d="M.49,9.65h0l164.24,0h0c.13-.06.23-.28.31-.71L.21,8.93C.29,9.37.36,9.61.49,9.65Z"/>
+        </g>
+        <g class="k">
+          <path class="l" d="M.49,9.64h0l164.21,0h0v0c.13,0,.22-.23.3-.64L.23,9C.32,9.39.36,9.61.49,9.64Z"/>
+        </g>
+        <g class="m">
+          <path class="n" d="M.49,9.64H164.74c.12,0,.21-.19.29-.59L.26,9C.35,9.41.36,9.6.49,9.64Z"/>
+        </g>
+        <g class="o">
+          <path class="p" d="M.49,9.63H164.71c.12,0,.19-.15.28-.53L.29,9.05C.37,9.43.37,9.59.49,9.63Z"/>
+        </g>
+        <g class="q">
+          <path class="r" d="M.5,9.62H164.67c.13,0,.19-.11.28-.47L.31,9.09C.4,9.45.37,9.58.5,9.62Z"/>
+        </g>
+        <g class="s">
+          <path class="t" d="M.5,9.61H164.64c.13,0,.18-.07.27-.41L.34,9.13C.43,9.48.37,9.58.5,9.61Z"/>
+        </g>
+        <g class="u">
+          <path class="v" d="M.5,9.6H164.61c.12,0,.17,0,.26-.35L.37,9.17C.45,9.5.37,9.57.5,9.6Z"/>
+        </g>
+        <g class="w">
+          <path class="x" d="M.5,9.59H164.58c.12,0,.16,0,.25-.29L.39,9.21C.48,9.52.38,9.56.5,9.59Z"/>
+        </g>
+        <g class="y">
+          <path class="z" d="M.5,9.58h164c.13,0,.16.05.25-.24L.42,9.25C.51,9.54.38,9.55.5,9.58Z"/>
+        </g>
+        <g class="aa">
+          <path class="ab" d="M.51,9.57h164c.13,0,.15.09.24-.18L.45,9.3C.53,9.57.38,9.55.51,9.57Z"/>
+        </g>
+      </g>
+      <g class="ac">
+        <path class="ad" d="M162.89,4.37,3.66,3.9A11.76,11.76,0,0,0,.33,5.2s-.2.5,0,.5l164.42,0c.25,0,.42-.6,0-.76A18.44,18.44,0,0,0,162.89,4.37Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

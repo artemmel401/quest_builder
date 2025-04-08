@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="363" height="164" viewBox="0 0 363 164">
+  <defs>
+    <style>
+      .a {
+        fill: #988575;
+      }
+
+      .b {
+        fill: #c6b198;
+      }
+
+      .c {
+        fill: none;
+        stroke: #988575;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="0 88 217.25 55.29 306 102 4 164 0 88"/>
+      <polygon class="b" points="0 88 220.25 51.29 306.25 102.29 7 160 0 88"/>
+      <polygon class="a" points="14 95 17 118 102 101 98 80 14 95"/>
+      <line class="c" x1="21" y1="128" x2="104" y2="110"/>
+      <line class="c" x1="22" y1="140" x2="107" y2="123"/>
+      <path class="a" d="M281.5,98.5c-1-1-23-16-23-16l-63,12,10,22Z"/>
+      <line class="c" x1="114" y1="115" x2="186" y2="99"/>
+      <line class="c" x1="118" y1="128" x2="192" y2="114"/>
+    </g>
+    <g>
+      <polygon class="a" points="84 41 277 7 363 45 93 115 84 41"/>
+      <polygon class="b" points="84 41 281 0 363 45 97 108 84 41"/>
+      <path class="a" d="M100,48l8,47s68-13,68-15-23-45-23-45Z"/>
+      <polygon class="a" points="277 7 300 26 244 39 228 21 277 7"/>
+      <line class="c" x1="172" y1="39" x2="223" y2="28"/>
+      <line class="c" x1="175.5" y1="53.5" x2="232.5" y2="38.5"/>
+      <line class="c" x1="185.5" y1="68.5" x2="244.5" y2="53.5"/>
+      <line class="c" x1="259.5" y1="51.5" x2="311.5" y2="38.5"/>
+    </g>
+  </g>
+</svg>

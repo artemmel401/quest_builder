@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180.05" height="199.51" viewBox="0 0 180.05 199.51">
+  <defs>
+    <style>
+      .a {
+        fill: #9dc4c1;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: #ccc;
+        opacity: 0.07;
+      }
+
+      .d {
+        fill: #3addd4;
+        opacity: 0.15;
+      }
+
+      .e {
+        fill: url(#b);
+      }
+    </style>
+    <linearGradient id="a" x1="7.58" y1="125.33" x2="139.2" y2="125.33" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.3" stop-color="#fbffff"/>
+      <stop offset="0.62" stop-color="#eefffe"/>
+      <stop offset="0.67" stop-color="#ebfffe"/>
+    </linearGradient>
+    <linearGradient id="b" x1="25.29" y1="42.76" x2="121.49" y2="42.76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.55" stop-color="#f3fffe"/>
+      <stop offset="0.85" stop-color="#ebfffe"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <ellipse class="a" cx="90.02" cy="169.01" rx="90.02" ry="30.5"/>
+    <g>
+      <path class="b" d="M139.2,133c0,36.35-29.24,50.56-65.58,50.56s-66-14.21-66-50.56a65.81,65.81,0,0,1,131.62,0Z"/>
+      <path class="c" d="M139.2,133c0,36.35-29.24,50.56-65.58,50.56s-66-14.21-66-50.56a65.81,65.81,0,0,1,131.62,0Z"/>
+      <path class="d" d="M107.33,76.57A65.52,65.52,0,0,1,121.2,117c0,36.35-29.24,50.56-65.58,50.56-15.53,0-29.84-2.61-41.14-8.42,10.83,17.22,33.3,24.42,59.14,24.42,36.34,0,65.58-14.21,65.58-50.56A65.78,65.78,0,0,0,107.33,76.57Z"/>
+      <path class="e" d="M121.49,48.1c0,26.57-21.3,37.41-47.87,37.41S25.29,74.67,25.29,48.1a48.1,48.1,0,1,1,96.2,0Z"/>
+      <path class="c" d="M121.49,48.1c0,26.57-21.3,37.41-47.87,37.41S25.29,74.67,25.29,48.1a48.1,48.1,0,1,1,96.2,0Z"/>
+      <path class="d" d="M95.34,5.3a47.87,47.87,0,0,1,8.15,26.8c0,26.57-21.3,37.41-47.87,37.41-9.84,0-19-1.49-26.69-4.72C36.2,79.3,53.53,85.51,73.62,85.51c26.57,0,47.87-10.84,47.87-37.41A48.09,48.09,0,0,0,95.34,5.3Z"/>
+    </g>
+  </g>
+</svg>

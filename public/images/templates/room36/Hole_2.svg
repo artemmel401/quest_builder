@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="21" viewBox="0 0 70 21">
+  <defs>
+    <style>
+      .a {
+        fill: #242447;
+        opacity: 0.6;
+      }
+
+      .b {
+        fill: #c93;
+      }
+
+      .c {
+        fill: #fff;
+        opacity: 0.4;
+      }
+
+      .d {
+        fill: none;
+        stroke: #af7d25;
+        stroke-miterlimit: 10;
+      }
+
+      .e {
+        fill: #af7d25;
+      }
+
+      .f {
+        fill: #996c23;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" y="4" width="70" height="17" rx="1.99"/>
+    <rect class="b" x="2" y="2" width="66" height="16" rx="2.45"/>
+    <path class="c" d="M45.58,2H14.52L2,11.06v4.49A2.45,2.45,0,0,0,4.45,18h19Z"/>
+    <polygon class="c" points="32.95 18 55.06 2 49.52 2 27.41 18 32.95 18"/>
+    <rect class="d" x="5" y="4" width="60" height="12" rx="2.02"/>
+    <rect class="e" x="10" width="7" height="3"/>
+    <rect class="e" x="53" width="7" height="3"/>
+    <rect class="f" x="53" y="2" width="7" height="1"/>
+    <rect class="f" x="10" y="2" width="7" height="1"/>
+  </g>
+</svg>

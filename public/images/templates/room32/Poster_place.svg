@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="387.2" viewBox="0 0 118 387.2">
+  <defs>
+    <style>
+      .a {
+        fill: #f49b1a;
+        opacity: 0.05;
+      }
+
+      .b {
+        fill: none;
+        stroke: #f49b1a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        opacity: 0.25;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="117.5 378.5 0.5 386.7 0.5 0.5 117.5 44.48 117.5 378.5"/>
+    <polygon class="b" points="117.5 378.5 0.5 386.7 0.5 0.5 117.5 44.48 117.5 378.5"/>
+  </g>
+</svg>

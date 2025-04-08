@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="221" height="726" viewBox="0 0 221 726">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.2;
+      }
+
+      .b {
+        fill: #69c;
+      }
+
+      .c {
+        fill: #fff;
+        opacity: 0.35;
+      }
+    </style>
+  </defs>
+  <g>
+    <g class="a">
+      <rect class="b" x="1.5" y="1.5" width="218" height="723"/>
+      <path d="M218,3V723H3V3H218m3-3H0V726H221V0Z"/>
+    </g>
+    <path d="M216,5V721H5V5H216m5-5H0V726H221V0Z"/>
+    <polygon class="c" points="0 613.91 221 369.2 221 299.62 0 544.34 0 613.91"/>
+    <polygon class="c" points="0 323.08 221 78.37 221 55.27 0 299.99 0 323.08"/>
+    <polygon class="c" points="0 117.86 106.44 0 85.58 0 0 94.76 0 117.86"/>
+    <polygon class="c" points="0 512.1 221 267.38 221 0 0 0 0 512.1"/>
+    <polygon class="c" points="221 726 221 726 221 634.46 138.33 726 221 726"/>
+  </g>
+</svg>

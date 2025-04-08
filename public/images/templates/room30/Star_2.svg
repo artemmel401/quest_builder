@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="114" viewBox="0 0 114 114">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: #fff;
+      }
+    </style>
+    <radialGradient id="a" cx="57" cy="57" r="57" gradientUnits="userSpaceOnUse">
+      <stop offset="0.03" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="0.12" stop-color="#f7f7f9" stop-opacity="0.86"/>
+      <stop offset="0.26" stop-color="#e1e1e9" stop-opacity="0.77"/>
+      <stop offset="0.43" stop-color="#bebece" stop-opacity="0.61"/>
+      <stop offset="0.64" stop-color="#8c8ca9" stop-opacity="0.39"/>
+      <stop offset="0.87" stop-color="#4e4e7b" stop-opacity="0.12"/>
+      <stop offset="0.96" stop-color="#336" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <circle class="a" cx="57" cy="57" r="57"/>
+    <g>
+      <path class="b" d="M62.26,55.44,97.67,34.16,60.55,52.29a1.5,1.5,0,0,1-2-1.21L57.84,9.77,55,51a1.51,1.51,0,0,1-2.05,1.11l-36.14-20L51.07,55.15A1.5,1.5,0,0,1,51,57.48L15.6,78.76,52.72,60.62a1.51,1.51,0,0,1,2,1.21l.72,41.31,2.85-41.21a1.5,1.5,0,0,1,2-1.11l36.13,20L62.2,57.76A1.48,1.48,0,0,1,62.26,55.44Z"/>
+      <path class="b" d="M59.45,57.38l21.39-1-21.4-.86a.77.77,0,0,1-.6-1l9.83-19L57.23,53.56a.78.78,0,0,1-1.21,0l-11.56-18,10,19a.78.78,0,0,1-.6,1l-21.39,1,21.39.86a.78.78,0,0,1,.61,1l-9.83,19L56,59.36a.78.78,0,0,1,1.21,0l11.55,18-9.95-19A.77.77,0,0,1,59.45,57.38Z"/>
+    </g>
+  </g>
+</svg>

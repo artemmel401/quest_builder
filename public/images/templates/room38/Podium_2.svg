@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="130" viewBox="0 0 270 130">
+  <defs>
+    <style>
+      .a {
+        fill: #1a1a1a;
+      }
+
+      .b {
+        fill: #333;
+      }
+
+      .c {
+        fill: #4d4d4d;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="0 0 0 29 26 130 26 100 0 0"/>
+    <rect class="b" x="26" y="100" width="244" height="30"/>
+    <polygon class="c" points="205 0 0 0 26 100 270 100 205 0"/>
+  </g>
+</svg>

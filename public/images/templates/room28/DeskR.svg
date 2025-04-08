@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="815" height="228.07" viewBox="0 0 815 228.07">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+      }
+
+      .b {
+        fill: gray;
+      }
+
+      .c {
+        fill: #666;
+      }
+
+      .d {
+        fill: #c59b6d;
+      }
+
+      .e {
+        fill: #a57c52;
+      }
+
+      .f {
+        fill: #4d4d4d;
+      }
+
+      .g {
+        fill: #8b6239;
+      }
+
+      .h {
+        clip-path: url(#a);
+      }
+
+      .i {
+        fill: #fff;
+        opacity: 0.2;
+      }
+    </style>
+    <clipPath id="a">
+      <polygon class="a" points="44 154.07 815 154.07 679 79.07 0 79.07 44 154.07"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g>
+      <rect class="b" x="251" y="71.07" width="10" height="121"/>
+      <rect class="c" x="245" y="71.07" width="6" height="121"/>
+      <rect class="b" x="116" y="71.07" width="10" height="121"/>
+      <g>
+        <path class="d" d="M278.75,18.07h0a260,260,0,0,0-180,0h0v61h180Z"/>
+        <path class="e" d="M99,18.07h0c57.12-20.94,122.68-20,180,0l-4-2h0a260,260,0,0,0-180,0h0v63h4Z"/>
+        <g>
+          <circle class="c" cx="121.25" cy="65.57" r="3"/>
+          <circle class="c" cx="256.25" cy="65.57" r="3"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <rect class="b" x="549" y="71.07" width="10" height="121"/>
+      <rect class="c" x="543" y="71.07" width="6" height="121"/>
+      <rect class="b" x="414" y="71.07" width="10" height="121"/>
+      <rect class="c" x="408" y="71.07" width="6" height="121"/>
+      <g>
+        <path class="d" d="M576.75,18.07h0a260,260,0,0,0-180,0h0v61h180Z"/>
+        <path class="e" d="M397,18.07h0c57.12-20.94,122.68-20,180,0l-4-2h0a260,260,0,0,0-180,0h0v63h4Z"/>
+        <g>
+          <circle class="c" cx="419.25" cy="65.57" r="3"/>
+          <circle class="c" cx="554.25" cy="65.57" r="3"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect class="c" x="110" y="136.07" width="10" height="92"/>
+        <rect class="f" x="105" y="136.07" width="5" height="92"/>
+      </g>
+      <g>
+        <rect class="c" x="718" y="136.07" width="10" height="92"/>
+        <rect class="f" x="713" y="136.07" width="5" height="92"/>
+      </g>
+      <g>
+        <polygon class="e" points="44 154.07 742 154.07 815 154.07 679 79.07 0 79.07 44 154.07"/>
+        <rect class="g" x="44" y="154.07" width="771" height="10"/>
+        <polygon class="g" points="44 164.07 0 89.07 0 79.07 44 154.07 44 164.07"/>
+      </g>
+      <polygon class="g" points="737.5 177.07 104.5 181.07 100.5 173.57 730.5 173.57 737.5 177.07"/>
+      <rect class="e" x="104.5" y="177.07" width="633" height="51"/>
+      <polygon class="g" points="101 228.07 105 228.07 104.5 177.84 100.5 173.57 101 228.07"/>
+      <g>
+        <circle class="c" cx="114" cy="188.07" r="3"/>
+        <circle class="c" cx="726" cy="188.07" r="3"/>
+      </g>
+      <g class="h">
+        <polygon class="i" points="683 74.07 712 88.07 654 169.07 483 169.07 598 74.07 683 74.07"/>
+        <polygon class="i" points="559 76.07 451 159.07 401 159.07 523 76.07 559 76.07"/>
+      </g>
+      <g>
+        <ellipse class="c" cx="110.5" cy="130.07" rx="4.5" ry="2"/>
+        <ellipse class="c" cx="718.5" cy="130.07" rx="4.5" ry="2"/>
+        <ellipse class="c" cx="660.5" cy="95.07" rx="4.5" ry="2"/>
+        <ellipse class="c" cx="78.5" cy="92.07" rx="4.5" ry="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

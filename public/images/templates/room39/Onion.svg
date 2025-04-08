@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49.83" height="49.7" viewBox="0 0 49.83 49.7">
+  <defs>
+    <style>
+      .a {
+        fill: #693;
+      }
+
+      .b {
+        fill: #9c3;
+      }
+
+      .c {
+        fill: #ad7b2b;
+      }
+
+      .d {
+        fill: #c93;
+      }
+
+      .e {
+        fill: #e0ab28;
+      }
+
+      .f {
+        fill: #fcc13d;
+      }
+
+      .g {
+        fill: none;
+        stroke: #c93;
+        stroke-miterlimit: 10;
+      }
+
+      .h {
+        fill: url(#a);
+      }
+
+      .i {
+        fill: #fff;
+        opacity: 0.3;
+      }
+    </style>
+    <linearGradient id="a" x1="60.89" y1="78" x2="31.37" y2="107.52" gradientTransform="matrix(0.75, -0.66, 0.66, 0.75, -68.35, -11.23)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="0.09" stop-color="#fff" stop-opacity="0.16"/>
+      <stop offset="0.35" stop-color="#fff" stop-opacity="0.07"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0.02"/>
+      <stop offset="0.82" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <rect class="a" x="0.48" y="9.14" width="12.66" height="1.27" transform="translate(8.94 21.49) rotate(-155.46)"/>
+        <rect class="b" x="-0.18" y="10.26" width="12.66" height="1.9" transform="translate(7.09 23.97) rotate(-155.46)"/>
+      </g>
+      <g>
+        <rect class="a" x="2.71" y="6.77" width="12.66" height="1.27" transform="translate(9.95 19.05) rotate(-133.81)"/>
+        <rect class="b" x="1.57" y="7.55" width="12.66" height="1.9" transform="translate(7.23 20.08) rotate(-133.81)"/>
+      </g>
+      <g>
+        <rect class="a" x="5.68" y="5.42" width="12.66" height="1.27" transform="translate(11.29 19.47) rotate(-113.69)"/>
+        <rect class="b" x="4.23" y="5.74" width="12.66" height="1.9" transform="translate(8.68 19.04) rotate(-113.69)"/>
+      </g>
+    </g>
+    <polygon class="c" points="37.83 43.28 40.11 49.7 42.24 44.46 46.28 44.26 46.51 40.69 49.83 37.76 43.1 37.79 37.83 43.28"/>
+    <polygon class="d" points="12.14 17.02 6 14.84 9.16 14.59 5.39 10.32 10.64 12.44 7.82 7.33 12.54 10.77 11.14 4.41 13.96 9.51 15.49 6.47 16.94 11.94 12.14 17.02"/>
+    <circle class="e" cx="27.6" cy="27.85" r="20.87"/>
+    <ellipse class="f" cx="23.2" cy="22.87" rx="19.79" ry="14.23" transform="translate(-9.32 21.06) rotate(-41.4)"/>
+    <g>
+      <g>
+        <path class="g" d="M14.29,11.33c6.55-5.78,19.9-3.74,27.07,4.39S49,35.11,42.46,40.89"/>
+        <path class="g" d="M39.61,43.4C33.06,49.17,22,47.27,14.78,39.14S6.32,18.36,12.87,12.58"/>
+      </g>
+      <g>
+        <path class="g" d="M14.29,11.33C19,7.2,30.4,10.94,37.56,19.06s9.17,18.06,4.49,22.18"/>
+        <path class="g" d="M40,43c-4.68,4.12-14.28.88-21.44-7.24S8.19,16.71,12.87,12.58"/>
+      </g>
+      <g>
+        <path class="g" d="M13.82,11.74c2.34-2.06,11.83,3.38,19,11.51s9.54,12.25,8.9,15.35"/>
+        <path class="g" d="M40.53,42.59c-2.34,2.06-10-2.85-17.21-11S11,14.23,13.34,12.16"/>
+      </g>
+    </g>
+    <path class="d" d="M37.22,38.76a20.87,20.87,0,0,1-27.2.36A20.88,20.88,0,1,0,43.25,14,21.48,21.48,0,0,0,41,11.83,20.87,20.87,0,0,1,37.22,38.76Z"/>
+    <circle class="h" cx="27.6" cy="27.85" r="20.87"/>
+    <path class="i" d="M23.61,13a18.09,18.09,0,0,1-3,7.05c-2.2,2.85-5.12,3.68-5.16,4.55s2.31.62,4.18.12a19.44,19.44,0,0,0,10.12-7c.57-.8,3.2-4.58,2.07-6.9s-5.91-2-7.47-.39C23.85,11,24,11.41,23.61,13Z"/>
+  </g>
+</svg>

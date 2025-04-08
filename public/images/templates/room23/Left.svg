@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="325" height="853" viewBox="0 0 325 853">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: url(#b);
+      }
+
+      .c {
+        fill: url(#c);
+      }
+
+      .d {
+        fill: url(#d);
+      }
+
+      .e, .f {
+        fill: #c7b299;
+      }
+
+      .e, .g {
+        fill-rule: evenodd;
+      }
+
+      .g {
+        fill: url(#e);
+      }
+    </style>
+    <linearGradient id="a" x1="225" y1="797.75" x2="225" y2="69.25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#998675"/>
+      <stop offset="0.38" stop-color="#968373"/>
+      <stop offset="0.65" stop-color="#8d7b6b"/>
+      <stop offset="0.89" stop-color="#7d6c5f"/>
+      <stop offset="1" stop-color="#736357"/>
+    </linearGradient>
+    <linearGradient id="b" x1="167.7" y1="699.24" x2="167.7" y2="735.75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#998675"/>
+      <stop offset="0.34" stop-color="#af9b86"/>
+      <stop offset="0.72" stop-color="#c1ac94"/>
+      <stop offset="1" stop-color="#c7b299"/>
+    </linearGradient>
+    <linearGradient id="c" x1="167.62" y1="68.75" x2="167.62" y2="10.25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#998675"/>
+      <stop offset="0.33" stop-color="#9c8978"/>
+      <stop offset="0.59" stop-color="#a6937f"/>
+      <stop offset="0.84" stop-color="#b7a38d"/>
+      <stop offset="1" stop-color="#c7b299"/>
+    </linearGradient>
+    <linearGradient id="d" x1="67.5" y1="10.41" x2="67.5" y2="735.66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#998675"/>
+      <stop offset="0.15" stop-color="#a89480"/>
+      <stop offset="0.41" stop-color="#b9a58e"/>
+      <stop offset="0.68" stop-color="#c4af96"/>
+      <stop offset="1" stop-color="#c7b299"/>
+    </linearGradient>
+    <linearGradient id="e" x1="165.24" y1="281.75" x2="165.24" y2="257.25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#998675"/>
+      <stop offset="0.28" stop-color="#9d8a79"/>
+      <stop offset="0.6" stop-color="#ab9783"/>
+      <stop offset="0.92" stop-color="#c1ac94"/>
+      <stop offset="1" stop-color="#c7b299"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <rect class="a" x="125.25" y="69.25" width="199.5" height="728.5"/>
+      <path d="M324.5,69.5v728h-199V69.5h199m.5-.5H125V798H325V69Z"/>
+    </g>
+    <g>
+      <polygon class="b" points="11.59 735.75 125.08 699.24 323.81 699.25 240.95 735.75 11.59 735.75"/>
+      <path d="M322.62,699.5l-81.73,36H13.19l111.89-36H322.62M325,699H125L10,736H241l84-37Z"/>
+    </g>
+    <g>
+      <polygon class="c" points="125.06 68.75 11.04 10.25 240.92 10.25 324.21 68.75 125.06 68.75"/>
+      <path d="M240.84,10.5l82.58,58H125.12l-113-58H240.84M241,10H10L125,69H325L241,10Z"/>
+    </g>
+    <g>
+      <polygon class="d" points="10.25 10.41 124.75 69.15 124.75 698.82 10.25 735.66 10.25 10.41"/>
+      <path d="M10.5,10.82l114,58.49V698.64l-114,36.67V10.82M10,10V736l115-37V69L10,10Z"/>
+    </g>
+    <g>
+      <polygon class="e" points="21.6 488.75 138.16 483.25 310.74 483.25 230.99 488.75 21.6 488.75"/>
+      <path d="M303.49,483.5l-72.49,5H32.2l106-5H303.49M318,483H138.15L11,489H231l87-6Z"/>
+    </g>
+    <g>
+      <rect class="f" x="0.25" y="10.25" width="9.5" height="842.5"/>
+      <path d="M9.5,10.5v842H.5V10.5h9M10,10H0V853H10V10Z"/>
+    </g>
+    <g>
+      <polygon class="g" points="123.16 281.75 13.27 257.25 231 257.25 317.21 281.75 123.16 281.75"/>
+      <path d="M230.93,257.5l84.48,24H123.22l-107.68-24H230.93m.07-.5H11l112.16,25H319l-88-25Z"/>
+    </g>
+    <g>
+      <rect class="f" x="231.25" y="10.25" width="9.5" height="842.5"/>
+      <path d="M240.5,10.5v842h-9V10.5h9m.5-.5H231V853h10V10Z"/>
+    </g>
+    <g>
+      <rect class="f" x="10.25" y="247.25" width="220.5" height="9.5"/>
+      <path d="M230.5,247.5v9H10.5v-9h220m.5-.5H10v10H231V247Z"/>
+    </g>
+    <g>
+      <rect class="f" x="10.25" y="489.25" width="220.5" height="9.5"/>
+      <path d="M230.5,489.5v9H10.5v-9h220m.5-.5H10v10H231V489Z"/>
+    </g>
+    <g>
+      <rect class="f" x="0.25" y="0.25" width="240.5" height="9.5"/>
+      <path d="M240.5.5v9H.5V.5h240M241,0H0V10H241V0Z"/>
+    </g>
+    <g>
+      <polygon class="f" points="241.25 10.48 324.75 68.69 324.75 797.86 241.25 851.42 241.25 10.48"/>
+      <path d="M241.5,11l83,57.86V797.73L241.5,851V11m-.5-1V851.87L325,798V68.55L241,10Z"/>
+    </g>
+    <g>
+      <polygon class="e" points="241.25 10.38 241.25 0.48 324.75 60.02 324.75 68.52 241.25 10.38"/>
+      <path d="M241.5,1l83,59.18V68l-83-57.79V1M241,0V10.51L325,69V59.89L241,0Z"/>
+    </g>
+    <g>
+      <rect class="f" x="10.25" y="736.25" width="220.5" height="116.5"/>
+      <path d="M230.5,736.5v116H10.5v-116h220m.5-.5H10V853H231V736Z"/>
+    </g>
+  </g>
+</svg>

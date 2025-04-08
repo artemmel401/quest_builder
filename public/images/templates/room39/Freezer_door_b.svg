@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="502" height="78" viewBox="0 0 502 78">
+  <defs>
+    <style>
+      .a, .b {
+        fill: #336;
+      }
+
+      .a {
+        opacity: 0.15;
+      }
+
+      .b {
+        opacity: 0.3;
+      }
+
+      .c, .f, .h {
+        fill: #fff;
+      }
+
+      .c {
+        opacity: 0.2;
+      }
+
+      .d {
+        fill: #4d4d4d;
+      }
+
+      .e {
+        fill: url(#a);
+      }
+
+      .f {
+        opacity: 0.35;
+      }
+
+      .g {
+        fill: url(#b);
+      }
+
+      .h {
+        opacity: 0.4;
+      }
+
+      .i {
+        fill: url(#c);
+      }
+
+      .j {
+        fill: url(#d);
+      }
+
+      .k {
+        fill: url(#e);
+      }
+
+      .l {
+        fill: url(#f);
+      }
+    </style>
+    <linearGradient id="a" x1="149.56" y1="-37.56" x2="61.34" y2="50.66" gradientUnits="userSpaceOnUse">
+      <stop offset="0.22" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="0.58" stop-color="#fff" stop-opacity="0.12"/>
+      <stop offset="0.87" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b" x1="107.16" y1="-3.47" x2="4.1" y2="56.04" gradientUnits="userSpaceOnUse">
+      <stop offset="0.39" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="0.49" stop-color="#fff" stop-opacity="0.37"/>
+      <stop offset="0.64" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="0.81" stop-color="#fff" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="c" x1="89.25" y1="93.25" x2="190.83" y2="-8.33" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#ccc"/>
+      <stop offset="0.11" stop-color="#d5d5d5"/>
+      <stop offset="0.24" stop-color="#e2e2e2"/>
+      <stop offset="0.36" stop-color="#e6e6e6"/>
+      <stop offset="0.51" stop-color="#ececec"/>
+      <stop offset="0.59" stop-color="#f2f2f2"/>
+      <stop offset="0.69" stop-color="#e6e6e6"/>
+      <stop offset="0.83" stop-color="#dadada"/>
+      <stop offset="0.95" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="d" x1="73.25" y1="97.25" x2="184.36" y2="-13.86" xlink:href="#c"/>
+    <linearGradient id="e" x1="121" y1="92" x2="220.19" y2="-7.19" xlink:href="#c"/>
+    <linearGradient id="f" x1="108" y1="95" x2="214.82" y2="-11.82" xlink:href="#c"/>
+  </defs>
+  <g>
+    <polygon class="a" points="488 14 0 14 0 5 497 5 488 14"/>
+    <polygon class="b" points="221 14 0 14 0 5 237 5 221 14"/>
+    <polygon class="c" points="119 78 0 78 0 5 237 5 119 78"/>
+    <polygon class="d" points="502 0 0 0 0 5 497 5 502 0"/>
+    <g>
+      <polygon class="e" points="0 78 91 78 214 5 0 5 0 78"/>
+      <polygon class="f" points="111 66 91 78 85 78 0 41 0 5 5 5 111 66"/>
+    </g>
+    <g>
+      <polygon class="g" points="0 78 54 78 185 5 0 5 0 78"/>
+      <polygon class="h" points="117 43 185 5 55 5 117 43"/>
+    </g>
+    <polygon class="a" points="487 3 499 3 502 0 490 0 487 3"/>
+    <g>
+      <polygon class="i" points="83 78 209 4 209 0 74 78 83 78"/>
+      <polygon class="b" points="83 78 209 4 209 0 74 78 83 78"/>
+      <polygon class="d" points="85 78 209 5 209 4 83 78 85 78"/>
+      <polygon class="j" points="54 78 74 78 209 0 194 0 54 78"/>
+      <g>
+        <polygon class="a" points="189 3 204 3 209 0 194 0 189 3"/>
+        <polygon class="a" points="204 3 204 8 209 5 209 0 204 3"/>
+      </g>
+    </g>
+    <g>
+      <polygon class="k" points="117 78 237 4 237 0 107 78 117 78"/>
+      <polygon class="b" points="117 78 237 4 237 0 107 78 117 78"/>
+      <polygon class="d" points="119 78 237 5 237 4 117 78 119 78"/>
+      <polygon class="l" points="91 78 107 78 237 0 222 0 91 78"/>
+      <g>
+        <polygon class="a" points="217 3 232 3 237 0 222 0 217 3"/>
+        <polygon class="a" points="232 3 232 8 237 5 237 0 232 3"/>
+      </g>
+    </g>
+  </g>
+</svg>

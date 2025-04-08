@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="382" viewBox="0 0 244 382">
+  <defs>
+    <style>
+      .a {
+        fill: #336;
+        opacity: 0.2;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: #399;
+      }
+
+      .d {
+        fill: #333;
+      }
+
+      .e {
+        fill: gray;
+      }
+
+      .f {
+        fill: #666;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="114 180 4 180 0 174 4 0 114 0 118 174 114 180"/>
+      <rect class="b" x="4" width="110" height="170"/>
+      <rect class="c" x="14" y="10" width="90" height="150"/>
+      <g>
+        <polygon class="d" points="106 7 12 7 14 10 104 10 106 7"/>
+        <polygon class="e" points="106 163 12 163 14 160 104 160 106 163"/>
+        <polygon class="f" points="12 7 14 10 14 160 12 163 12 7"/>
+        <polygon class="f" points="106 7 104 10 104 160 106 163 106 7"/>
+      </g>
+    </g>
+    <g>
+      <polygon class="a" points="244 180 139 180 135 174 139 0 244 0 244 180"/>
+      <rect class="b" x="139" width="105" height="170"/>
+      <rect class="c" x="149" y="10" width="90" height="150"/>
+      <g>
+        <polygon class="d" points="241 7 147 7 149 10 239 10 241 7"/>
+        <polygon class="e" points="241 163 147 163 149 160 239 160 241 163"/>
+        <polygon class="f" points="147 7 149 10 149 160 147 163 147 7"/>
+        <polygon class="f" points="241 7 239 10 239 160 241 163 241 7"/>
+      </g>
+    </g>
+    <g>
+      <polygon class="a" points="114 382 4 382 0 369 4 195 114 195 118 369 114 382"/>
+      <rect class="b" x="4" y="195" width="110" height="170"/>
+      <rect class="c" x="14" y="205" width="90" height="150"/>
+      <g>
+        <polygon class="d" points="106 202 12 202 14 205 104 205 106 202"/>
+        <polygon class="e" points="106 358 12 358 14 355 104 355 106 358"/>
+        <polygon class="f" points="12 202 14 205 14 355 12 358 12 202"/>
+        <polygon class="f" points="106 202 104 205 104 355 106 358 106 202"/>
+      </g>
+    </g>
+    <g>
+      <polygon class="a" points="244 382 139 382 135 369 139 195 244 195 244 382"/>
+      <rect class="b" x="139" y="195" width="105" height="170"/>
+      <rect class="c" x="149" y="205" width="90" height="150"/>
+      <g>
+        <polygon class="d" points="241 202 147 202 149 205 239 205 241 202"/>
+        <polygon class="e" points="241 358 147 358 149 355 239 355 241 358"/>
+        <polygon class="f" points="147 202 149 205 149 355 147 358 147 202"/>
+        <polygon class="f" points="241 202 239 205 239 355 241 358 241 202"/>
+      </g>
+    </g>
+  </g>
+</svg>

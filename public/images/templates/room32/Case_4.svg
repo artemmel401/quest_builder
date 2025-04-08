@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="64" viewBox="0 0 47 64">
+  <defs>
+    <style>
+      .a {
+        fill: #333;
+      }
+
+      .b {
+        fill: #fff;
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="a" d="M.5.62l46,9.78V63.33L.5,49.63V.62M0,0V50L47,64V10L0,0Z"/>
+    <path class="b" d="M28,32.27c0,4.82-2.5,8.08-5.55,7.29S17,34.31,17,29.57s2.43-8,5.45-7.31S28,27.45,28,32.27Z"/>
+  </g>
+</svg>

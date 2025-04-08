@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="47.63" viewBox="0 0 450 47.63">
+  <defs>
+    <style>
+      .a {
+        fill: #b3b3b3;
+      }
+
+      .b {
+        fill: #999;
+      }
+
+      .c {
+        fill: #4d4d4d;
+      }
+
+      .d {
+        fill: none;
+        stroke: #e6e6e6;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" x="7.26" y="3" width="435.48" height="25"/>
+    <rect class="b" x="7.26" y="23" width="435.48" height="5.13"/>
+    <rect class="c" x="442.74" width="7.26" height="30"/>
+    <rect class="c" width="7.26" height="30"/>
+    <path class="d" d="M263,35.13v3.6c0,4.08-4.21,7.4-9.41,7.4H196.41c-5.2,0-9.41-3.32-9.41-7.4v-3.6"/>
+    <rect class="a" x="3.5" y="28" width="443" height="7"/>
+    <rect class="b" x="3.62" y="33.13" width="442.38" height="2"/>
+  </g>
+</svg>

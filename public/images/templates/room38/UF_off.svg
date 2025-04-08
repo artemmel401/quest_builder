@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="34" viewBox="0 0 30 34">
+  <defs>
+    <style>
+      .a {
+        fill: #336;
+        opacity: 0.25;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: #222249;
+        opacity: 0.4;
+      }
+
+      .d {
+        fill: url(#a);
+      }
+
+      .e {
+        fill: #333;
+      }
+    </style>
+    <linearGradient id="a" x1="15" y1="25.72" x2="15" y2="3.74" gradientUnits="userSpaceOnUse">
+      <stop offset="0.01" stop-color="gray"/>
+      <stop offset="0.11" stop-color="#7c7c7c"/>
+      <stop offset="0.61" stop-color="#6c6c6c"/>
+      <stop offset="1" stop-color="#666"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" width="30" height="34"/>
+    <rect class="b" width="30" height="30"/>
+    <polygon class="c" points="6 26 24 26 25 23 5 23 6 26"/>
+    <polygon class="d" points="5.5 4.79 24.5 4.79 25.29 23 4.71 23 5.5 4.79"/>
+    <polygon class="e" points="25.29 23 4.71 23 5.5 23.79 24.5 23.79 25.29 23"/>
+  </g>
+</svg>

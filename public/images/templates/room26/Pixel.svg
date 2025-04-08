@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="1080" viewBox="0 0 20 1080">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: url(#b);
+      }
+
+      .c, .d {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .c {
+        stroke-width: 2px;
+      }
+    </style>
+    <linearGradient id="a" x1="10" x2="10" y2="792" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a58065"/>
+      <stop offset="0.43" stop-color="#966b4e"/>
+      <stop offset="0.62" stop-color="#8b6246"/>
+      <stop offset="0.96" stop-color="#6c4b32"/>
+      <stop offset="1" stop-color="#68482f"/>
+    </linearGradient>
+    <linearGradient id="b" x1="10" y1="792" x2="10" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0.23" stop-color="#b3855a"/>
+      <stop offset="0.28" stop-color="#b8895c"/>
+      <stop offset="0.46" stop-color="#c79762"/>
+      <stop offset="0.68" stop-color="#d09f66"/>
+      <stop offset="1" stop-color="#d3a267"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" width="20" height="792"/>
+    <rect class="b" y="792" width="20" height="288"/>
+    <line class="c" y1="792.5" x2="20" y2="792.5"/>
+    <line class="d" y1="760.5" x2="20" y2="760.5"/>
+  </g>
+</svg>

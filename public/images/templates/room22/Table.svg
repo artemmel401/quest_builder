@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="596" height="308" viewBox="0 0 596 308">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.2;
+      }
+
+      .b {
+        opacity: 0.3;
+      }
+
+      .c {
+        fill: #603813;
+      }
+
+      .d {
+        fill: #42210b;
+      }
+
+      .e {
+        fill: #f2f2f2;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="593 308 2 308 33 219 549 219 593 308"/>
+    <rect class="b" x="33" width="531" height="219"/>
+    <rect class="c" x="53" width="20" height="229"/>
+    <polygon class="d" points="79 0 73 0 73 229 79 223 79 0"/>
+    <polygon class="d" points="518 0 524 0 524 229 518 223 518 0"/>
+    <rect class="c" x="524" width="20" height="229"/>
+    <polygon class="d" points="46 37 40 37 40 300 46 288 46 37"/>
+    <polygon class="d" points="548 37 554 37 554 301 548 287 548 37"/>
+    <rect class="c" x="554" y="37" width="20" height="264"/>
+    <rect class="c" x="20" y="37" width="20" height="263"/>
+    <polygon class="e" points="596 37 0 37 33 0 564 0 596 37"/>
+  </g>
+</svg>

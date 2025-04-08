@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <style>
+      .a {
+        fill: #93f;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="a" cx="17.5" cy="17.5" r="17.25"/>
+    <path d="M17.5.5a17,17,0,1,1-17,17,17,17,0,0,1,17-17m0-.5A17.5,17.5,0,1,0,35,17.5,17.51,17.51,0,0,0,17.5,0Z"/>
+  </g>
+</svg>

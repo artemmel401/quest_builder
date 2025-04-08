@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.38" height="17.21" viewBox="0 0 70.38 17.21">
+  <defs>
+    <style>
+      .a {
+        fill: #366;
+      }
+
+      .b {
+        fill: gray;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" x="29.73" y="-23.6" width="4.6" height="64.42" transform="translate(46.79 -21.1) rotate(101.37)"/>
+    <polygon class="b" points="64.07 12.7 70.38 16.32 63.16 17.21 64.07 12.7"/>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="105" viewBox="0 0 105 105">
+  <defs>
+    <style>
+      .a {
+        fill: #f1f1f1;
+      }
+
+      .b {
+        fill: #b2b2b2;
+      }
+
+      .c {
+        fill: #cbcbcb;
+      }
+
+      .d {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <rect class="a" x="0.25" y="0.25" width="104.5" height="104.5"/>
+      <path class="b" d="M104.5.5v104H.5V.5h104M105,0H0V105H105V0Z"/>
+    </g>
+    <g>
+      <circle class="b" cx="12.5" cy="51.5" r="2.5"/>
+      <circle class="c" cx="13" cy="53" r="3"/>
+    </g>
+    <g>
+      <circle class="d" cx="13" cy="65" r="2"/>
+      <rect class="d" x="12" y="65" width="2" height="6" rx="1"/>
+    </g>
+  </g>
+</svg>

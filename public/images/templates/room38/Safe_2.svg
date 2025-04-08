@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="480" height="318" viewBox="0 0 480 318">
+  <defs>
+    <style>
+      .a {
+        fill: #336;
+        opacity: 0.2;
+      }
+
+      .b {
+        fill: #254c4b;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        fill: #333;
+      }
+
+      .e {
+        fill: #4d4d4d;
+      }
+
+      .f {
+        fill: #262626;
+      }
+
+      .g {
+        fill: url(#b);
+      }
+
+      .h {
+        fill: gray;
+      }
+
+      .i {
+        fill: url(#c);
+      }
+
+      .j {
+        fill: url(#d);
+      }
+
+      .k {
+        fill: url(#e);
+      }
+
+      .l {
+        fill: url(#f);
+      }
+
+      .m {
+        fill: #1a1a1a;
+      }
+    </style>
+    <linearGradient id="a" x1="274.29" y1="344.5" x2="69.39" y2="-10.4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#254c4b"/>
+      <stop offset="0.11" stop-color="#285251"/>
+      <stop offset="0.26" stop-color="#316262"/>
+      <stop offset="0.28" stop-color="#366"/>
+      <stop offset="0.35" stop-color="#386b6b"/>
+      <stop offset="0.42" stop-color="#457878"/>
+      <stop offset="0.5" stop-color="#5c8f8f"/>
+      <stop offset="0.52" stop-color="#699"/>
+      <stop offset="0.55" stop-color="#568989"/>
+      <stop offset="0.59" stop-color="#427575"/>
+      <stop offset="0.64" stop-color="#376a6a"/>
+      <stop offset="0.68" stop-color="#366"/>
+      <stop offset="0.82" stop-color="#2f5e5d"/>
+      <stop offset="1" stop-color="#254c4b"/>
+    </linearGradient>
+    <linearGradient id="b" x1="470.33" y1="297.85" x2="304.74" y2="11.05" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#254c4b"/>
+      <stop offset="0.11" stop-color="#285251"/>
+      <stop offset="0.26" stop-color="#316262"/>
+      <stop offset="0.28" stop-color="#366"/>
+      <stop offset="0.35" stop-color="#386b6b"/>
+      <stop offset="0.42" stop-color="#457878"/>
+      <stop offset="0.5" stop-color="#5c8f8f"/>
+      <stop offset="0.52" stop-color="#699"/>
+      <stop offset="0.54" stop-color="#609393"/>
+      <stop offset="0.62" stop-color="#3f7272"/>
+      <stop offset="0.67" stop-color="#366"/>
+      <stop offset="0.81" stop-color="#2f5e5d"/>
+      <stop offset="1" stop-color="#254c4b"/>
+    </linearGradient>
+    <linearGradient id="c" x1="459.31" y1="292.16" x2="289.96" y2="-1.16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset="0.1" stop-color="#454545"/>
+      <stop offset="0.18" stop-color="#4d4d4d"/>
+      <stop offset="0.23" stop-color="#5e5e5e"/>
+      <stop offset="0.32" stop-color="#717171"/>
+      <stop offset="0.41" stop-color="#7c7c7c"/>
+      <stop offset="0.5" stop-color="gray"/>
+      <stop offset="0.6" stop-color="#777"/>
+      <stop offset="0.75" stop-color="#5e5e5e"/>
+      <stop offset="0.83" stop-color="#4d4d4d"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="d" x1="279" y1="220" x2="289" y2="220" xlink:href="#c"/>
+    <linearGradient id="e" x1="279" y1="150" x2="289" y2="150" xlink:href="#c"/>
+    <linearGradient id="f" x1="279" y1="80" x2="289" y2="80" xlink:href="#c"/>
+  </defs>
+  <g>
+    <polygon class="a" points="8 5 308 5 316 308 308 318 8 318 0 308 8 5"/>
+    <polygon class="b" points="8 5 12 0 12 300 8 297 8 5"/>
+    <rect class="c" x="12" width="300" height="300"/>
+    <path class="b" d="M287,25V275H37V25H287m3-3H34V278H290V22Z"/>
+    <g>
+      <rect class="d" x="37" y="25" width="250" height="250"/>
+      <polygon class="e" points="284 272 40 272 40 248 171 248 284 272"/>
+      <rect class="f" x="40" y="28" width="131" height="220"/>
+    </g>
+    <path class="b" d="M284,28V272H40V28H284m3-3H37V275H287V25Z"/>
+    <polygon class="g" points="286 25 477 13 477 294 286 275 286 25"/>
+    <polygon class="e" points="291 31 472.5 20.5 471.5 288.5 291.5 271.5 291 31"/>
+    <polygon class="h" points="291 31 472.5 20.5 457 31 294 39 291 31"/>
+    <polygon class="d" points="294 263 457 278 471.5 288.5 291.5 271.5 294 263"/>
+    <polygon class="i" points="294 39 457 31 457 277 294 263 294 39"/>
+    <g>
+      <rect class="j" x="279" y="200" width="10" height="40"/>
+      <rect class="k" x="279" y="130" width="10" height="40"/>
+      <rect class="l" x="279" y="60" width="10" height="40"/>
+    </g>
+    <polygon class="b" points="477 13 480 14 480 293 477 294 477 13"/>
+    <g>
+      <rect class="d" x="69" y="252" width="158" height="15"/>
+      <polygon points="69 252 40 243 40 256 69 267 69 252"/>
+      <polygon class="m" points="69 252 227 252 125 233 40 233 40 243 69 252"/>
+    </g>
+  </g>
+</svg>

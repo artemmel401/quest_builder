@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="572" height="714" viewBox="0 0 572 714">
+  <defs>
+    <style>
+      .a {
+        fill: #1a1a1a;
+      }
+
+      .b {
+        fill: #1b1b3a;
+        opacity: 0.3;
+      }
+
+      .c {
+        fill: #333;
+      }
+
+      .d {
+        fill: #262626;
+      }
+
+      .e {
+        fill: #4d4d4d;
+      }
+
+      .f {
+        fill: #9cc;
+      }
+
+      .g, .i {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .g {
+        stroke: #9cc;
+        stroke-linecap: round;
+      }
+
+      .h {
+        fill: url(#a);
+      }
+
+      .i {
+        stroke: #3f3f3f;
+        stroke-width: 5px;
+      }
+
+      .j {
+        fill: #3f3f3f;
+      }
+    </style>
+    <linearGradient id="a" x1="17.3" y1="464.56" x2="-9.82" y2="437.44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset="0.08" stop-color="#3c3c3c"/>
+      <stop offset="0.18" stop-color="#4d4d4d"/>
+      <stop offset="0.27" stop-color="#5b5b5b"/>
+      <stop offset="0.52" stop-color="gray"/>
+      <stop offset="0.68" stop-color="#686868"/>
+      <stop offset="0.82" stop-color="#4d4d4d"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon class="a" points="527 691 572 714 572 0 527 20 527 691"/>
+    <polygon class="b" points="527 691 0 691 10 714 572 714 527 691"/>
+    <g>
+      <circle class="a" cx="77" cy="687" r="20"/>
+      <ellipse class="c" cx="77" cy="682.5" rx="22" ry="17.5"/>
+      <path class="d" d="M55,682.5a14.44,14.44,0,0,0,1.11,5.5H97.89A14.44,14.44,0,0,0,99,682.5c0-.17,0-.33,0-.5H55C55,682.17,55,682.33,55,682.5Z"/>
+      <path class="e" d="M62.09,691.88c2.68.64,5.06,1.23,7.42,1.66a50.37,50.37,0,0,0,6.93.74,49.63,49.63,0,0,0,7-.24c2.38-.27,4.79-.71,7.51-1.17l.16.26a24.91,24.91,0,0,1-7,3.2,25.7,25.7,0,0,1-7.7.95,25.39,25.39,0,0,1-7.62-1.49,24.52,24.52,0,0,1-6.81-3.67Z"/>
+    </g>
+    <g>
+      <circle class="a" cx="463" cy="687" r="20"/>
+      <ellipse class="c" cx="463" cy="682.5" rx="22" ry="17.5"/>
+      <path class="d" d="M441,682.5a14.44,14.44,0,0,0,1.11,5.5h41.78a14.44,14.44,0,0,0,1.11-5.5c0-.17,0-.33,0-.5H441C441,682.17,441,682.33,441,682.5Z"/>
+      <path class="e" d="M448.09,691.88c2.68.64,5.06,1.23,7.42,1.66a50.37,50.37,0,0,0,6.93.74,49.63,49.63,0,0,0,7-.24c2.38-.27,4.79-.71,7.51-1.17l.16.26a24.91,24.91,0,0,1-7,3.2,25.7,25.7,0,0,1-7.7.95,25.39,25.39,0,0,1-7.62-1.49,24.52,24.52,0,0,1-6.81-3.67Z"/>
+    </g>
+    <g>
+      <rect class="c" x="2" y="23" width="569" height="20"/>
+      <rect class="c" x="2" y="663" width="569" height="20"/>
+      <rect class="c" x="2" y="23" width="20" height="660"/>
+    </g>
+    <rect class="a" x="22" y="43" width="549" height="7"/>
+    <rect class="a" x="22" y="656" width="550" height="7"/>
+    <polygon class="e" points="0 691 10 714 10 0 0 20 0 691"/>
+    <g>
+      <g>
+        <polygon class="a" points="7 311 2 312 2 255 7 251 7 311"/>
+        <polygon class="c" points="6.42 308 2.58 309 2.58 258 6 256 6.42 308"/>
+      </g>
+      <path class="f" d="M5,276.06l.58-.24-.78-11-.59.29-.77,11.59.56-.24.14-2.07.73-.31Zm-.26-4-.47.21.23-3.9Z"/>
+      <path class="f" d="M4.94,296.56l.63-.17-.86-11.07-.64.22L3.22,297l.62-.16.15-2,.8-.22Zm-.29-4-.52.15.26-3.86Z"/>
+      <line class="g" x1="3.43" y1="282" x2="5.57" y2="281"/>
+    </g>
+    <g>
+      <polygon class="c" points="7 425 2 422 2 477 7 482 7 425"/>
+      <polygon class="a" points="6.29 428 2.63 425 2.63 475 6.29 479 6.29 428"/>
+      <polygon class="h" points="4.86 427 2.63 425 2.63 475 4.86 477 4.86 427"/>
+    </g>
+    <rect class="a" x="10" width="5" height="714"/>
+    <g>
+      <g>
+        <line class="i" x1="77" y1="46.5" x2="77" y2="659.5"/>
+        <line class="i" x1="132.5" y1="46.5" x2="132.5" y2="659.5"/>
+        <line class="i" x1="187.5" y1="46.5" x2="187.5" y2="659.5"/>
+        <line class="i" x1="242" y1="46.5" x2="242" y2="659.5"/>
+        <line class="i" x1="297.5" y1="46.5" x2="297.5" y2="659.5"/>
+        <line class="i" x1="352.5" y1="46.5" x2="352.5" y2="659.5"/>
+        <line class="i" x1="407" y1="46.5" x2="407" y2="659.5"/>
+        <line class="i" x1="462.5" y1="46.5" x2="462.5" y2="659.5"/>
+        <line class="i" x1="517.5" y1="46.5" x2="517.5" y2="659.5"/>
+      </g>
+      <g>
+        <line class="i" x1="21.5" y1="605" x2="570.5" y2="605"/>
+        <line class="i" x1="22" y1="549.5" x2="571" y2="549.5"/>
+        <line class="i" x1="22" y1="494.5" x2="571" y2="494.5"/>
+        <line class="i" x1="21.5" y1="440" x2="570.5" y2="440"/>
+        <line class="i" x1="22" y1="384.5" x2="571" y2="384.5"/>
+        <line class="i" x1="22" y1="329.5" x2="571" y2="329.5"/>
+        <line class="i" x1="21.5" y1="275" x2="570.5" y2="275"/>
+        <line class="i" x1="22" y1="219.5" x2="571" y2="219.5"/>
+        <line class="i" x1="22" y1="164.5" x2="571" y2="164.5"/>
+        <line class="i" x1="21" y1="109.5" x2="570" y2="109.5"/>
+      </g>
+    </g>
+    <g>
+      <rect class="j" x="225" y="100" width="105" height="19"/>
+      <rect class="j" x="225" y="373" width="105" height="19"/>
+    </g>
+  </g>
+</svg>

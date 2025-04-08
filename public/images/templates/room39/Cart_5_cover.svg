@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="221" height="123" viewBox="0 0 221 123">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: url(#b);
+      }
+
+      .c {
+        fill: url(#c);
+      }
+
+      .d {
+        fill: url(#d);
+      }
+
+      .e {
+        fill: url(#e);
+      }
+
+      .f {
+        fill: url(#f);
+      }
+
+      .g {
+        fill: url(#g);
+      }
+
+      .h {
+        fill: url(#h);
+      }
+
+      .i {
+        fill: url(#i);
+      }
+    </style>
+    <linearGradient id="a" x1="16.18" y1="35.71" x2="218.46" y2="35.71" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset="0.13" stop-color="#a5a5a5"/>
+      <stop offset="0.23" stop-color="#b1b1b1"/>
+      <stop offset="0.33" stop-color="#bdbdbd"/>
+      <stop offset="0.48" stop-color="#c8c8c8"/>
+      <stop offset="0.65" stop-color="#ccc"/>
+      <stop offset="0.94" stop-color="#b3b3b3"/>
+    </linearGradient>
+    <linearGradient id="b" x1="28.75" y1="69.59" x2="214.56" y2="69.59" xlink:href="#a"/>
+    <linearGradient id="c" x1="16.57" y1="23.72" x2="89.57" y2="96.72" xlink:href="#a"/>
+    <linearGradient id="d" x1="47.9" y1="23.08" x2="118.34" y2="93.52" xlink:href="#a"/>
+    <linearGradient id="e" x1="81.47" y1="25.32" x2="145.51" y2="89.36" xlink:href="#a"/>
+    <linearGradient id="f" x1="114.24" y1="27.07" x2="172.84" y2="85.68" xlink:href="#a"/>
+    <linearGradient id="g" x1="147.17" y1="28.03" x2="200.65" y2="81.51" xlink:href="#a"/>
+    <linearGradient id="h" x1="183" y1="31.03" x2="229.21" y2="77.24" xlink:href="#a"/>
+    <linearGradient id="i" x1="0" y1="61.5" x2="221" y2="61.5" xlink:href="#a"/>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="218.46 37.91 16.18 37.36 16.18 33.51 218.46 34.07 218.46 37.91"/>
+      <polygon class="b" points="214.56 65.09 28.75 77.93 28.75 74.09 214.56 61.25 214.56 65.09"/>
+    </g>
+    <g>
+      <polygon class="c" points="70.33 115.95 66.49 115.95 35.8 4.48 39.64 4.48 70.33 115.95"/>
+      <polygon class="d" points="98.46 113.39 94.63 113.39 67.77 3.2 71.61 3.2 98.46 113.39"/>
+      <polygon class="e" points="125.31 109.55 121.48 109.55 101.66 5.13 105.5 5.13 125.31 109.55"/>
+      <polygon class="f" points="152.17 106.34 148.33 106.34 134.91 6.41 138.74 6.41 152.17 106.34"/>
+      <polygon class="g" points="179.02 103.14 175.19 103.14 168.79 6.41 172.63 6.41 179.02 103.14"/>
+      <polygon class="h" points="205.87 100.58 202.04 100.58 206.33 7.71 210.19 7.71 205.87 100.58"/>
+    </g>
+    <path class="i" d="M0,0,39,123l169.05-18.89a10.24,10.24,0,0,0,9.09-9.72l3.86-91ZM205.19,98.78,43.48,117.87,7,4.48,216.1,8.33,212,91.53A7.68,7.68,0,0,1,205.19,98.78Z"/>
+  </g>
+</svg>

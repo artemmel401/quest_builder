@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="219" height="185" viewBox="0 0 219 185">
+  <defs>
+    <style>
+      .a {
+        fill: #333;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: #666;
+      }
+    </style>
+    <linearGradient id="a" x1="109.5" y1="-9.45" x2="109.5" y2="171.55" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="0.42" stop-color="#333"/>
+      <stop offset="0.8" stop-color="#4d4d4d"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" width="219" height="181"/>
+    <rect class="b" width="219" height="181"/>
+    <rect class="c" x="1" y="151" width="218" height="34"/>
+  </g>
+</svg>

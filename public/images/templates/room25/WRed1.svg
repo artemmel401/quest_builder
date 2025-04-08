@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="51" viewBox="0 0 140 51">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #ed1c24;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <path class="a" d="M138.5,33.33c-5.3-11.94-13.86-27.22-25.6-31.18C108.63.7,101.32-.13,75.54,20.57S38.84,56.65,31.25,46.09c-4.55-6.34-3.81-16.43-9-21.27C15.75,18.74,7.35,27.92,1.5,36.16"/>
+</svg>

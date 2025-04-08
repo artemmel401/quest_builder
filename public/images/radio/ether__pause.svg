@@ -1,0 +1,24 @@
+<svg width="56" height="40" viewBox="0 0 56 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_560:8278)">
+<g filter="url(#filter0_d_560:8278)">
+<path d="M24 10.666H21.3333C20.597 10.666 20 11.263 20 11.9993V27.9993C20 28.7357 20.597 29.3327 21.3333 29.3327H24C24.7364 29.3327 25.3333 28.7357 25.3333 27.9993V11.9993C25.3333 11.263 24.7364 10.666 24 10.666Z" fill="#006666" stroke="#006666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34.667 10.666H32.0003C31.2639 10.666 30.667 11.263 30.667 11.9993V27.9993C30.667 28.7357 31.2639 29.3327 32.0003 29.3327H34.667C35.4034 29.3327 36.0003 28.7357 36.0003 27.9993V11.9993C36.0003 11.263 35.4034 10.666 34.667 10.666Z" fill="#006666" stroke="#006666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<path d="M10 2H46V-2H10V2ZM54 10V30H58V10H54ZM46 38H10V42H46V38ZM2 30V10H-2V30H2ZM10 38C5.58172 38 2 34.4183 2 30H-2C-2 36.6274 3.37258 42 10 42V38ZM54 30C54 34.4183 50.4183 38 46 38V42C52.6274 42 58 36.6274 58 30H54ZM46 2C50.4183 2 54 5.58172 54 10H58C58 3.37258 52.6274 -2 46 -2V2ZM10 -2C3.37258 -2 -2 3.37258 -2 10H2C2 5.58172 5.58172 2 10 2V-2Z" fill="#E6F0F0"/>
+<defs>
+<filter id="filter0_d_560:8278" x="8" y="4" width="40" height="40" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_560:8278"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_560:8278" result="shape"/>
+</filter>
+<clipPath id="clip0_560:8278">
+<path d="M0 10C0 4.47715 4.47715 0 10 0H46C51.5228 0 56 4.47715 56 10V30C56 35.5228 51.5228 40 46 40H10C4.47715 40 0 35.5228 0 30V10Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

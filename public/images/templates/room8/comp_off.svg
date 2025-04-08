@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115.36" height="96.17" viewBox="0 0 115.36 96.17">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: #fff;
+      }
+
+      .c {
+        fill: url(#b);
+      }
+
+      .d {
+        fill: #3e3e3e;
+      }
+    </style>
+    <radialGradient id="a" cx="56.62" cy="89.71" r="41.86" gradientTransform="matrix(1, 0.03, -0.01, 0.2, 0.53, 70.18)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6d6d6d" stop-opacity="0.36"/>
+      <stop offset="0.24" stop-color="#666" stop-opacity="0.5"/>
+      <stop offset="0.64" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="b" data-name="Degradado sin nombre 48" x1="57.68" y1="77.33" x2="57.68" y2="83.73" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ececec"/>
+      <stop offset="1" stop-color="#ececec" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="a" d="M83.16,89.71c0,3.57-11.88,6.46-26.54,6.46s-26.54-2.89-26.54-6.46S42,83.26,56.62,83.26,83.16,86.15,83.16,89.71Z"/>
+    <g>
+      <path class="b" d="M73.63,91.45H41.73a1,1,0,0,1-.79-1.57l4.39-6a1,1,0,0,0,.19-.58V74.51H69.85v9.06h0l4.59,6.31A1,1,0,0,1,73.63,91.45Z"/>
+      <path class="c" d="M73.63,91.45H41.73a1,1,0,0,1-.79-1.57l4.39-6a1,1,0,0,0,.19-.58V74.51H69.85v9.06h0l4.59,6.31A1,1,0,0,1,73.63,91.45Z"/>
+      <rect class="b" width="115.36" height="77.27" rx="3.27"/>
+      <rect width="115.36" height="67.53" rx="3.27"/>
+      <rect class="d" x="5.08" y="5.05" width="105.2" height="57.42"/>
+      <path d="M59.56,72.18a1.88,1.88,0,1,1-1.88-1.88A1.89,1.89,0,0,1,59.56,72.18Z"/>
+    </g>
+  </g>
+</svg>

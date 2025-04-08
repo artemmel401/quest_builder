@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="619" height="53" viewBox="0 0 619 53">
+  <defs>
+    <style>
+      .a {
+        fill: #333;
+      }
+
+      .b {
+        fill: #fff;
+      }
+
+      .c {
+        fill: #1a1a1a;
+      }
+
+      .d {
+        fill: #4d4d4d;
+      }
+
+      .e {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" x1="309.5" y1="11" x2="309.5" y2="76.46" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="0.17" stop-color="#fff" stop-opacity="0.88"/>
+      <stop offset="0.29" stop-color="#fff" stop-opacity="0.83"/>
+      <stop offset="0.42" stop-color="#fff" stop-opacity="0.75"/>
+      <stop offset="0.55" stop-color="#fff" stop-opacity="0.63"/>
+      <stop offset="0.68" stop-color="#fff" stop-opacity="0.48"/>
+      <stop offset="0.82" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="0.95" stop-color="#fff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="46.14 52.75 16.45 5.25 599.55 5.25 569.86 52.75 46.14 52.75"/>
+      <path d="M599.1,5.5l-29.38,47H46.28L16.9,5.5H599.1M600,5H16L46,53H570L600,5Z"/>
+    </g>
+    <g>
+      <polygon class="b" points="50.15 46.49 28.86 11.18 588.19 11.18 566.5 46.49 50.15 46.49"/>
+      <path d="M587.75,11.43,566.36,46.24H50.29l-21-34.81H587.75m.89-.5H28.42L50,46.74H566.64l22-35.81Z"/>
+    </g>
+    <g>
+      <rect class="c" x="16.25" y="0.25" width="583.5" height="4.5"/>
+      <path d="M599.5.5v4H16.5V.5h583M600,0H16V5H600V0Z"/>
+    </g>
+    <g>
+      <rect class="d" x="50.25" y="42.25" width="518.5" height="4.5"/>
+      <path d="M568.5,42.5v4H50.5v-4h518m.5-.5H50v5H569V42Z"/>
+    </g>
+    <g>
+      <polygon class="d" points="29.43 11.25 31.86 11.25 49.75 42.07 49.75 46.08 29.43 11.25"/>
+      <path d="M31.71,11.5,49.5,42.13v3L29.87,11.5h1.84M32,11H29L50,47V42L32,11Z"/>
+    </g>
+    <g>
+      <polygon class="d" points="569.25 42.07 587.14 11.25 589.56 11.25 569.25 46.08 569.25 42.07"/>
+      <path d="M589.13,11.5,569.5,45.15v-3L587.29,11.5h1.84M590,11h-3L569,42v5l21-36Z"/>
+    </g>
+    <polygon class="e" points="619 53 0 53 29 11 589 11 619 53"/>
+  </g>
+</svg>

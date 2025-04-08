@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="232" height="242" viewBox="0 0 232 242">
+  <defs>
+    <style>
+      .a {
+        fill: #333;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        fill: url(#b);
+      }
+
+      .e {
+        fill: #ccc;
+      }
+
+      .f {
+        fill: url(#c);
+      }
+
+      .g {
+        fill: url(#d);
+      }
+
+      .h {
+        fill: url(#e);
+      }
+
+      .i {
+        opacity: 0.75;
+      }
+
+      .j, .k {
+        fill: #fff;
+      }
+
+      .k {
+        opacity: 0.2;
+      }
+
+      .l {
+        fill: url(#f);
+      }
+    </style>
+    <linearGradient id="a" x1="239.32" y1="428.36" x2="124.02" y2="228.66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d4d4d"/>
+      <stop offset="0.98" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="b" x1="182.44" y1="213.84" x2="51.56" y2="-12.84" gradientUnits="userSpaceOnUse">
+      <stop offset="0.09" stop-color="#ccc"/>
+      <stop offset="0.28" stop-color="#e3e3e3"/>
+      <stop offset="0.31" stop-color="#e6e6e6"/>
+      <stop offset="0.49" stop-color="#f1f1f1"/>
+      <stop offset="0.5" stop-color="#f2f2f2"/>
+      <stop offset="0.78" stop-color="#e6e6e6"/>
+      <stop offset="0.98" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="c" x1="210" y1="119.5" x2="215" y2="119.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="0.58" stop-color="#eee"/>
+      <stop offset="1" stop-color="#e6e6e6"/>
+    </linearGradient>
+    <linearGradient id="d" x1="190" y1="108" x2="195" y2="108" xlink:href="#c"/>
+    <linearGradient id="e" x1="87" y1="173.36" x2="87" y2="20.76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#399"/>
+      <stop offset="0.16" stop-color="#1f7085"/>
+      <stop offset="0.31" stop-color="#0e4f74"/>
+      <stop offset="0.44" stop-color="#043a6a"/>
+      <stop offset="0.53" stop-color="#036"/>
+      <stop offset="0.69" stop-color="#021e45"/>
+      <stop offset="0.86" stop-color="#040c29"/>
+      <stop offset="0.96" stop-color="#05051e"/>
+    </linearGradient>
+    <linearGradient id="f" x1="113.96" y1="108.19" x2="45.96" y2="-9.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0.33" stop-color="#fff" stop-opacity="0.1"/>
+      <stop offset="0.42" stop-color="#fff" stop-opacity="0.12"/>
+      <stop offset="0.53" stop-color="#fff" stop-opacity="0.17"/>
+      <stop offset="0.64" stop-color="#fff" stop-opacity="0.27"/>
+      <stop offset="0.76" stop-color="#fff" stop-opacity="0.39"/>
+      <stop offset="0.88" stop-color="#fff" stop-opacity="0.56"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon class="a" points="2 0 0 1 0 240 227 240 2 0"/>
+    <rect class="b" x="2" width="230" height="240"/>
+    <rect class="c" x="12" y="191" width="210" height="51"/>
+    <rect class="d" x="12" y="10" width="210" height="181"/>
+    <g>
+      <rect class="e" x="195" y="10" width="27" height="196"/>
+      <rect class="e" x="215" y="10" width="7" height="219"/>
+      <rect class="f" x="210" y="10" width="5" height="219"/>
+      <rect class="g" x="190" y="10" width="5" height="196"/>
+    </g>
+    <g>
+      <rect class="b" x="12" y="10" width="155" height="140"/>
+      <rect class="h" x="12" y="10" width="150" height="135.48"/>
+      <g>
+        <g class="i">
+          <circle class="j" cx="134.7" cy="60.73" r="0.61"/>
+          <circle class="j" cx="148.66" cy="88.04" r="0.61"/>
+          <circle class="j" cx="149.87" cy="29.17" r="0.61"/>
+          <circle class="j" cx="145.93" cy="14.3" r="0.3"/>
+          <circle class="j" cx="155.03" cy="39.79" r="0.3"/>
+          <circle class="j" cx="131.36" cy="42.83" r="0.3"/>
+          <circle class="j" cx="131.97" cy="22.19" r="0.3"/>
+          <circle class="j" cx="155.03" cy="19.77" r="0.3"/>
+          <circle class="j" cx="151.39" cy="70.74" r="0.3"/>
+          <circle class="j" cx="134.4" cy="95.02" r="0.3"/>
+          <circle class="j" cx="155.64" cy="101.7" r="0.3"/>
+        </g>
+        <g class="i">
+          <circle class="j" cx="64.24" cy="34.8" r="0.61"/>
+          <circle class="j" cx="91.54" cy="20.82" r="0.61"/>
+          <circle class="j" cx="32.67" cy="19.65" r="0.61"/>
+          <circle class="j" cx="17.8" cy="23.6" r="0.3"/>
+          <circle class="j" cx="43.29" cy="14.48" r="0.3"/>
+          <circle class="j" cx="46.34" cy="38.15" r="0.3"/>
+          <circle class="j" cx="25.7" cy="37.56" r="0.3"/>
+          <circle class="j" cx="23.26" cy="14.5" r="0.3"/>
+          <circle class="j" cx="74.24" cy="18.1" r="0.3"/>
+          <circle class="j" cx="98.53" cy="35.08" r="0.3"/>
+          <circle class="j" cx="105.19" cy="13.83" r="0.3"/>
+        </g>
+        <g class="i">
+          <circle class="j" cx="75.24" cy="65.8" r="0.61"/>
+          <circle class="j" cx="102.54" cy="51.82" r="0.61"/>
+          <circle class="j" cx="43.67" cy="50.65" r="0.61"/>
+          <circle class="j" cx="28.8" cy="54.6" r="0.3"/>
+          <circle class="j" cx="54.29" cy="45.48" r="0.3"/>
+          <circle class="j" cx="57.34" cy="69.15" r="0.3"/>
+          <circle class="j" cx="36.7" cy="68.56" r="0.3"/>
+          <circle class="j" cx="34.26" cy="45.5" r="0.3"/>
+          <circle class="j" cx="85.24" cy="49.1" r="0.3"/>
+          <circle class="j" cx="109.53" cy="66.08" r="0.3"/>
+          <circle class="j" cx="116.19" cy="44.83" r="0.3"/>
+        </g>
+        <g class="i">
+          <circle class="j" cx="69.24" cy="101.8" r="0.61"/>
+          <circle class="j" cx="96.54" cy="87.82" r="0.61"/>
+          <circle class="j" cx="37.67" cy="86.65" r="0.61"/>
+          <circle class="j" cx="22.8" cy="90.6" r="0.3"/>
+          <circle class="j" cx="48.29" cy="81.48" r="0.3"/>
+          <circle class="j" cx="51.34" cy="105.15" r="0.3"/>
+          <circle class="j" cx="30.7" cy="104.56" r="0.3"/>
+          <circle class="j" cx="28.26" cy="81.5" r="0.3"/>
+          <circle class="j" cx="79.24" cy="85.1" r="0.3"/>
+          <circle class="j" cx="103.53" cy="102.08" r="0.3"/>
+          <circle class="j" cx="110.19" cy="80.83" r="0.3"/>
+        </g>
+      </g>
+      <rect class="k" x="12" y="10" width="150" height="135.48"/>
+      <polygon class="l" points="12 112.97 162 80.45 162 10 12 10 12 112.97"/>
+      <rect class="b" x="122" y="10" width="3" height="140"/>
+      <rect class="b" x="82" y="10" width="3" height="140"/>
+      <rect class="b" x="88.15" y="15.15" width="2.71" height="155" transform="translate(182.15 3.15) rotate(90)"/>
+      <rect class="b" x="88.15" y="-39.05" width="2.71" height="155" transform="translate(127.95 -51.05) rotate(90)"/>
+      <rect class="b" x="42" y="10" width="3" height="140"/>
+    </g>
+  </g>
+</svg>

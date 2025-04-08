@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1390" height="226.25" viewBox="0 0 1390 226.25">
+  <defs>
+    <style>
+      .a {
+        fill: #c69c6d;
+      }
+
+      .b, .f, .g, .h, .i {
+        fill: none;
+      }
+
+      .b {
+        stroke: #c69c6d;
+      }
+
+      .b, .f, .g, .i {
+        stroke-miterlimit: 10;
+      }
+
+      .c {
+        fill: #998675;
+      }
+
+      .d {
+        opacity: 0.2;
+      }
+
+      .e {
+        fill: #c7b299;
+      }
+
+      .f, .h, .i {
+        stroke: #736357;
+      }
+
+      .f, .g, .h {
+        stroke-linecap: round;
+        stroke-width: 0.5px;
+      }
+
+      .g {
+        stroke: #998675;
+      }
+
+      .h {
+        stroke-linejoin: bevel;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="1316 155.25 146 155.25 14 226.25 1382 226.25 1316 155.25"/>
+    <rect class="b" x="146" y="15.25" width="1170" height="140"/>
+    <rect class="c" x="470" y="61.25" width="456" height="165"/>
+    <rect class="c" x="926" y="61.25" width="456" height="165"/>
+    <rect class="c" x="14" y="61.25" width="456" height="165"/>
+    <rect class="d" x="14" y="61.25" width="456" height="30"/>
+    <rect class="d" x="470" y="61.25" width="456" height="30"/>
+    <rect class="d" x="926" y="61.25" width="456" height="30"/>
+    <rect class="c" y="53.25" width="1390" height="13"/>
+    <polygon class="e" points="461 53.25 0 53.25 158 0.25 542 0.25 461 53.25"/>
+    <polygon class="e" points="926 53.25 1390 53.25 1310 0.25 924 0.25 926 53.25"/>
+    <polygon class="e" points="926 53.25 461 53.25 542 0.25 924 0.25 926 53.25"/>
+    <line class="f" x1="926" y1="53.25" x2="924" y2="0.25"/>
+    <line class="g" x1="461" y1="53.25" x2="461" y2="66.25"/>
+    <line class="g" x1="926" y1="53.25" x2="926" y2="66.25"/>
+    <line class="h" x1="461" y1="53.25" x2="542" y2="0.25"/>
+    <line class="i" x1="470" y1="226.25" x2="470" y2="66.25"/>
+    <line class="i" x1="926" y1="226.25" x2="926" y2="66.25"/>
+  </g>
+</svg>

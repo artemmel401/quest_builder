@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="246" height="230" viewBox="0 0 246 230">
+  <defs>
+    <style>
+      .a {
+        fill: #ffede1;
+      }
+
+      .b {
+        fill: #fc3;
+      }
+
+      .c {
+        fill: #333;
+      }
+
+      .d {
+        fill: #c3c;
+      }
+
+      .e {
+        fill: #399;
+      }
+
+      .f {
+        fill: #f93;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" width="246" height="230"/>
+    <rect class="b" x="81" width="165" height="165"/>
+    <rect class="c" x="74" width="7" height="230"/>
+    <rect class="c" x="30" width="7" height="109"/>
+    <rect class="c" y="165" width="246" height="7"/>
+    <rect class="c" y="109" width="74" height="16"/>
+    <rect class="c" x="181" y="172" width="16" height="58"/>
+    <rect class="d" width="30" height="109"/>
+    <rect class="e" x="197" y="172" width="49" height="58"/>
+    <rect class="f" y="172" width="74" height="58"/>
+  </g>
+</svg>

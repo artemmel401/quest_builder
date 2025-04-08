@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.6" height="47.41" viewBox="0 0 70.6 47.41">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.33;
+        isolation: isolate;
+      }
+
+      .b {
+        fill: #b79780;
+      }
+
+      .b, .c, .d, .e, .f, .g {
+        stroke: #ab9065;
+        stroke-miterlimit: 10;
+        stroke-width: 0.2px;
+      }
+
+      .c {
+        fill: #ffeede;
+      }
+
+      .d {
+        fill: #ffe7cc;
+      }
+
+      .e {
+        fill: #e0c3a4;
+      }
+
+      .f {
+        fill: #efd4b4;
+      }
+
+      .g {
+        fill: #c4a286;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="a" d="M65.15,42c0,3-15.2,5.45-31.7,5.45S3.45,45,3.45,42s13.5-5.45,30-5.45S65.15,39,65.15,42Z"/>
+    <polygon class="b" points="48.45 41.51 18.45 45.91 70.15 15.41 48.45 41.51"/>
+    <polygon class="c" points="21.85 17.61 25.15 24.11 18.45 45.91 21.85 17.61"/>
+    <polygon class="d" points="26.85 26.31 15.15 8.91 15.15 0.21 36.85 0.21 26.85 26.31"/>
+    <polygon class="e" points="40.15 26.31 35.15 37.21 25.15 24.11 35.15 4.61 51.85 21.91 40.15 26.31"/>
+    <polygon class="d" points="70.15 15.41 63.45 17.61 53.45 13.31 65.15 8.91 70.15 15.41"/>
+    <polygon class="b" points="65.15 17.61 51.85 21.91 35.15 4.61 38.45 2.41 65.15 17.61"/>
+    <polygon class="f" points="65.15 39.31 40.15 26.31 70.15 15.41 65.15 39.31"/>
+    <polygon class="g" points="38.45 2.41 35.15 4.61 36.85 0.21 38.45 2.41"/>
+    <polygon class="f" points="35.15 37.21 18.45 45.91 25.15 24.11 35.15 37.21"/>
+    <polygon class="g" points="48.45 30.61 35.15 37.21 40.15 26.31 48.45 30.61"/>
+    <polygon class="f" points="18.45 45.91 0.15 30.61 10.15 21.91 21.85 19.81 18.45 45.91"/>
+  </g>
+</svg>

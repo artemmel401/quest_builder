@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200.82" height="208.45" viewBox="0 0 200.82 208.45">
+  <defs>
+    <style>
+      .a {
+        isolation: isolate;
+      }
+
+      .b, .d, .e, .f, .g, .h, .i {
+        stroke-miterlimit: 10;
+      }
+
+      .b, .d, .f, .g, .i {
+        stroke-width: 0.22px;
+      }
+
+      .b {
+        fill: url(#a);
+        stroke: url(#b);
+      }
+
+      .c {
+        mix-blend-mode: overlay;
+      }
+
+      .d {
+        fill: url(#c);
+        stroke: url(#d);
+      }
+
+      .e, .h {
+        fill: none;
+      }
+
+      .e {
+        stroke-width: 0.68px;
+        stroke: url(#e);
+      }
+
+      .f {
+        fill: url(#f);
+        stroke: url(#g);
+      }
+
+      .g {
+        fill: url(#h);
+        stroke: url(#i);
+      }
+
+      .h {
+        stroke: #686666;
+        stroke-width: 2px;
+      }
+
+      .i {
+        fill: url(#j);
+        stroke: url(#k);
+      }
+    </style>
+    <linearGradient id="a" data-name="Unbenannter Verlauf 6" x1="91.11" y1="4.63" x2="91.11" y2="209.33" gradientUnits="userSpaceOnUse">
+      <stop offset="0.01" stop-color="#4c4b4a"/>
+      <stop offset="0.14" stop-color="#c6c6c6"/>
+      <stop offset="0.39" stop-color="#5e5e5e"/>
+      <stop offset="0.48" stop-color="#4e4e4e"/>
+      <stop offset="0.7" stop-color="#2b2b2b"/>
+      <stop offset="0.88" stop-color="#151515"/>
+      <stop offset="1" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="b" data-name="Unbenannter Verlauf 4" x1="2.11" y1="112.11" x2="180.12" y2="112.11" gradientUnits="userSpaceOnUse">
+      <stop offset="0.01" stop-color="#4c4b4a"/>
+      <stop offset="0.39" stop-color="#5e5e5e"/>
+      <stop offset="0.87" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="c" data-name="Unbenannter Verlauf 719" x1="90.8" y1="239.36" x2="90.8" y2="-36.05" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a0a09f"/>
+      <stop offset="0.18" stop-color="#afafaf"/>
+      <stop offset="0.19" stop-color="#ababab"/>
+      <stop offset="0.23" stop-color="#8f8f8f"/>
+      <stop offset="0.29" stop-color="#797979"/>
+      <stop offset="0.34" stop-color="#6a6a6a"/>
+      <stop offset="0.41" stop-color="#616161"/>
+      <stop offset="0.5" stop-color="#5e5e5e"/>
+      <stop offset="0.58" stop-color="#666"/>
+      <stop offset="0.71" stop-color="#7c7c7c"/>
+      <stop offset="0.86" stop-color="#a1a1a1"/>
+      <stop offset="1" stop-color="#c6c6c6"/>
+    </linearGradient>
+    <linearGradient id="d" data-name="Unbenannter Verlauf 47" x1="10.88" y1="111.1" x2="170.72" y2="111.1" gradientUnits="userSpaceOnUse">
+      <stop offset="0.01" stop-color="#4c4b4a"/>
+      <stop offset="0.39" stop-color="#5e5e5e"/>
+      <stop offset="0.62" stop-color="#fff"/>
+      <stop offset="0.67" stop-color="#bfbfbf"/>
+      <stop offset="0.72" stop-color="gray"/>
+      <stop offset="0.77" stop-color="#4e4e4e"/>
+      <stop offset="0.81" stop-color="#2b2b2b"/>
+      <stop offset="0.85" stop-color="#151515"/>
+      <stop offset="0.87" stop-color="#0d0d0d"/>
+      <stop offset="0.9" stop-color="#101010"/>
+      <stop offset="0.92" stop-color="#1a1a1a"/>
+      <stop offset="0.94" stop-color="#2a2a2a"/>
+      <stop offset="0.95" stop-color="#424242"/>
+      <stop offset="0.97" stop-color="#606060"/>
+      <stop offset="0.99" stop-color="#848484"/>
+      <stop offset="1" stop-color="#ababab"/>
+    </linearGradient>
+    <linearGradient id="e" x1="10.96" y1="111.1" x2="171.27" y2="111.1" xlink:href="#d"/>
+    <linearGradient id="f" x1="2.22" y1="8.22" x2="200.51" y2="8.22" xlink:href="#c"/>
+    <linearGradient id="g" x1="1.91" y1="8.22" x2="200.82" y2="8.22" xlink:href="#d"/>
+    <linearGradient id="h" x1="-2043.79" y1="-2025.98" x2="-1835.94" y2="-2025.98" gradientTransform="matrix(0, -1, -1, 0, -1835.72, -1835.72)" xlink:href="#c"/>
+    <linearGradient id="i" x1="-2044.17" y1="-2025.98" x2="-1835.72" y2="-2025.98" gradientTransform="matrix(0, -1, -1, 0, -1835.72, -1835.72)" xlink:href="#d"/>
+    <linearGradient id="j" x1="97.31" y1="221.6" x2="97.31" y2="-137.12" xlink:href="#a"/>
+    <linearGradient id="k" x1="23.58" y1="100.12" x2="171.04" y2="100.12" xlink:href="#b"/>
+  </defs>
+  <g class="a">
+    <g>
+      <g>
+        <g>
+          <rect class="b" x="2.22" y="16.22" width="177.79" height="191.76"/>
+          <g class="c">
+            <image width="676" height="788" transform="translate(0 14.68) scale(0.27 0.24)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAqQAAALMCAYAAAAy4aCeAAAACXBIWXMAACkPAAApDwHxErmeAAAP+0lEQVR4Xu3bMW5dxxWA4TtXjGhHMFjEZEGwd/HKFGm9Ca3H9gq8EG3Cm3iFgARIQbChDIgwYPtR1J0UdoB0zwFk/c/w99XnAFP+uHdmzDkXAACorMcGAADg9yRIAQBICVIAAFKCFACAlCAFACAlSAEASAlSAABSghQAgJQgBQAgJUgBAEgJUgAAUoIUAICUIAUAICVIAQBICVIAAFKCFACAlCAFACAlSAEASAlSAABSghQAgJQgBQAgJUgBAEgJUgAAUoIUAICUIAUAICVIAQBICVIAAFKCFACA1NmxgY/pu+++G/f398vl5eX44Ycfjo0DAPB/+Oyzz5b7+/t5eXm5fPnll/PY/Mcy5uzPMsYYL1++XG9ubp4vy/LpnPN8jLE+PT2NY7sAABx3dnY255zbGOOwLMtPt7e3j69evdrmCcTgSQTpN998sz48PJwfDofPxxg3y7L8bV3XT7Ztc6UAAOADWNd127bt52VZvp9z3p6fn7+5uLg4fPXVV9ux3d/bSfyy3+/34+rq6q9jjJt1Xf8x5/xiznmxruuzY7sAABw353w/xngYY7zetm15fHz8cb/fPx7b+xhOIkh3u914+/bt88fHx8/nnF+MMf6+bdvlciLnAwD4o5tzPq3rej/nXOac/3r+/Pm/d7vdSVyPPIngu7u7Gy9evFiXZTkfY1xs23Y5xrhaluUvx3YBADhujPFu27ZlXdeL5ZfmWu/u7gTp/3p6ehpjjHVZlmdjjLPllxgVpAAAH8ivjfXs1B6PezQEAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAAApQQoAQEqQAgCQEqQAAKQEKQAAKUEKAEBKkAIAkBKkAACkBCkAAClBCgBASpACAJASpAAApAQpAACps2MDH8vZ2dk8HA7bsizv55xPY4x3x3YAAPjN3v3aWO/nnNuv7XVs56M4iSC9vr6eb9++3ZZlOcw5H9Z1vd+2bRljnMT5AAD+6OacT+u63s85H5Zfmmu7vr6ex/Y+hpMIvv1+P6+urh7HGG/GGK/nnMsY42KM8ezYLgAAv8n7OefDGOP1GOPNu3fvHvf7vSD9r91uNx8eHn48HA6327Yty7L8c13XT7Ztc8cVAOADWNd127bt5znn93PO2/Pz8x93u91JBOmYsz/HGGO8fPlyvbm5eb4sy6dzzvMxxvr09DSO7QIAcNzZ2dmcc25jjMOyLD/d3t4+vnr1apsnEIMn8YV0zjnHGNvXX3992O/3j7vdbtzd3YlRAIAP5HA4LNfX13O/38/dbje//fbbeQoxuiwn8oUUAIA/L3c0AQBICVIAAFKCFACAlCAFACAlSAEASAlSAABSghQAgJQgBQAgJUgBAEgJUgAAUoIUAICUIAUAICVIAQBICVIAAFKCFACAlCAFACAlSAEASAlSAABSghQAgJQgBQAgJUgBAEgJUgAAUoIUAICUIAUAICVIAQBICVIAAFKCFACAlCAFACAlSAEASP0HRKA++dP97KcAAAAASUVORK5CYII="/>
+          </g>
+          <rect class="d" x="10.98" y="25.02" width="159.63" height="172.17"/>
+          <rect class="e" x="11.3" y="25.02" width="159.63" height="172.17"/>
+        </g>
+        <polygon class="f" points="180.01 16.22 2.22 16.22 22.72 0.22 200.51 0.22 180.01 16.22"/>
+        <path class="g" d="M180,16.62V208.08l20.41-32.31L200.51.22Z"/>
+      </g>
+      <line class="h" x1="22.67" y1="25.02" x2="22.67" y2="176.19"/>
+      <line class="h" x1="170.93" y1="176.19" x2="22.67" y2="176.19"/>
+      <line class="h" x1="11.3" y1="197.19" x2="22.67" y2="176.19"/>
+      <rect class="i" x="23.69" y="25.02" width="147.23" height="150.22"/>
+    </g>
+  </g>
+</svg>

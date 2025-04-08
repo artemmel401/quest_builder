@@ -1,0 +1,238 @@
+<img src="images123/background.png" style="width: 100vw; height: auto; max-height: 100%; border: 0px solid red;; margin: 0; padding: 0;	z-index: 1; position: absolute;">
+	<img src="images123/door.svg" style="" class="obj door">
+	<img src="images123/only_table.svg" style="" class="obj-static table">
+	<img src="images123/frame.svg" style="" class="obj ramka">
+	<img src="images123/close_down.svg" style="" class="obj down">
+	<img src="images123/headphones.svg" style="display: none;" class="obj headphones">
+	<img src="images123/monitor.svg" style="" class="obj monitor">
+	<img src="images123/keyboard_mouse.png" style="" class="obj keyboard_mouse">
+	<img src="images123/comp.svg" style="" class="obj comp">
+	<img src="images123/hole.svg" style="" class="obj-static hole">
+	<img src="images123/zaryadka_floor.svg" style="" class="obj zaryadka">
+	<img src="images123/palas.svg" style="" class="obj palas">
+	<img src="images123/kod.svg" style="" class="obj kod">
+	<img src="images123/socket.svg" style="" class="obj socket">
+	<img src="images123/empty_bookshelf.svg" style="" class="obj bookshelf">
+	<img src="images123/phone_table.svg" style="" class="obj phone">
+	<img src="images123/books1.svg" style="" class="obj books1 books">
+	<img src="images123/books2.svg" style="" class="obj books2 books">
+	<img src="images123/books3.svg" style="" class="obj books3 books">
+	<img src="images123/books4.svg" style="" class="obj books4 books">
+	<img src="images123/books5.svg" style="" class="obj books5 books">
+	<img src="images123/books6.svg" style="" class="obj books6 books">
+	<img src="images123/books7.svg" style="" class="obj books7">
+	<img src="images123/openbook.svg" style="display: none;" class="obj books6 openbook">
+	<img src="images123/disk.svg" style="display: none;" class="obj books7 disk">
+	
+	
+	
+	<div data-role="popup" id="popuphard" data-overlay-theme="a" data-corners="false" data-tolerance="30,15" style="">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<p style="padding: 2wmin; font-size: 5vw; text-align: center;">Шкаф слишком тяжелый, <br>чтобы его сдвинуть!</p>
+	</div>
+	<div data-role="popup" id="popupsocket" data-overlay-theme="a" data-corners="false" data-tolerance="30,15" style="">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<p style="padding: 2wmin; font-size: 5vw; text-align: center;">Розетка 220V</p>
+	</div>
+	<div data-role="popup" id="popupneedchange" data-overlay-theme="a" data-corners="false" data-tolerance="30,15" style="">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<img class="popphoto" src="images123/low_battery.svg" style="">
+	</div>
+	
+	
+	<div data-role="popup" id="popupdoorcode" data-overlay-theme="a" data-corners="false" data-tolerance="30,15">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<div style="font-size: 2vw; padding: 2vmin;" >
+			<label for="doorcode" style="font-size: 2vw; text-align: center;">Дверь</label>
+			<input data-clear-btn="false" name="doorcode" id="doorcode" value="" type="password" style="text-align: center;">
+			<p style="text-align: center; font-size: 2vw; color: #900; display: none;" class="errordoor">Ошибка ввода!</p>
+			<p style="text-align: center; font-size: 2vw; color: #090; display: none;" class="successdoor">Код верный! <br> Дверь разблокирована!</p>
+			<button class="ui-btn ui-btn-door" style="font-size: 2vw;">Ввод</button>
+		</div>
+	</div>
+	
+	<div data-role="popup" id="popupclosed" data-overlay-theme="a" data-corners="false" data-tolerance="30,15" style="">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<p style="padding: 2wmin; font-size: 5vw;">Дверь заперта!</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	$('#logo').width(100  * 	coef_w);
+			$('#logo').offset({left: 25 * coef_w + offset_w, top: 1115 * coef_h });
+			
+			$('.door').width(372 * coef_w);				
+			$('.door').css({left: 1400 * coef_w + offset_w, top: 190 * coef_h });	
+			
+			$('.table').width(693 * coef_w);		
+			$('.table').css({left: 560 * coef_w + offset_w, top: 630 * coef_h });
+			
+			$('.down').width(down_width * coef_w);		
+			$('.down').css({left: 1057 * coef_w + offset_w, top: 840 * coef_h });
+			
+			$('.headphones').width(99 * coef_w);		
+			$('.headphones').css({left: 1097 * coef_w + offset_w, top: 890 * coef_h });
+			
+			$('.monitor').width(275 * coef_w);				
+			$('.monitor').css({left: 670 * coef_w + offset_w, top: 410 * coef_h });
+			
+			$('.keyboard_mouse').width(234 * coef_w);				
+			$('.keyboard_mouse').css({left: 700 * coef_w + offset_w, top: 635 * coef_h });
+			
+			$('.ramka').width(61 * coef_w);				
+			$('.ramka').css({left: 1150 * coef_w + offset_w, top: 585 * coef_h });
+			
+			$('.comp').width(113 * coef_w);				
+			$('.comp').css({left: 585 * coef_w + offset_w, top: 745 * coef_h });
+			
+			$('.hole').width(192 * coef_w);				
+			$('.hole').css({left: 1225 * coef_w + offset_w, top: 1100 * coef_h });
+			
+			$('.zaryadka').width(72 * coef_w);				
+			$('.zaryadka').css({left: 1270 * coef_w + offset_w, top: 1115 * coef_h });
+			
+			$('.palas').width(601 * coef_w);				
+			$('.palas').css({left: 1085 * coef_w + offset_w, top: 1050 * coef_h });
+			
+			
+			$('.kod').width(81 * coef_w);				
+			$('.kod').css({left: 1310 * coef_w + offset_w, top: 530 * coef_h });
+			
+			$('.socket').width(socket_width * coef_w);				
+			$('.socket').css({left: 450 * coef_w + offset_w, top: 760 * coef_h });
+			
+			$('.bookshelf').width(335 * coef_w);				
+			$('.bookshelf').css({left: bookshelf_left * coef_w + offset_w, top: 290 * coef_h });
+			
+			$('.phone').width(phone_width * coef_w);				
+			$('.phone').css({left: 1000 * coef_w + offset_w, top: 630 * coef_h });
+			
+			$('.books1').width(132 * coef_w);				
+			$('.books1').css({left: 396 * coef_w + offset_w, top: 334 * coef_h });
+			
+			$('.books2').width(221 * coef_w);				
+			$('.books2').css({left: 234 * coef_w + offset_w, top: 469 * coef_h });
+			
+			$('.books3').width(103 * coef_w);				
+			$('.books3').css({left: 234 * coef_w + offset_w, top: 604 * coef_h });
+			
+			$('.books4').width(148 * coef_w);				
+			$('.books4').css({left: 364 * coef_w + offset_w, top: 774 * coef_h });
+			
+			$('.books5').width(51 * coef_w);				
+			$('.books5').css({left: 470 * coef_w + offset_w, top: 609 * coef_h });
+			
+			$('.books6').width(94 * coef_w);				
+			$('.books6').css({left: 234 * coef_w + offset_w, top: 876 * coef_h });
+			
+			$('.books7').width(33 * coef_w);				
+			$('.books7').css({left: 492 * coef_w + offset_w, top: 876 * coef_h });
+			
+			$('.openbook').width(174 * coef_w);				
+			$('.openbook').css({left: 592 * coef_w + offset_w, top: 1076 * coef_h });
+			
+			$('.disk').width(88 * coef_w);				
+			$('.disk').css({left: 642 * coef_w + offset_w, top: 1100 * coef_h });
+			
+			/*----*/
+			$('.frame1_img').width(255 * coef_w);	//35.9 233.87
+			$('.frame1_img').height(151 * coef_w);
+			$('.frame1_img').css({left: 680 * coef_w + offset_w, top: 420 * coef_h });
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			/*----*/
+			$('.speaker1').width(36 * coef_w);	//35.9 233.87
+			$('.speaker1').css({left: 345 * coef_w + offset_w, top: 242 * coef_h });
+			
+			$('.speaker2').width(36 * coef_w);	//35.9 233.87
+			$('.speaker2').css({left: 650 * coef_w + offset_w, top: 242 * coef_h });
+			//228.97 158.56
+			$('.tv').width(229 * coef_w);	//35.9 233.87
+			$('.tv').css({left: 402 * coef_w + offset_w, top: 212 * coef_h });
+			//height: 124px; width: 350px; 
+			$('.tv_img').width(210 * coef_w);	//35.9 233.87
+			$('.tv_img').height(120 * coef_h);	//35.9 233.87
+			$('.tv_img').css({left: 412 * coef_w + offset_w, top: 216 * coef_h });
+			
+			//384 357 	131 51
+			$('.t_left_top').width(131 * coef_w);	//35.9 233.87
+			$('.t_left_top').css({left: 388 * coef_w + offset_w, top: 370 * coef_h });
+			
+			$('.tmb').width(262 * coef_w);	//35.9 233.87
+			$('.tmb').height(120 * coef_w);
+			$('.tmb').css({left: 388 * coef_w + offset_w, top: 370 * coef_h });
+			
+			$('.t_left_bottom').width(131 * coef_w);	//35.9 233.87
+			$('.t_left_bottom').css({left: 388 * coef_w + offset_w, top: 420 * coef_h });
+			
+			$('.codesmall').width(32 * coef_w);	//35.9 233.87
+			$('.codesmall').css({left: 428 * coef_w + offset_w, top: 440 * coef_h });
+			
+			$('.t_right_top').width(131 * coef_w);	//35.9 233.87
+			$('.t_right_top').css({left: 516 * coef_w + offset_w, top: 370 * coef_h });
+			
+			$('.t_right_bottom').width(131 * coef_w);	//35.9 233.87
+			$('.t_right_bottom').css({left: 516 * coef_w + offset_w, top: 420 * coef_h });
+			//94.57 82.48
+			$('.frame1').width(94 * coef_w);	//35.9 233.87
+			$('.frame1').css({left: 358 * coef_w + offset_w, top: 107 * coef_h });
+			
+			
+			
+			$('.frame2').width(94 * coef_w);	//35.9 233.87
+			$('.frame2').css({left: 475 * coef_w + offset_w, top: 107 * coef_h });
+			
+			$('.frame2_img').width(79 * coef_w);	//35.9 233.87
+			$('.frame2_img').height(69 * coef_w);
+			$('.frame2_img').css({left: 482 * coef_w + offset_w, top: 113 * coef_h });
+			
+			$('.frame3').width(94 * coef_w);	//35.9 233.87
+			$('.frame3').css({left: 592 * coef_w + offset_w, top: 107 * coef_h });
+			
+			$('.frame3_img').width(79 * coef_w);	//35.9 233.87
+			$('.frame3_img').height(69 * coef_w);
+			$('.frame3_img').css({left: 599 * coef_w + offset_w, top: 113 * coef_h });
+			//200.08 320.73
+			$('.lamp').width(200 * coef_w);	//35.9 233.87
+			$('.lamp').css({left: 700 * coef_w + offset_w, top: 190 * coef_h });
+			//switch
+			$('.pin').width(27 * coef_w);	//35.9 233.87
+			$('.pin').css({left: 39 * coef_w + offset_w, top: 271 * coef_h });
+			//85.98 86.41		
+			$('.switch').width(86 * coef_w);	//35.9 233.87
+			$('.switch').css({left: 251 * coef_w + offset_w , top: 241 * coef_h });
+			
+			//$('.textlamp').width(200 * coef_w);	//35.9 233.87
+			$('.textlamp').css({left: 700 * coef_w + offset_w, top: 200 * coef_h });
+			
+			$('.shifr').width(145 * coef_w);	//35.9 233.87
+			$('.shifr').css({left: 700 * coef_w + offset_w, top: 400 * coef_h });
+			
+			$('.pult').width(28 * coef_w);	//35.9 233.87
+			$('.pult').css({left: 576 * coef_w + offset_w, top: 449 * coef_h });

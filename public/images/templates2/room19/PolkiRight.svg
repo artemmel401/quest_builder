@@ -1,0 +1,21 @@
+<svg width="344" height="295" viewBox="0 0 344 295" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.3" d="M251 118L211 123L54 121L15 113L197.5 113.6L251 113V118Z" fill="black"/>
+<path opacity="0.3" d="M251 238L211 249H100L15 213L212 217H251V238Z" fill="black"/>
+<path opacity="0.3" d="M241 18L212 23L38 21L15 16L211.5 16.5L251 11.8L241 18Z" fill="black"/>
+<path d="M251.1 1H28.8V11.5H251.1V1Z" fill="#E6E6E6" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M0.800049 16.5L28.8 11.5V1L0.800049 6.5V16.5Z" fill="#F2F2F2" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M0.800049 112.5L28.8 113.5V102.5H0.800049V112.5Z" fill="#F2F2F2" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M0.800049 209.5L28.8 216.5V206.5L0.800049 199.5V209.5Z" fill="#F2F2F2" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M251.1 102.5H28.8V113.5H251.1V102.5Z" fill="#E6E6E6" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M251 206.5H28.8V216.5H251V206.5Z" fill="#E6E6E6" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M251 206.5H28.8L0.5 199.5H211.5L251 206.5Z" fill="#E6E6E6" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M211.5 16.5H0.800049L28.8 11.5H251L211.5 16.5Z" fill="#C9C9C9" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path opacity="0.3" d="M334 252V295H288L246 283V210L344 225V246L334 252Z" fill="black"/>
+<path d="M302.5 236.5L247.5 234.5L287.5 285.5H327.5V236.5H302.5Z" fill="#999999" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M287.5 285.5L232.5 271.5L176.5 224.5L247.5 234.5L287.5 285.5Z" fill="#CCCCCC" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M236.5 230.5L220.5 227.5V206.5L317.5 221.5L236.5 230.5Z" fill="#CCCCCC" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M220.5 227.5L156.5 206.5H220.5V227.5Z" fill="#999999" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M336.5 220.5H225.5V237.5H336.5V220.5Z" fill="#B3B3B3" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M225.5 237.5L156.5 222.5V206.5L225.5 220.5V237.5Z" fill="#E6E6E6" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M298.5 220.5L220.5 206.5H251L336.5 220.5H298.5Z" fill="#E6E6E6" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+</svg>

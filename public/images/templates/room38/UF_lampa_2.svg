@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="368" height="14" viewBox="0 0 368 14">
+  <defs>
+    <style>
+      .a {
+        fill: #999;
+      }
+
+      .b {
+        fill: gray;
+      }
+
+      .c {
+        fill: #93c;
+      }
+
+      .d {
+        fill: #c3c;
+      }
+
+      .e {
+        fill: url(#a);
+      }
+
+      .f {
+        fill: url(#b);
+      }
+    </style>
+    <linearGradient id="a" x1="184" y1="12" x2="184" y2="7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c3c" stop-opacity="0"/>
+      <stop offset="0.06" stop-color="#c333d5" stop-opacity="0.19"/>
+      <stop offset="0.14" stop-color="#b633e2" stop-opacity="0.43"/>
+      <stop offset="0.22" stop-color="#ac33ec" stop-opacity="0.63"/>
+      <stop offset="0.3" stop-color="#a433f4" stop-opacity="0.79"/>
+      <stop offset="0.37" stop-color="#9e33fa" stop-opacity="0.91"/>
+      <stop offset="0.43" stop-color="#9a33fe" stop-opacity="0.98"/>
+      <stop offset="0.47" stop-color="#93f"/>
+      <stop offset="1" stop-color="#c0f"/>
+    </linearGradient>
+    <linearGradient id="b" y1="2" xlink:href="#a"/>
+  </defs>
+  <g>
+    <path class="a" d="M364,0H344V14h20c2.21,0,4-3.13,4-7S366.21,0,364,0Z"/>
+    <path class="b" d="M366,11H346L344,0h0V14h20c1.48,0,2.76-1.4,3.46-3.48A2.67,2.67,0,0,1,366,11Z"/>
+    <path class="a" d="M4,0C1.79,0,0,3.13,0,7s1.79,7,4,7H24V0Z"/>
+    <path class="b" d="M24,0,22,11H2a2.67,2.67,0,0,1-1.46-.48C1.24,12.6,2.52,14,4,14H24V0Z"/>
+    <ellipse class="c" cx="344" cy="7" rx="4" ry="7"/>
+    <ellipse class="c" cx="24" cy="7" rx="4" ry="7"/>
+    <path class="d" d="M344,2H24c-1.1,0-2,2.24-2,5s.9,5,2,5H344c1.1,0,2-2.24,2-5S345.1,2,344,2Z"/>
+    <rect class="e" x="22" y="7" width="324" height="5"/>
+    <rect class="f" x="22" y="2" width="324" height="5"/>
+  </g>
+</svg>

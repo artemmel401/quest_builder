@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="202" height="158" viewBox="0 0 202 158">
+  <defs>
+    <style>
+      .a {
+        fill: #336;
+        opacity: 0.2;
+      }
+
+      .b {
+        fill: #333;
+      }
+
+      .c {
+        fill: #4d4d4d;
+      }
+
+      .d {
+        fill: #399;
+      }
+
+      .e {
+        fill: #666;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="195 158 5 158 0 142 5 2 198 2 202 142 195 158"/>
+    <polygon class="b" points="195 142 5 142 5 2 8 0 198 140 195 142"/>
+    <rect class="c" x="8" width="190" height="140"/>
+    <rect class="d" x="13" y="5" width="180" height="130"/>
+    <polygon class="b" points="190 8 13 8 13 5 193 5 190 8"/>
+    <polygon class="e" points="190 135 193 135 193 5 190 8 190 135"/>
+  </g>
+</svg>

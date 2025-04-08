@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.15" height="70.76" viewBox="0 0 48.15 70.76">
+  <defs>
+    <style>
+      .a, .d, .f, .j, .k {
+        fill: none;
+      }
+
+      .b {
+        clip-path: url(#a);
+      }
+
+      .c {
+        fill: #008782;
+      }
+
+      .c, .g {
+        opacity: 0.6;
+      }
+
+      .d {
+        stroke: #af5112;
+      }
+
+      .d, .f, .j, .k {
+        stroke-linejoin: round;
+        stroke-width: 0.5px;
+      }
+
+      .e {
+        fill: #fbb03b;
+        opacity: 0.5;
+      }
+
+      .f, .k {
+        stroke: #333;
+      }
+
+      .g {
+        fill: #00ada0;
+      }
+
+      .h, .i {
+        fill: #fff;
+      }
+
+      .h {
+        opacity: 0.3;
+        isolation: isolate;
+      }
+
+      .i {
+        opacity: 0.2;
+      }
+
+      .j {
+        stroke: #3c114c;
+      }
+
+      .j, .k {
+        stroke-linecap: round;
+      }
+    </style>
+    <clipPath id="a" transform="translate(0.51 -0.91)">
+      <polygon class="a" points="47.25 0 0 0 0 68.99 47.25 69 47.25 0"/>
+    </clipPath>
+  </defs>
+  <g class="b">
+    <g>
+      <polygon class="c" points="0.25 70.2 28.98 70.47 23.37 0.25 0.25 70.2"/>
+      <polygon class="d" points="0.25 70.2 28.98 70.47 23.37 0.25 0.25 70.2"/>
+      <line class="e" x1="19.17" y1="70.75" x2="23.37" y2="0.25"/>
+      <line class="d" x1="19.17" y1="70.75" x2="23.37" y2="0.25"/>
+      <polygon class="c" points="28.98 70.47 47.9 70.47 23.37 0.25 28.98 70.47"/>
+      <polygon class="d" points="28.98 70.47 47.9 70.47 23.37 0.25 28.98 70.47"/>
+      <polygon class="c" points="12.16 70.47 19.17 70.47 23.37 0.25 0.25 70.2 12.16 70.47"/>
+      <polygon class="f" points="12.16 70.47 19.17 70.47 23.37 0.25 0.25 70.2 12.16 70.47"/>
+      <polygon class="g" points="19.17 70.47 47.9 70.47 23.37 0.25 19.17 70.47"/>
+      <polygon class="h" points="32.13 70.2 47.55 70.2 23.72 1.9 21.62 36.05 32.13 70.2"/>
+      <polygon class="i" points="39.84 70.2 47.55 70.2 23.72 1.9 22.32 23.93 39.84 70.2"/>
+      <polygon class="f" points="19.17 70.47 47.9 70.47 23.37 0.25 19.17 70.47"/>
+    </g>
+    <line class="j" x1="0.76" y1="68.09" x2="25.44" y2="68.08"/>
+    <line class="k" x1="25.44" y1="68.08" x2="46.9" y2="68.09"/>
+  </g>
+</svg>

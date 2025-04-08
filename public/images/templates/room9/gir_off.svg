@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1532.78" height="213.68" viewBox="0 0 1532.78 213.68">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #113504;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t {
+        opacity: 0.4;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: url(#b);
+      }
+
+      .d {
+        fill: url(#c);
+      }
+
+      .e {
+        fill: url(#d);
+      }
+
+      .f {
+        fill: url(#e);
+      }
+
+      .g {
+        fill: url(#f);
+      }
+
+      .h {
+        fill: url(#g);
+      }
+
+      .i {
+        fill: url(#h);
+      }
+
+      .j {
+        fill: url(#i);
+      }
+
+      .k {
+        fill: url(#j);
+      }
+
+      .l {
+        fill: url(#k);
+      }
+
+      .m {
+        fill: url(#l);
+      }
+
+      .n {
+        fill: url(#m);
+      }
+
+      .o {
+        fill: url(#n);
+      }
+
+      .p {
+        fill: url(#o);
+      }
+
+      .q {
+        fill: url(#p);
+      }
+
+      .r {
+        fill: url(#q);
+      }
+
+      .s {
+        fill: url(#r);
+      }
+
+      .t {
+        fill: url(#s);
+      }
+    </style>
+    <radialGradient id="a" cx="159.55" cy="-52.99" r="15.29" gradientTransform="translate(-6.85 130.12) rotate(0.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#578787"/>
+      <stop offset="0.42" stop-color="#578888" stop-opacity="0.99"/>
+      <stop offset="0.58" stop-color="#588a8a" stop-opacity="0.94"/>
+      <stop offset="0.68" stop-color="#5a8e8e" stop-opacity="0.85"/>
+      <stop offset="0.77" stop-color="#5c9393" stop-opacity="0.72"/>
+      <stop offset="0.85" stop-color="#5f9a9a" stop-opacity="0.56"/>
+      <stop offset="0.91" stop-color="#63a3a3" stop-opacity="0.36"/>
+      <stop offset="0.97" stop-color="#68adad" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#6ab2b2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="376.56" cy="18.45" r="15.29" xlink:href="#a"/>
+    <radialGradient id="c" cx="227.26" cy="-52.99" r="15.29" xlink:href="#a"/>
+    <radialGradient id="d" cx="268.96" cy="-11.47" r="15.29" xlink:href="#a"/>
+    <radialGradient id="e" cx="446.63" cy="3.16" r="15.29" xlink:href="#a"/>
+    <radialGradient id="f" cx="1179.27" cy="-6.2" r="15.29" xlink:href="#a"/>
+    <radialGradient id="g" cx="794.51" cy="65.43" r="15.29" xlink:href="#a"/>
+    <radialGradient id="h" cx="327.13" cy="-23.06" r="15.29" xlink:href="#a"/>
+    <radialGradient id="i" cx="878.46" cy="33.83" r="15.29" xlink:href="#a"/>
+    <radialGradient id="j" cx="938.02" cy="58.47" r="15.29" xlink:href="#a"/>
+    <radialGradient id="k" cx="1012.09" cy="20.56" r="15.29" xlink:href="#a"/>
+    <radialGradient id="l" cx="1100.34" cy="35.59" r="15.29" xlink:href="#a"/>
+    <radialGradient id="m" cx="510.71" cy="47.01" r="15.29" xlink:href="#a"/>
+    <radialGradient id="n" cx="578.42" cy="27.54" r="15.29" xlink:href="#a"/>
+    <radialGradient id="o" cx="642.63" cy="56.93" r="15.29" xlink:href="#a"/>
+    <radialGradient id="p" cx="720.02" cy="34.78" r="15.29" xlink:href="#a"/>
+    <radialGradient id="q" cx="1388.17" cy="-30.62" r="15.29" xlink:href="#a"/>
+    <radialGradient id="r" cx="1315.54" cy="-37.63" r="15.29" xlink:href="#a"/>
+    <radialGradient id="s" cx="1252.71" cy="6.62" r="15.29" xlink:href="#a"/>
+  </defs>
+  <g>
+    <path class="a" d="M.44.9A1787.4,1787.4,0,0,0,393.86,139.83C896,253,1323.4,118.28,1532.41,34.23"/>
+    <circle class="b" cx="152.89" cy="77.71" r="15.29"/>
+    <circle class="c" cx="369.65" cy="149.92" r="15.29"/>
+    <circle class="d" cx="220.6" cy="77.95" r="15.29"/>
+    <circle class="e" cx="262.16" cy="119.61" r="15.29"/>
+    <circle class="f" cx="439.77" cy="134.88" r="15.29"/>
+    <circle class="g" cx="1172.44" cy="128.14" r="15.29"/>
+    <circle class="h" cx="787.43" cy="198.39" r="15.29"/>
+    <circle class="i" cx="320.37" cy="108.23" r="15.29"/>
+    <circle class="j" cx="871.49" cy="167.09" r="15.29"/>
+    <circle class="k" cx="930.96" cy="191.94" r="15.29"/>
+    <circle class="l" cx="1005.16" cy="154.29" r="15.29"/>
+    <circle class="m" cx="1093.36" cy="169.64" r="15.29"/>
+    <circle class="n" cx="503.69" cy="178.95" r="15.29"/>
+    <circle class="o" cx="571.47" cy="159.73" r="15.29"/>
+    <circle class="p" cx="635.57" cy="189.34" r="15.29"/>
+    <circle class="q" cx="713.05" cy="167.47" r="15.29"/>
+    <circle class="r" cx="1381.43" cy="104.46" r="15.29"/>
+    <circle class="s" cx="1308.82" cy="97.19" r="15.29"/>
+    <circle class="t" cx="1245.83" cy="141.22" r="15.29"/>
+  </g>
+</svg>

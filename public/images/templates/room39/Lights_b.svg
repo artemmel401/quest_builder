@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="682" height="370" viewBox="0 0 682 370">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: url(#b);
+      }
+
+      .c {
+        fill: url(#c);
+      }
+
+      .d {
+        fill: url(#d);
+      }
+    </style>
+    <linearGradient id="a" x1="519.5" y1="-74.5" x2="226" y2="219" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffc" stop-opacity="0.4"/>
+      <stop offset="0.04" stop-color="#ffc" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#ffc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b" x1="613.75" y1="199.75" x2="426.25" y2="387.25" xlink:href="#a"/>
+    <linearGradient id="c" x1="577.25" y1="48.25" x2="324.25" y2="301.25" xlink:href="#a"/>
+    <linearGradient id="d" x1="378" y1="-106" x2="136" y2="136" xlink:href="#a"/>
+  </defs>
+  <g>
+    <polygon class="a" points="130 115 682 115 682 88 551 43 50 43 130 115"/>
+    <polygon class="b" points="423 370 682 370 682 268 307 268 423 370"/>
+    <polygon class="c" points="276 240 682 240 682 153 176 153 276 240"/>
+    <polygon class="d" points="36 30 514 30 425 0 0 0 36 30"/>
+  </g>
+</svg>

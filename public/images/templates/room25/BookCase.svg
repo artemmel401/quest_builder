@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="312" height="604" viewBox="0 0 312 604">
+  <defs>
+    <style>
+      .a {
+        fill: #999;
+      }
+
+      .b {
+        fill: gray;
+      }
+
+      .c {
+        fill: #b3b3b3;
+      }
+
+      .d {
+        fill: #ccc;
+      }
+
+      .e {
+        fill: #e6e6e6;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" x="72" y="25" width="240" height="540"/>
+    <polygon class="b" points="257 10 10 10 72 35 257 35 257 10"/>
+    <polygon class="c" points="10 594 72 565 72 35 10 10 10 594"/>
+    <polygon class="b" points="72 165 257 165 257 156 10 156 72 165"/>
+    <polygon class="c" points="257 594 10 594 72 565 257 565 257 594"/>
+    <rect class="d" width="267" height="10"/>
+    <rect class="d" x="10" y="146" width="247" height="10"/>
+    <rect class="d" x="10" y="295" width="247" height="10"/>
+    <rect class="d" x="10" y="445" width="247" height="10"/>
+    <rect class="d" y="594" width="267" height="10"/>
+    <rect class="d" width="10" height="604"/>
+    <rect class="d" x="257" width="10" height="604"/>
+    <polygon class="e" points="257 295 10 295 72 290 257 290 257 295"/>
+    <polygon class="e" points="257 445 10 445 72 426 257 426 257 445"/>
+    <polygon class="e" points="267 604 312 565 312 25 267 0 267 604"/>
+  </g>
+</svg>

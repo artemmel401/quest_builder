@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="1080" viewBox="0 0 10 1080">
+  <defs>
+    <style>
+      .a {
+        fill: #7a888b;
+      }
+
+      .b {
+        fill: #cbcbcb;
+      }
+
+      .c {
+        fill: #73949f;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" y="980" width="10" height="100"/>
+    <rect class="b" y="953" width="10" height="27"/>
+    <rect class="c" y="760" width="10" height="193"/>
+    <rect class="b" width="10" height="760"/>
+  </g>
+</svg>

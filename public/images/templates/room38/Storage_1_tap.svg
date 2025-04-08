@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="60" viewBox="0 0 26 60">
+  <defs>
+    <style>
+      .a {
+        fill: #1a1a1a;
+      }
+
+      .b {
+        fill: #333;
+      }
+
+      .c {
+        fill: #9cc;
+      }
+
+      .d {
+        fill: none;
+        stroke: #9cc;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="26 59 0 60 0 3 26 0 26 59"/>
+      <polygon class="b" points="23 56 3 57 3 6 23 4 23 56"/>
+    </g>
+    <path class="c" d="M15.21,24.06l2.9-.24-3.94-11-2.94.29L7.36,24.72l2.84-.24.66-2.07,3.68-.31Zm-1.33-4-2.36.21,1.18-3.9Z"/>
+    <path class="c" d="M15.32,46.56l3.19-.17L14.18,35.32,11,35.54,6.71,47l3.11-.16.73-2,4-.22Zm-1.47-4-2.58.15,1.29-3.86Z"/>
+    <line class="d" x1="7" y1="30" x2="18" y2="29"/>
+  </g>
+</svg>

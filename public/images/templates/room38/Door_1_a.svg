@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208" height="494" viewBox="0 0 208 494">
+  <defs>
+    <style>
+      .a {
+        fill: #1a1a1a;
+      }
+
+      .b {
+        fill: #333;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        fill: url(#b);
+      }
+
+      .e {
+        fill: none;
+        stroke: #333;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+    <linearGradient id="a" x1="208" y1="342" x2="-20" y2="114" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#254c4b"/>
+      <stop offset="0.04" stop-color="#2b5857"/>
+      <stop offset="0.11" stop-color="#316262"/>
+      <stop offset="0.18" stop-color="#366"/>
+      <stop offset="0.39" stop-color="#588"/>
+      <stop offset="0.52" stop-color="#699"/>
+      <stop offset="0.69" stop-color="#508383"/>
+      <stop offset="0.87" stop-color="#366"/>
+      <stop offset="0.93" stop-color="#2f5e5d"/>
+      <stop offset="1" stop-color="#254c4b"/>
+    </linearGradient>
+    <linearGradient id="b" x1="163.5" y1="249.5" x2="4" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0.35" stop-color="#fff" stop-opacity="0.1"/>
+      <stop offset="0.41" stop-color="#fff" stop-opacity="0.13"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.23"/>
+      <stop offset="0.62" stop-color="#fff" stop-opacity="0.38"/>
+      <stop offset="0.76" stop-color="#fff" stop-opacity="0.6"/>
+      <stop offset="0.85" stop-color="#fff" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon class="a" points="0 494 11 494 207 0 197 0 0 43 0 494"/>
+    <polygon class="b" points="11 494 208 345 208 0 11 43 11 494"/>
+    <polygon class="c" points="32 477 197 353 197 20 32 62 32 477"/>
+    <polygon class="d" points="32 381 197 173 197 20 32 62 32 381"/>
+    <line class="e" x1="123.5" y1="38.5" x2="124.5" y2="407.5"/>
+    <g>
+      <polygon class="a" points="112 305 109 305 109 260 117 256 120 256 112 305"/>
+      <polygon class="b" points="120 301 112 305 112 260 120 256 120 301"/>
+    </g>
+    <g>
+      <polygon class="a" points="136 293 133 293 133 248 141 244 144 244 136 293"/>
+      <polygon class="b" points="144 289 136 293 136 248 144 244 144 289"/>
+    </g>
+  </g>
+</svg>

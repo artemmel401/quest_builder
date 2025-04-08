@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="601" viewBox="0 0 240 601">
+  <defs>
+    <style>
+      .a, .i, .j {
+        fill: none;
+      }
+
+      .b {
+        fill: #cbcbcb;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        fill: url(#b);
+      }
+
+      .e {
+        fill: #b2b2b2;
+      }
+
+      .f {
+        fill: #c4d8dc;
+      }
+
+      .g {
+        clip-path: url(#c);
+      }
+
+      .h {
+        fill: #fff;
+        opacity: 0.3;
+      }
+
+      .i, .j {
+        stroke: #333;
+        stroke-miterlimit: 10;
+      }
+
+      .j {
+        stroke-linecap: round;
+      }
+    </style>
+    <linearGradient id="a" x1="8" y1="308" x2="52" y2="308" gradientUnits="userSpaceOnUse">
+      <stop offset="0.26" stop-color="#e5e5e5"/>
+      <stop offset="0.76" stop-color="#d3d3d3"/>
+      <stop offset="0.94" stop-color="#cbcbcb"/>
+    </linearGradient>
+    <linearGradient id="b" x1="113.97" y1="576.13" x2="127.14" y2="523.47" gradientUnits="userSpaceOnUse">
+      <stop offset="0.14" stop-color="#f1f1f1"/>
+      <stop offset="0.44" stop-color="#efefef"/>
+      <stop offset="0.59" stop-color="#e7e7e7"/>
+      <stop offset="0.7" stop-color="#dadada"/>
+      <stop offset="0.79" stop-color="#cbcbcb"/>
+    </linearGradient>
+    <clipPath id="c" transform="translate(8)">
+      <polygon class="a" points="54 507 215 542 215 74 54 119 54 507"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g>
+      <polygon class="b" points="8 77 223 0 223 601 8 539 8 77"/>
+      <polygon class="c" points="52 517 8 539 8 77 52 109 52 517"/>
+      <polygon class="d" points="52 517 223 556 223 601 8 539 52 517"/>
+    </g>
+    <polygon class="e" points="52 517 223 556 223 60 52 109 52 517"/>
+    <polygon class="f" points="62 507 223 542 223 74 62 119 62 507"/>
+    <g class="g">
+      <polygon class="h" points="37 152 67 97 183 60 45 259 37 152"/>
+      <polygon class="h" points="45 280 198 60 214 60 45 304 45 280"/>
+      <polygon class="h" points="0 252 153 32 169 32 0 276 0 252"/>
+      <polygon class="h" points="75 539 237 319 240 338 81 560 75 539"/>
+      <polygon class="h" points="52 514 227 257 229 556 52 514"/>
+    </g>
+    <line class="i" x1="223" y1="74" x2="62" y2="119"/>
+    <line class="j" x1="62" y1="507" x2="62" y2="119"/>
+    <line class="i" x1="223" y1="542" x2="62" y2="507"/>
+  </g>
+</svg>

@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1410" height="102" viewBox="0 0 1410 102">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+        opacity: 0.3;
+      }
+
+      .b {
+        fill: #ccc;
+      }
+
+      .b, .c {
+        opacity: 0.75;
+      }
+
+      .c {
+        fill: #f2f2f2;
+      }
+
+      .d {
+        fill: url(#a);
+      }
+
+      .e {
+        fill: url(#b);
+      }
+
+      .f {
+        fill: url(#c);
+      }
+
+      .g {
+        fill: url(#d);
+      }
+
+      .h {
+        fill: url(#e);
+      }
+
+      .i {
+        fill: url(#f);
+      }
+
+      .j {
+        fill: url(#g);
+      }
+
+      .k {
+        fill: url(#h);
+      }
+
+      .l {
+        fill: url(#i);
+      }
+
+      .m {
+        fill: url(#j);
+      }
+
+      .n {
+        fill: url(#k);
+      }
+
+      .o {
+        fill: url(#l);
+      }
+
+      .p {
+        fill: url(#m);
+      }
+
+      .q {
+        fill: url(#n);
+      }
+
+      .r {
+        fill: url(#o);
+      }
+
+      .s {
+        fill: url(#p);
+      }
+
+      .t {
+        fill: url(#q);
+      }
+
+      .u {
+        fill: url(#r);
+      }
+
+      .v {
+        fill: url(#s);
+      }
+
+      .w {
+        fill: url(#t);
+      }
+
+      .x {
+        fill: url(#u);
+      }
+
+      .y {
+        fill: url(#v);
+      }
+
+      .z {
+        fill: url(#w);
+      }
+
+      .aa {
+        fill: url(#x);
+      }
+
+      .ab {
+        fill: url(#y);
+      }
+
+      .ac {
+        fill: url(#z);
+      }
+
+      .ad {
+        fill: url(#aa);
+      }
+
+      .ae {
+        fill: url(#ab);
+      }
+
+      .af {
+        fill: url(#ac);
+      }
+
+      .ag {
+        fill: url(#ad);
+      }
+
+      .ah {
+        fill: url(#ae);
+      }
+    </style>
+    <linearGradient id="a" x1="115.76" y1="67.64" x2="62.2" y2="-25.14" gradientUnits="userSpaceOnUse">
+      <stop offset="0.26" stop-color="#fff" stop-opacity="0.15"/>
+      <stop offset="0.32" stop-color="#fff" stop-opacity="0.18"/>
+      <stop offset="0.43" stop-color="#fff" stop-opacity="0.28"/>
+      <stop offset="0.56" stop-color="#fff" stop-opacity="0.43"/>
+      <stop offset="0.71" stop-color="#fff" stop-opacity="0.65"/>
+      <stop offset="0.78" stop-color="#fff" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="b" x1="315.76" y1="67.64" x2="262.2" y2="-25.14" xlink:href="#a"/>
+    <linearGradient id="c" x1="515.76" y1="67.64" x2="462.2" y2="-25.14" xlink:href="#a"/>
+    <linearGradient id="d" x1="715.76" y1="67.64" x2="662.2" y2="-25.14" xlink:href="#a"/>
+    <linearGradient id="e" x1="915.76" y1="67.64" x2="862.2" y2="-25.14" xlink:href="#a"/>
+    <linearGradient id="f" x1="1115.76" y1="67.64" x2="1062.2" y2="-25.14" xlink:href="#a"/>
+    <linearGradient id="g" x1="1315.76" y1="67.64" x2="1262.2" y2="-25.14" xlink:href="#a"/>
+    <linearGradient id="h" y1="51" x2="10" y2="51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d4d4d"/>
+      <stop offset="0" stop-color="#4d4d4d"/>
+      <stop offset="0.13" stop-color="#646464"/>
+      <stop offset="0.28" stop-color="#747474"/>
+      <stop offset="0.44" stop-color="#7d7d7d"/>
+      <stop offset="0.66" stop-color="gray"/>
+      <stop offset="0.84" stop-color="#686868"/>
+      <stop offset="1" stop-color="#4d4d4d"/>
+    </linearGradient>
+    <linearGradient id="i" x1="200" x2="210" xlink:href="#h"/>
+    <linearGradient id="j" x1="400" x2="410" xlink:href="#h"/>
+    <linearGradient id="k" x1="600" x2="610" xlink:href="#h"/>
+    <linearGradient id="l" x1="800" x2="810" xlink:href="#h"/>
+    <linearGradient id="m" x1="1000" x2="1010" xlink:href="#h"/>
+    <linearGradient id="n" x1="1200" x2="1210" xlink:href="#h"/>
+    <linearGradient id="o" x1="1400" x2="1410" xlink:href="#h"/>
+    <linearGradient id="p" y1="101" x2="10" y2="101" xlink:href="#h"/>
+    <linearGradient id="q" x1="200" y1="101" x2="210" y2="101" xlink:href="#h"/>
+    <linearGradient id="r" x1="400" y1="101" x2="410" y2="101" xlink:href="#h"/>
+    <linearGradient id="s" x1="600" y1="101" x2="610" y2="101" xlink:href="#h"/>
+    <linearGradient id="t" x1="800" y1="101" x2="810" y2="101" xlink:href="#h"/>
+    <linearGradient id="u" x1="1000" y1="101" x2="1010" y2="101" xlink:href="#h"/>
+    <linearGradient id="v" x1="1200" y1="101" x2="1210" y2="101" xlink:href="#h"/>
+    <linearGradient id="w" x1="1400" y1="101" x2="1410" y2="101" xlink:href="#h"/>
+    <linearGradient id="x" y1="1" x2="10" y2="1" xlink:href="#h"/>
+    <linearGradient id="y" x1="200" y1="1" x2="210" y2="1" xlink:href="#h"/>
+    <linearGradient id="z" x1="400" y1="1" x2="410" y2="1" xlink:href="#h"/>
+    <linearGradient id="aa" x1="600" y1="1" x2="610" y2="1" xlink:href="#h"/>
+    <linearGradient id="ab" x1="800" y1="1" x2="810" y2="1" xlink:href="#h"/>
+    <linearGradient id="ac" x1="1000" y1="1" x2="1010" y2="1" xlink:href="#h"/>
+    <linearGradient id="ad" x1="1200" y1="1" x2="1210" y2="1" xlink:href="#h"/>
+    <linearGradient id="ae" x1="1400" y1="1" x2="1410" y2="1" xlink:href="#h"/>
+  </defs>
+  <g>
+    <g>
+      <rect class="a" x="10" y="3" width="190" height="88.04"/>
+      <rect class="a" x="210" y="3" width="190" height="88.04"/>
+      <rect class="a" x="410" y="3" width="190" height="88.04"/>
+      <rect class="a" x="610" y="3" width="190" height="88.04"/>
+      <rect class="a" x="810" y="3" width="190" height="88.04"/>
+      <rect class="a" x="1010" y="3" width="190" height="88.04"/>
+      <rect class="a" x="1210" y="3" width="190" height="88.04"/>
+    </g>
+    <g>
+      <rect class="b" x="10" y="91.04" width="190" height="1.96"/>
+      <rect class="b" x="210" y="91.04" width="190" height="1.96"/>
+      <rect class="b" x="410" y="91.04" width="190" height="1.96"/>
+      <rect class="b" x="610" y="91.04" width="190" height="1.96"/>
+      <rect class="b" x="810" y="91.04" width="190" height="1.96"/>
+      <rect class="b" x="1010" y="91.04" width="190" height="1.96"/>
+      <rect class="b" x="1210" y="91.04" width="190" height="1.96"/>
+    </g>
+    <g>
+      <rect class="c" x="10" y="3.04" width="190" height="1.96"/>
+      <rect class="c" x="210" y="3.04" width="190" height="1.96"/>
+      <rect class="c" x="410" y="3.04" width="190" height="1.96"/>
+      <rect class="c" x="610" y="3.04" width="190" height="1.96"/>
+      <rect class="c" x="810" y="3.04" width="190" height="1.96"/>
+      <rect class="c" x="1010" y="3.04" width="190" height="1.96"/>
+      <rect class="c" x="1210" y="3.04" width="190" height="1.96"/>
+    </g>
+    <g>
+      <polygon class="d" points="200 19 43 93 10 93 10 5 200 5 200 19"/>
+      <polygon class="e" points="400 19 243 93 210 93 210 5 400 5 400 19"/>
+      <polygon class="f" points="600 19 443 93 410 93 410 5 600 5 600 19"/>
+      <polygon class="g" points="800 19 643 93 610 93 610 5 800 5 800 19"/>
+      <polygon class="h" points="1000 19 843 93 810 93 810 5 1000 5 1000 19"/>
+      <polygon class="i" points="1200 19 1043 93 1010 93 1010 5 1200 5 1200 19"/>
+      <polygon class="j" points="1400 19 1243 93 1210 93 1210 5 1400 5 1400 19"/>
+    </g>
+    <g>
+      <rect class="k" y="1" width="10" height="100"/>
+      <rect class="l" x="200" y="1" width="10" height="100"/>
+      <rect class="m" x="400" y="1" width="10" height="100"/>
+      <rect class="n" x="600" y="1" width="10" height="100"/>
+      <rect class="o" x="800" y="1" width="10" height="100"/>
+      <rect class="p" x="1000" y="1" width="10" height="100"/>
+      <rect class="q" x="1200" y="1" width="10" height="100"/>
+      <rect class="r" x="1400" y="1" width="10" height="100"/>
+    </g>
+    <g>
+      <ellipse class="s" cx="5" cy="101" rx="5" ry="1"/>
+      <ellipse class="t" cx="205" cy="101" rx="5" ry="1"/>
+      <ellipse class="u" cx="405" cy="101" rx="5" ry="1"/>
+      <ellipse class="v" cx="605" cy="101" rx="5" ry="1"/>
+      <ellipse class="w" cx="805" cy="101" rx="5" ry="1"/>
+      <ellipse class="x" cx="1005" cy="101" rx="5" ry="1"/>
+      <ellipse class="y" cx="1205" cy="101" rx="5" ry="1"/>
+      <ellipse class="z" cx="1405" cy="101" rx="5" ry="1"/>
+    </g>
+    <g>
+      <ellipse class="aa" cx="5" cy="1" rx="5" ry="1"/>
+      <ellipse class="ab" cx="205" cy="1" rx="5" ry="1"/>
+      <ellipse class="ac" cx="405" cy="1" rx="5" ry="1"/>
+      <ellipse class="ad" cx="605" cy="1" rx="5" ry="1"/>
+      <ellipse class="ae" cx="805" cy="1" rx="5" ry="1"/>
+      <ellipse class="af" cx="1005" cy="1" rx="5" ry="1"/>
+      <ellipse class="ag" cx="1205" cy="1" rx="5" ry="1"/>
+      <ellipse class="ah" cx="1405" cy="1" rx="5" ry="1"/>
+    </g>
+  </g>
+</svg>

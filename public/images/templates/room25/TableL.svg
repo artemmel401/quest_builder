@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="645" height="134" viewBox="0 0 645 134">
+  <defs>
+    <style>
+      .a {
+        fill: #998675;
+      }
+
+      .b {
+        fill: gray;
+      }
+
+      .c {
+        fill: #999;
+      }
+
+      .d {
+        fill: #c7b299;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="72 67 49.77 67 33 78 55.65 78 72 67"/>
+    <polygon class="a" points="143 13 126.72 13 139 5 155.03 5 143 13"/>
+    <polygon class="a" points="608 12 627.64 12 633 3 613.69 3 608 12"/>
+    <polygon class="a" points="582 67 601.43 67 595 78 575.21 78 582 67"/>
+    <rect class="b" x="33" y="78" width="20" height="56"/>
+    <rect class="c" x="53" y="67" width="16" height="67"/>
+    <rect class="b" x="127" y="14" width="17" height="120"/>
+    <rect class="b" x="613" y="11" width="17" height="122"/>
+    <rect class="c" x="143" y="12" width="14" height="122"/>
+    <rect class="c" x="630" y="11" width="7" height="122"/>
+    <rect class="b" x="576" y="78" width="17" height="56"/>
+    <rect class="c" x="593" y="78" width="7" height="56"/>
+    <polygon class="a" points="645 18 597 105 597 85 645 0 645 18"/>
+    <rect class="a" y="85" width="597" height="20"/>
+    <polygon class="d" points="0 85 597 85 645 0 136 0 0 85"/>
+  </g>
+</svg>

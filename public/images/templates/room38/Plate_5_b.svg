@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="64" viewBox="0 0 150 64">
+  <defs>
+    <style>
+      .a {
+        fill: #1b1b3a;
+        opacity: 0.3;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: #4d4d4d;
+      }
+
+      .d {
+        fill: #333;
+      }
+
+      .e {
+        fill: #9cc;
+      }
+    </style>
+    <linearGradient id="a" x1="80.82" x2="80.82" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#666"/>
+      <stop offset="0.98" stop-color="#4e4e4e"/>
+      <stop offset="1" stop-color="#4d4d4d"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="2.99 60 21.95 60 21.95 64 11.97 64 2.99 60"/>
+      <rect class="a" x="2.99" y="30" width="144.68" height="30"/>
+      <polygon class="a" points="147.67 24 0 24 2.99 30 147.67 30 147.67 24"/>
+      <polygon class="a" points="130.71 60 149.67 60 149.67 64 139.69 64 130.71 60"/>
+      <rect class="b" x="11.64" width="138.36" height="48"/>
+      <rect class="c" x="11.64" y="48" width="10.64" height="16"/>
+      <rect class="c" x="139.36" y="48" width="10.64" height="16"/>
+      <rect class="d" x="15.96" y="4" width="129.71" height="40"/>
+    </g>
+    <g>
+      <rect class="e" x="20.95" y="9" width="5.99" height="12"/>
+      <rect class="e" x="60.86" y="9" width="5.99" height="12"/>
+      <rect class="e" x="46.9" y="9" width="10.98" height="12"/>
+      <rect class="e" x="25.94" y="26" width="10.98" height="12"/>
+      <rect class="e" x="39.91" y="26" width="10.98" height="12"/>
+      <rect class="e" x="34.92" y="9" width="3.99" height="12"/>
+      <rect class="e" x="20.95" y="26" width="2" height="12"/>
+      <rect class="e" x="29.93" y="9" width="2" height="12"/>
+      <rect class="e" x="52.88" y="26" width="2" height="12"/>
+      <rect class="e" x="58.87" y="26" width="2" height="12"/>
+      <rect class="e" x="69.84" y="9" width="2" height="12"/>
+      <rect class="e" x="41.91" y="9" width="2" height="12"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="194" height="861" viewBox="0 0 194 861">
+  <defs>
+    <style>
+      .a {
+        fill: #4d4d4d;
+      }
+
+      .b {
+        fill: #333;
+      }
+
+      .c {
+        fill: #1a1a1a;
+      }
+
+      .d {
+        fill: url(#a);
+      }
+
+      .e {
+        fill: url(#b);
+      }
+
+      .f {
+        fill: url(#c);
+      }
+
+      .g, .h {
+        fill: none;
+        stroke: #333;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+
+      .g {
+        stroke-width: 2.3px;
+      }
+
+      .h {
+        stroke-width: 2.7px;
+      }
+    </style>
+    <linearGradient id="a" x1="43" y1="543" x2="14" y2="514" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset="0.08" stop-color="#3c3c3c"/>
+      <stop offset="0.18" stop-color="#4d4d4d"/>
+      <stop offset="0.27" stop-color="#5b5b5b"/>
+      <stop offset="0.52" stop-color="gray"/>
+      <stop offset="0.68" stop-color="#686868"/>
+      <stop offset="0.82" stop-color="#4d4d4d"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="b" x1="156.34" y1="563.49" x2="122.92" y2="530.08" xlink:href="#a"/>
+    <linearGradient id="c" x1="96.05" y1="552.16" x2="65.95" y2="522.05" xlink:href="#a"/>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="0 765 184 861 184 0 0 89 0 765"/>
+      <rect class="b" x="184" width="10" height="861"/>
+    </g>
+    <polygon class="b" points="11 771 173 855 173 25 11 100 11 771"/>
+    <g>
+      <g>
+        <polygon class="a" points="11 771 56 794 56 79 11 100 11 771"/>
+        <g>
+          <polygon class="b" points="39 502 23 500 23 555 39 558 39 502"/>
+          <polygon class="c" points="37 505 25 503 25 553 37 555 37 505"/>
+          <polygon class="d" points="32 504 25 503 25 553 32 554 32 504"/>
+        </g>
+      </g>
+      <g>
+        <polygon class="a" points="112 823 173 855 173 25 112 53 112 823"/>
+        <g>
+          <polygon class="b" points="154 517 131 515 131 575 154 580 154 517"/>
+          <polygon class="c" points="151 521 134 519 133.83 572.58 150.83 575.58 151 521"/>
+          <polygon class="e" points="145 520 134 519 133.51 572.83 145 574.83 145 520"/>
+        </g>
+      </g>
+      <g>
+        <polygon class="a" points="56 794 112 823 112 53 56 79 56 794"/>
+        <g>
+          <polygon class="b" points="94 509 74 507 74 564 94 568 94 509"/>
+          <polygon class="c" points="91 513 77 511 77 562 91 565 91 513"/>
+          <polygon class="f" points="85.28 512 77 511 76.72 562.21 85 563.21 85.28 512"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <polygon class="b" points="176 21 173 26 173 855 176 857 176 21"/>
+      <polygon class="b" points="11 100 173 26 176 21 9 99 11 100"/>
+      <polygon class="b" points="11 771 9 770 9 99 11 100 11 771"/>
+    </g>
+    <g>
+      <line class="g" x1="56" y1="79" x2="56" y2="793"/>
+      <line class="h" x1="112.5" y1="53" x2="112.5" y2="821.5"/>
+    </g>
+  </g>
+</svg>

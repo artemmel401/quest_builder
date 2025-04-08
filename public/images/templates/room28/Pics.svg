@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130.82" height="199.03" viewBox="0 0 130.82 199.03">
+  <defs>
+    <style>
+      .a, .d, .f {
+        fill: none;
+      }
+
+      .b, .e, .i, .q {
+        fill: #fff;
+      }
+
+      .b, .c {
+        opacity: 0.6;
+      }
+
+      .d {
+        stroke: #fff;
+      }
+
+      .d, .f {
+        stroke-linecap: round;
+      }
+
+      .d, .f, .m {
+        stroke-miterlimit: 10;
+      }
+
+      .f {
+        stroke: #4d4d4d;
+        stroke-width: 0.5px;
+      }
+
+      .g {
+        fill: #4d4d4d;
+      }
+
+      .h {
+        fill: #c0272d;
+      }
+
+      .i {
+        opacity: 0.5;
+      }
+
+      .j {
+        fill: #a57c52;
+      }
+
+      .k {
+        fill: gray;
+      }
+
+      .l {
+        fill: #736357;
+      }
+
+      .m {
+        fill: #faaf3b;
+        stroke: #736357;
+      }
+
+      .n {
+        fill: #cbcbcb;
+      }
+
+      .o {
+        clip-path: url(#a);
+      }
+
+      .p {
+        fill: #009145;
+      }
+
+      .q {
+        opacity: 0.2;
+      }
+    </style>
+    <clipPath id="a">
+      <polygon class="a" points="125.38 147.5 83.38 151.15 83.38 67.5 125.38 68.34 125.38 147.5"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g>
+      <ellipse class="b" cx="87.38" cy="23.5" rx="8" ry="11"/>
+      <g class="c">
+        <line class="d" x1="93.38" y1="9.5" x2="95.38" y2="2.5"/>
+        <line class="d" x1="97.38" y1="16.5" x2="103.38" y2="14.5"/>
+        <line class="d" x1="99.38" y1="25.5" x2="106.38" y2="26.5"/>
+        <line class="d" x1="98.38" y1="33.5" x2="103.38" y2="38.5"/>
+        <line class="d" x1="91.88" y1="38" x2="94.38" y2="46.5"/>
+        <line class="d" x1="86.38" y1="9.5" x2="85.38" y2="0.5"/>
+        <line class="d" x1="79.38" y1="12.5" x2="74.38" y2="3.5"/>
+        <line class="d" x1="75.88" y1="18" x2="67.88" y2="15"/>
+        <line class="d" x1="76.38" y1="25.5" x2="68.38" y2="26.5"/>
+        <line class="d" x1="78.38" y1="32.5" x2="70.38" y2="36.5"/>
+        <line class="d" x1="83.38" y1="38.5" x2="80.38" y2="45.5"/>
+      </g>
+    </g>
+    <g>
+      <polygon class="e" points="74.38 189.5 3.38 199.03 3.38 125.5 74.38 122.02 74.38 189.5"/>
+      <polygon class="f" points="68.88 183 11.88 190.13 11.88 144 68.88 139.94 68.88 183"/>
+      <polygon class="g" points="16.88 141 11.88 141.34 11.88 135 16.88 134.7 16.88 141"/>
+      <polygon class="g" points="26.38 140.5 22.38 140.77 22.38 134.5 26.38 134.26 26.38 140.5"/>
+      <polygon class="g" points="36.38 139.5 33.38 139.7 33.38 134.5 36.38 134.31 36.38 139.5"/>
+      <polygon class="g" points="45.38 139.5 41.38 139.77 41.38 133.5 45.38 133.26 45.38 139.5"/>
+      <polygon class="g" points="54.38 139.5 51.38 139.71 51.38 134.5 54.38 134.31 54.38 139.5"/>
+      <polygon class="g" points="61.38 138.5 58.38 138.71 58.38 134.5 61.38 134.31 61.38 138.5"/>
+      <polygon class="g" points="68.38 138.5 65.38 138.71 65.38 133.5 68.38 133.31 68.38 138.5"/>
+      <line class="f" x1="14.38" y1="155.5" x2="66.38" y2="151.5"/>
+      <line class="f" x1="14.46" y1="167.68" x2="65.46" y2="162.68"/>
+      <line class="f" x1="16.16" y1="179.56" x2="66.16" y2="174.56"/>
+      <line class="f" x1="19.88" y1="147" x2="19.88" y2="186"/>
+      <line class="f" x1="30.88" y1="146" x2="30.88" y2="184"/>
+      <line class="f" x1="38.88" y1="145" x2="38.88" y2="183"/>
+      <line class="f" x1="48.88" y1="144" x2="48.88" y2="182"/>
+      <line class="f" x1="56.88" y1="144" x2="56.88" y2="181"/>
+      <line class="f" x1="63.88" y1="144" x2="63.88" y2="179"/>
+      <path class="h" d="M54.88,157.78c0,2.33-1.12,4.33-2.5,4.46s-2.5-1.65-2.5-4,1.12-4.34,2.5-4.46S54.88,155.45,54.88,157.78Z"/>
+      <rect class="i" x="0.38" y="123.5" width="8" height="4" transform="matrix(0.78, -0.62, 0.62, 0.78, -77.21, 30.03)"/>
+      <rect class="i" x="70.38" y="120.5" width="8" height="4" transform="translate(24.85 256.98) rotate(-128.52)"/>
+    </g>
+    <g>
+      <rect class="i" x="79.38" y="65.5" width="8" height="4" transform="matrix(0.78, -0.62, 0.62, 0.78, -23.89, 66.61)"/>
+      <rect class="i" x="121.38" y="66.5" width="8" height="4" transform="translate(149.86 209.25) rotate(-128.52)"/>
+      <polygon class="e" points="125.38 147.5 83.38 151.15 83.38 67.5 125.38 68.34 125.38 147.5"/>
+      <polygon class="j" points="115.38 143.5 95.38 145.11 95.38 118.5 115.38 117.58 115.38 143.5"/>
+      <rect class="k" x="96.38" y="107.5" width="3" height="7"/>
+      <polygon class="l" points="91.38 119.5 105.38 104.5 119.38 118.5 91.38 119.5"/>
+      <polygon class="m" points="109.38 134.5 102.38 134.97 102.38 124.5 109.38 124.12 109.38 134.5"/>
+      <ellipse class="n" cx="97.38" cy="104" rx="2" ry="1.5"/>
+      <ellipse class="n" cx="100.88" cy="94.38" rx="2.5" ry="1.88"/>
+      <ellipse class="n" cx="104.21" cy="88.38" rx="3.83" ry="2.88"/>
+      <ellipse class="n" cx="98.71" cy="99.5" rx="1.33" ry="1"/>
+      <ellipse class="n" cx="104.38" cy="78" rx="2" ry="1.5"/>
+      <ellipse class="n" cx="104.71" cy="82.5" rx="1.33" ry="1"/>
+      <g class="o">
+        <ellipse class="p" cx="104.88" cy="149.5" rx="26" ry="7.5" transform="translate(-10.33 7.81) rotate(-4.06)"/>
+      </g>
+      <polygon class="q" points="125.38 147.5 83.38 151.15 83.38 67.5 125.38 68.34 125.38 147.5"/>
+    </g>
+  </g>
+</svg>

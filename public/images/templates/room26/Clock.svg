@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="73.9" viewBox="0 0 60 73.9">
+  <defs>
+    <style>
+      .a, .f {
+        opacity: 0.57;
+      }
+
+      .a {
+        isolation: isolate;
+      }
+
+      .b {
+        fill: #998675;
+      }
+
+      .c {
+        fill: #6d6055;
+      }
+
+      .d {
+        fill: #fff;
+        stroke: #f93;
+        stroke-width: 4px;
+      }
+
+      .d, .e {
+        stroke-miterlimit: 10;
+      }
+
+      .e {
+        fill: none;
+        stroke: #000;
+      }
+
+      .g {
+        fill: #e0cebd;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="60 73.9 0 73.9 1 63.9 59 65.2 60 73.9"/>
+    <rect x="2" y="40.1" width="56" height="29.8"/>
+    <path d="M30,40.1H2V40C2,18,14.6,0,30,0S58,18.2,58,40.2l-28-.1Z"/>
+    <rect class="b" x="3" y="40.3" width="54" height="28.5"/>
+    <path class="c" d="M30,38.9H3v-.1C3,18.6,15.2,2,30,2S57,18.7,57,38.9Z"/>
+    <path class="b" d="M30,38.9H3v-.1C3,22.4,15.2,8.9,30,8.9s27,13.6,27,30Z"/>
+    <ellipse class="c" cx="29.9" cy="41.2" rx="18.8" ry="18.7"/>
+    <circle class="d" cx="30" cy="38.9" r="16"/>
+    <line class="e" x1="29.5" y1="25.4" x2="29.5" y2="27.4"/>
+    <line class="e" x1="43" y1="39.4" x2="45" y2="39.4"/>
+    <line class="e" x1="30.5" y1="51.4" x2="30.5" y2="53.4"/>
+    <line class="e" x1="17.5" y1="39.4" x2="15.5" y2="39.4"/>
+    <line class="e" x1="30.5" y1="39.4" x2="23.5" y2="28.4"/>
+    <line class="e" x1="40.5" y1="34.4" x2="30.5" y2="39.4"/>
+    <circle cx="30.5" cy="39.4" r="1.5"/>
+    <g class="f">
+      <path class="g" d="M27.9,22.5a18.88,18.88,0,0,0-9,4.3c-2.4,2.1-4.3,4.9-4.3,8.1a.45.45,0,1,0,.9,0c0-3.1,1.9-5.7,4.2-7.6a19.09,19.09,0,0,1,8.5-4c.5-.1.3-.9-.3-.8Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297.6" height="297.6" viewBox="0 0 297.6 297.6">
+  <defs>
+    <style>
+      .a {
+        fill: #ccc;
+      }
+
+      .b {
+        fill: #999;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="a" cx="148.8" cy="148.8" r="148.8"/>
+    <path class="b" d="M250.88,40.54a148.8,148.8,0,0,1-224,193.58,148.8,148.8,0,1,0,224-193.58Z"/>
+    <g>
+      <ellipse class="b" cx="32.71" cy="216.64" rx="12.61" ry="14.78" transform="translate(-153.85 101.75) rotate(-49.79)"/>
+      <ellipse class="a" cx="32.14" cy="221.97" rx="8.96" ry="11.11" transform="translate(-184.16 162.67) rotate(-66.43)"/>
+    </g>
+    <g>
+      <ellipse class="b" cx="200.34" cy="254.52" rx="14.78" ry="12.61" transform="translate(-15.87 13.33) rotate(-3.67)"/>
+      <ellipse class="a" cx="203.62" cy="258.75" rx="11.11" ry="8.96" transform="matrix(0.94, -0.35, 0.35, 0.94, -77.16, 86.78)"/>
+    </g>
+    <g>
+      <ellipse class="b" cx="168.1" cy="176.66" rx="14.78" ry="12.61" transform="translate(-10.95 11.11) rotate(-3.67)"/>
+      <ellipse class="a" cx="171.38" cy="180.9" rx="11.11" ry="8.96" transform="translate(-52.14 70.74) rotate(-20.31)"/>
+    </g>
+    <g>
+      <ellipse class="b" cx="127.8" cy="36.28" rx="14.78" ry="12.61" transform="translate(-2.06 8.25) rotate(-3.67)"/>
+      <ellipse class="a" cx="131.08" cy="40.51" rx="11.11" ry="8.96" transform="translate(-5.91 48.02) rotate(-20.31)"/>
+    </g>
+    <g>
+      <ellipse class="b" cx="32.3" cy="124.56" rx="25.65" ry="21.26" transform="translate(-95.99 134.63) rotate(-79.95)"/>
+      <path class="a" d="M31.54,146.45c7.57.09,15.26-5,19.21-13.7,5.25-11.52,1.88-24.89-7.52-29.88a16,16,0,0,0-4.12-1.5A26.16,26.16,0,0,0,25.57,115C20.24,126.68,23,140.12,31.54,146.45Z"/>
+    </g>
+    <g>
+      <ellipse class="b" cx="259.22" cy="194.62" rx="25.65" ry="21.26" transform="translate(-9.26 376.27) rotate(-70.98)"/>
+      <path class="a" d="M269.2,175.12c6.65,3.6,10.87,11.83,10.12,21.31-1,12.62-10.45,22.68-21.09,22.46a15.8,15.8,0,0,1-4.32-.68,26.15,26.15,0,0,1-5.23-18.48C249.7,186.91,258.62,176.49,269.2,175.12Z"/>
+    </g>
+    <g>
+      <ellipse class="b" cx="232.47" cy="112.09" rx="28.88" ry="26.33" transform="translate(-21.67 67.16) rotate(-15.72)"/>
+      <path class="a" d="M207.33,119.8c2.6,9.55,11.19,17.19,22.43,18.74,15,2.06,28.94-7.47,31.24-21.28a22.91,22.91,0,0,0,.24-5.77A30.34,30.34,0,0,0,241,99.83C225.75,97.74,211.47,106.5,207.33,119.8Z"/>
+    </g>
+    <g>
+      <ellipse class="b" cx="197.79" cy="50.54" rx="24.64" ry="33.9" transform="translate(130.55 243.29) rotate(-85.1)"/>
+      <ellipse class="a" cx="202.2" cy="55.26" rx="18.77" ry="25.83" transform="translate(129.88 252.01) rotate(-85.1)"/>
+    </g>
+    <g>
+      <ellipse class="b" cx="113.11" cy="228.28" rx="32.07" ry="44.13" transform="translate(-123.99 321.49) rotate(-85.1)"/>
+      <ellipse class="a" cx="118.85" cy="234.42" rx="24.44" ry="33.62" transform="matrix(0.09, -1, 1, 0.09, -124.86, 332.83)"/>
+    </g>
+  </g>
+</svg>

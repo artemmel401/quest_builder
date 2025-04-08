@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="380" height="211" viewBox="0 0 380 211">
+  <defs>
+    <style>
+      .a, .b {
+        fill: #333;
+      }
+
+      .a {
+        opacity: 0.2;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d, .e {
+        fill: #f15a24;
+      }
+
+      .e {
+        opacity: 0.3;
+      }
+
+      .f {
+        fill: #fff;
+        opacity: 0.1;
+      }
+    </style>
+    <linearGradient id="a" x1="8.6" y1="-27.44" x2="287.51" y2="174.55" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d4d4d"/>
+      <stop offset="0.47" stop-color="#373737"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="380 211 0 211 0 197 365 0 380 14 380 211"/>
+      <g>
+        <rect class="b" x="0.25" y="0.25" width="364.5" height="196.5"/>
+        <path d="M364.5.5v196H.5V.5h364M365,0H0V197H365V0Z"/>
+      </g>
+      <g>
+        <rect class="c" x="10.25" y="10.25" width="344.5" height="176.5"/>
+        <path d="M354.5,10.5v176H10.5V10.5h344m.5-.5H10V187H355V10Z"/>
+      </g>
+    </g>
+    <g>
+      <circle class="d" cx="350" cy="192" r="2"/>
+      <circle class="e" cx="350" cy="192" r="5"/>
+    </g>
+    <g>
+      <polygon class="f" points="10 115 10 187 96 187 217 10 88 10 10 115"/>
+      <polygon class="f" points="121 187 152 187 273 10 245 10 121 187"/>
+    </g>
+  </g>
+</svg>

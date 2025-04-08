@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="645" height="134" viewBox="0 0 645 134">
+  <defs>
+    <style>
+      .a {
+        fill: #998675;
+      }
+
+      .b {
+        fill: gray;
+      }
+
+      .c {
+        fill: #999;
+      }
+
+      .d {
+        fill: #c7b299;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="573 67 595.23 67 612 78 589.36 78 573 67"/>
+    <polygon class="a" points="502 13 518.28 13 506 5 489.97 5 502 13"/>
+    <polygon class="a" points="37 12 17.36 12 12 3 31.31 3 37 12"/>
+    <polygon class="a" points="63 67 43.57 67 50 78 69.79 78 63 67"/>
+    <rect class="b" x="592" y="78" width="20" height="56" transform="translate(1204 212) rotate(-180)"/>
+    <rect class="c" x="576" y="67" width="16" height="67" transform="translate(1168 201) rotate(-180)"/>
+    <rect class="b" x="501" y="14" width="17" height="120" transform="translate(1019 148) rotate(-180)"/>
+    <rect class="b" x="15" y="11" width="17" height="122" transform="translate(47 144) rotate(-180)"/>
+    <rect class="c" x="488" y="12" width="14" height="122" transform="translate(990 146) rotate(-180)"/>
+    <rect class="c" x="8" y="11" width="7" height="122" transform="translate(23 144) rotate(-180)"/>
+    <rect class="b" x="52" y="78" width="17" height="56" transform="translate(121 212) rotate(-180)"/>
+    <rect class="c" x="45" y="78" width="7" height="56" transform="translate(97 212) rotate(-180)"/>
+    <polygon class="a" points="0 18 48 105 48 85 0 0 0 18"/>
+    <rect class="a" x="48" y="85" width="597" height="20"/>
+    <polygon class="d" points="645 85 48 85 0 0 509 0 645 85"/>
+  </g>
+</svg>

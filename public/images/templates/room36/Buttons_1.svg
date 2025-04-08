@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="43" viewBox="0 0 55 43">
+  <defs>
+    <style>
+      .a {
+        fill: gray;
+      }
+
+      .b {
+        fill: #b3b3b3;
+      }
+
+      .c {
+        fill: #999;
+      }
+
+      .d {
+        fill: red;
+      }
+
+      .e {
+        fill: url(#a);
+      }
+
+      .f {
+        fill: url(#b);
+      }
+
+      .g {
+        fill: url(#c);
+      }
+
+      .h {
+        fill: #ccc;
+      }
+
+      .i {
+        fill: #fc3;
+      }
+    </style>
+    <radialGradient id="a" cx="16" cy="12" r="7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="red" stop-opacity="0.5"/>
+      <stop offset="0.41" stop-color="#ff000a" stop-opacity="0.25"/>
+      <stop offset="0.75" stop-color="#ff0010" stop-opacity="0.07"/>
+      <stop offset="0.92" stop-color="#ff0013" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="31" r="7" xlink:href="#a"/>
+    <radialGradient id="c" cx="45" r="7" xlink:href="#a"/>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="6 3 0 0 0 39 6 43 6 3"/>
+      <rect class="b" x="6" y="3" width="49" height="40"/>
+      <polygon class="c" points="55 3 6 3 0 0 51 0 55 3"/>
+    </g>
+    <g>
+      <g>
+        <circle class="d" cx="16" cy="12" r="2"/>
+        <circle class="e" cx="16" cy="12" r="7"/>
+        <circle class="f" cx="31" cy="12" r="7"/>
+        <circle class="g" cx="45" cy="12" r="7"/>
+        <circle class="d" cx="31" cy="12" r="2"/>
+        <circle class="d" cx="45" cy="12" r="2"/>
+      </g>
+      <rect class="h" x="12" y="22" width="9" height="15"/>
+      <rect class="h" x="26" y="22" width="9" height="15"/>
+      <rect class="h" x="40" y="22" width="9" height="15"/>
+      <rect class="b" x="14" y="25" width="5" height="9"/>
+      <rect class="i" x="14" y="25" width="5" height="2"/>
+      <rect class="b" x="28" y="25" width="5" height="9"/>
+      <rect class="i" x="28" y="25" width="5" height="2"/>
+      <rect class="b" x="42" y="25" width="5" height="9"/>
+      <rect class="i" x="42" y="25" width="5" height="2"/>
+    </g>
+  </g>
+</svg>

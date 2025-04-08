@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="358" height="54.5" viewBox="0 0 358 54.5">
+  <defs>
+    <style>
+      .a {
+        fill: #736357;
+      }
+
+      .b {
+        fill: #c69c6d;
+      }
+
+      .c {
+        fill: #a67c52;
+      }
+
+      .d {
+        fill: #e0bb96;
+      }
+
+      .e {
+        fill: gray;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" y="34.5" width="259" height="20"/>
+    <polygon class="a" points="358 1.5 259 34.5 259 54.5 358 18.5 358 1.5"/>
+    <rect class="b" y="33" width="259" height="20"/>
+    <polygon class="c" points="358 0 259 33 259 53 358 17 358 0"/>
+    <polygon class="d" points="358 0 147 0 0 33 259 33 358 0"/>
+    <ellipse class="e" cx="22" cy="31" rx="5" ry="1"/>
+    <ellipse class="e" cx="255" cy="31" rx="5" ry="1"/>
+    <ellipse class="e" cx="346.5" cy="1.5" rx="4.5" ry="0.5"/>
+    <ellipse class="e" cx="150.5" cy="1.5" rx="4.5" ry="0.5"/>
+  </g>
+</svg>

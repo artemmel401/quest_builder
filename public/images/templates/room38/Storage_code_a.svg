@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="81" viewBox="0 0 48 81">
+  <defs>
+    <style>
+      .a {
+        fill: #336;
+        opacity: 0.2;
+      }
+
+      .b {
+        fill: #333;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        fill: #c1272d;
+      }
+
+      .e {
+        fill: url(#b);
+      }
+
+      .f {
+        fill: #666;
+      }
+
+      .g {
+        fill: none;
+      }
+    </style>
+    <linearGradient id="a" x1="47.02" y1="71.65" x2="7.47" y2="3.15" gradientUnits="userSpaceOnUse">
+      <stop offset="0.25" stop-color="#4d4d4d"/>
+      <stop offset="1" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="b" x1="26.12" y1="17.8" x2="18.76" y2="5.04" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.05"/>
+      <stop offset="0.67" stop-color="#fff" stop-opacity="0.37"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="a" d="M15.09,76.91,39,81h5l4-9L44,8,9,5V66l2.75,8A4.4,4.4,0,0,0,15.09,76.91Z"/>
+    <path class="b" d="M15,68.3,40,74c3,1,8-.47,8-2.07V5.14a2.52,2.52,0,0,0-2.28-2.52L15.71,0C16,0,10,0,10,3l3,62.82A2.53,2.53,0,0,0,15,68.3Z"/>
+    <path class="c" d="M11,68.4l30,6A2.49,2.49,0,0,0,44,72V6.28A2.49,2.49,0,0,0,41.72,3.8l-30-2.58A2.5,2.5,0,0,0,9,3.71V66A2.5,2.5,0,0,0,11,68.4Z"/>
+    <g>
+      <path class="d" d="M37.32,22.72l-22.1-3.53A1.45,1.45,0,0,1,14,17.76V8.63a1.45,1.45,0,0,1,1.63-1.44L37.72,9.84A1.46,1.46,0,0,1,39,11.28v10A1.45,1.45,0,0,1,37.32,22.72Z"/>
+      <path class="e" d="M33.56,9.34,15.63,7.19A1.45,1.45,0,0,0,14,8.63v9.13a1.45,1.45,0,0,0,1.22,1.43l6.65,1.06Z"/>
+      <path class="b" d="M15.12,7.14l0,1,22.75,2.73A.12.12,0,0,1,38,11V21.67a.13.13,0,0,1-.14.13h0L15.11,18.16A.12.12,0,0,1,15,18V8.26a.12.12,0,0,1,.12-.12v-1m0,0A1.12,1.12,0,0,0,14,8.26V18A1.13,1.13,0,0,0,15,19.15L37.7,22.79h.18A1.13,1.13,0,0,0,39,21.67V11a1.13,1.13,0,0,0-1-1.12L15.26,7.14Z"/>
+    </g>
+    <path class="f" d="M19.17,53.59,32,56a2.08,2.08,0,0,0,2.45-2V35.37a2.07,2.07,0,0,0-1.75-2l-12.87-2a2.07,2.07,0,0,0-2.4,2.05V51.55A2.07,2.07,0,0,0,19.17,53.59Z"/>
+    <rect class="b" x="25" y="39" width="2" height="11" rx="1"/>
+    <rect class="g" width="48" height="81"/>
+  </g>
+</svg>

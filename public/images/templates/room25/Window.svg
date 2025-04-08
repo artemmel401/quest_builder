@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="202.5" height="642" viewBox="0 0 202.5 642">
+  <defs>
+    <style>
+      .a {
+        fill: #ccc;
+      }
+
+      .b {
+        fill: #b3b3b3;
+      }
+
+      .c {
+        fill: #f2f2f2;
+      }
+
+      .d {
+        fill: url(#a);
+      }
+
+      .e {
+        fill: none;
+        stroke: #4d4d4d;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .f {
+        fill: #fff;
+        opacity: 0.5;
+      }
+    </style>
+    <radialGradient id="a" cx="64" cy="328" fx="-200.0523086169262" fy="487.1440907727052" r="345.45" gradientTransform="translate(250.25 266.49) rotate(90.77) scale(1 0.57)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.08" stop-color="#fff"/>
+      <stop offset="0.28" stop-color="#eff"/>
+      <stop offset="0.58" stop-color="#cff"/>
+      <stop offset="0.63" stop-color="#c6f9f4"/>
+      <stop offset="0.73" stop-color="#b7ead5"/>
+      <stop offset="0.86" stop-color="#9ed1a4"/>
+      <stop offset="0.89" stop-color="#9c9"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <polygon class="a" points="202.5 85 0.5 0 0.5 642 202.5 585 202.5 85"/>
+    <polygon class="b" points="0.5 29 0.5 0 202.5 85 144.5 85 0.5 29"/>
+    <rect class="c" x="145.5" y="85" width="57" height="500"/>
+    <polygon class="c" points="0.5 622 0.5 642 202.5 585 145.5 585 0.5 622"/>
+    <polygon class="d" points="0.5 54 127.5 99 127.5 572 0.5 602 0.5 54"/>
+    <polyline class="e" points="0.5 54 127.5 99 127.5 572 0.5 602"/>
+    <g>
+      <polygon class="f" points="0.5 384 125.5 243 125.5 475 14.5 597 0.5 600 0.5 384"/>
+      <polygon class="f" points="0.5 293 125.5 152 125.5 105 0.5 238 0.5 293"/>
+    </g>
+  </g>
+</svg>

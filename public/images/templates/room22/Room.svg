@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .a {
+        fill: #f2f2f2;
+      }
+
+      .b {
+        fill: #963;
+      }
+
+      .c {
+        fill: #cfe2b3;
+      }
+
+      .d {
+        fill: #e2ead0;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="1602 107.5 318 107.5 0 0 1920 0 1602 107.5"/>
+    <polygon class="b" points="1920 1080 0 1080 318 830 1602 830 1920 1080"/>
+    <rect class="c" x="318" y="107.5" width="1284" height="722.5"/>
+    <polygon class="d" points="318 830 0 1080 0 0 318 107.5 318 830"/>
+    <polygon class="d" points="1602 830 1920 1080 1920 0 1602 107.5 1602 830"/>
+  </g>
+</svg>

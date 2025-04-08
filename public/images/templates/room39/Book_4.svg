@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121" height="74" viewBox="0 0 121 74">
+  <defs>
+    <style>
+      .a, .b {
+        fill: #336;
+      }
+
+      .a {
+        opacity: 0.15;
+      }
+
+      .b, .h {
+        opacity: 0.25;
+      }
+
+      .c {
+        fill: #ccc;
+      }
+
+      .d {
+        fill: #f2f2f2;
+      }
+
+      .e {
+        fill: #f93;
+      }
+
+      .f, .g, .h, .j {
+        fill: #fff;
+      }
+
+      .f {
+        opacity: 0.4;
+      }
+
+      .g {
+        opacity: 0.35;
+      }
+
+      .i {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" x1="102.5" y1="-10.5" x2="10.5" y2="81.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.08" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="0.24" stop-color="#fff" stop-opacity="0.33"/>
+      <stop offset="0.87" stop-color="#fff" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="121 1 49 1 8 72 82 72 121 1"/>
+      <polygon class="b" points="82 72 70 72 70 74 76 74 82 72"/>
+      <g>
+        <polygon class="c" points="76 74 2 74 0 71 74 71 76 74"/>
+        <polygon class="d" points="113 0 74 71 76 74 113 5 113 0"/>
+      </g>
+    </g>
+    <polygon class="e" points="113 0 39 0 0 71 74 71 113 0"/>
+    <path class="f" d="M45.83,53.66A22.3,22.3,0,0,0,49.69,71H74L89.42,42.93a27.29,27.29,0,0,0-13.76-7.2C61.73,32.94,48.38,41,45.83,53.66Z"/>
+    <path class="g" d="M46.74,37.15C38,35.4,32,28.14,32.16,20.26c-.57-.14-1.14-.27-1.72-.39s-1.44-.26-2.15-.37L0,71H49.69a22,22,0,0,1,6.78-32.11c-.35-.66-.72-1.32-1.12-2A19.15,19.15,0,0,1,46.74,37.15Z"/>
+    <ellipse class="h" cx="49.94" cy="21.19" rx="16.28" ry="17.86" transform="translate(19.34 65.99) rotate(-78.66)"/>
+    <polygon class="i" points="113 0 39 0 0 71 74 71 113 0"/>
+    <g>
+      <polygon class="j" points="31.55 52 22 52 25.58 45 35.13 45 31.55 52"/>
+      <polygon class="j" points="39.9 52 35.13 52 38.71 45 43.48 45 39.9 52"/>
+      <polygon class="j" points="48.26 52 43.48 52 47.06 45 51.84 45 48.26 52"/>
+      <polygon class="j" points="55.42 52 51.84 52 55.42 45 59 45 55.42 52"/>
+    </g>
+    <polygon class="j" points="105 9 94 9 97 3 108 3 105 9"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="204.5" viewBox="0 0 360 204.5">
+  <defs>
+    <style>
+      .a {
+        fill: gray;
+      }
+
+      .b {
+        fill: #999;
+      }
+
+      .c {
+        fill: #666;
+      }
+
+      .d {
+        fill: none;
+        stroke: gray;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <polygon class="a" points="344.04 3 360 3 360 0 343.05 0 339.06 12 340.06 15 344.04 3"/>
+        <polygon class="b" points="355.01 15 340.06 15 344.04 3 360 3 355.01 15"/>
+        <path class="c" d="M346.16,9.51c.48-1.38,2.4-2.51,4.28-2.51s3,1.13,2.49,2.51S350.52,12,348.66,12,345.68,10.89,346.16,9.51Z"/>
+      </g>
+      <line class="d" x1="350.53" y1="204" x2="349.53" y2="9.5"/>
+    </g>
+    <g>
+      <g>
+        <polygon class="a" points="15.96 3 0 3 0 0 16.95 0 20.94 12 19.95 15 15.96 3"/>
+        <polygon class="b" points="4.99 15 19.95 15 15.96 3 0 3 4.99 15"/>
+        <path class="c" d="M13.84,9.51C13.36,8.13,11.44,7,9.56,7s-3,1.13-2.49,2.51S9.48,12,11.34,12,14.32,10.89,13.84,9.51Z"/>
+      </g>
+      <line class="d" x1="11.47" y1="204" x2="10.47" y2="9.5"/>
+    </g>
+  </g>
+</svg>

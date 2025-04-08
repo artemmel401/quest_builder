@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="54" viewBox="0 0 26 54">
+  <defs>
+    <style>
+      .a {
+        fill: #ffd836;
+      }
+
+      .b {
+        fill: #c6a82a;
+      }
+
+      .c {
+        fill: #a67c52;
+      }
+
+      .d {
+        fill: #7f5b3d;
+      }
+
+      .e {
+        fill: #ffec9c;
+      }
+
+      .f {
+        fill: #e2d18a;
+      }
+
+      .g {
+        fill: url(#a);
+      }
+
+      .h {
+        fill: none;
+      }
+    </style>
+    <linearGradient id="a" x1="28.25" y1="9.25" x2="-8.25" y2="45.75" gradientUnits="userSpaceOnUse">
+      <stop offset="0.13" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0.17"/>
+      <stop offset="0.8" stop-color="#fff" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" y="1" width="20" height="53"/>
+    <polygon class="b" points="26 54 20 54 20 1 26 4 26 54"/>
+    <ellipse class="c" cx="10" cy="11" rx="6" ry="4"/>
+    <rect class="c" y="44" width="20" height="10"/>
+    <polygon class="d" points="26 46 20 44 20 54 26 54 26 46"/>
+    <rect class="e" x="3" y="22" width="14" height="17"/>
+    <rect class="f" x="5" y="32" width="10" height="3"/>
+    <rect class="f" x="5" y="26" width="10" height="3"/>
+    <rect class="g" y="1" width="20" height="53"/>
+    <rect class="h" width="20" height="54"/>
+  </g>
+</svg>

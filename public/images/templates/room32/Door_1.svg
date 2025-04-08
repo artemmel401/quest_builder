@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="503" viewBox="0 0 134 503">
+  <defs>
+    <style>
+      .a {
+        fill: #333;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: #1a1a1a;
+      }
+
+      .d {
+        fill: #4d4d4d;
+      }
+    </style>
+    <linearGradient id="a" x1="68.5" y1="497.61" x2="68.5" y2="11.34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c7b299"/>
+      <stop offset="0.35" stop-color="#ccb8a0"/>
+      <stop offset="0.84" stop-color="#dcc8b2"/>
+      <stop offset="1" stop-color="#e2cfba"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="0.25 0.34 133.75 43.18 133.75 441.84 0.25 502.61 0.25 0.34"/>
+      <path d="M.5.69l133,42.67V441.68L.5,502.22V.69M0,0V503l134-61V43L0,0Z"/>
+    </g>
+    <g>
+      <polygon class="b" points="9.25 11.34 127.75 49.18 127.75 443.84 9.25 497.61 9.25 11.34"/>
+      <path d="M9.5,11.68l118,37.69V443.68L9.5,497.22V11.68M9,11V498l119-54V49L9,11Z"/>
+    </g>
+    <g>
+      <polygon class="a" points="9.25 11.34 31.75 18.68 31.75 487.84 9.25 498.11 9.25 11.34"/>
+      <path d="M9.5,11.69l22,7.17V487.68l-22,10v-486M9,11V498.5L32,488V18.5L9,11Z"/>
+    </g>
+    <g>
+      <rect class="c" x="14.75" y="267.75" width="2.5" height="15.5"/>
+      <path d="M17,268v15H15V268h2m.5-.5h-3v16h3v-16Z"/>
+    </g>
+    <g>
+      <polygon class="a" points="17.63 267.6 28.38 265.65 28.38 281.4 17.63 283.35 17.63 267.6"/>
+      <path d="M28.25,265.8v15.49l-10.5,1.91V267.71l10.5-1.91m.25-.3-11,2v16l11-2v-16Z"/>
+    </g>
+    <g>
+      <polygon class="c" points="20.75 279.14 20.75 271.74 23.25 271.75 23.25 279.24 20.75 279.14"/>
+      <path d="M21,272h2v7l-2-.08V272m-.5-.5v7.89l3,.12v-8Z"/>
+    </g>
+    <g>
+      <polygon class="a" points="23.63 271.59 47.38 266.65 47.38 273.4 23.63 279.23 23.63 271.59"/>
+      <path d="M47.25,266.81v6.49l-23.5,5.77v-7.38l23.5-4.88m.25-.31-24,5v7.89l24-5.88v-7Z"/>
+    </g>
+    <g>
+      <polygon class="d" points="45.52 266.62 46.27 266.62 23.48 271.26 22.06 271.32 45.52 266.62"/>
+      <polygon points="47.5 266.5 45.5 266.5 20.5 271.5 23.5 271.38 47.5 266.5 47.5 266.5"/>
+    </g>
+    <g>
+      <polygon class="c" points="17.27 267.25 25.55 265.75 25.75 265.75 17.48 267.25 17.27 267.25"/>
+      <polygon points="28.5 265.5 25.5 265.5 14.5 267.5 17.5 267.5 28.5 265.5 28.5 265.5"/>
+    </g>
+  </g>
+</svg>

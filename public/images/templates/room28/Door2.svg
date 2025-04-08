@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="224" height="470" viewBox="0 0 224 470">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: #f1f1f1;
+      }
+
+      .c {
+        fill: #9bb3bb;
+      }
+
+      .d {
+        fill: url(#b);
+      }
+
+      .e {
+        fill: #754c24;
+      }
+
+      .f {
+        fill: url(#c);
+      }
+
+      .g {
+        fill: url(#d);
+      }
+
+      .h {
+        fill: url(#e);
+      }
+
+      .i {
+        fill: #4d4d4d;
+      }
+
+      .j {
+        fill: #333;
+      }
+
+      .k {
+        fill: #1a1a1a;
+      }
+
+      .l {
+        fill: #8bc53f;
+      }
+    </style>
+    <linearGradient id="a" x1="226.63" y1="235.98" x2="2.64" y2="234.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cbcbcb"/>
+      <stop offset="0.15" stop-color="#d1d1d1"/>
+      <stop offset="0.61" stop-color="#e0e0e0"/>
+      <stop offset="1" stop-color="#e5e5e5"/>
+    </linearGradient>
+    <linearGradient id="b" x1="15" y1="233.5" x2="224" y2="233.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b2b2b2"/>
+      <stop offset="0.23" stop-color="#bebebe"/>
+      <stop offset="0.58" stop-color="#c8c8c8"/>
+      <stop offset="1" stop-color="#cbcbcb"/>
+    </linearGradient>
+    <linearGradient id="c" x1="224.26" y1="233.5" x2="140.73" y2="233.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cbcbcb"/>
+      <stop offset="0.59" stop-color="#dedede"/>
+      <stop offset="1" stop-color="#e5e5e5"/>
+    </linearGradient>
+    <linearGradient id="d" x1="224.26" y1="361" x2="140.73" y2="361" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#73949f"/>
+      <stop offset="0.04" stop-color="#7495a0"/>
+      <stop offset="0.48" stop-color="#7f9ba7"/>
+      <stop offset="1" stop-color="#829da9"/>
+    </linearGradient>
+    <linearGradient id="e" x1="15" y1="282.5" x2="139" y2="282.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#577f57"/>
+      <stop offset="0.56" stop-color="#619161"/>
+      <stop offset="1" stop-color="#696"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon class="a" points="0 0 0 470 15 460 224 460 224 0 0 0"/>
+    <polygon class="b" points="15 460 0 470 0 0 15 7 15 460"/>
+    <polygon class="c" points="15 440 0 450 0 320 15 310 15 440"/>
+    <g>
+      <rect class="d" x="15" y="7" width="209" height="453"/>
+      <rect class="e" x="15" y="350" width="209" height="110"/>
+      <g>
+        <polygon class="f" points="224 460 139 418 139 22 224 7 224 460"/>
+        <polygon class="g" points="224 440 139 399 139 282 224 310 224 440"/>
+      </g>
+      <rect class="h" x="15" y="225" width="124" height="115"/>
+    </g>
+    <g>
+      <polygon class="i" points="144 237 142 238 153 240 153 253 155 252 155 239 144 237"/>
+      <polygon class="j" points="153 240 142 238 142 251 153 253 153 240"/>
+      <polygon class="j" points="166 248 138 242 138 248 166 254 166 248"/>
+      <polygon class="i" points="144 241.5 138 242 166 248 166 254 169 253 169 247 144 241.5"/>
+      <polygon class="i" points="166 254 169 253 169 247 166 248 166 254"/>
+    </g>
+    <polygon class="j" points="154 225 140 223 140 189 154 190 154 225"/>
+    <polygon class="i" points="143 188 140 189 154 190 154 225 157 224 157 189 143 188"/>
+    <polygon class="i" points="152 223 141.74 221.39 141.74 191.5 152 192.5 152 223"/>
+    <g>
+      <polygon class="k" points="146 217.75 142.48 217.04 142.48 214.44 146 215 146 217.75"/>
+      <polygon class="l" points="151 198.91 142.48 197.91 142.48 195.3 151 196.3 151 198.91"/>
+      <polygon class="k" points="151 218.75 147.07 217.75 147.07 215 151 215.75 151 218.75"/>
+      <g>
+        <rect class="k" x="145.76" y="200.7" width="1.97" height="2.61"/>
+        <rect class="k" x="149.03" y="201.52" width="1.97" height="2.61"/>
+        <rect class="k" x="142.48" y="200.52" width="1.97" height="2.61"/>
+        <rect class="k" x="145.76" y="205.2" width="1.97" height="2.61"/>
+        <rect class="k" x="149.03" y="205.87" width="1.97" height="2.61"/>
+        <rect class="k" x="142.48" y="204.87" width="1.97" height="2.61"/>
+        <rect class="k" x="145.76" y="209.7" width="1.97" height="2.61"/>
+        <rect class="k" x="149.03" y="210.22" width="1.97" height="2.61"/>
+        <rect class="k" x="142.48" y="209.22" width="1.97" height="2.61"/>
+      </g>
+    </g>
+  </g>
+</svg>

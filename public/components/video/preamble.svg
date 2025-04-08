@@ -1,0 +1,10 @@
+<svg width="24" height="48" viewBox="0 0 24 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 25.57L8.21483 21.7007C8.02671 21.5084 7.76903 21.4 7.5 21.4H4.5C3.57892 21.4 2.69101 21.0262 2.03285 20.3534C1.37397 19.6799 1 18.7618 1 17.8V8.6C1 7.63822 1.37397 6.72013 2.03285 6.0466C2.69101 5.37382 3.57892 5 4.5 5H19.5C20.4211 5 21.309 5.37382 21.9671 6.0466C22.626 6.72013 23 7.63822 23 8.6V17.8C23 18.7618 22.626 19.6799 21.9671 20.3534C21.309 21.0262 20.4211 21.4 19.5 21.4H16.5C16.231 21.4 15.9733 21.5084 15.7852 21.7007L12 25.57Z" stroke="#BDBDBD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6 11H18" stroke="#BDBDBD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6 16H14" stroke="#BDBDBD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="11" y="32" width="2" height="3" rx="1" fill="#BDBDBD"/>
+<rect x="11" y="28" width="2" height="3" rx="1" fill="#BDBDBD"/>
+<rect x="11" y="36" width="2" height="3" rx="1" fill="#BDBDBD"/>
+<rect x="11" y="40" width="2" height="3" rx="1" fill="#BDBDBD"/>
+<rect x="11" y="44" width="2" height="3" rx="1" fill="#BDBDBD"/>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142" height="142" viewBox="0 0 142 142">
+  <defs>
+    <style>
+      .a {
+        fill: #fc3;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: url(#b);
+      }
+
+      .d {
+        fill: url(#c);
+      }
+
+      .e {
+        fill: url(#d);
+      }
+
+      .f {
+        fill: #fff;
+        opacity: 0.5;
+      }
+    </style>
+    <radialGradient id="a" cx="71" cy="71" fx="93.51901621830831" fy="49.788849690916194" r="71" gradientUnits="userSpaceOnUse">
+      <stop offset="0.18" stop-color="#fc0"/>
+      <stop offset="0.68" stop-color="#c90"/>
+    </radialGradient>
+    <linearGradient id="b" x1="121.2" y1="20.8" x2="20.8" y2="121.2" gradientUnits="userSpaceOnUse">
+      <stop offset="0.59" stop-color="#fc0" stop-opacity="0"/>
+      <stop offset="0.64" stop-color="#d1aa17" stop-opacity="0.07"/>
+      <stop offset="0.79" stop-color="#5d5251" stop-opacity="0.24"/>
+      <stop offset="0.91" stop-color="#336" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="c" x1="28.18" y1="113.82" x2="128.29" y2="13.71" gradientUnits="userSpaceOnUse">
+      <stop offset="0.47" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fffee0" stop-opacity="0.05"/>
+      <stop offset="0.57" stop-color="#fffc8e" stop-opacity="0.18"/>
+      <stop offset="0.65" stop-color="#fff80b" stop-opacity="0.38"/>
+      <stop offset="0.66" stop-color="#fff800" stop-opacity="0.4"/>
+      <stop offset="0.71" stop-color="#fffa45" stop-opacity="0.52"/>
+      <stop offset="0.77" stop-color="#fffc87" stop-opacity="0.64"/>
+      <stop offset="0.82" stop-color="#fffdbb" stop-opacity="0.73"/>
+      <stop offset="0.87" stop-color="#fffee0" stop-opacity="0.8"/>
+      <stop offset="0.91" stop-color="#fffff7" stop-opacity="0.84"/>
+      <stop offset="0.93" stop-color="#fff" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="d" x1="85.86" y1="58.14" x2="21.01" y2="122.99" gradientUnits="userSpaceOnUse">
+      <stop offset="0.41" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.51" stop-color="#fff" stop-opacity="0.06"/>
+      <stop offset="0.71" stop-color="#fff" stop-opacity="0.21"/>
+      <stop offset="0.93" stop-color="#fff" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <circle class="a" cx="71" cy="71" r="71"/>
+    <circle class="b" cx="71" cy="71" r="71"/>
+    <circle class="c" cx="71" cy="71" r="71"/>
+    <circle class="d" cx="74.5" cy="67.5" r="65.5"/>
+    <circle class="e" cx="70.5" cy="73.5" r="65.5"/>
+    <path class="f" d="M116.93,26c10.9,10.9,13.55,26.27,15.23,34-3.67-5.62-15.23-23.43-21.09-29.29-7-7-18.8-13.69-23.3-16.66-2-1.32-3.69-2.35-4.87-3.05C82.9,10.94,102.87,12,116.93,26Z"/>
+  </g>
+</svg>

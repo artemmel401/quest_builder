@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.08" height="21.91" viewBox="0 0 21.08 21.91">
+  <defs>
+    <style>
+      .a {
+        isolation: isolate;
+      }
+
+      .b {
+        fill: #f7931e;
+      }
+
+      .c, .d {
+        fill: #b36c12;
+        mix-blend-mode: multiply;
+      }
+
+      .c {
+        opacity: 0.5;
+      }
+
+      .d {
+        opacity: 0.3;
+      }
+
+      .e {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" y1="10" x2="15.79" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f18f34"/>
+      <stop offset="0.89" stop-color="#e95f32"/>
+      <stop offset="1" stop-color="#e3312d"/>
+    </linearGradient>
+  </defs>
+  <g class="a">
+    <g>
+      <g>
+        <path class="b" d="M21.08,7.73V13.1a4.34,4.34,0,0,1-4.33,4.33H14.1V15.28h2.65a2.19,2.19,0,0,0,2.18-2.18V7.73a2.19,2.19,0,0,0-2.18-2.18H14.1V3.4h2.65A4.34,4.34,0,0,1,21.08,7.73Z"/>
+        <rect class="c" x="14.1" y="3.4" width="2.42" height="2.15"/>
+        <rect class="c" x="14.1" y="15.28" width="2.42" height="2.15"/>
+      </g>
+      <rect class="b" x="1.22" y="17.25" width="13.13" height="4.67"/>
+      <rect class="d" x="1.22" y="17.25" width="13.13" height="3.42"/>
+      <rect class="d" x="7.9" y="17.25" width="6.45" height="4.67"/>
+      <path class="e" d="M15.79,0V17.66A2.34,2.34,0,0,1,13.45,20H2.34A2.34,2.34,0,0,1,0,17.66V0Z"/>
+    </g>
+  </g>
+</svg>

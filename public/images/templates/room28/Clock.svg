@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="113" height="107" viewBox="0 0 113 107">
+  <defs>
+    <style>
+      .a, .d {
+        fill: #333;
+      }
+
+      .a {
+        opacity: 0.3;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: #666;
+      }
+
+      .e {
+        fill: #f1f1f1;
+      }
+
+      .f, .g {
+        fill: none;
+        stroke: #f1f1f1;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+
+      .g {
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="a" cx="53.5" cy="53.5" r="53.5"/>
+    <circle class="b" cx="62.5" cy="55.5" r="50.5"/>
+    <g>
+      <circle class="c" cx="58.5" cy="52.5" r="48.5"/>
+      <path class="d" d="M58.5,6A46.5,46.5,0,1,1,12,52.5,46.55,46.55,0,0,1,58.5,6m0-4A50.5,50.5,0,1,0,109,52.5,50.5,50.5,0,0,0,58.5,2Z"/>
+    </g>
+    <circle class="e" cx="58.5" cy="52.5" r="2.5"/>
+    <line class="f" x1="59" y1="52" x2="77" y2="17"/>
+    <line class="g" x1="58.5" y1="52.5" x2="33.5" y2="66.5"/>
+  </g>
+</svg>

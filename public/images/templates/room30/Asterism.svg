@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="143" height="210" viewBox="0 0 143 210">
+  <defs>
+    <style>
+      .a {
+        fill: #ffd019;
+      }
+
+      .b {
+        fill: none;
+        stroke: #ffd019;
+        stroke-miterlimit: 10;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        fill: url(#b);
+      }
+
+      .e {
+        fill: url(#c);
+      }
+
+      .f {
+        fill: url(#d);
+      }
+
+      .g {
+        fill: url(#e);
+      }
+
+      .h {
+        fill: url(#f);
+      }
+
+      .i {
+        fill: url(#g);
+      }
+    </style>
+    <radialGradient id="a" cx="98" cy="139" r="39" gradientUnits="userSpaceOnUse">
+      <stop offset="0.24" stop-color="#ffd019"/>
+      <stop offset="0.36" stop-color="#e2b924" stop-opacity="0.86"/>
+      <stop offset="0.65" stop-color="#978040" stop-opacity="0.49"/>
+      <stop offset="1" stop-color="#336" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="75" cy="190" r="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#ffd019"/>
+      <stop offset="0.21" stop-color="#e2b924" stop-opacity="0.86"/>
+      <stop offset="0.56" stop-color="#978040" stop-opacity="0.49"/>
+      <stop offset="1" stop-color="#336" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="c" cx="123" cy="83" r="20" xlink:href="#b"/>
+    <radialGradient id="d" cx="30" cy="170" r="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0.16" stop-color="#ffd019"/>
+      <stop offset="0.3" stop-color="#e2b924" stop-opacity="0.86"/>
+      <stop offset="0.61" stop-color="#978040" stop-opacity="0.49"/>
+      <stop offset="1" stop-color="#336" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="e" cx="20" cy="123" r="20" xlink:href="#b"/>
+    <radialGradient id="f" cx="23" cy="33" r="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#ffd019"/>
+      <stop offset="0.19" stop-color="#fbcd1b" stop-opacity="0.94"/>
+      <stop offset="0.37" stop-color="#d1ad2b" stop-opacity="0.74"/>
+      <stop offset="0.79" stop-color="#695d52" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#336" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g" cx="94" cy="29" r="29" gradientUnits="userSpaceOnUse">
+      <stop offset="0.26" stop-color="#ffd019"/>
+      <stop offset="0.34" stop-color="#f1c51e" stop-opacity="0.93"/>
+      <stop offset="0.49" stop-color="#cba82d" stop-opacity="0.74"/>
+      <stop offset="0.71" stop-color="#8e7944" stop-opacity="0.45"/>
+      <stop offset="0.97" stop-color="#3c3a63" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#336" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <circle class="a" cx="29.56" cy="169.67" r="4.5"/>
+    <circle class="a" cx="75.5" cy="190.5" r="4.5"/>
+    <circle class="a" cx="123.5" cy="83.5" r="4.5"/>
+    <circle class="a" cx="20.5" cy="123.5" r="4.5"/>
+    <circle class="a" cx="22.5" cy="33.5" r="4.5"/>
+    <circle class="a" cx="94" cy="29" r="8"/>
+    <circle class="a" cx="98" cy="139" r="9"/>
+    <path class="b" d="M18.93,122.72a32.3,32.3,0,0,1,9,23v13.91c0,20.64,15.09,36,34,36a34.08,34.08,0,0,0,34-34.06V145.68a33.24,33.24,0,0,1,9.45-23.4,60.55,60.55,0,0,0,17.82-42.95A61.36,61.36,0,0,0,47.47,19.72v.05A60.7,60.7,0,0,0,21.6,33.15"/>
+    <g>
+      <circle class="c" cx="98" cy="139" r="39"/>
+      <circle class="d" cx="75" cy="190" r="20"/>
+      <circle class="e" cx="123" cy="83" r="20"/>
+      <circle class="f" cx="30" cy="170" r="20"/>
+      <circle class="g" cx="20" cy="123" r="20"/>
+      <circle class="h" cx="23" cy="33" r="20"/>
+      <circle class="i" cx="94" cy="29" r="29"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97.89" height="42.03" viewBox="0 0 97.89 42.03">
+  <defs>
+    <style>
+      .a {
+        fill: #ccc;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="97.89 38.63 14.64 23.64 15.34 28.69 97.83 39.63 97.89 38.63"/>
+      <rect class="a" x="4.55" y="17.15" width="7.97" height="16.09" transform="translate(-17.62 30.04) rotate(-81.79)"/>
+    </g>
+    <g>
+      <polygon class="a" points="93.39 41.08 16.12 6.66 15.59 11.73 93.1 42.03 93.39 41.08"/>
+      <rect class="a" x="5.83" y="-1.33" width="7.97" height="16.09" transform="translate(-0.09 13.3) rotate(-67.98)"/>
+    </g>
+  </g>
+</svg>

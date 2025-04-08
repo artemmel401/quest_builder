@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79.1" height="42.11" viewBox="0 0 79.1 42.11">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.2;
+      }
+
+      .b {
+        fill: #ccc;
+      }
+
+      .c {
+        fill: #999;
+      }
+
+      .d {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g>
+    <ellipse class="a" cx="39.6" cy="27.6" rx="39.5" ry="7.5"/>
+    <polygon class="b" points="15.64 15.3 14.1 33.52 78.36 9.97 15.64 15.3"/>
+    <polygon class="c" points="20.38 22.18 14.1 33.52 27.8 29.5 20.38 22.18"/>
+    <polygon class="d" points="78.36 9.97 37.52 42.11 20.38 22.18 78.36 9.97"/>
+    <polygon class="d" points="78.36 9.97 15.64 15.3 0 0 78.36 9.97"/>
+  </g>
+</svg>

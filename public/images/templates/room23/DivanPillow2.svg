@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156.83" height="264.68" viewBox="0 0 156.83 264.68">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+      }
+
+      .b {
+        clip-path: url(#a);
+      }
+
+      .c {
+        fill: url(#b);
+      }
+
+      .d {
+        fill: #636;
+      }
+    </style>
+    <clipPath id="a" transform="translate(-37 -11.32)">
+      <rect class="a" width="195" height="162"/>
+    </clipPath>
+    <linearGradient id="b" x1="21.29" y1="243.29" x2="215.47" y2="49.11" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4b254c"/>
+      <stop offset="0.53" stop-color="#4d264e"/>
+      <stop offset="0.72" stop-color="#542a55"/>
+      <stop offset="0.78" stop-color="#582d59"/>
+    </linearGradient>
+  </defs>
+  <g class="b">
+    <g>
+      <path class="c" d="M166.47,11.69,168,17l-6.44,85.75A52.82,52.82,0,0,1,145.28,137L37,259l38,17L180,150a50.32,50.32,0,0,0,9.61-27.32L193.81,34a16.13,16.13,0,0,0-1.55-7.67h0a5.51,5.51,0,0,0-2.43-2.53Z" transform="translate(-37 -11.32)"/>
+      <path class="d" d="M51,255,152.1,130.51a28.38,28.38,0,0,0,8.74-18.38l7.48-97.31a3.23,3.23,0,0,0-5.53-2.52L58,169Z" transform="translate(-37 -11.32)"/>
+      <path d="M165.06,11.83a2.83,2.83,0,0,1,1.65.54l0,0,0,0L189.6,24.28a5,5,0,0,1,2.21,2.29,15.65,15.65,0,0,1,1.5,7.44l-4.2,88.65a49.62,49.62,0,0,1-9.49,27L74.86,275.39l-37-16.57,14.6-16.45.11-.13v-.16l5.94-72.91L163.17,12.62a2.65,2.65,0,0,1,1.89-.79m0-.5a3.11,3.11,0,0,0-2.27,1L58,169l-5.94,73L37,259l38,17L180,150a50.32,50.32,0,0,0,9.61-27.32L193.81,34a16.13,16.13,0,0,0-1.55-7.67,5.51,5.51,0,0,0-2.43-2.53L167,12a3.38,3.38,0,0,0-1.94-.63Z" transform="translate(-37 -11.32)"/>
+    </g>
+  </g>
+</svg>

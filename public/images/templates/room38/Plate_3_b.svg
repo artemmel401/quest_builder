@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="41" viewBox="0 0 106 41">
+  <defs>
+    <style>
+      .a {
+        fill: #336;
+        opacity: 0.2;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: #333;
+      }
+
+      .d {
+        fill: #9cc;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="90 41 0 41 17 32 106 32 90 41"/>
+      <rect class="a" x="17" y="27" width="89" height="5"/>
+      <ellipse class="b" cx="2.5" cy="40" rx="2.5" ry="1"/>
+      <ellipse class="b" cx="87.5" cy="40" rx="2.5" ry="1"/>
+      <rect class="b" width="90" height="30"/>
+      <rect class="b" y="30" width="5" height="10"/>
+      <rect class="b" x="85" y="30" width="5" height="10"/>
+      <rect class="c" x="3.75" y="3.75" width="82.5" height="22.5"/>
+    </g>
+    <g>
+      <rect class="d" x="7.5" y="6" width="1.5" height="6.75"/>
+      <rect class="d" x="24.5" y="6" width="1.5" height="6.75"/>
+      <rect class="d" x="8" y="17.25" width="1.5" height="6.75"/>
+      <rect class="d" x="21.25" y="6" width="1.5" height="6.75"/>
+      <rect class="d" x="37.25" y="6" width="1.5" height="6.75"/>
+      <rect class="d" x="16.75" y="6" width="3" height="6.75"/>
+      <rect class="d" x="40.75" y="6" width="3" height="6.75"/>
+      <rect class="d" x="27" y="17.25" width="3" height="6.75"/>
+      <rect class="d" x="10.5" y="6" width="4.5" height="6.75"/>
+      <rect class="d" x="31.5" y="6" width="4.5" height="6.75"/>
+      <rect class="d" x="11" y="17.25" width="4.5" height="6.75"/>
+      <rect class="d" x="32" y="17.25" width="4.5" height="6.75"/>
+      <rect class="d" x="17" y="17.25" width="4.5" height="6.75"/>
+    </g>
+    <g>
+      <rect class="d" x="65.25" y="6" width="5.25" height="5.25"/>
+      <rect class="d" x="72" y="6" width="1.5" height="1.5"/>
+      <rect class="d" x="73.5" y="7.5" width="1.5" height="1.5"/>
+      <rect class="d" x="72" y="9" width="1.5" height="1.5"/>
+      <rect class="d" x="75" y="6" width="1.5" height="1.5"/>
+      <rect class="d" x="76.5" y="7.5" width="1.5" height="1.5"/>
+      <rect class="d" x="76.5" y="10.5" width="1.5" height="1.5"/>
+      <rect class="d" x="75" y="10.5" width="1.5" height="1.5"/>
+      <rect class="d" x="75" y="12" width="1.5" height="1.5"/>
+      <rect class="d" x="72" y="12" width="1.5" height="1.5"/>
+      <rect class="d" x="73.5" y="13.5" width="1.5" height="1.5"/>
+      <rect class="d" x="72" y="16.5" width="1.5" height="1.5"/>
+      <rect class="d" x="75" y="16.5" width="1.5" height="1.5"/>
+      <rect class="d" x="76.5" y="15" width="1.5" height="1.5"/>
+      <rect class="d" x="78" y="16.5" width="1.5" height="1.5"/>
+      <rect class="d" x="79.5" y="18" width="1.5" height="1.5"/>
+      <rect class="d" x="78" y="19.5" width="1.5" height="1.5"/>
+      <rect class="d" x="78" y="12" width="1.5" height="1.5"/>
+      <rect class="d" x="79.5" y="13.5" width="1.5" height="1.5"/>
+      <rect class="d" x="79.5" y="15" width="1.5" height="1.5"/>
+      <rect class="d" x="79.5" y="21" width="1.5" height="1.5"/>
+      <rect class="d" x="81" y="22.5" width="1.5" height="1.5"/>
+      <rect class="d" x="81" y="16.5" width="1.5" height="1.5"/>
+      <rect class="d" x="81" y="21" width="1.5" height="1.5"/>
+      <rect class="d" x="72" y="19.5" width="1.5" height="1.5"/>
+      <rect class="d" x="73.5" y="21" width="1.5" height="1.5"/>
+      <rect class="d" x="72" y="22.5" width="1.5" height="1.5"/>
+      <rect class="d" x="75" y="21" width="1.5" height="1.5"/>
+      <rect class="d" x="76.5" y="22.5" width="1.5" height="1.5"/>
+      <rect class="d" x="70.5" y="12" width="1.5" height="1.5"/>
+      <rect class="d" x="69" y="13.5" width="1.5" height="1.5"/>
+      <rect class="d" x="70.5" y="15" width="1.5" height="1.5"/>
+      <rect class="d" x="69" y="16.5" width="1.5" height="1.5"/>
+      <rect class="d" x="67.5" y="15" width="1.5" height="1.5"/>
+      <rect class="d" x="66" y="13.5" width="1.5" height="1.5"/>
+      <rect class="d" x="66" y="12" width="1.5" height="1.5"/>
+      <rect class="d" x="65.25" y="18.75" width="5.25" height="5.25"/>
+      <rect class="d" x="78" y="6" width="5.25" height="5.25"/>
+    </g>
+  </g>
+</svg>

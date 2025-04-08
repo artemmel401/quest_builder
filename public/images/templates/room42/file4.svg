@@ -1,0 +1,11 @@
+<svg width="120" height="194" viewBox="0 0 120 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="120" height="150" fill="white"/>
+<path d="M95 0L120 25H95V0Z" fill="#D9D9D9"/>
+<line x1="17" y1="66.5" x2="102" y2="66.5" stroke="black" stroke-width="3"/>
+<line x1="17.0029" y1="81.5" x2="102.003" y2="81.5" stroke="black" stroke-width="3"/>
+<line x1="17.0029" y1="96.5" x2="75.0029" y2="96.5" stroke="black" stroke-width="3"/>
+<line x1="17" y1="111.5" x2="94.0065" y2="111.5" stroke="black" stroke-width="3"/>
+<line x1="17.0029" y1="36.5" x2="75.0029" y2="36.5" stroke="black" stroke-width="3"/>
+<line x1="17" y1="51.5" x2="94.0065" y2="51.5" stroke="black" stroke-width="3"/>
+<path d="M61.44 175.48C61.44 176.84 60.864 178.016 59.712 179.008C59.36 179.312 58.976 179.616 58.56 179.92L53.4 183.64H61.44V187H48.48V182.44L57.12 176.2V175C57.12 174.04 56.64 173.56 55.68 173.56H48.96V170.2H56.64C58.32 170.2 59.536 170.584 60.288 171.352C61.056 172.104 61.44 173.32 61.44 175V175.48ZM66.1163 187V173.92L63.3563 174.88L62.1562 172.12L66.5963 170.2H70.4363V187H66.1163Z" fill="black"/>
+</svg>

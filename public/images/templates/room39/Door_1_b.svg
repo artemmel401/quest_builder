@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="540" viewBox="0 0 140 540">
+  <defs>
+    <style>
+      .a {
+        fill: #333;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: #c3d1d0;
+        opacity: 0.4;
+      }
+
+      .d {
+        fill: url(#a);
+      }
+
+      .e {
+        fill: url(#b);
+      }
+
+      .f {
+        fill: url(#c);
+      }
+    </style>
+    <linearGradient id="a" x1="110.25" y1="20.25" x2="-7.25" y2="137.75" gradientUnits="userSpaceOnUse">
+      <stop offset="0.16" stop-color="#fff" stop-opacity="0.5"/>
+      <stop offset="0.9" stop-color="#fff" stop-opacity="0.19"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="b" x1="125.25" y1="267.25" x2="10.75" y2="381.75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.5"/>
+      <stop offset="0.22" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="0.55" stop-color="#fff" stop-opacity="0.26"/>
+      <stop offset="0.82" stop-color="#fff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="c" x1="121.25" y1="313.25" x2="14.75" y2="419.75" xlink:href="#b"/>
+  </defs>
+  <g>
+    <rect class="a" x="15" y="38" width="10" height="448"/>
+    <polygon class="b" points="0 58 131 17 131 0 0 43 0 58"/>
+    <polygon class="a" points="117 29 15 60 15 53 116 21 117 29"/>
+    <polygon class="a" points="116 520 15 486 25 486 116 516 116 520"/>
+    <polygon class="a" points="131 0 140 4 140 537 131 540 131 0"/>
+    <polygon class="b" points="131 540 15 501 15 486 131 525 131 540"/>
+    <polygon class="b" points="0 43 15 38 15 501 0 496 0 43"/>
+    <polygon class="b" points="116 19 131 14 131 540 116 534 116 19"/>
+    <polygon class="c" points="20 485 116 518 116 26 20 56 20 485"/>
+    <g>
+      <polygon class="d" points="20 165 116 65 116 26 20 56 20 165"/>
+      <polygon class="e" points="20 391 116 291 116 258 20 358 20 391"/>
+      <polygon class="f" points="20 408 116 308 116 325 20 425 20 408"/>
+    </g>
+  </g>
+</svg>

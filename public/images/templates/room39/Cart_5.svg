@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="275" height="252" viewBox="0 0 275 252">
+  <defs>
+    <style>
+      .a, .ab, .w {
+        fill: #336;
+      }
+
+      .a {
+        opacity: 0.1;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: #666;
+      }
+
+      .d {
+        fill: url(#a);
+      }
+
+      .e {
+        fill: url(#b);
+      }
+
+      .f {
+        fill: url(#c);
+      }
+
+      .g {
+        fill: url(#d);
+      }
+
+      .h {
+        fill: url(#e);
+      }
+
+      .i {
+        fill: url(#f);
+      }
+
+      .j {
+        fill: url(#g);
+      }
+
+      .k {
+        fill: url(#h);
+      }
+
+      .l {
+        fill: url(#i);
+      }
+
+      .m {
+        fill: url(#j);
+      }
+
+      .n {
+        fill: url(#k);
+      }
+
+      .o {
+        fill: url(#l);
+      }
+
+      .p {
+        fill: url(#m);
+      }
+
+      .q {
+        fill: url(#n);
+      }
+
+      .r {
+        fill: url(#o);
+      }
+
+      .s {
+        fill: url(#p);
+      }
+
+      .t {
+        fill: url(#q);
+      }
+
+      .u {
+        fill: url(#r);
+      }
+
+      .ab, .v {
+        opacity: 0.2;
+      }
+
+      .x {
+        fill: url(#s);
+      }
+
+      .y {
+        fill: url(#t);
+      }
+
+      .z {
+        fill: url(#u);
+      }
+
+      .aa {
+        fill: gray;
+      }
+
+      .ac {
+        fill: url(#v);
+      }
+
+      .ad {
+        fill: url(#w);
+      }
+
+      .ae {
+        fill: #399;
+      }
+    </style>
+    <linearGradient id="a" x1="74.19" y1="204.12" x2="82.26" y2="212.19" gradientUnits="userSpaceOnUse">
+      <stop offset="0.07" stop-color="gray"/>
+      <stop offset="0.27" stop-color="#989898"/>
+      <stop offset="0.27" stop-color="#999"/>
+      <stop offset="0.4" stop-color="#a5a5a5"/>
+      <stop offset="0.5" stop-color="#b3b3b3"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="b" x1="239.57" y1="229.58" x2="249.77" y2="239.78" xlink:href="#a"/>
+    <linearGradient id="c" x1="202.05" y1="203.56" x2="210.12" y2="211.63" xlink:href="#a"/>
+    <linearGradient id="d" x1="94.13" y1="229.47" x2="104.54" y2="239.88" xlink:href="#a"/>
+    <linearGradient id="e" x1="93.83" y1="221.64" x2="103.74" y2="211.73" xlink:href="#a"/>
+    <linearGradient id="f" x1="238.76" y1="221.64" x2="248.67" y2="211.73" xlink:href="#a"/>
+    <linearGradient id="g" x1="200.03" y1="197.32" x2="209.94" y2="187.41" xlink:href="#a"/>
+    <linearGradient id="h" x1="72.17" y1="197.87" x2="82.08" y2="187.96" xlink:href="#a"/>
+    <linearGradient id="i" x1="39.49" y1="169.38" x2="212.41" y2="169.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0.07" stop-color="gray"/>
+      <stop offset="0.27" stop-color="#989898"/>
+      <stop offset="0.27" stop-color="#999"/>
+      <stop offset="0.53" stop-color="#a5a5a5"/>
+      <stop offset="0.74" stop-color="#b3b3b3"/>
+      <stop offset="0.89" stop-color="#b1b1b1"/>
+      <stop offset="0.94" stop-color="#aaa"/>
+      <stop offset="0.99" stop-color="#9e9e9e"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="j" x1="223.84" y1="179.71" x2="255.19" y2="211.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="gray"/>
+      <stop offset="0.08" stop-color="#989898"/>
+      <stop offset="0.08" stop-color="#999"/>
+      <stop offset="0.31" stop-color="#a5a5a5"/>
+      <stop offset="0.5" stop-color="#b3b3b3"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="k" x1="58.78" y1="191.06" x2="249.75" y2="191.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset="0.13" stop-color="#a5a5a5"/>
+      <stop offset="0.23" stop-color="#b1b1b1"/>
+      <stop offset="0.33" stop-color="#bdbdbd"/>
+      <stop offset="0.48" stop-color="#c8c8c8"/>
+      <stop offset="0.65" stop-color="#ccc"/>
+      <stop offset="0.94" stop-color="#b3b3b3"/>
+    </linearGradient>
+    <linearGradient id="l" x1="258.33" y1="49.34" x2="273.22" y2="64.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset="0.28" stop-color="#a5a5a5"/>
+      <stop offset="0.5" stop-color="#b3b3b3"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="m" x1="57.23" y1="65.83" x2="125" y2="133.61" xlink:href="#l"/>
+    <linearGradient id="n" x1="88.83" y1="66.15" x2="153.41" y2="130.73" xlink:href="#l"/>
+    <linearGradient id="o" x1="121.74" y1="67.63" x2="180.61" y2="126.5" xlink:href="#l"/>
+    <linearGradient id="p" x1="154.15" y1="69.53" x2="207.67" y2="123.05" xlink:href="#l"/>
+    <linearGradient id="q" x1="186.62" y1="70.35" x2="235.3" y2="119.03" xlink:href="#l"/>
+    <linearGradient id="r" x1="219.2" y1="72.16" x2="262.81" y2="115.77" xlink:href="#l"/>
+    <linearGradient id="s" x1="40.86" y1="102" x2="256.83" y2="102" xlink:href="#a"/>
+    <linearGradient id="t" x1="242.77" y1="130.17" x2="264.83" y2="152.23" xlink:href="#l"/>
+    <linearGradient id="u" x1="218.41" y1="111.36" x2="127.24" y2="202.54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3cb7ba"/>
+      <stop offset="0.34" stop-color="#39aeb0"/>
+      <stop offset="0.84" stop-color="#399"/>
+    </linearGradient>
+    <linearGradient id="v" x1="48.76" y1="31.15" x2="99.84" y2="31.15" xlink:href="#k"/>
+    <linearGradient id="w" y1="7" x2="20.93" y2="7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3cb7ba"/>
+      <stop offset="1" stop-color="#3cc"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="a" d="M94.64,252c-11.09,0-33-30.5-41.39-42.88A3.26,3.26,0,0,1,56,204l154.33-1c4.06,0,11.18,1,13.95,4l41.34,33.92a5.11,5.11,0,0,1-3.59,8.6Z"/>
+    <g>
+      <ellipse class="b" cx="75.47" cy="204.56" rx="10.93" ry="10.97"/>
+      <ellipse class="b" cx="242.06" cy="231.91" rx="13.41" ry="13.45"/>
+      <ellipse class="b" cx="203.33" cy="204.56" rx="10.93" ry="10.97"/>
+      <ellipse class="b" cx="97.13" cy="231.91" rx="13.41" ry="13.45"/>
+      <ellipse class="c" cx="78.23" cy="207.32" rx="10.93" ry="10.97"/>
+      <ellipse class="c" cx="244.82" cy="234.68" rx="13.41" ry="13.45"/>
+      <ellipse class="c" cx="206.08" cy="207.32" rx="10.93" ry="10.97"/>
+      <ellipse class="c" cx="99.89" cy="234.68" rx="13.41" ry="13.45"/>
+      <ellipse class="d" cx="78.23" cy="208.15" rx="5.7" ry="5.72"/>
+      <ellipse class="e" cx="244.67" cy="234.68" rx="7.2" ry="7.23"/>
+      <ellipse class="f" cx="206.08" cy="207.6" rx="5.7" ry="5.72"/>
+      <ellipse class="g" cx="99.34" cy="234.68" rx="7.35" ry="7.38"/>
+      <path class="h" d="M104.53,212.52H93v8.33h0a14.08,14.08,0,0,1,11.46,0l0,0Z"/>
+      <path class="i" d="M249.46,212.52H238v8.33h0a17.17,17.17,0,0,1,11.3-.07l.19.07Z"/>
+      <path class="j" d="M210.73,188.2H199.24v8.33h0a13.89,13.89,0,0,1,11.31-.08l.18.08Z"/>
+      <path class="k" d="M82.87,188.75H71.38v8.33h0a12,12,0,0,1,11.46,0h0Z"/>
+    </g>
+    <g>
+      <path class="l" d="M60.91,176.12,71.76,157l-1-7L53.54,179.38c-2,4.27.78,9.37,5.12,9.37H224.29a2.93,2.93,0,0,0,0-5.12H65C61.52,183.63,59.28,179.53,60.91,176.12Z"/>
+      <path class="m" d="M224.23,185c-2,1-3,1.78-3,3s37.24,23.11,37.24,23.11L263.1,208Z"/>
+      <path class="n" d="M82.43,199.88,95,176l-3.19-6.41L74.3,203.14A6.41,6.41,0,0,0,80,212.52H262.87a2.81,2.81,0,0,0,0-5.13H87A5.13,5.13,0,0,1,82.43,199.88Z"/>
+    </g>
+    <g>
+      <polygon class="o" points="256.28 55.82 256.83 50.84 275 57.47 274.45 63 256.28 55.82"/>
+      <g>
+        <g>
+          <polygon class="p" points="107.25 151.36 103.42 151.36 74.98 48.08 78.81 48.08 107.25 151.36"/>
+          <polygon class="q" points="135.34 148.79 131.51 148.79 106.9 48.08 110.73 48.08 135.34 148.79"/>
+          <polygon class="r" points="162.16 144.95 158.33 144.95 140.19 49.18 144.02 49.18 162.16 144.95"/>
+          <polygon class="s" points="188.97 141.75 185.14 141.75 172.84 50.84 176.67 50.84 188.97 141.75"/>
+          <polygon class="t" points="215.79 138.54 211.96 138.54 206.13 50.84 209.96 50.84 215.79 138.54"/>
+          <polygon class="u" points="242.6 135.98 238.77 135.98 239.41 51.95 243.24 51.95 242.6 135.98"/>
+        </g>
+        <g class="v">
+          <polygon class="w" points="107.25 151.36 103.42 151.36 74.98 48.08 78.81 48.08 107.25 151.36"/>
+          <polygon class="w" points="135.34 148.79 131.51 148.79 106.9 48.08 110.73 48.08 135.34 148.79"/>
+          <polygon class="w" points="162.16 144.95 158.33 144.95 140.19 49.18 144.02 49.18 162.16 144.95"/>
+          <polygon class="w" points="188.97 141.75 185.14 141.75 172.84 50.84 176.67 50.84 188.97 141.75"/>
+          <polygon class="w" points="215.79 138.54 211.96 138.54 206.13 50.84 209.96 50.84 215.79 138.54"/>
+          <polygon class="w" points="242.6 135.98 238.77 135.98 239.41 51.95 243.24 51.95 242.6 135.98"/>
+        </g>
+        <path class="x" d="M40.86,46l30.9,112,173-18.49a10.22,10.22,0,0,0,9.07-9.72l3-78.95Zm201.06,88.18L76.74,152,46.84,51l204.48,4.82-2.65,71.11A7.67,7.67,0,0,1,241.92,134.18Z"/>
+      </g>
+      <polygon class="y" points="238.1 134.84 245.81 135.4 249.67 132.63 268.94 147 265.09 151.97 257.38 152.53 238.1 134.84"/>
+      <polygon class="z" points="261.23 154.18 97.12 172.42 91.06 153.08 239.2 135.95 261.23 154.18"/>
+    </g>
+    <g>
+      <path class="aa" d="M20.58.41H2.34V5.53H17.89a10.22,10.22,0,0,1,9.6,6.74L41.31,45.79l6.13.52L32.58,8.81A12.78,12.78,0,0,0,20.58.41Z"/>
+      <path class="ab" d="M20.58.41H2.34V5.53H17.89a10.22,10.22,0,0,1,9.6,6.74l13.9,33.52,6.13.53L32.58,8.81A12.78,12.78,0,0,0,20.58.41Z"/>
+      <path class="ac" d="M35,8.14H20.89v5.13H32.26A10.22,10.22,0,0,1,41.86,20L54.09,53.63l6.13.53L47,16.55A12.79,12.79,0,0,0,35,8.14Z"/>
+    </g>
+    <g>
+      <path class="ad" d="M6.65,1A3.71,3.71,0,0,0,4.08,0C2,0-.13,1,0,3A7.76,7.76,0,0,0,1.58,6.63L19.94,14l1-8Z"/>
+      <ellipse class="ae" cx="20.86" cy="10.47" rx="4.15" ry="4.16"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="488" viewBox="0 0 44 488">
+  <defs>
+    <style>
+      .a {
+        fill: #ffede1;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: #399;
+      }
+
+      .d {
+        fill: #333;
+      }
+
+      .e {
+        fill: #f93;
+      }
+    </style>
+    <linearGradient id="a" x1="-23.72" y1="267.51" x2="34.82" y2="260.09" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c93"/>
+      <stop offset="0.13" stop-color="#dca933"/>
+      <stop offset="0.35" stop-color="#fc3"/>
+      <stop offset="0.39" stop-color="#ffd14c"/>
+      <stop offset="0.46" stop-color="#ffd971"/>
+      <stop offset="0.53" stop-color="#ffdf8b"/>
+      <stop offset="0.59" stop-color="#ffe39b"/>
+      <stop offset="0.63" stop-color="#ffe4a1"/>
+      <stop offset="0.68" stop-color="#ffe194"/>
+      <stop offset="0.76" stop-color="#ffda72"/>
+      <stop offset="0.88" stop-color="#ffce3c"/>
+      <stop offset="0.89" stop-color="#fc3"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon class="a" points="0 488 44 463 44 30 0 0 0 488"/>
+    <polygon class="b" points="0 447 32 373 0 82 0 447"/>
+    <polygon class="c" points="0 45 44 200 44 30 0 0 0 45"/>
+    <polygon class="d" points="32 373 44 310 0 82 32 373"/>
+    <polygon class="e" points="44 310 44 200 31 242 44 310"/>
+    <polygon class="d" points="0 488 16 479 19 403 0 447 0 488"/>
+    <polygon class="c" points="44 450 44 365 32 373 19 403 44 450"/>
+  </g>
+</svg>

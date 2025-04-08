@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="978" viewBox="0 0 120 978">
+  <defs>
+    <style>
+      .a {
+        fill: #ccc;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" x1="105" y1="978" x2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="0.58" stop-color="#eee"/>
+      <stop offset="1" stop-color="#e6e6e6"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon class="a" points="90 0 85 0 0 116 0 879 90 978 90 0"/>
+    <rect class="b" x="90" width="30" height="978"/>
+  </g>
+</svg>

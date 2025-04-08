@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67.41" height="83" viewBox="0 0 67.41 83">
+  <defs>
+    <style>
+      .a {
+        fill: #666;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: #e6e6e6;
+      }
+
+      .d {
+        fill: #fff;
+      }
+
+      .e {
+        fill: #f15a24;
+      }
+
+      .f {
+        fill: #f7931e;
+      }
+
+      .g {
+        fill: #fcee21;
+      }
+
+      .h {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 0.75px;
+      }
+
+      .i {
+        fill: url(#a);
+      }
+    </style>
+    <radialGradient id="a" cx="33.7" cy="31.21" r="32.48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff6ca"/>
+      <stop offset="0.02" stop-color="#fff5c8" stop-opacity="0.96"/>
+      <stop offset="0.2" stop-color="#fff2b6" stop-opacity="0.67"/>
+      <stop offset="0.37" stop-color="#ffefa7" stop-opacity="0.43"/>
+      <stop offset="0.52" stop-color="#ffec9c" stop-opacity="0.25"/>
+      <stop offset="0.66" stop-color="#ffea94" stop-opacity="0.11"/>
+      <stop offset="0.77" stop-color="#ffe98f" stop-opacity="0.03"/>
+      <stop offset="0.84" stop-color="#ffe98d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <ellipse class="a" cx="33.25" cy="77" rx="19" ry="6"/>
+    <path class="b" d="M33.25,81C23.84,81,16,78.84,14.53,76a2.19,2.19,0,0,0-.28,1c0,3.31,8.51,6,19,6s19-2.69,19-6A2.09,2.09,0,0,0,52,76C50.45,78.84,42.66,81,33.25,81Z"/>
+    <path class="c" d="M27.46,38.7V76.14c0,.69,2.8,1.25,6.24,1.25s6.24-.56,6.24-1.25V38.7Z"/>
+    <ellipse class="d" cx="33.7" cy="38.7" rx="6.24" ry="1.25"/>
+    <path class="e" d="M39.32,26.21c0,5.17-2.51,9.37-5.62,9.37s-5.61-4.2-5.61-9.37S33.7,5,33.7,5C35,8.74,39.32,21,39.32,26.21Z"/>
+    <path class="f" d="M38.07,27.62c0,4.22-2,7.64-4.37,7.64s-4.37-3.42-4.37-7.64S33.7,10.3,33.7,10.3C34.67,13.36,38.07,23.4,38.07,27.62Z"/>
+    <path class="g" d="M36.2,28.91c0,3.16-1.12,5.73-2.5,5.73s-2.49-2.57-2.49-5.73,2.49-13,2.49-13C34.26,18.21,36.2,25.74,36.2,28.91Z"/>
+    <line class="h" x1="33.7" y1="38.07" x2="33.7" y2="29.33"/>
+    <ellipse class="i" cx="33.7" cy="31.21" rx="33.7" ry="31.21"/>
+  </g>
+</svg>

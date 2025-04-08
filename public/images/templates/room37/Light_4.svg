@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="253" height="180" viewBox="0 0 253 180">
+  <defs>
+    <style>
+      .a {
+        fill: #ffe0a9;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" x="241" y="130" width="4" height="50"/>
+    <rect class="a" x="241" y="70" width="4" height="50"/>
+    <rect class="a" x="7" y="130" width="4" height="50"/>
+    <rect class="a" x="7" y="70" width="4" height="50"/>
+    <rect class="a" x="6" y="10" width="5" height="50"/>
+    <polygon class="a" points="253 0 210 0 210 3 249 3 253 0"/>
+    <rect class="a" x="100" width="100" height="3"/>
+    <polygon class="a" points="90 0 0 0 3 3 90 3 90 0"/>
+    <rect class="a" x="241" y="10" width="4" height="50"/>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="566" height="259" viewBox="0 0 566 259">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: url(#b);
+      }
+
+      .c {
+        fill: url(#c);
+      }
+
+      .d {
+        fill: url(#d);
+      }
+    </style>
+    <linearGradient id="a" x1="127.32" y1="-13" x2="211.52" y2="271.65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebfffe" stop-opacity="0.4"/>
+      <stop offset="0.35" stop-color="#ddfffe" stop-opacity="0.22"/>
+      <stop offset="0.7" stop-color="#d1ffff" stop-opacity="0.06"/>
+      <stop offset="0.88" stop-color="#cff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b" x1="173.82" y1="-7.14" x2="258.93" y2="280.58" xlink:href="#a"/>
+    <linearGradient id="c" x1="407.07" y1="-17.87" x2="475.58" y2="213.76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebfffe" stop-opacity="0.4"/>
+      <stop offset="0.34" stop-color="#ddfffe" stop-opacity="0.22"/>
+      <stop offset="0.69" stop-color="#d1ffff" stop-opacity="0.06"/>
+      <stop offset="0.87" stop-color="#cff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="d" x1="375.76" y1="-17.61" x2="458.09" y2="260.73" xlink:href="#a"/>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="289.71 85.56 231.57 3.46 0 7 43.57 91.46 289.71 85.56"/>
+      <polygon class="b" points="49.69 103.31 130 259 407.07 251.27 298.07 97.35 49.69 103.31"/>
+    </g>
+    <g>
+      <polygon class="c" points="552.75 91.25 318.13 96.87 436.72 250.44 560 247 566 104 552.75 91.25"/>
+      <polygon class="d" points="540.6 79.54 458 0 245.82 3.24 309.03 85.09 540.6 79.54"/>
+    </g>
+  </g>
+</svg>

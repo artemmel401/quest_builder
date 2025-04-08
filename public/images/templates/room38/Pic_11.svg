@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="178" height="128" viewBox="0 0 178 128">
+  <defs>
+    <style>
+      .a {
+        fill: #ffede1;
+      }
+
+      .b {
+        fill: #399;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        fill: #333;
+      }
+
+      .e {
+        fill: #f93;
+      }
+
+      .f {
+        fill: #c3c;
+      }
+    </style>
+    <linearGradient id="a" x1="148.67" y1="93.92" x2="93.33" y2="-1.92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c93"/>
+      <stop offset="0.09" stop-color="#e2af33"/>
+      <stop offset="0.2" stop-color="#f7c433"/>
+      <stop offset="0.27" stop-color="#fc3"/>
+      <stop offset="0.31" stop-color="#ffd14c"/>
+      <stop offset="0.37" stop-color="#ffd971"/>
+      <stop offset="0.43" stop-color="#ffdf8b"/>
+      <stop offset="0.48" stop-color="#ffe39b"/>
+      <stop offset="0.52" stop-color="#ffe4a1"/>
+      <stop offset="0.55" stop-color="#ffe194"/>
+      <stop offset="0.61" stop-color="#ffda72"/>
+      <stop offset="0.69" stop-color="#ffce3c"/>
+      <stop offset="0.7" stop-color="#fc3"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" width="178" height="128"/>
+    <rect class="b" y="57" width="137" height="71"/>
+    <rect class="c" x="90" width="62" height="92"/>
+    <rect class="d" x="12" width="10" height="57"/>
+    <rect class="d" x="68" width="4" height="57"/>
+    <rect class="e" x="27" width="2" height="57"/>
+    <rect class="e" x="165" width="3" height="100"/>
+    <rect class="d" x="22" y="57" width="5" height="71"/>
+    <rect class="f" x="160" y="100" width="5" height="28"/>
+    <rect class="f" x="99" y="28" width="5" height="72"/>
+  </g>
+</svg>

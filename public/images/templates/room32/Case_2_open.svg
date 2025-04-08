@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96.75" height="108.23" viewBox="0 0 96.75 108.23">
+  <defs>
+    <style>
+      .a {
+        fill: #534741;
+      }
+
+      .b {
+        fill: #333;
+      }
+
+      .c {
+        fill: #443a35;
+      }
+
+      .d {
+        fill: #736357;
+      }
+
+      .e {
+        fill: #c7b299;
+      }
+
+      .f {
+        fill: #e0cfbd;
+        stroke: #333;
+        stroke-linecap: round;
+        stroke-linejoin: bevel;
+        stroke-width: 0.5px;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="30 75.08 30 0.58 96.5 24.41 96.5 107.83 30 75.08"/>
+      <path class="b" d="M30.25.94l66,23.64v82.85l-66-32.51V.94m-.5-.71v75l67,33v-84l-67-24Z"/>
+    </g>
+    <polygon class="c" points="29.75 0.23 89.75 21.23 89.75 75.23 29.75 75.23 29.75 0.23"/>
+    <g>
+      <polygon class="d" points="30.27 75.48 89.7 75.48 96.5 78.39 96.5 107.83 30.27 75.48"/>
+      <path class="b" d="M89.65,75.73l6.6,2.83v28.87l-64.9-31.7h58.3m.1-.5H29.19l67.56,33v-30l-7-3Z"/>
+    </g>
+    <g>
+      <polygon class="e" points="5.5 18.87 33 2.17 33 76.63 5.5 106.1 5.5 18.87"/>
+      <path class="b" d="M32.75,2.62V76.53l-27,28.93V19l27-16.39m.5-.89-28,17v88l28-30v-75Z"/>
+    </g>
+    <polygon class="f" points="0.25 105.73 5.25 106.73 5.25 18.73 0.25 17.73 0.25 105.73"/>
+    <polygon class="f" points="0.25 17.73 5.25 18.73 33.25 1.73 29.75 0.23 0.25 17.73"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="178" height="60" viewBox="0 0 178 60">
+  <defs>
+    <style>
+      .a {
+        fill: #a67c52;
+      }
+
+      .b {
+        fill: #ffdab6;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="148 53 0 53 0 60 149.27 60 178 6.54 178 0 148 53"/>
+    <polygon class="b" points="148 53 0 53 58 0 178 0 148 53"/>
+    <polygon class="a" points="126.15 43 34 43 70.11 10 144.83 10 126.15 43"/>
+    <polygon class="b" points="122.5 41 41.08 41 72.98 12 139 12 122.5 41"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="194.67" height="73" viewBox="0 0 194.67 73">
+  <defs>
+    <style>
+      .a {
+        fill: #333;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        fill: #3a3a3a;
+      }
+    </style>
+    <linearGradient id="a" x1="108.15" y1="13.52" x2="108.15" y2="32.44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d4d4d"/>
+      <stop offset="0.48" stop-color="#3e3e3e"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" x="27.04" y="41.91" width="167.63" height="31.09"/>
+    <polygon class="b" points="27.04 41.91 194.67 41.91 151.41 0 0 0 27.04 41.91"/>
+    <ellipse class="c" cx="108.15" cy="22.98" rx="35.15" ry="9.46"/>
+    <polygon class="d" points="0 29.74 27.04 73 27.04 41.91 0 0 0 29.74"/>
+  </g>
+</svg>

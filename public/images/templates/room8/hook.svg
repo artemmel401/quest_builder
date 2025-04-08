@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.35" height="30.17" viewBox="0 0 24.35 30.17">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: url(#b);
+      }
+
+      .c {
+        fill: #8d76ff;
+      }
+
+      .d {
+        fill: url(#c);
+      }
+    </style>
+    <radialGradient id="a" cx="12.18" cy="15.08" r="12.78" gradientTransform="translate(0 -6.03) scale(1 1.4)" gradientUnits="userSpaceOnUse">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="b" x1="4.47" y1="-2.09" x2="20.34" y2="32.04" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9797ff"/>
+      <stop offset="0.04" stop-color="#9a9afe"/>
+      <stop offset="0.3" stop-color="#aaaaf9"/>
+      <stop offset="0.59" stop-color="#b3b3f6"/>
+      <stop offset="1" stop-color="#b6b6f5"/>
+    </linearGradient>
+    <linearGradient id="c" x1="8.31" y1="10.17" x2="16.38" y2="27.53" xlink:href="#b"/>
+  </defs>
+  <g>
+    <ellipse class="a" cx="12.18" cy="15.08" rx="12.18" ry="15.08"/>
+    <g>
+      <g>
+        <ellipse class="b" cx="12.29" cy="14.71" rx="7.19" ry="8.9"/>
+        <path class="c" d="M12.29,24.12c-4.24,0-7.69-4.22-7.69-9.41s3.45-9.4,7.69-9.4S20,9.53,20,14.71,16.52,24.12,12.29,24.12Zm0-17.81c-3.69,0-6.69,3.77-6.69,8.4s3,8.41,6.69,8.41S19,19.35,19,14.71,16,6.31,12.29,6.31Z"/>
+      </g>
+      <g>
+        <ellipse class="d" cx="12.29" cy="18.71" rx="1.64" ry="4.78"/>
+        <path class="c" d="M12.29,24c-1.41,0-2.15-2.65-2.15-5.28s.74-5.27,2.15-5.27,2.14,2.73,2.14,5.27S13.76,24,12.29,24Zm0-9.55c-.34,0-1.15,1.5-1.15,4.27S12,23,12.29,23s1.14-1.5,1.14-4.28S12.62,14.44,12.29,14.44Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

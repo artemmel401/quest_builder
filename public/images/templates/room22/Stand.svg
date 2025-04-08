@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="361" height="571" viewBox="0 0 361 571">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.15;
+      }
+
+      .b, .n {
+        opacity: 0.3;
+      }
+
+      .c, .m {
+        opacity: 0.2;
+      }
+
+      .d {
+        fill: #603813;
+      }
+
+      .e {
+        fill: #42210b;
+      }
+
+      .f {
+        fill: url(#a);
+      }
+
+      .g {
+        fill: #1c0e06;
+      }
+
+      .h {
+        fill: #3d1b0c;
+      }
+
+      .i {
+        fill: #2b1407;
+      }
+
+      .j {
+        fill: url(#b);
+      }
+
+      .k {
+        fill: url(#c);
+      }
+
+      .l, .m, .n, .s {
+        fill: #fff;
+      }
+
+      .l {
+        opacity: 0.1;
+      }
+
+      .o {
+        fill: url(#d);
+      }
+
+      .p {
+        fill: #8c6239;
+      }
+
+      .q {
+        fill: url(#e);
+      }
+
+      .r {
+        fill: none;
+        stroke: #42210b;
+        stroke-miterlimit: 10;
+        stroke-width: 0.75px;
+      }
+
+      .s {
+        opacity: 0.5;
+      }
+
+      .t {
+        fill: #963;
+      }
+
+      .u {
+        fill: #c93;
+      }
+
+      .v {
+        fill: #666;
+      }
+
+      .w {
+        fill: gray;
+      }
+    </style>
+    <linearGradient id="a" x1="294.07" y1="493.89" x2="389.58" y2="352.55" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#603813"/>
+      <stop offset="0.55" stop-color="#754c24"/>
+      <stop offset="0.64" stop-color="#7b522b"/>
+      <stop offset="0.78" stop-color="#8a6340"/>
+      <stop offset="0.94" stop-color="#a37f61"/>
+      <stop offset="0.95" stop-color="#a58163"/>
+    </linearGradient>
+    <linearGradient id="b" x1="218.67" y1="507.4" x2="331.66" y2="311.69" gradientUnits="userSpaceOnUse">
+      <stop offset="0.21" stop-color="#603813"/>
+      <stop offset="0.4" stop-color="#643c17"/>
+      <stop offset="0.61" stop-color="#724921"/>
+      <stop offset="0.65" stop-color="#754c24"/>
+      <stop offset="0.83" stop-color="#886544"/>
+      <stop offset="0.99" stop-color="#9b7d64"/>
+    </linearGradient>
+    <linearGradient id="c" x1="53" y1="368.5" x2="385.65" y2="368.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#603813"/>
+      <stop offset="0.13" stop-color="#6b431c"/>
+      <stop offset="0.33" stop-color="#734a22"/>
+      <stop offset="0.71" stop-color="#754c24"/>
+      <stop offset="0.87" stop-color="#886544"/>
+      <stop offset="1" stop-color="#9b7d64"/>
+    </linearGradient>
+    <linearGradient id="d" x1="96.31" y1="277.07" x2="414.39" y2="33.44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d3efe9"/>
+      <stop offset="0.23" stop-color="#dbf2ed"/>
+      <stop offset="0.56" stop-color="#f0f9f7"/>
+      <stop offset="0.76" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="e" x1="114" y1="572.64" x2="283.31" y2="279.39" gradientUnits="userSpaceOnUse">
+      <stop offset="0.02" stop-color="#42210b"/>
+      <stop offset="0.06" stop-color="#47250c"/>
+      <stop offset="0.22" stop-color="#593311"/>
+      <stop offset="0.33" stop-color="#603813"/>
+      <stop offset="0.51" stop-color="#633b15"/>
+      <stop offset="0.64" stop-color="#6c441d"/>
+      <stop offset="0.71" stop-color="#754c24"/>
+      <stop offset="0.84" stop-color="#764d26"/>
+      <stop offset="0.88" stop-color="#7a532d"/>
+      <stop offset="0.91" stop-color="#815c38"/>
+      <stop offset="0.94" stop-color="#8b6949"/>
+      <stop offset="0.96" stop-color="#98795f"/>
+      <stop offset="0.96" stop-color="#9b7d64"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon class="a" points="136 355 113 352 113 25 140 0 136 355"/>
+    <polygon class="a" points="0 570 63 520 63 379 53 415 0 570"/>
+    <polygon class="b" points="354 520 63 520 63 458 361 455 354 520"/>
+    <polygon class="c" points="318 571 0 570 63 520 354 520 318 571"/>
+    <polygon class="d" points="316 565 302 565 296 492 322 492 316 565"/>
+    <polygon class="d" points="78 565 64 565 58 492 84 492 78 565"/>
+    <polygon class="d" points="349 525 335 525 329 452 355 452 349 525"/>
+    <polygon class="d" points="136 525 122 525 116 452 142 452 136 525"/>
+    <path class="e" d="M84,492H58l.66,8h0L64,565h5l-1.34-48.88A15.69,15.69,0,0,1,83.34,500h0Z"/>
+    <path class="e" d="M322,492H296l.66,8h0L302,565h5l-2-48a16.33,16.33,0,0,1,16.31-17h0Z"/>
+    <path class="e" d="M355,452H329l6,73h6l-1.58-38.48A14,14,0,0,1,353.36,472h0Z"/>
+    <path class="e" d="M142,452H116l4,48h0l2,25h8l.24-17.29a7.82,7.82,0,0,1,7.81-7.71h0Z"/>
+    <polygon class="f" points="327 497 361 455 361 352 327 385 327 497"/>
+    <rect class="g" x="111" y="352" width="79" height="101"/>
+    <polygon class="h" points="111 453 53 497 53 385 111 352 111 453"/>
+    <polygon class="i" points="190 492 58 492 111 453 190 453 190 492"/>
+    <polygon class="j" points="192 390 192 441 192 492 322 492 322 441 322 390 192 390"/>
+    <polygon class="k" points="327 385 53 385 111 352 361 352 327 385"/>
+    <polygon class="l" points="327 385 129 385 136 355 316 355 337 375 327 385"/>
+    <polygon class="m" points="309 385 289 385 163 355 188 355 309 385"/>
+    <polygon class="n" points="344 368 327 385 201 355 289 355 344 368"/>
+    <rect class="o" x="135" y="2" width="180" height="353"/>
+    <polygon class="p" points="140 0 135 2 315 2 315 355 320 352 320 0 140 0"/>
+    <path class="q" d="M322,385H53V497H327V385ZM58,492V390H187.5V492Zm264,0H192.5V390H322Z"/>
+    <line class="r" x1="192" y1="441" x2="322" y2="441"/>
+    <rect class="r" x="192.25" y="390" width="129.5" height="102"/>
+    <polygon class="s" points="135 237 135 96 201 2 315 2 135 237"/>
+    <polygon class="s" points="135 271 135 253 315 16 315 32 135 271"/>
+    <polygon class="s" points="188 355 158 355 315 150 315 190 188 355"/>
+    <circle class="b" cx="257" cy="407" r="5"/>
+    <circle class="b" cx="257" cy="454" r="5"/>
+    <g>
+      <circle class="t" cx="257.5" cy="405.5" r="3.5"/>
+      <circle class="u" cx="256.5" cy="406.5" r="3.5"/>
+    </g>
+    <g>
+      <circle class="t" cx="257.5" cy="452.5" r="3.5"/>
+      <circle class="u" cx="256.5" cy="453.5" r="3.5"/>
+    </g>
+    <g>
+      <rect class="v" x="311" y="284" width="5" height="10"/>
+      <rect class="w" x="134" y="284" width="5" height="10"/>
+      <rect class="w" x="311" y="54" width="5" height="10"/>
+      <rect class="w" x="134" y="54" width="5" height="10"/>
+    </g>
+  </g>
+</svg>

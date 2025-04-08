@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="40" viewBox="0 0 77 40">
+  <defs>
+    <style>
+      .a {
+        fill: #cca500;
+      }
+
+      .b {
+        fill: #fc0;
+      }
+
+      .c {
+        fill: #333;
+      }
+
+      .d {
+        fill: #d6ad00;
+      }
+
+      .e {
+        fill: #ffe888;
+      }
+
+      .f {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" x1="66.14" y1="-6.64" x2="11.86" y2="47.64" gradientUnits="userSpaceOnUse">
+      <stop offset="0.24" stop-color="#fff" stop-opacity="0.5"/>
+      <stop offset="0.3" stop-color="#fff" stop-opacity="0.44"/>
+      <stop offset="0.48" stop-color="#fff" stop-opacity="0.25"/>
+      <stop offset="0.65" stop-color="#fff" stop-opacity="0.11"/>
+      <stop offset="0.78" stop-color="#fff" stop-opacity="0.03"/>
+      <stop offset="0.87" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" width="76" height="39" rx="5.5"/>
+    <rect class="b" x="1" y="1" width="76" height="39" rx="5.5"/>
+    <rect class="c" x="1" y="27" width="76" height="7"/>
+    <rect class="d" x="32" y="12" width="40" height="9"/>
+    <rect class="e" x="7" y="12" width="18" height="9"/>
+    <rect class="f" x="1" y="1" width="76" height="39" rx="5.5"/>
+  </g>
+</svg>

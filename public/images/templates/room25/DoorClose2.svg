@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="474" viewBox="0 0 200 474">
+  <defs>
+    <style>
+      .a {
+        fill: #f2f2f2;
+      }
+
+      .b {
+        fill: none;
+        stroke: #999;
+        stroke-miterlimit: 10;
+        stroke-width: 0.5px;
+      }
+
+      .c {
+        fill: gray;
+      }
+
+      .d {
+        fill: #4d4d4d;
+      }
+
+      .e {
+        fill: #666;
+      }
+
+      .f {
+        fill: #1a1a1a;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" width="200" height="474"/>
+    <rect class="a" x="10" y="10" width="180" height="464"/>
+    <polyline class="b" points="10 474 10 10 190 10 190 474"/>
+    <g>
+      <rect class="c" x="23" y="247" width="20" height="20"/>
+      <rect class="c" x="24" y="247.5" width="20" height="20"/>
+      <rect class="c" x="30" y="253" width="10" height="10"/>
+      <polygon class="d" points="24 267.5 23 267 23 247 24 247.5 24 267.5"/>
+      <polygon class="e" points="24 247.5 44 247.5 43 247 23 247 24 247.5"/>
+      <polygon class="e" points="29 252.5 71 252.5 74 254 31 254 29 252.5"/>
+      <polygon class="d" points="31 264 29 262.5 29 252.5 31 254 31 264"/>
+      <rect class="c" x="31" y="254" width="43" height="10"/>
+      <g>
+        <rect class="c" x="23" y="272" width="20" height="20"/>
+        <rect class="c" x="24" y="272.5" width="20" height="20"/>
+        <polygon class="d" points="24 292.5 23 292 23 272 24 272.5 24 292.5"/>
+        <polygon class="e" points="24 272.5 44 272.5 43 272 23 272 24 272.5"/>
+        <path class="f" d="M36.5,280.5a2.5,2.5,0,1,0-3.33,2.35V288h1.66v-5.15A2.5,2.5,0,0,0,36.5,280.5Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

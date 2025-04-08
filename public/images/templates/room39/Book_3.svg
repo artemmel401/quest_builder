@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121" height="76" viewBox="0 0 121 76">
+  <defs>
+    <style>
+      .a, .b {
+        fill: #336;
+      }
+
+      .a {
+        opacity: 0.15;
+      }
+
+      .b {
+        opacity: 0.25;
+      }
+
+      .c {
+        fill: #ccc;
+      }
+
+      .d {
+        fill: #f2f2f2;
+      }
+
+      .e {
+        fill: #6c3;
+      }
+
+      .f {
+        fill: #fff;
+      }
+
+      .g {
+        fill: #693;
+      }
+
+      .h {
+        fill: #5faf2f;
+      }
+
+      .i {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" x1="104.5" y1="-10.5" x2="10.5" y2="83.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.08" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="0.24" stop-color="#fff" stop-opacity="0.33"/>
+      <stop offset="0.87" stop-color="#fff" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="121 3 49 3 8 74 82 74 121 3"/>
+      <polygon class="b" points="82 74 70 74 70 76 76 76 82 74"/>
+      <g>
+        <polygon class="c" points="76 76 2 76 0 73 74 73 76 76"/>
+        <polygon class="d" points="115 0 74 73 76 76 115 5 115 0"/>
+      </g>
+    </g>
+    <polygon class="e" points="115 0 41 0 0 73 74 73 115 0"/>
+    <g>
+      <polygon class="f" points="104 21 29 21 9 57 83 57 104 21"/>
+      <polygon class="g" points="48 21 29 21 9 57 28 57 48 21"/>
+      <polygon class="h" points="67 21 48 21 28 57 47 57 67 21"/>
+      <polygon class="e" points="86 21 67 21 47 57 66 57 86 21"/>
+      <g>
+        <g>
+          <polygon class="f" points="52.18 65 47.58 65 50.34 61 54.95 61 52.18 65"/>
+          <polygon class="f" points="57.71 65 54.95 65 57.71 61 60.47 61 57.71 65"/>
+          <polygon class="f" points="63.24 65 60.47 65 63.24 61 66 61 63.24 65"/>
+        </g>
+        <polygon class="f" points="70.61 65 66 65 68.76 61 73.37 61 70.61 65"/>
+      </g>
+    </g>
+    <polygon class="i" points="115 0 41 0 0 73 74 73 115 0"/>
+  </g>
+</svg>

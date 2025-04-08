@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="499" height="295" viewBox="0 0 499 295">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: url(#b);
+      }
+
+      .c {
+        fill: url(#c);
+      }
+
+      .d {
+        fill: #fcf;
+      }
+
+      .e {
+        fill: #93f;
+      }
+    </style>
+    <linearGradient id="a" x1="290" y1="30" x2="290" y2="295" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93c" stop-opacity="0.6"/>
+      <stop offset="0.66" stop-color="#93c" stop-opacity="0.19"/>
+      <stop offset="1" stop-color="#93c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b" x1="111.38" y1="46.27" x2="-40.72" y2="263.49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93c" stop-opacity="0.6"/>
+      <stop offset="0.61" stop-color="#93c" stop-opacity="0.19"/>
+      <stop offset="0.92" stop-color="#93c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="c" x1="249.5" y1="25" x2="249.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93c" stop-opacity="0.6"/>
+      <stop offset="0.51" stop-color="#93c" stop-opacity="0.39"/>
+      <stop offset="1" stop-color="#93c" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" x="81" y="30" width="418" height="265"/>
+    <polygon class="b" points="0 292 81 295 81 25 0 0 0 292"/>
+    <polygon class="c" points="81 25 499 25 499 0 0 0 81 25"/>
+    <g>
+      <rect class="d" x="81.5" y="25.5" width="417" height="4"/>
+      <path class="e" d="M498,26v3H82V26H498m1-1H81v5H499V25Z"/>
+    </g>
+  </g>
+</svg>

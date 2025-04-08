@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="239" height="444" viewBox="0 0 239 444">
+  <defs>
+    <style>
+      .a {
+        fill: #dbc7ba;
+      }
+
+      .b {
+        fill: #ffede1;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        fill: #333;
+      }
+
+      .e {
+        fill: #399;
+      }
+
+      .f {
+        fill: #f93;
+      }
+
+      .g {
+        fill: #c3c;
+      }
+
+      .h {
+        fill: url(#b);
+      }
+    </style>
+    <linearGradient id="a" x1="-5.07" y1="169.63" x2="251.43" y2="21.53" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c93"/>
+      <stop offset="0.09" stop-color="#e2af33"/>
+      <stop offset="0.2" stop-color="#f7c433"/>
+      <stop offset="0.27" stop-color="#fc3"/>
+      <stop offset="0.31" stop-color="#ffd14c"/>
+      <stop offset="0.37" stop-color="#ffd971"/>
+      <stop offset="0.43" stop-color="#ffdf8b"/>
+      <stop offset="0.48" stop-color="#ffe39b"/>
+      <stop offset="0.52" stop-color="#ffe4a1"/>
+      <stop offset="0.55" stop-color="#ffe194"/>
+      <stop offset="0.61" stop-color="#ffda72"/>
+      <stop offset="0.69" stop-color="#ffce3c"/>
+      <stop offset="0.7" stop-color="#fc3"/>
+    </linearGradient>
+    <linearGradient id="b" x1="157.94" y1="424.84" x2="235.98" y2="379.78" xlink:href="#a"/>
+  </defs>
+  <g>
+    <polygon class="a" points="9 444 0 442 0 1 9 0 9 444"/>
+    <rect class="b" x="9" width="230" height="444"/>
+    <g>
+      <polygon class="c" points="9 194 9 129 239 0 9 194"/>
+      <polygon class="d" points="48 170 46 163 239 0 239 10 48 170"/>
+      <polygon class="e" points="9 444 239 444 239 420 9 324 9 444"/>
+      <polygon class="f" points="9 324 97 361 46 163 9 194 9 324"/>
+      <polygon class="g" points="133 343 220 52 92 177 133 343"/>
+      <polygon class="d" points="130 375 239 420 239 356 130 375"/>
+      <polygon class="e" points="155 338 238 323 239 258 155 338"/>
+      <polygon class="h" points="169 444 239 444 239 385 130 375 169 444"/>
+    </g>
+  </g>
+</svg>

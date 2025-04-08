@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104" height="278" viewBox="0 0 104 278">
+  <defs>
+    <style>
+      .a {
+        fill: #4d4d4d;
+      }
+
+      .b {
+        fill: gray;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        fill: #fff;
+        opacity: 0.3;
+      }
+
+      .e {
+        fill: #ccc;
+      }
+
+      .e, .f {
+        opacity: 0.75;
+      }
+
+      .f {
+        fill: #f2f2f2;
+      }
+
+      .g {
+        fill: url(#b);
+      }
+
+      .h {
+        fill: url(#c);
+      }
+
+      .i {
+        fill: url(#d);
+      }
+    </style>
+    <linearGradient id="a" x1="103.34" y1="266.38" x2="9.35" y2="103.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#666"/>
+      <stop offset="0.43" stop-color="#636363"/>
+      <stop offset="0.76" stop-color="#595959"/>
+      <stop offset="1" stop-color="#4d4d4d"/>
+    </linearGradient>
+    <linearGradient id="b" x1="46.76" y1="89.44" x2="0.09" y2="8.61" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#fff" stop-opacity="0.15"/>
+      <stop offset="0.27" stop-color="#fff" stop-opacity="0.18"/>
+      <stop offset="0.39" stop-color="#fff" stop-opacity="0.28"/>
+      <stop offset="0.53" stop-color="#fff" stop-opacity="0.43"/>
+      <stop offset="0.7" stop-color="#fff" stop-opacity="0.65"/>
+      <stop offset="0.78" stop-color="#fff" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="c" x1="101.25" y1="161.31" x2="54.58" y2="80.48" xlink:href="#b"/>
+    <linearGradient id="d" x1="66" y1="118" x2="76" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d4d4d"/>
+      <stop offset="0" stop-color="#4d4d4d"/>
+      <stop offset="0.13" stop-color="#646464"/>
+      <stop offset="0.28" stop-color="#747474"/>
+      <stop offset="0.44" stop-color="#7d7d7d"/>
+      <stop offset="0.66" stop-color="gray"/>
+      <stop offset="0.84" stop-color="#686868"/>
+      <stop offset="1" stop-color="#4d4d4d"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <rect class="a" x="26" y="101" width="78" height="20"/>
+      <rect class="a" x="38" y="124" width="66" height="20"/>
+      <rect class="a" x="55" y="147" width="49" height="20"/>
+      <rect class="a" x="70" y="170" width="34" height="23"/>
+      <rect class="a" x="85" y="196" width="19" height="21"/>
+      <rect class="a" x="100" y="220" width="4" height="21"/>
+      <polygon class="b" points="104 124 38 124 10 121 104 121 104 124"/>
+      <polygon class="b" points="104 147 55 147 38 144 104 144 104 147"/>
+      <polygon class="b" points="70 170 55 167 104 167 104 170 70 170"/>
+      <polygon class="b" points="85 196 70 193 104 193 104 196 85 196"/>
+      <polygon class="b" points="100 220 85 217 104 217 104 220 100 220"/>
+      <polygon class="b" points="104 242 100 241 104 241 104 242"/>
+      <polygon class="c" points="100 241 100 220 85 217 85 196 70 193 70 170 55 167 55 147 38 144 38 124 10 121 0 121 0 128 10 141 104 278 104 261 104 242 100 241"/>
+    </g>
+    <g>
+      <g>
+        <polygon class="d" points="15 90 71 161 71 71 15 0 15 90"/>
+        <polygon class="e" points="69 158 15 90 15 88 69 156 69 158"/>
+        <polygon class="f" points="71 73 15 0 16 0 71 71 71 73"/>
+        <polygon class="g" points="15 90 25 102 63 62 15 0 15 90"/>
+      </g>
+      <g>
+        <polygon class="d" points="71 161 104 203 104 113 71 71 71 161"/>
+        <polygon class="e" points="104 203 71 161 71 159 104 201 104 203"/>
+        <polygon class="f" points="104 114 71 71 72 71 104 113 104 114"/>
+        <polygon class="h" points="71 161 81 173 104 145 104 114 71 71 71 161"/>
+      </g>
+      <path class="i" d="M71,67c-2.76,0-5,.45-5,1V168c0,.55,2.24,1,5,1s5-.45,5-1V68C76,67.45,73.76,67,71,67Z"/>
+    </g>
+  </g>
+</svg>

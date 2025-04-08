@@ -1,0 +1,32 @@
+<svg width="541" height="477" viewBox="0 0 541 477" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.2" d="M540.5 187L500.5 188V1L540.5 101V187Z" fill="black"/>
+<path d="M120.5 476H70.5V152L500.5 1V187.5L120.5 476Z" fill="url(#paint0_radial)" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
+<path d="M500.5 1H338.5L0.5 91V152H70.5L500.5 1Z" fill="url(#paint1_radial)" stroke="black" stroke-width="0.75" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M70.5 152H0.5V476H70.5V152Z" fill="#999999" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
+<path d="M261 369.5V85.5" stroke="black" stroke-width="0.75" stroke-miterlimit="10" stroke-linejoin="bevel"/>
+<path d="M401 250V47.5" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M500.5 119.5L261 266.5" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M500.5 60.5L261 175.5" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M500.5 1L70.5 152V171L500.5 11V1Z" fill="#C9C9C9" stroke="black" stroke-width="0.75" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M70.5 152H0.5V171H70.5V152Z" fill="#999999" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M500.5 176.5L92.5 476H120.5L500.5 187.5V176.5Z" fill="#C9C9C9" stroke="black" stroke-width="0.75" stroke-miterlimit="10" stroke-linejoin="bevel"/>
+<path d="M500.5 176.5L494 181V13.5L500.5 11V176.5Z" fill="#C9C9C9" stroke="black" stroke-width="0.75" stroke-miterlimit="10" stroke-linejoin="bevel"/>
+<path d="M253 103.5V358" stroke="black" stroke-width="0.75" stroke-miterlimit="10" stroke-linejoin="bevel"/>
+<path d="M160 137.5V426.5" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="bevel"/>
+<path d="M253 358H169V134.5L253 103.3V358Z" fill="#666666" stroke="black" stroke-width="0.75" stroke-miterlimit="10" stroke-linejoin="bevel"/>
+<path d="M84 476H70.5V171L84 166V476Z" fill="#C9C9C9" stroke="black" stroke-width="0.75" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M253 358L169 419.8V358H253Z" fill="#999999" stroke="black" stroke-width="0.75" stroke-miterlimit="10" stroke-linejoin="bevel"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(365.714 202.712) scale(292.596)">
+<stop offset="0.0103282" stop-color="#8BB293"/>
+<stop offset="0.4454" stop-color="#74997D"/>
+<stop offset="0.5631" stop-color="#698C72"/>
+<stop offset="0.7377" stop-color="#5F8067"/>
+<stop offset="0.9093" stop-color="#5C7C63"/>
+</radialGradient>
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(303.565 35.7759) scale(186.703)">
+<stop offset="0.0921834" stop-color="white"/>
+<stop offset="0.6394" stop-color="#F2F2F2"/>
+</radialGradient>
+</defs>
+</svg>

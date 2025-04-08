@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="504" height="387" viewBox="0 0 504 387">
+  <defs>
+    <style>
+      .a {
+        isolation: isolate;
+      }
+
+      .ad, .ae, .b {
+        mix-blend-mode: multiply;
+      }
+
+      .c {
+        fill: #fff;
+        opacity: 0;
+      }
+
+      .d {
+        fill: #f8f7f7;
+        opacity: 0.05;
+      }
+
+      .e {
+        fill: #f2f0f0;
+        opacity: 0.1;
+      }
+
+      .f {
+        fill: #ebe8e8;
+        opacity: 0.14;
+      }
+
+      .g {
+        fill: #e4e1e1;
+        opacity: 0.19;
+      }
+
+      .h {
+        fill: #ded9d9;
+        opacity: 0.24;
+      }
+
+      .i {
+        fill: #d7d2d2;
+        opacity: 0.29;
+      }
+
+      .j {
+        fill: #d0caca;
+        opacity: 0.33;
+      }
+
+      .k {
+        fill: #cac3c3;
+        opacity: 0.38;
+      }
+
+      .l {
+        fill: #c3bbbb;
+        opacity: 0.43;
+      }
+
+      .m {
+        fill: #bcb4b4;
+        opacity: 0.48;
+      }
+
+      .n {
+        fill: #b6acac;
+        opacity: 0.52;
+      }
+
+      .o {
+        fill: #afa5a5;
+        opacity: 0.57;
+      }
+
+      .p {
+        fill: #a89d9d;
+        opacity: 0.62;
+      }
+
+      .q {
+        fill: #a29696;
+        opacity: 0.67;
+      }
+
+      .r {
+        fill: #9b8e8e;
+        opacity: 0.71;
+      }
+
+      .s {
+        fill: #948787;
+        opacity: 0.76;
+      }
+
+      .t {
+        fill: #8e7f7f;
+        opacity: 0.81;
+      }
+
+      .u {
+        fill: #877878;
+        opacity: 0.86;
+      }
+
+      .v {
+        fill: #807070;
+        opacity: 0.9;
+      }
+
+      .w {
+        fill: #7a6969;
+        opacity: 0.95;
+      }
+
+      .x {
+        fill: #736161;
+      }
+
+      .y {
+        fill: #de853b;
+      }
+
+      .z {
+        fill: url(#a);
+      }
+
+      .aa {
+        fill: #ab551a;
+      }
+
+      .ab {
+        fill: #d27535;
+      }
+
+      .ac {
+        fill: #824016;
+      }
+
+      .ad {
+        opacity: 0.5;
+      }
+
+      .ae {
+        fill: #4c4040;
+        opacity: 0.3;
+      }
+
+      .af {
+        fill: url(#b);
+      }
+
+      .ag {
+        fill: url(#c);
+      }
+
+      .ah {
+        fill: url(#d);
+      }
+
+      .ai {
+        fill: url(#e);
+      }
+
+      .aj {
+        fill: #602f13;
+      }
+    </style>
+    <linearGradient id="a" x1="84.02" y1="188.01" x2="419.98" y2="188.01" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bb6a22"/>
+      <stop offset="0.06" stop-color="#bd6d24"/>
+      <stop offset="0.1" stop-color="#c4752c"/>
+      <stop offset="0.11" stop-color="#c6782e"/>
+      <stop offset="0.18" stop-color="#c4752c"/>
+      <stop offset="0.23" stop-color="#bd6d24"/>
+      <stop offset="0.24" stop-color="#bb6a22"/>
+      <stop offset="0.33" stop-color="#bd6d24"/>
+      <stop offset="0.4" stop-color="#c4752c"/>
+      <stop offset="0.41" stop-color="#c6782e"/>
+      <stop offset="0.5" stop-color="#c4752c"/>
+      <stop offset="0.57" stop-color="#bd6d24"/>
+      <stop offset="0.58" stop-color="#bb6a22"/>
+      <stop offset="0.64" stop-color="#bd6d24"/>
+      <stop offset="0.68" stop-color="#c4752c"/>
+      <stop offset="0.68" stop-color="#c6782e"/>
+      <stop offset="0.73" stop-color="#c4752c"/>
+      <stop offset="0.76" stop-color="#bd6d24"/>
+      <stop offset="0.76" stop-color="#bb6a22"/>
+      <stop offset="0.83" stop-color="#bd6d24"/>
+      <stop offset="0.86" stop-color="#c4752c"/>
+      <stop offset="0.87" stop-color="#c6782e"/>
+      <stop offset="0.94" stop-color="#c4752c"/>
+      <stop offset="0.99" stop-color="#bd6d24"/>
+      <stop offset="1" stop-color="#bb6a22"/>
+    </linearGradient>
+    <radialGradient id="b" cx="306.48" cy="111.57" r="13.36" gradientTransform="translate(-50.65 -66.66) scale(1.26 1.26)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2b762"/>
+      <stop offset="0.23" stop-color="#e8b05d"/>
+      <stop offset="0.61" stop-color="#ce9c51"/>
+      <stop offset="1" stop-color="#ad8241"/>
+    </radialGradient>
+    <radialGradient id="c" cx="306.48" cy="192.41" r="13.36" xlink:href="#b"/>
+    <radialGradient id="d" cx="-176.07" cy="111.57" r="13.36" gradientTransform="matrix(-1.26, 0, 0, 1.26, -54.12, -66.66)" xlink:href="#b"/>
+    <radialGradient id="e" cx="-176.07" cy="192.41" r="13.36" gradientTransform="matrix(-1.26, 0, 0, 1.26, -54.12, -66.66)" xlink:href="#b"/>
+  </defs>
+  <g class="a">
+    <g>
+      <g class="b">
+        <path class="c" d="M504,356c0,17.12-112.83,31-252,31S0,373.11,0,356s112.82-31,252-31S504,338.85,504,356Z"/>
+        <path class="d" d="M492.27,356c0,16.31-107.57,29.54-240.27,29.54S11.73,372.3,11.73,356,119.3,326.44,252,326.44,492.27,339.67,492.27,356Z"/>
+        <path class="e" d="M480.55,356c0,15.5-102.33,28.06-228.55,28.06S23.45,371.49,23.45,356,125.77,327.91,252,327.91,480.55,340.48,480.55,356Z"/>
+        <path class="f" d="M468.82,356c0,14.68-97.07,26.59-216.82,26.59S35.18,370.67,35.18,356s97.07-26.6,216.82-26.6S468.82,341.3,468.82,356Z"/>
+        <path class="g" d="M457.1,356c0,13.87-91.83,25.12-205.1,25.12S46.9,369.86,46.9,356s91.83-25.13,205.1-25.13S457.1,342.11,457.1,356Z"/>
+        <path class="h" d="M445.37,356c0,13.05-86.58,23.64-193.37,23.64S58.63,369,58.63,356,145.2,332.33,252,332.33,445.37,342.92,445.37,356Z"/>
+        <path class="i" d="M433.64,356c0,12.24-81.32,22.17-181.64,22.17S70.36,368.23,70.36,356,151.68,333.81,252,333.81,433.64,343.74,433.64,356Z"/>
+        <path class="j" d="M421.92,356c0,11.43-76.08,20.7-169.92,20.7S82.08,367.42,82.08,356,158.15,335.28,252,335.28,421.92,344.55,421.92,356Z"/>
+        <path class="k" d="M410.19,356c0,10.61-70.82,19.22-158.19,19.22S93.81,366.6,93.81,356,164.63,336.75,252,336.75,410.19,345.36,410.19,356Z"/>
+        <path class="l" d="M398.47,356c0,9.8-65.58,17.75-146.47,17.75S105.53,365.79,105.53,356,171.11,338.23,252,338.23,398.47,346.18,398.47,356Z"/>
+        <path class="m" d="M386.74,356c0,9-60.32,16.28-134.74,16.28S117.26,365,117.26,356,177.58,339.7,252,339.7,386.74,347,386.74,356Z"/>
+        <path class="n" d="M375,356c0,8.17-55.08,14.8-123,14.8S129,364.16,129,356s55.08-14.82,123-14.82S375,347.81,375,356Z"/>
+        <path class="o" d="M363.29,356c0,7.36-49.83,13.33-111.29,13.33s-111.29-6-111.29-13.33S190.53,342.65,252,342.65,363.29,348.62,363.29,356Z"/>
+        <path class="p" d="M351.56,356c0,6.55-44.57,11.86-99.56,11.86s-99.56-5.31-99.56-11.86S197,344.12,252,344.12,351.56,349.43,351.56,356Z"/>
+        <path class="q" d="M339.84,356c0,5.73-39.33,10.38-87.84,10.38s-87.84-4.65-87.84-10.38,39.33-10.4,87.84-10.4S339.84,350.25,339.84,356Z"/>
+        <path class="r" d="M328.11,356c0,4.92-34.07,8.91-76.11,8.91s-76.11-4-76.11-8.91S210,347.07,252,347.07,328.11,351.06,328.11,356Z"/>
+        <path class="s" d="M316.39,356c0,4.11-28.83,7.44-64.39,7.44s-64.39-3.33-64.39-7.44,28.83-7.45,64.39-7.45S316.39,351.87,316.39,356Z"/>
+        <path class="t" d="M304.66,356c0,3.29-23.57,6-52.66,6s-52.66-2.67-52.66-6,23.57-6,52.66-6S304.66,352.69,304.66,356Z"/>
+        <path class="u" d="M292.93,356c0,2.48-18.32,4.49-40.93,4.49s-40.93-2-40.93-4.49,18.32-4.5,40.93-4.5S292.93,353.5,292.93,356Z"/>
+        <path class="v" d="M281.21,356c0,1.66-13.08,3-29.21,3s-29.21-1.36-29.21-3,13.08-3,29.21-3S281.21,354.31,281.21,356Z"/>
+        <path class="w" d="M269.48,356c0,.85-7.82,1.54-17.48,1.54s-17.48-.69-17.48-1.54,7.82-1.56,17.48-1.56S269.48,355.13,269.48,356Z"/>
+        <path class="x" d="M257.76,356s-2.58.07-5.76.07-5.76,0-5.76-.07,2.58-.08,5.76-.08S257.76,355.94,257.76,356Z"/>
+      </g>
+      <g>
+        <polygon class="y" points="103.7 0 75.52 19.45 428.48 19.45 400.3 0 103.7 0"/>
+        <rect class="z" x="84.02" y="20.04" width="335.95" height="335.95"/>
+        <rect class="aa" x="84.02" y="330.23" width="335.95" height="25.76"/>
+        <rect class="ab" x="75.4" y="19.51" width="353.19" height="10.72"/>
+        <rect class="ac" x="250.32" y="30.24" width="3.36" height="299.99"/>
+        <rect class="ac" x="250.32" y="-35.88" width="3.36" height="335.95" transform="translate(384.1 -119.9) rotate(90)"/>
+        <rect class="ac" x="250.32" y="160.57" width="3.36" height="335.95" transform="translate(580.55 76.55) rotate(90)"/>
+        <g class="ad">
+          <rect class="ae" x="84.02" y="30.24" width="335.95" height="6.24"/>
+        </g>
+        <g class="ad">
+          <rect class="ae" x="84.02" y="330.23" width="335.95" height="6.24"/>
+        </g>
+        <g class="ad">
+          <polygon class="ae" points="398.54 53.48 273.43 53.48 273.43 56.59 396.98 56.59 396.98 110.46 398.53 110.46 398.53 56.59 398.54 56.59 398.54 53.48"/>
+        </g>
+        <g class="ad">
+          <polygon class="ae" points="398.54 153.46 273.43 153.46 273.43 156.58 396.98 156.58 396.98 305.95 398.53 305.95 398.53 156.58 398.54 156.58 398.54 153.46"/>
+        </g>
+        <path class="ac" d="M271.13,51v61.74H400.84V51Zm127.41,59.44H273.43V53.32H398.54Z"/>
+        <path class="ac" d="M271.13,151.44V308.37H400.84V151.44ZM398.54,306.07H273.43V153.74H398.54Z"/>
+        <g class="ad">
+          <rect class="ae" x="319.25" y="74.09" width="33.47" height="6.91"/>
+        </g>
+        <path class="af" d="M349.2,70.57H322.77a3.52,3.52,0,1,0,0,7H349.2a3.52,3.52,0,1,0,0-7Z"/>
+        <g class="ad">
+          <rect class="ae" x="319.25" y="176.07" width="33.47" height="6.9"/>
+        </g>
+        <path class="ag" d="M349.2,172.56H322.77a3.52,3.52,0,1,0,0,7H349.2a3.52,3.52,0,1,0,0-7Z"/>
+        <g class="ad">
+          <polygon class="ae" points="105.45 53.48 230.57 53.48 230.57 56.59 107.02 56.59 107.02 110.46 105.46 110.46 105.46 56.59 105.45 56.59 105.45 53.48"/>
+        </g>
+        <g class="ad">
+          <polygon class="ae" points="105.45 153.46 230.57 153.46 230.57 156.58 107.02 156.58 107.02 305.95 105.46 305.95 105.46 156.58 105.45 156.58 105.45 153.46"/>
+        </g>
+        <path class="ac" d="M103.16,51v61.74h129.7V51Zm2.29,2.3H230.57v57.14H105.45Z"/>
+        <path class="ac" d="M103.16,151.44V308.37h129.7V151.44Zm2.29,2.3H230.57V306.07H105.45Z"/>
+        <g class="ad">
+          <rect class="ae" x="151.27" y="74.09" width="33.47" height="6.91"/>
+        </g>
+        <path class="ah" d="M154.8,70.57h26.42a3.52,3.52,0,1,1,0,7H154.8a3.52,3.52,0,1,1,0-7Z"/>
+        <g class="ad">
+          <rect class="ae" x="151.27" y="176.07" width="33.47" height="6.9"/>
+        </g>
+        <path class="ai" d="M154.8,172.56h26.42a3.52,3.52,0,1,1,0,7H154.8a3.52,3.52,0,1,1,0-7Z"/>
+      </g>
+      <g>
+        <rect class="aj" x="103" y="151.5" width="130" height="157"/>
+        <polygon class="ac" points="233 282.5 115 282.5 103 308.5 233 308.5 233 282.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

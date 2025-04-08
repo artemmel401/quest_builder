@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="102" viewBox="0 0 104 102">
+  <defs>
+    <style>
+      .a {
+        fill: #736357;
+      }
+
+      .b {
+        fill: #988575;
+      }
+
+      .c {
+        fill: #c6b198;
+      }
+
+      .d {
+        fill: none;
+        stroke: #988575;
+        stroke-miterlimit: 10;
+        stroke-width: 0.5px;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="104 13 101.03 0 96.08 0 96.08 70 104 102 104 13"/>
+    <rect class="b" width="98.06" height="83"/>
+    <rect class="c" y="13" width="104" height="89"/>
+    <rect class="b" x="36.52" y="29.12" width="31.7" height="8" rx="4"/>
+    <rect class="d" x="34.79" y="27.87" width="35.16" height="10.5" rx="4"/>
+    <line class="d" y1="20" x2="104" y2="20"/>
+  </g>
+</svg>

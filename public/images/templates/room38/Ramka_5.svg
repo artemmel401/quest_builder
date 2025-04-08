@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="545" viewBox="0 0 64 545">
+  <defs>
+    <style>
+      .a {
+        fill: #336;
+        opacity: 0.2;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: #399;
+      }
+
+      .d {
+        fill: #666;
+      }
+
+      .e {
+        fill: gray;
+      }
+
+      .f {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="59 41 5 0 0 521 5 545 59 508 63 490 59 41"/>
+    <polygon class="b" points="64 41.5 10 0.5 10 513.5 64 480.5 64 41.5"/>
+    <polygon class="c" points="61 43.5 15 10.5 15 504.5 61 478.5 61 43.5"/>
+    <g>
+      <rect class="d" x="5" y="0.5" width="5" height="513" transform="translate(15 514) rotate(-180)"/>
+      <polygon class="d" points="59 44.5 61 43.5 61 478.5 59 477.5 59 44.5"/>
+      <polygon class="e" points="61 478.5 15 504.5 15 502.5 59 477.5 61 478.5"/>
+      <polygon class="f" points="59 44.5 15 14.5 15 10.5 61 43.5 59 44.5"/>
+    </g>
+  </g>
+</svg>

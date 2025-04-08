@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="421" viewBox="0 0 256 421">
+  <defs>
+    <style>
+      .a {
+        fill: #a57c52;
+      }
+
+      .b {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <g>
+    <ellipse class="a" cx="181.5" cy="316" rx="15.5" ry="25"/>
+    <ellipse class="b" cx="223" cy="36.5" rx="21" ry="36.5"/>
+    <ellipse class="b" cx="247" cy="105.5" rx="9" ry="15.5"/>
+    <ellipse class="b" cx="39.5" cy="352.5" rx="15.5" ry="26.5"/>
+    <ellipse class="a" cx="11.5" cy="326.5" rx="8.5" ry="15.5"/>
+    <ellipse class="b" cx="9.5" cy="408.5" rx="7.5" ry="12.5"/>
+    <ellipse class="a" cx="20" cy="100" rx="20" ry="32"/>
+  </g>
+</svg>

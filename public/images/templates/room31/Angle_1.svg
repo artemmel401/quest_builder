@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="1080" viewBox="0 0 110 1080">
+  <defs>
+    <style>
+      .a {
+        fill: #c69c6d;
+      }
+
+      .b {
+        fill: #a67c52;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="10 1080 0 1080 0 0 80 0 10 1080"/>
+    <polygon class="b" points="40 1080 10 1080 80 0 110 0 40 1080"/>
+  </g>
+</svg>

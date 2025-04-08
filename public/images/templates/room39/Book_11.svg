@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="123" height="60" viewBox="0 0 123 60">
+  <defs>
+    <style>
+      .a {
+        fill: #336;
+        opacity: 0.2;
+      }
+
+      .b {
+        fill: #f2f2f2;
+      }
+
+      .c {
+        fill: #f93;
+      }
+
+      .d {
+        fill: #fff;
+      }
+
+      .e {
+        fill: #d37a29;
+      }
+
+      .f {
+        fill: none;
+        stroke: #bf6b26;
+        stroke-miterlimit: 10;
+      }
+
+      .g {
+        fill: #bf6b26;
+      }
+
+      .h {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" x1="100.75" y1="-13.75" x2="13.5" y2="73.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.08" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="0.24" stop-color="#fff" stop-opacity="0.33"/>
+      <stop offset="0.87" stop-color="#fff" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="123 1 54.5 1 8.5 60 82.5 60 123 1"/>
+      <polygon class="b" points="114.5 0 73.5 60 76.5 60 114.5 4 114.5 0"/>
+    </g>
+    <polygon class="c" points="114.5 0 40.5 0 0 60 73.5 60 114.5 0"/>
+    <g>
+      <polygon class="d" points="104 9 93 9 97 3 108 3 104 9"/>
+      <polygon class="e" points="83 37 22 37 9 55 70 55 83 37"/>
+      <polyline class="f" points="24.5 34.5 37 28 46.5 20.5 38 48 47 43 53 34 66.5 32.5 61 47 85.5 27.5"/>
+      <g>
+        <polygon class="d" points="80.61 15 76 15 78.76 11 83.37 11 80.61 15"/>
+        <g>
+          <polygon class="d" points="55.18 15 50.58 15 53.34 11 57.95 11 55.18 15"/>
+          <polygon class="d" points="60.71 15 57.95 15 60.71 11 63.47 11 60.71 15"/>
+          <polygon class="d" points="66.24 15 63.47 15 66.24 11 69 11 66.24 15"/>
+        </g>
+        <polygon class="d" points="73.61 15 69 15 71.76 11 76.37 11 73.61 15"/>
+        <g>
+          <polygon class="g" points="63.71 53 60.95 53 64.71 48 67.47 48 63.71 53"/>
+          <polygon class="g" points="17.71 53 14.95 53 19.71 46 22.47 46 17.71 53"/>
+          <polygon class="g" points="27.71 53 24.95 53 29.71 46 32.47 46 27.71 53"/>
+          <polygon class="g" points="45.71 53 42.95 53 47.71 46 50.47 46 45.71 53"/>
+          <polygon class="g" points="51.71 53 48.95 53 53.71 46 56.47 46 51.71 53"/>
+          <polygon class="g" points="22.71 53 19.95 53 26.71 42 29.47 42 22.71 53"/>
+          <polygon class="g" points="68.24 53 65.47 53 72.24 43 75 43 68.24 53"/>
+        </g>
+      </g>
+    </g>
+    <polygon class="h" points="114.5 0 40.5 0 0 60 73.5 60 114.5 0"/>
+  </g>
+</svg>

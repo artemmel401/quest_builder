@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="54" viewBox="0 0 124 54">
+  <defs>
+    <style>
+      .a {
+        fill: #333;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" x1="60" y1="10" x2="60" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d4d4d"/>
+      <stop offset="0.48" stop-color="#3e3e3e"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" y="31" width="124" height="23"/>
+    <polygon class="b" points="27 31 124 31 92 0 12 0 27 31"/>
+    <ellipse class="c" cx="60" cy="17" rx="26" ry="7"/>
+  </g>
+</svg>

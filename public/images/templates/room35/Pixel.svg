@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="1080" viewBox="0 0 10 1080">
+  <defs>
+    <style>
+      .a {
+        fill: #e6e6e6;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: url(#b);
+      }
+
+      .d {
+        fill: #f2f2f2;
+      }
+
+      .e {
+        fill: none;
+        stroke: #e2a874;
+        stroke-miterlimit: 10;
+      }
+
+      .f {
+        opacity: 0.65;
+        fill: url(#c);
+      }
+    </style>
+    <linearGradient id="a" x1="5" y1="817.93" x2="5" y2="966.55" gradientUnits="userSpaceOnUse">
+      <stop offset="0.15" stop-color="#699"/>
+      <stop offset="0.82" stop-color="#72aaa9"/>
+    </linearGradient>
+    <linearGradient id="b" x1="5" y1="1076.49" x2="5" y2="893.76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e2a874"/>
+      <stop offset="0.84" stop-color="#d19869"/>
+    </linearGradient>
+    <linearGradient id="c" x1="5" y1="975" x2="5" y2="831" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccc" stop-opacity="0.05"/>
+      <stop offset="0.21" stop-color="#ccc" stop-opacity="0.12"/>
+      <stop offset="0.61" stop-color="#ccc" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ccc" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" width="10" height="1080"/>
+    <rect class="b" y="816" width="10" height="148"/>
+    <rect class="c" y="964" width="10" height="116"/>
+    <rect class="d" y="67" width="10" height="764"/>
+    <g>
+      <line class="e" y1="1050" x2="10" y2="1050"/>
+      <line class="e" y1="1020" x2="10" y2="1020"/>
+      <line class="e" y1="990" x2="10" y2="990"/>
+      <line class="e" y1="965" x2="10" y2="965"/>
+    </g>
+    <polygon class="f" points="0 974.15 10 975 10 831 0 831 0 974.15"/>
+  </g>
+</svg>

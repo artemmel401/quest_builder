@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137" height="114.6" viewBox="0 0 137 114.6">
+  <defs>
+    <style>
+      .a, .d {
+        fill: #333;
+      }
+
+      .a {
+        opacity: 0.3;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: url(#b);
+      }
+    </style>
+    <linearGradient id="a" x1="34" y1="61.85" x2="137" y2="61.85" gradientUnits="userSpaceOnUse">
+      <stop offset="0.08" stop-color="#333"/>
+      <stop offset="0.26" stop-color="#1a1a1a"/>
+      <stop offset="0.57" stop-color="#333"/>
+      <stop offset="0.59" stop-color="#353535"/>
+      <stop offset="0.83" stop-color="#474747"/>
+      <stop offset="1" stop-color="#4d4d4d"/>
+    </linearGradient>
+    <linearGradient id="b" x1="35" y1="12.54" x2="136" y2="12.54" gradientUnits="userSpaceOnUse">
+      <stop offset="0.16" stop-color="#4d4d4d"/>
+      <stop offset="0.19" stop-color="#464646"/>
+      <stop offset="0.3" stop-color="#323232"/>
+      <stop offset="0.43" stop-color="#252525"/>
+      <stop offset="0.59" stop-color="#1c1c1c"/>
+      <stop offset="0.87" stop-color="#1a1a1a"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <ellipse class="a" cx="63.5" cy="98.1" rx="63.5" ry="16.5"/>
+    <path class="b" d="M34,12.11,46.26,94.29c0,9.56,17.75,17.31,39.65,17.31s39.65-7.75,39.65-17.31L137,12.11Z"/>
+    <g>
+      <ellipse class="c" cx="85.5" cy="12.54" rx="50.5" ry="11.54"/>
+      <path class="d" d="M85.5,2c13.6,0,26.37,1.28,35.94,3.62C132.14,8.22,135,11.2,135,12.54s-2.86,4.32-13.56,6.93c-9.57,2.33-22.34,3.62-35.94,3.62S59.13,21.8,49.56,19.47C38.86,16.86,36,13.89,36,12.54s2.86-4.32,13.56-6.92C59.13,3.28,71.9,2,85.5,2m0-2C57.06,0,34,5.62,34,12.54S57.06,25.09,85.5,25.09,137,19.47,137,12.54,113.94,0,85.5,0Z"/>
+    </g>
+  </g>
+</svg>

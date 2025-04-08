@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124.28" height="134" viewBox="0 0 124.28 134">
+  <defs>
+    <style>
+      .a, .j, .l {
+        fill: none;
+      }
+
+      .b {
+        fill: #036;
+        opacity: 0.3;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        opacity: 0.2;
+      }
+
+      .e {
+        fill: url(#b);
+      }
+
+      .f {
+        fill: #002a4c;
+      }
+
+      .f, .j {
+        opacity: 0.4;
+      }
+
+      .g {
+        fill: #999;
+      }
+
+      .h {
+        fill: url(#c);
+      }
+
+      .i {
+        fill: #4d4d4d;
+      }
+
+      .j {
+        stroke: #002a4c;
+        stroke-width: 6px;
+      }
+
+      .j, .l {
+        stroke-miterlimit: 10;
+      }
+
+      .k {
+        clip-path: url(#d);
+      }
+
+      .l {
+        stroke: #4d4d4d;
+        stroke-width: 5px;
+      }
+
+      .m {
+        fill: gray;
+      }
+
+      .n {
+        fill: #666;
+      }
+    </style>
+    <linearGradient id="a" x1="4.39" y1="9.62" x2="124.23" y2="9.62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#666"/>
+      <stop offset="0.06" stop-color="#636363"/>
+      <stop offset="0.68" stop-color="#4d4d4d"/>
+    </linearGradient>
+    <linearGradient id="b" x1="7.88" y1="68.64" x2="127.72" y2="68.64" gradientUnits="userSpaceOnUse">
+      <stop offset="0.13" stop-color="#4d4d4d"/>
+      <stop offset="0.51" stop-color="#727272"/>
+      <stop offset="0.71" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="c" x1="106.14" y1="18.51" x2="106.14" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.5"/>
+      <stop offset="0.31" stop-color="#fff" stop-opacity="0.36"/>
+      <stop offset="0.99" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="d" transform="translate(-3.49)">
+      <path class="a" d="M7.88,9.62,15,48.11,119.72,16.05l-7.4,34.55L64.18,95,0,69.12C0,74.43,7.88,14.93,7.88,9.62Z"/>
+    </clipPath>
+  </defs>
+  <g>
+    <ellipse class="b" cx="63.83" cy="120.84" rx="60.45" ry="13.16"/>
+    <ellipse class="c" cx="64.31" cy="9.62" rx="59.92" ry="9.62"/>
+    <path class="d" d="M48,18.57c-21.39-1.4-40.15-4.88-40.15-9L28,118.91c0,2.6,12.53,6.88,29.31,8.28Z" transform="translate(-3.49)"/>
+    <path class="e" d="M67.8,19.24c-28,0-59.92-4.31-59.92-9.62L28,118.91c0,3.14,18.28,8.75,40.26,8.75s39.34-5.61,39.34-8.75L127.72,9.62C127.72,14.93,95.84,19.24,67.8,19.24Z" transform="translate(-3.49)"/>
+    <path class="f" d="M23.61,15.81C14.17,14.13,7.88,12,7.88,9.62L28,118.91c0,1.48,4.06,3.5,10.63,5.23Z" transform="translate(-3.49)"/>
+    <path class="g" d="M67.8,1.5a290.49,290.49,0,0,1,39.41,2.67c14.72,2.16,18.68,4.63,19,5.45-.33.81-4.29,3.28-19,5.44A288.82,288.82,0,0,1,67.8,17.74a288.82,288.82,0,0,1-39.41-2.68c-14.72-2.16-18.68-4.63-19-5.44.32-.82,4.28-3.29,19-5.45A290.49,290.49,0,0,1,67.8,1.5m0-1.5C39.76,0,7.88,4.31,7.88,9.62s31.88,9.62,59.92,9.62,59.92-4.31,59.92-9.62S95.84,0,67.8,0Z" transform="translate(-3.49)"/>
+    <path class="h" d="M119.72,18.51A58.37,58.37,0,0,1,111.08,21a60,60,0,0,1-12.34,1.24Q95.65,71,92.57,119.72a17.12,17.12,0,0,0,6.17,0,17,17,0,0,0,6.17-2.47Q112.32,67.89,119.72,18.51Z" transform="translate(-3.49)"/>
+    <ellipse class="i" cx="108.21" cy="24.68" rx="4.85" ry="6.17"/>
+    <ellipse class="f" cx="107.32" cy="25.98" rx="3.97" ry="4.88"/>
+    <path class="j" d="M112.32,24.68c-6.5,11.11-17,32.24-33.33,43.2C70.3,73.7,47.88,87.48,24.68,81.46" transform="translate(-3.49)"/>
+    <g class="k">
+      <path class="l" d="M112.32,24.68A109.14,109.14,0,0,1,79,60.48C70.3,66.3,47.88,81.31,24.68,75.29c-4.36-1.14-12-3.24-16-9.88C4.84,59.09,5.59,54.78,8,42.58a167.57,167.57,0,0,1,5.56-20.36" transform="translate(-3.49)"/>
+    </g>
+    <path class="m" d="M79.05,60.56A114.47,114.47,0,0,1,56.68,72.9c-7.92,3.13-16.48,5-25,4.43a41.11,41.11,0,0,1-6.34-1,51,51,0,0,1-6.16-1.78A21.83,21.83,0,0,1,8.72,67.34,17.45,17.45,0,0,1,6,61.55a19.39,19.39,0,0,1-.31-6.4c.46-4.25,1.45-8.41,2.26-12.59l.2,0c-.43,4.25-1.26,8.48-1.42,12.65a18.82,18.82,0,0,0,.53,6A16.05,16.05,0,0,0,10,66.43a18.41,18.41,0,0,0,4.39,3.86,25.14,25.14,0,0,0,5.42,2.55,56.13,56.13,0,0,0,5.95,1.64,37.48,37.48,0,0,0,6.06.86,41.93,41.93,0,0,0,6.14,0,51.11,51.11,0,0,0,6.14-.72,73.19,73.19,0,0,0,12-3.22,93.1,93.1,0,0,0,11.58-5c1.91-.92,3.79-1.9,5.66-2.92l5.59-3.12Z" transform="translate(-3.49)"/>
+    <ellipse class="n" cx="108.21" cy="24.68" rx="2.91" ry="3.7"/>
+  </g>
+</svg>

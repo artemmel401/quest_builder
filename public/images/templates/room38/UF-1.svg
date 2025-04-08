@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="858" height="1008" viewBox="0 0 858 1008">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.25;
+      }
+
+      .b, .c, .d, .e, .f {
+        opacity: 0.5;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: url(#b);
+      }
+
+      .d {
+        fill: url(#c);
+      }
+
+      .e {
+        fill: url(#d);
+      }
+
+      .f {
+        fill: url(#e);
+      }
+    </style>
+    <linearGradient id="a" x1="429" y1="880" x2="429" y2="117" gradientUnits="userSpaceOnUse">
+      <stop offset="0.01" stop-color="#93f" stop-opacity="0"/>
+      <stop offset="0.01" stop-color="#9731ff" stop-opacity="0.03"/>
+      <stop offset="0.07" stop-color="#8c26ff" stop-opacity="0.22"/>
+      <stop offset="0.14" stop-color="#821cff" stop-opacity="0.39"/>
+      <stop offset="0.21" stop-color="#7913ff" stop-opacity="0.53"/>
+      <stop offset="0.28" stop-color="#720cff" stop-opacity="0.65"/>
+      <stop offset="0.35" stop-color="#6d07ff" stop-opacity="0.74"/>
+      <stop offset="0.43" stop-color="#6903ff" stop-opacity="0.8"/>
+      <stop offset="0.52" stop-color="#6701ff" stop-opacity="0.84"/>
+      <stop offset="0.63" stop-color="#60f" stop-opacity="0.85"/>
+      <stop offset="0.75" stop-color="#7d17ff" stop-opacity="0.85"/>
+      <stop offset="0.88" stop-color="#93f" stop-opacity="0.85"/>
+      <stop offset="0.9" stop-color="#93f" stop-opacity="0.8"/>
+      <stop offset="0.95" stop-color="#93f" stop-opacity="0.68"/>
+      <stop offset="1" stop-color="#93f" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="b" x1="784" y1="977" x2="784" y2="0" xlink:href="#a"/>
+    <linearGradient id="c" x1="78" y1="977" x2="78" y2="0" gradientTransform="matrix(-1, 0, 0, 1, 152, 0)" xlink:href="#a"/>
+    <linearGradient id="d" x1="429" x2="429" y2="117" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93f" stop-opacity="0.5"/>
+      <stop offset="0.01" stop-color="#9832ff" stop-opacity="0.51"/>
+      <stop offset="0.14" stop-color="#821cff" stop-opacity="0.61"/>
+      <stop offset="0.27" stop-color="#720cff" stop-opacity="0.69"/>
+      <stop offset="0.41" stop-color="#6903ff" stop-opacity="0.73"/>
+      <stop offset="0.55" stop-color="#60f" stop-opacity="0.75"/>
+      <stop offset="0.66" stop-color="#6d07ff" stop-opacity="0.72"/>
+      <stop offset="0.82" stop-color="#7e18ff" stop-opacity="0.63"/>
+      <stop offset="1" stop-color="#93f" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="e" x1="429" y1="867" x2="429" y2="995" gradientTransform="matrix(1, 0, 0, -1, 0, 1875)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93f" stop-opacity="0"/>
+      <stop offset="0.02" stop-color="#9731ff" stop-opacity="0.01"/>
+      <stop offset="0.4" stop-color="#730dff" stop-opacity="0.11"/>
+      <stop offset="0.62" stop-color="#60f" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#93f" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <g class="a">
+    <rect class="b" x="119" y="117" width="620" height="763"/>
+    <polygon class="c" points="829 0 824 0 739 117 739 880 829 977 829 0"/>
+    <polygon class="d" points="29 0 34 0 119 117 119 880 29 977 29 0"/>
+    <polygon class="e" points="739 117 119 117 34 0 824 0 739 117"/>
+    <polygon class="f" points="739 880 119 880 0 1008 858 1008 739 880"/>
+  </g>
+</svg>

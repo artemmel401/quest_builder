@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="127" height="91.72" viewBox="0 0 127 91.72">
+  <defs>
+    <style>
+      .a {
+        opacity: 0;
+      }
+
+      .b {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g class="a">
+    <rect class="b" width="127" height="91.72"/>
+  </g>
+</svg>

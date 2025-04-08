@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="238" viewBox="0 0 124 238">
+  <defs>
+    <style>
+      .a {
+        fill: #333;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        fill: url(#b);
+      }
+    </style>
+    <linearGradient id="a" x1="-1.15" y1="232.14" x2="123.15" y2="16.86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#254c4b"/>
+      <stop offset="0.04" stop-color="#2b5857"/>
+      <stop offset="0.11" stop-color="#316262"/>
+      <stop offset="0.18" stop-color="#366"/>
+      <stop offset="0.39" stop-color="#588"/>
+      <stop offset="0.52" stop-color="#699"/>
+      <stop offset="0.69" stop-color="#508383"/>
+      <stop offset="0.87" stop-color="#366"/>
+      <stop offset="0.93" stop-color="#2f5e5d"/>
+      <stop offset="1" stop-color="#254c4b"/>
+    </linearGradient>
+    <linearGradient id="b" x1="83.07" y1="130.23" x2="12.93" y2="8.73" gradientUnits="userSpaceOnUse">
+      <stop offset="0.35" stop-color="#fff" stop-opacity="0.1"/>
+      <stop offset="0.41" stop-color="#fff" stop-opacity="0.13"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.23"/>
+      <stop offset="0.62" stop-color="#fff" stop-opacity="0.38"/>
+      <stop offset="0.76" stop-color="#fff" stop-opacity="0.6"/>
+      <stop offset="0.85" stop-color="#fff" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon class="a" points="124 0 4 0 0 2 122 238 124 235 124 0"/>
+    <rect class="b" y="2" width="122" height="236"/>
+    <g>
+      <rect class="c" x="9" y="11" width="104" height="227"/>
+      <polygon class="d" points="9 173 113 85 113 11 9 11 9 173"/>
+    </g>
+    <g>
+      <rect class="a" x="94" y="125" width="9" height="8"/>
+      <rect class="b" x="94" y="125" width="8" height="8"/>
+      <rect class="a" x="81.83" y="127" width="17.33" height="4"/>
+      <rect class="b" x="80.83" y="127" width="17.33" height="4"/>
+    </g>
+  </g>
+</svg>

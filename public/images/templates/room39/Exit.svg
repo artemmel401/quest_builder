@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="602" viewBox="0 0 128 602">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <polygon class="a" points="128 602 0 561 0 39 128 0 128 602"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="279" height="180.5" viewBox="0 0 279 180.5">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+      }
+
+      .b {
+        clip-path: url(#a);
+      }
+
+      .c {
+        fill: #333;
+      }
+
+      .d {
+        fill: #1a1a1a;
+      }
+
+      .e {
+        fill: #998675;
+      }
+
+      .f {
+        fill: #c7b299;
+      }
+    </style>
+    <clipPath id="a" transform="translate(-15 -19)">
+      <rect class="a" width="321" height="188"/>
+    </clipPath>
+  </defs>
+  <g class="b">
+    <g>
+      <g>
+        <rect class="c" x="67.75" y="79.75" width="7.5" height="100.5" rx="0.25"/>
+        <path d="M90,99V199H83V99h7m0-.5H83a.5.5,0,0,0-.5.5V199a.5.5,0,0,0,.5.5h7a.5.5,0,0,0,.5-.5V99a.5.5,0,0,0-.5-.5Z" transform="translate(-15 -19)"/>
+      </g>
+      <g>
+        <rect class="d" x="61.25" y="80.25" width="6.5" height="99.5"/>
+        <path d="M82.5,99.5v99h-6v-99h6M83,99H76V199h7V99Z" transform="translate(-15 -19)"/>
+      </g>
+      <g>
+        <rect class="e" x="0.25" y="81.25" width="249.5" height="9.5"/>
+        <path d="M264.5,100.5v9H15.5v-9h249m.5-.5H15v10H265V100Z" transform="translate(-15 -19)"/>
+      </g>
+      <g>
+        <polygon class="f" points="0.54 80.75 68.12 0.25 278.64 0.25 249.82 80.75 0.54 80.75"/>
+        <path d="M293.29,19.5l-28.64,80H16.07l67.16-80H293.29M294,19H83L15,100H265l29-81Z" transform="translate(-15 -19)"/>
+      </g>
+      <g>
+        <path class="d" d="M280,195.25a.25.25,0,0,1-.25-.25V78l7-20.08a.27.27,0,0,1,.24-.17h0a.26.26,0,0,1,.21.25V195a.25.25,0,0,1-.25.25Z" transform="translate(-15 -19)"/>
+        <path d="M287,58V195h-7V78l7-20m0-.5a.5.5,0,0,0-.47.33l-7,20a.51.51,0,0,0,0,.17V195a.5.5,0,0,0,.5.5h7a.5.5,0,0,0,.5-.5V58a.5.5,0,0,0-.42-.49Z" transform="translate(-15 -19)"/>
+      </g>
+      <g>
+        <polygon class="e" points="250.13 81 278.88 0.72 278.88 10 250.13 90.28 250.13 81"/>
+        <path d="M293.75,20.44V29l-28.5,79.6V100l28.5-79.6M294,19l-29,81v10l29-81V19Z" transform="translate(-15 -19)"/>
+      </g>
+      <g>
+        <rect class="c" x="9.75" y="100.75" width="8.5" height="75.5" rx="0.25"/>
+        <path d="M33,120v75H25V120h8m0-.5H25a.5.5,0,0,0-.5.5v75a.5.5,0,0,0,.5.5h8a.5.5,0,0,0,.5-.5V120a.5.5,0,0,0-.5-.5Z" transform="translate(-15 -19)"/>
+      </g>
+      <g>
+        <path class="d" d="M255.25,194.75V120a.25.25,0,0,0-.25-.25H25a.25.25,0,0,0-.25.25v74.75h-9.5v-84.5h249.5v84.5Z" transform="translate(-15 -19)"/>
+        <path d="M264.5,110.5v84h-9V120a.5.5,0,0,0-.5-.5H25a.5.5,0,0,0-.5.5v74.5h-9v-84h249m.5-.5H15v85H25V120H255v75h10V110Z" transform="translate(-15 -19)"/>
+      </g>
+      <g>
+        <polygon class="c" points="272.25 175.75 272.25 38.11 257.76 78.57 257.75 175.75 250.25 175.75 250.25 91 278.75 11.44 278.75 175.75 272.25 175.75"/>
+        <path d="M293.5,31.88V194.5h-6V55.67l-1,2.71-14,39.11,0,.08V194.5h-7V110.09l28-78.21M294,29l-29,81v85h8V97.66l14-39.11V195h7V29Z" transform="translate(-15 -19)"/>
+      </g>
+    </g>
+  </g>
+</svg>

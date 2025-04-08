@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="1080" viewBox="0 0 50 1080">
+  <defs>
+    <style>
+      .a {
+        fill: #d6bda5;
+      }
+
+      .b {
+        fill: #242447;
+        opacity: 0.5;
+      }
+
+      .c {
+        fill: none;
+        stroke: #998675;
+        stroke-miterlimit: 10;
+      }
+
+      .d {
+        fill: #033;
+      }
+
+      .e {
+        fill: #94c4bd;
+        opacity: 0.2;
+      }
+
+      .f {
+        fill: #3f3632;
+      }
+
+      .g {
+        fill: #736357;
+      }
+
+      .h {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" x1="25" y1="700" x2="25" y2="791" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#242447" stop-opacity="0.5"/>
+      <stop offset="0.22" stop-color="#242447" stop-opacity="0.33"/>
+      <stop offset="0.62" stop-color="#242447" stop-opacity="0.09"/>
+      <stop offset="0.91" stop-color="#242447" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" width="50" height="700"/>
+    <rect class="b" width="50" height="700"/>
+    <line class="c" y1="573.5" x2="50" y2="573.5"/>
+    <line class="c" y1="502.5" x2="50" y2="502.5"/>
+    <line class="c" y1="431.5" x2="50" y2="431.5"/>
+    <line class="c" y1="360.5" x2="50" y2="360.5"/>
+    <rect class="d" width="50" height="295"/>
+    <rect class="e" width="50" height="196"/>
+    <rect class="d" y="644" width="50" height="436"/>
+    <rect class="f" y="644" width="50" height="56"/>
+    <rect class="g" y="644" width="50" height="10"/>
+    <rect class="b" y="644" width="50" height="56"/>
+    <rect class="h" y="700" width="50" height="91"/>
+  </g>
+</svg>

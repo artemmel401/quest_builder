@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="35.65" viewBox="0 0 20 35.65">
+  <defs>
+    <style>
+      .a {
+        fill: #4d4d4d;
+      }
+
+      .b {
+        fill: #333;
+      }
+
+      .c {
+        fill: #1a1a1a;
+      }
+
+      .d {
+        fill: #8bc53f;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="20 34.78 18.26 35.65 18.26 0.87 0 0.87 1.74 0 20 0 20 34.78"/>
+      <rect class="b" y="0.87" width="18.26" height="34.78"/>
+    </g>
+    <rect class="a" x="1.74" y="3.48" width="14.78" height="29.57"/>
+    <rect class="c" x="3.48" y="26.09" width="5.22" height="2.61"/>
+    <rect class="d" x="3.48" y="6.96" width="11.3" height="2.61"/>
+    <rect class="c" x="9.57" y="26.09" width="5.22" height="2.61"/>
+    <g>
+      <rect class="c" x="7.83" y="12.17" width="2.61" height="2.61"/>
+      <rect class="c" x="12.17" y="12.17" width="2.61" height="2.61"/>
+      <rect class="c" x="3.48" y="12.17" width="2.61" height="2.61"/>
+      <rect class="c" x="7.83" y="16.52" width="2.61" height="2.61"/>
+      <rect class="c" x="12.17" y="16.52" width="2.61" height="2.61"/>
+      <rect class="c" x="3.48" y="16.52" width="2.61" height="2.61"/>
+      <rect class="c" x="7.83" y="20.87" width="2.61" height="2.61"/>
+      <rect class="c" x="12.17" y="20.87" width="2.61" height="2.61"/>
+      <rect class="c" x="3.48" y="20.87" width="2.61" height="2.61"/>
+    </g>
+  </g>
+</svg>

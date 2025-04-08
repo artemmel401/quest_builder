@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="110" viewBox="0 0 41 110">
+  <defs>
+    <style>
+      .a {
+        fill: #960;
+      }
+
+      .b {
+        fill: #fc0;
+      }
+
+      .c {
+        fill: #333;
+      }
+
+      .d {
+        fill: #f2f2f2;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="41 110 38 110 38 0 41 1 41 110"/>
+    <rect class="b" width="38" height="110"/>
+    <g>
+      <circle class="c" cx="19" cy="85" r="7.5"/>
+      <path class="d" d="M19,78a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-1a8,8,0,1,0,8,8,8,8,0,0,0-8-8Z"/>
+    </g>
+  </g>
+</svg>

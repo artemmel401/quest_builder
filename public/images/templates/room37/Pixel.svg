@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10.3" height="1080" viewBox="0 0 10.3 1080">
+  <defs>
+    <style>
+      .a {
+        fill: #a67c52;
+      }
+
+      .b {
+        fill: #bfbcac;
+      }
+
+      .c {
+        fill: none;
+        stroke: #99714d;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .d {
+        fill: url(#a);
+      }
+
+      .e {
+        opacity: 0.5;
+      }
+
+      .f {
+        fill: #eae6d6;
+      }
+    </style>
+    <linearGradient id="a" x1="0.15" y1="756.5" x2="10.15" y2="756.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a39f88"/>
+      <stop offset="0.47" stop-color="#b2ae97"/>
+      <stop offset="1" stop-color="#a39f88"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" x="0.15" width="10" height="760"/>
+    <rect class="b" x="0.15" y="760" width="10" height="320"/>
+    <g>
+      <line class="c" x1="0.15" y1="661.5" x2="10.15" y2="660.5"/>
+      <line class="c" x1="0.15" y1="560.5" x2="10.15" y2="559.5"/>
+      <line class="c" x1="0.15" y1="460.5" x2="10.15" y2="459.5"/>
+      <line class="c" x1="0.15" y1="360.5" x2="10.15" y2="359.5"/>
+      <line class="c" x1="0.15" y1="260.5" x2="10.15" y2="259.5"/>
+      <line class="c" x1="0.15" y1="160.5" x2="10.15" y2="159.5"/>
+      <line class="c" x1="0.15" y1="60.5" x2="10.15" y2="59.5"/>
+    </g>
+    <rect class="d" x="0.15" y="744" width="10" height="25"/>
+    <g class="e">
+      <rect class="f" x="0.15" y="744" width="10" height="4"/>
+    </g>
+  </g>
+</svg>

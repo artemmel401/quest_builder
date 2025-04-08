@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154.7" height="73.06" viewBox="0 0 154.7 73.06">
+  <defs>
+    <style>
+      .a {
+        fill: #8c6239;
+      }
+
+      .b {
+        fill: #a67c52;
+      }
+
+      .c {
+        fill: #c69c6d;
+      }
+
+      .d {
+        fill: #b3b3b3;
+      }
+
+      .e {
+        fill: #ccc;
+      }
+
+      .f {
+        fill: #999;
+      }
+
+      .g {
+        fill: #333;
+      }
+
+      .h {
+        fill: #515151;
+      }
+
+      .i {
+        fill: none;
+        stroke: #fc0;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <rect class="a" y="67.06" width="106" height="6"/>
+      <polygon class="b" points="106 73.06 106 67.06 125 41.06 125 46.06 106 73.06"/>
+      <polygon class="c" points="106 67.06 0 67.06 24 41.06 125 41.06 106 67.06"/>
+    </g>
+    <g>
+      <polygon class="d" points="103 43.06 103 58.06 110 48.06 110 33.06 103 43.06"/>
+      <polygon class="e" points="85 43.06 103 43.06 110 33.06 92.68 33.06 85 43.06"/>
+      <rect class="f" x="85" y="43.06" width="18" height="15"/>
+    </g>
+    <g>
+      <polygon class="d" points="36 58.06 36 43.06 45 33.06 44.53 48.06 36 58.06"/>
+      <polygon class="e" points="36 43.06 19.18 43.06 28 33.06 45 33.06 36 43.06"/>
+      <rect class="f" x="19" y="43.06" width="17" height="15"/>
+    </g>
+    <polygon class="e" points="85 43.06 103 43.06 110 33.06 92.68 33.06 33.98 1.68 24.98 11.68 85 43.06"/>
+    <polygon class="g" points="35.3 18.46 46 6.06 33.8 0 23.13 12.18 35.3 18.46"/>
+    <ellipse class="h" cx="107" cy="45.56" rx="1" ry="2.5"/>
+    <path class="i" d="M153,41.06c1.51,6.8-5.66,15.07-13,18-10.37,4.14-23.84-.57-32.5-13.5"/>
+  </g>
+</svg>

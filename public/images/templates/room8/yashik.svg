@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115.6" height="21.06" viewBox="0 0 115.6 21.06">
+  <defs>
+    <style>
+      .a {
+        fill: #e5e5e5;
+      }
+
+      .b {
+        fill: #8c8c8c;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" width="115.6" height="21.06"/>
+    <rect class="b" x="50.07" y="8.71" width="10.92" height="3.63"/>
+  </g>
+</svg>

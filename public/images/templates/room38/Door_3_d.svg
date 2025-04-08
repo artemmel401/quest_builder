@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166" height="630" viewBox="0 0 166 630">
+  <defs>
+    <style>
+      .a {
+        fill: #4d4d4d;
+      }
+
+      .b {
+        fill: #333;
+      }
+
+      .c {
+        fill: #ccc;
+      }
+
+      .d {
+        fill: url(#a);
+      }
+
+      .e {
+        fill: url(#b);
+      }
+
+      .f {
+        fill: #666;
+      }
+    </style>
+    <linearGradient id="a" x1="-109.75" y1="486.25" x2="240.25" y2="136.25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#254c4b"/>
+      <stop offset="0.04" stop-color="#2b5857"/>
+      <stop offset="0.11" stop-color="#316262"/>
+      <stop offset="0.18" stop-color="#366"/>
+      <stop offset="0.39" stop-color="#588"/>
+      <stop offset="0.52" stop-color="#699"/>
+      <stop offset="0.69" stop-color="#508383"/>
+      <stop offset="0.87" stop-color="#366"/>
+      <stop offset="0.93" stop-color="#2f5e5d"/>
+      <stop offset="1" stop-color="#254c4b"/>
+    </linearGradient>
+    <linearGradient id="b" x1="55.69" y1="283.13" x2="275.73" y2="78.39" gradientTransform="matrix(-0.54, 0, 0, 1, 140.05, 0.12)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.43" stop-color="#fff" stop-opacity="0.1"/>
+      <stop offset="0.57" stop-color="#fff" stop-opacity="0.24"/>
+      <stop offset="0.87" stop-color="#fff" stop-opacity="0.6"/>
+      <stop offset="0.99" stop-color="#fff" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon class="a" points="166 33 4 0 4 630 166 547 166 33"/>
+    <rect class="b" width="4" height="630"/>
+    <polygon class="c" points="151 47 24 23 24 620 151 555 151 47"/>
+    <g>
+      <polygon class="d" points="151 47 24 23 24 620 151 555 151 47"/>
+      <polygon class="e" points="151 211 24 444 24 23 151 47 151 211"/>
+    </g>
+    <g>
+      <polygon class="f" points="32.99 330.66 46.98 328.5 45.38 328.25 31.39 330.16 32.99 330.66"/>
+      <polygon class="a" points="47 345.5 34.67 348 34.67 330.22 47 328.5 47 345.5"/>
+      <rect class="b" x="31.34" y="330.22" width="3.33" height="17.78"/>
+      <polygon class="f" points="40 334 67 329.25 64 329 37 333.5 40 334"/>
+      <polygon class="b" points="40.34 342.56 37.01 342.43 37.01 333.65 40.34 333.67 40.34 342.56"/>
+      <polygon class="a" points="67 336.89 40.34 342.43 40.34 333.65 67 329.11 67 336.89"/>
+    </g>
+  </g>
+</svg>

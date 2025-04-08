@@ -8,7 +8,7 @@ type GameBoardProps = {
   size: {width: number, height: number},
   background: {type: 'file' | 'color', value: string}
   entities: (Object | Subject)[]
-  onSelect: (entity: {type: 'Subject' | 'Object', item: Object | Subject}) => void
+  onSelect: (entity: Object | Subject | undefined) => void
   changePosition: (item: Object | Subject, position: {x: number, y: number, rotate: number}) => void
   deleteEntity: (entity: Object | Subject) => void
 }
@@ -20,21 +20,20 @@ const GameBoardComponent = (props:GameBoardProps) => {
   const [hoveredEntity, setHoveredEntity] = useState<Subject | Object>();
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
-  useEffect(() => {
-    console.log(props)
-    const app = new PIXI.Application({ background: props.background.type === 'color' ? props.background.value : '#fff', width: props.size.width, height: props.size.height });
-    appRef.current = app;
-    if (pixiContainerRef.current) {
-      pixiContainerRef.current.appendChild(app.view as HTMLCanvasElement);
-    }
+  const createSprites = (app: PIXI.Application) => {
+    const toRemove = app.stage.children.filter(child => (child).isSprite);
+    toRemove.forEach(child => {
+        child.destroy({ children: true });
+        app.stage.removeChild(child);
+    });
     if (props.background.type === 'file') {
       const backgroundTexture = PIXI.Texture.from(props.background.value);
       const backgroundSprite = new PIXI.Sprite(backgroundTexture);
       backgroundSprite.width = props.size.width;
       backgroundSprite.height = props.size.height;
+      backgroundSprite.isSprite = true
       app.stage.addChild(backgroundSprite);
     }
-
     for (const sprite of props.entities) {
 
       const targetWidth = sprite.size === 'default' ? 96 : sprite.size.x;
@@ -45,6 +44,7 @@ const GameBoardComponent = (props:GameBoardProps) => {
       const texture = PIXI.Texture.from(img);
 
       const spriteObject = new PIXI.Sprite(texture)
+      spriteObject.isSprite = true
       spriteObject.x = sprite.position.x;
       spriteObject.y = sprite.position.y;
       spriteObject.rotation = sprite.position.rotate%360 * (180 / Math.PI);
@@ -52,7 +52,7 @@ const GameBoardComponent = (props:GameBoardProps) => {
       spriteObject.height = targetHeight
       spriteObject.eventMode = 'static'
       spriteObject.cursor = 'pointer'
-      spriteObject.on('click', () => props.onSelect(({type: sprite.type === 'object' ? 'Object' : 'Subject' , item: sprite})));
+      spriteObject.on('click', () => props.onSelect(sprite));
       spriteObject.anchor.set(0.5);
       spriteObject.on('pointerdown', onDragStart, spriteObject);
       spriteObject.on('pointerup', 
@@ -61,15 +61,14 @@ const GameBoardComponent = (props:GameBoardProps) => {
       );
       spriteObject.on('pointerover', () => {
         if (timeoutRef.current) {
-          clearTimeout(timeoutRef.current); // Очищаем таймер, если он есть
+          clearTimeout(timeoutRef.current);
         }
-        setHoveredEntity(sprite); // Устанавливаем текущий спрайт
+        setHoveredEntity(sprite);
       });
 
       spriteObject.on('pointerout', () => {
-        // Устанавливаем таймер для задержки перед скрытием
         timeoutRef.current = setTimeout(() => {
-          setHoveredEntity(undefined); // Скрываем блок через 2 секунды
+          setHoveredEntity(undefined);
         }, 500);
       });
       app.stage.addChild(spriteObject);
@@ -99,14 +98,28 @@ const GameBoardComponent = (props:GameBoardProps) => {
         dragTarget = null;
       }
     }
+  }
 
-    return () => {
-      console.log('unmount', props);
+  useEffect(() => {
+    //console.log(props)
+    let app = appRef.current
+    if (!app) {
+      app = new PIXI.Application({ background: props.background.type === 'color' ? props.background.value : '#fff', width: props.size.width, height: props.size.height });
+      appRef.current = app;
+    }
+    if (pixiContainerRef.current) {
+      pixiContainerRef.current.appendChild(app.view as HTMLCanvasElement);
+    }
+
+    createSprites(app);
+
+/*     return () => {
+      //console.log('unmount', props);
       app.destroy(true, true);
       if (pixiContainerRef.current && app.view) {
         pixiContainerRef.current.removeChild(app.view as unknown as Node);
       }
-    };
+    }; */
   }, [props]);
 
   return (

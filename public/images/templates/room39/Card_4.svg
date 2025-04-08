@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192" height="230" viewBox="0 0 192 230">
+  <defs>
+    <style>
+      .a {
+        fill: #e6e6e6;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: #666;
+      }
+
+      .d {
+        fill: gray;
+      }
+
+      .e {
+        fill: #333;
+      }
+
+      .f {
+        fill: url(#a);
+      }
+
+      .g {
+        fill: #fff;
+      }
+
+      .h {
+        fill: #6c3;
+      }
+
+      .i {
+        fill: #5faf2f;
+      }
+
+      .j {
+        fill: #693;
+      }
+
+      .k {
+        fill: url(#b);
+      }
+
+      .l {
+        fill: #fc0;
+      }
+
+      .m {
+        fill: url(#c);
+      }
+
+      .n {
+        fill: #399;
+      }
+
+      .o {
+        fill: #3cb7ba;
+      }
+
+      .p, .q {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .p {
+        stroke-linejoin: round;
+      }
+
+      .q {
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <linearGradient id="a" x1="96" y1="198" x2="96" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#4d4d4d"/>
+      <stop offset="0.4" stop-color="#5b5b5b"/>
+      <stop offset="0.78" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="b" x1="38" y1="68" x2="38" y2="166" gradientUnits="userSpaceOnUse">
+      <stop offset="0.08" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="0.24" stop-color="#fff" stop-opacity="0.33"/>
+      <stop offset="0.87" stop-color="#fff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="c" x1="150.12" y1="82.88" x2="66" y2="167" xlink:href="#b"/>
+  </defs>
+  <g>
+    <polygon class="a" points="125 68 54 68 47 150 118 150 125 68"/>
+    <polygon class="a" points="142 75 125 68 158 153 186 170 142 75"/>
+    <g>
+      <g>
+        <path class="b" d="M185.13,204.92c20.09,13.84-5.28,25.08-57.6,25.08S19.6,218.76,4,204.92c-14.83-13.18,12.49-23.42,60.38-23.42S166,191.74,185.13,204.92Z"/>
+        <rect class="b" y="186" width="13" height="12"/>
+        <rect class="b" x="178.5" y="202" width="13" height="12"/>
+      </g>
+      <path class="c" d="M185.13,192.92c20.09,13.84-5.28,25.58-57.6,25.58S19.6,206.76,4,192.92c-14.83-13.18,12.49-23.42,60.38-23.42S166,179.74,185.13,192.92Z"/>
+      <g>
+        <g>
+          <polygon class="c" points="101 169 105 159 105 155 101 165 101 169"/>
+          <polygon class="c" points="91 169 65 159 65 155 91 165 91 169"/>
+          <rect class="b" x="3" y="150" width="151" height="5"/>
+          <polygon class="c" points="154 155 3 155 7 159 150 159 154 155"/>
+          <polygon class="d" points="105 155 65 155 91 165 101 165 105 155"/>
+        </g>
+        <g>
+          <polygon class="b" points="150 159 185 182 190 177 154 155 150 159"/>
+          <polygon class="b" points="102 15 154 155 154 150 102 7 102 15"/>
+          <polygon class="e" points="154 150 190 172 190 177 154 155 154 150"/>
+          <polygon class="c" points="168 170 101 170 101 166 173 166 168 170"/>
+          <polygon class="d" points="173 166 101 166 101 164 161 159 173 166"/>
+        </g>
+        <g>
+          <rect class="f" x="91" y="8" width="10" height="190"/>
+          <ellipse class="b" cx="96" cy="198" rx="5" ry="2"/>
+        </g>
+        <g>
+          <polygon class="c" points="26 172 93 170 93 166 21 168 26 172"/>
+          <polygon class="d" points="21 168 93 166 91 165 11 161 21 168"/>
+          <polygon class="b" points="3 155 8 155 90 9 85 9 3 155"/>
+          <polygon class="b" points="3 150 3 155 32 177 32 172 3 150"/>
+          <polygon class="c" points="8 160 37 182 32 177 3 155 8 160"/>
+        </g>
+        <g>
+          <g>
+            <polygon class="d" points="97 177 127 177 101 166 93 166 97 177"/>
+            <polygon class="c" points="97 177 93 166 93 170 97 181 97 177"/>
+          </g>
+          <polygon class="d" points="185 182 37 182 32 177 190 177 185 182"/>
+          <polygon class="d" points="113 22 108 22 184 177 189 177 113 22"/>
+          <polygon class="d" points="91 16 86 16 32 177 37 177 91 16"/>
+          <rect class="c" x="32" y="172" width="158" height="5"/>
+        </g>
+      </g>
+    </g>
+    <polygon class="g" points="66 76 50 68 10 155 24 166 66 76"/>
+    <polygon class="h" points="63 77 51 71 24 130 35 137 63 77"/>
+    <polygon class="i" points="52 99 51 80 40 95 24 130 35 137 52 99"/>
+    <polygon class="j" points="47 111 46 101 35 106 24 130 35 137 47 111"/>
+    <polygon class="k" points="66 76 50 68 10 155 24 166 66 76"/>
+    <g>
+      <polygon class="g" points="143.23 75.98 67 76 71 172 151 172 143.23 75.98"/>
+      <polygon class="l" points="139 79 71 79 74 140 144 140 139 79"/>
+      <polygon class="m" points="143.23 75.98 67 76 71 172 151 172 143.23 75.98"/>
+    </g>
+    <g>
+      <path class="n" d="M155,9H95V7H37V27h.07c-.16.3,0,.62.54.94,4.7,2.78,35,5.06,67.57,5.06,28.33,0,48.55-1.72,49.75-4H155Z"/>
+      <path class="o" d="M154.15,7.94C148.7,5.19,118.59,3,86.81,3S33,5.19,37.61,7.94,72.59,13,105.18,13,159.67,10.72,154.15,7.94Z"/>
+      <g>
+        <g>
+          <path class="p" d="M51,20.6c6.18.69,14.07,1.27,22.94,1.69"/>
+          <polygon class="g" points="81 22.58 70.86 26.15 73.42 22.2 71.27 18.03 81 22.58"/>
+        </g>
+        <path class="q" d="M147,21.16c3.5-.46,3-.16,6-1.16"/>
+        <g>
+          <path class="p" d="M99,23q3.07,0,6.18,0c6,0,11.61-.08,16.77-.22"/>
+          <polygon class="g" points="129 22.53 119.13 26.79 121.41 22.68 118.97 18.66 129 22.53"/>
+        </g>
+        <path class="g" d="M153.56,20.8l1.44-.72V18l-2,1v1.45A.39.39,0,0,0,153.56,20.8Z"/>
+      </g>
+      <rect class="c" x="89" y="1" width="14" height="7"/>
+      <ellipse class="d" cx="96" cy="1" rx="7" ry="1"/>
+      <ellipse class="c" cx="96" cy="8" rx="7" ry="1"/>
+    </g>
+  </g>
+</svg>

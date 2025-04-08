@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="811" viewBox="0 0 370 811">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.57;
+      }
+
+      .a, .f {
+        isolation: isolate;
+      }
+
+      .b, .d {
+        fill: #58331c;
+      }
+
+      .b, .c, .d, .e {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .c, .e {
+        fill: #382112;
+      }
+
+      .d, .e, .f {
+        fill-rule: evenodd;
+      }
+
+      .f {
+        opacity: 0.4;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="335 766 40 765 0 811 370 811 335 766"/>
+    <rect class="b" x="16.5" y="0.5" width="337" height="800"/>
+    <rect class="c" x="35.5" y="20.5" width="297" height="760"/>
+    <rect class="b" x="36.5" y="197.5" width="297" height="20"/>
+    <rect class="b" x="35.5" y="400.5" width="297" height="20"/>
+    <polygon class="d" points="332 400.5 36 400.5 68.9 375.5 299.1 375.5 332 400.5"/>
+    <polygon class="d" points="333 780.5 37 780.5 69.9 750 300.1 750 333 780.5"/>
+    <polygon class="d" points="333 197.2 37 197.2 69.9 188 300.1 188 333 197.2"/>
+    <polygon class="e" points="37 20.5 333 20.5 300.1 35.5 69.9 35.5 37 20.5"/>
+    <polygon class="e" points="37 217.5 333 217.5 300.1 236 69.9 236 37 217.5"/>
+    <path class="e" d="M38.3,420.5H332L299.1,428H68.9l-30.6-7C38,420.9,38,420.5,38.3,420.5Z"/>
+    <rect class="c" x="69.5" y="35.5" width="231" height="153"/>
+    <rect class="c" x="69.5" y="235.5" width="230" height="140"/>
+    <rect class="c" x="70.5" y="428.5" width="230" height="321"/>
+    <polygon class="f" points="300 72 70 112 70 36 300 36 300 72"/>
+    <polygon class="f" points="299 281 70 327 70 236 299 236 299 281"/>
+    <polygon class="f" points="300 559 69 624 71 429 300 429 300 559"/>
+  </g>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.32" height="87.96" viewBox="0 0 52.32 87.96">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.2;
+      }
+
+      .b {
+        fill: #960;
+      }
+
+      .c {
+        fill: #669;
+      }
+
+      .d {
+        fill: gray;
+      }
+
+      .e {
+        fill: #366;
+      }
+
+      .f {
+        fill: #999;
+      }
+
+      .g {
+        fill: #fff;
+      }
+
+      .h {
+        fill: #696;
+      }
+
+      .i {
+        fill: #fc0;
+      }
+
+      .j {
+        fill: #c6a20c;
+      }
+    </style>
+  </defs>
+  <g>
+    <ellipse class="a" cx="32.82" cy="83.96" rx="19.5" ry="4"/>
+    <ellipse class="b" cx="32.82" cy="40.96" rx="19.5" ry="3"/>
+    <g>
+      <rect class="c" x="21.45" y="8.89" width="4" height="56" transform="translate(54.07 68.09) rotate(167.97)"/>
+      <polygon class="d" points="19.57 9.09 16.37 3.64 15.66 9.92 19.57 9.09"/>
+    </g>
+    <g>
+      <rect class="c" x="35.59" y="15.95" width="4" height="56" transform="translate(71.58 90.73) rotate(-175.46)"/>
+      <polygon class="d" points="41.8 16.2 40.28 10.06 37.81 15.88 41.8 16.2"/>
+    </g>
+    <g>
+      <rect class="e" x="28.99" y="5.95" width="4" height="56" transform="translate(63.76 66.18) rotate(176.92)"/>
+      <polygon class="d" points="31.48 5.88 29.16 0 27.48 6.1 31.48 5.88"/>
+    </g>
+    <g>
+      <polygon class="f" points="43.88 78.84 36.14 18.18 3.87 9.15 43.88 78.84"/>
+      <polygon class="g" points="43.41 79.27 36.14 18.18 0 15.6 43.41 79.27"/>
+    </g>
+    <g>
+      <rect class="e" x="44.42" y="20.93" width="4" height="56" transform="translate(85.89 103.63) rotate(-172.32)"/>
+      <polygon class="d" points="52.15 21.45 50.97 15.24 48.19 20.92 52.15 21.45"/>
+    </g>
+    <g>
+      <rect class="h" x="23.72" y="26.82" width="4" height="56" transform="translate(66.55 99.54) rotate(162.73)"/>
+      <polygon class="d" points="19.31 27.49 15.62 22.36 15.49 28.68 19.31 27.49"/>
+    </g>
+    <path class="i" d="M52.32,41c0,1.66-8.73,3-19.5,3s-19.5-1.34-19.5-3l5,41h.1a1.44,1.44,0,0,0-.1.5c0,2.48,6.5,4.5,14.5,4.5s14.5-2,14.5-4.5a1.43,1.43,0,0,0-.09-.5h.09Z"/>
+    <path class="j" d="M20.32,80.46a1.44,1.44,0,0,1,.1-.5h-.1L15.74,42.41A4,4,0,0,1,13.32,41l5,41h.1a1.44,1.44,0,0,0-.1.5c0,2.48,6.5,4.5,14.5,4.5,7.69,0,14-1.86,14.46-4.2C44.75,84.07,40.12,85,34.82,85,26.82,85,20.32,82.94,20.32,80.46Z"/>
+  </g>
+</svg>

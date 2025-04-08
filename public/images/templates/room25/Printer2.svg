@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="249" height="110" viewBox="0 0 249 110">
+  <defs>
+    <style>
+      .a {
+        fill: #333;
+      }
+
+      .b {
+        fill: #282828;
+      }
+
+      .c {
+        fill: #515151;
+      }
+
+      .d {
+        fill: #1a1a1a;
+      }
+
+      .e {
+        fill: #696;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="221 69 122 69 0 110 115 110 221 69"/>
+    <rect class="b" y="60" width="115" height="50"/>
+    <rect class="a" x="122" y="24" width="99" height="45"/>
+    <polygon class="a" points="115 110 221 69 221 24 115 60 115 110"/>
+    <polygon class="c" points="115 60 221 24 122 24 0 60 115 60"/>
+    <path class="a" d="M194.93,32,135.84,52H31L99.14,32h95.79M201,31H99L24,53H136l65-22Z"/>
+    <path class="b" d="M200,32.39V70.32l-64,25.2.95-41.8,63-21.33M201,31,136,53l-1,44,66-26V31Z"/>
+    <polygon class="d" points="201 63 135 87.75 135 97 201 71.42 201 63"/>
+    <polygon class="b" points="110 31 98.74 31 24 53 36 53 110 31"/>
+    <polygon class="b" points="83 0 8.41 21.18 25 53 99 31 83 0"/>
+    <rect class="b" x="135" y="97" width="48" height="4"/>
+    <rect class="b" x="201" y="72" width="48" height="4"/>
+    <polygon class="c" points="135 97 183 97 249 72 201 71 135 97"/>
+    <polygon class="a" points="183 101 249 76 249 72 183 97 183 101"/>
+    <g>
+      <ellipse class="e" cx="126.5" cy="66.5" rx="3" ry="4"/>
+      <path class="d" d="M126.5,63c1.38,0,2.5,1.57,2.5,3.5s-1.12,3.5-2.5,3.5-2.5-1.57-2.5-3.5,1.12-3.5,2.5-3.5m0-1c-2,0-3.5,2-3.5,4.5s1.54,4.5,3.5,4.5,3.5-2,3.5-4.5-1.54-4.5-3.5-4.5Z"/>
+    </g>
+  </g>
+</svg>

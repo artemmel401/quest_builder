@@ -1,0 +1,22 @@
+<svg width="328" height="255" viewBox="0 0 328 255" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.15" d="M327.5 27L311.5 30V14L327.5 19V27Z" fill="black"/>
+<path opacity="0.15" d="M327.5 128L311.5 134V110L327.5 114V128Z" fill="black"/>
+<path opacity="0.15" d="M327.5 233L311.5 241V208L327.5 211V233Z" fill="black"/>
+<path opacity="0.2" d="M283.5 224H135.5L82.5 235H1.5L73.5 255L99.5 250L138.5 254H311V237V217L283.5 224Z" fill="black"/>
+<path opacity="0.2" d="M311.5 32.8L99.5 31.8L63.5 28L0.5 12.8L98.5 24.8H311L311.5 32.8Z" fill="black"/>
+<path d="M135 121.5L82 123.5V111.5L134.5 110.5L135 121.5Z" fill="#B3B3B3" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M82 0.5H1V12.5H82V0.5Z" fill="#F2F2F2" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M82 223.5H1V235.5H82V223.5Z" fill="#F2F2F2" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M82 111.5H1V123.5H82V111.5Z" fill="#F2F2F2" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M134.5 224.5L82 235.5V223.5L134.5 214.5V224.5Z" fill="#B3B3B3" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M283 19.5H134.5L82 12.5H1L99 24.5H168H169H311L283 19.5Z" fill="#C9C9C9" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M283 9H134.5V19.5H283V9Z" fill="#E6E6E6" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M311 24.5L283 19.5V9L311 14.5V24.5Z" fill="#B3B3B3" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M311 120.5L283 121.5V110.5H311V120.5Z" fill="#B3B3B3" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M311 217.5L283 224.5V214.5L311 207.5V217.5Z" fill="#B3B3B3" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M283 110.5H134.5V121.5H283V110.5Z" fill="#E6E6E6" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M283 214.5H134.5V224.5H283V214.5Z" fill="#E6E6E6" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M82 0.5V12.5L134.5 19.5V8.89999L82 0.5Z" fill="#B3B3B3" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M311 207.5H173H99L1 223.5H82L134 214.5H283L311 207.5Z" fill="#E6E6E6" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path opacity="0.2" d="M283.5 122L134.5 121L81.5 123L1.5 124L59.5 137L99.5 136L135.5 139L169.5 139.2V207L189.5 208V153L183 139.3L311 140V137V120L283.5 122Z" fill="black"/>
+</svg>

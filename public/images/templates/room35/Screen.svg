@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="263.65" height="177.98" viewBox="0 0 263.65 177.98">
+  <defs>
+    <style>
+      .a {
+        fill: #333;
+        opacity: 0.3;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: #fff;
+        opacity: 0.2;
+      }
+
+      .d {
+        fill: url(#b);
+      }
+
+      .e {
+        fill: #fcfafa;
+      }
+    </style>
+    <linearGradient id="a" x1="132.23" x2="132.23" y2="173.15" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#ffd671"/>
+      <stop offset="0.43" stop-color="#ffcf45"/>
+      <stop offset="0.59" stop-color="#fc3"/>
+    </linearGradient>
+    <linearGradient id="b" x1="9.08" y1="11.37" x2="97.43" y2="102.22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.1"/>
+      <stop offset="0.28" stop-color="#fff" stop-opacity="0.16"/>
+      <stop offset="0.56" stop-color="#fff" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="a" d="M263.65,170.79a7.35,7.35,0,0,1-7.5,7.19H7.5A7.35,7.35,0,0,1,0,170.79V12A7.35,7.35,0,0,1,7.5,4.83H256.15a7.35,7.35,0,0,1,7.5,7.19Z"/>
+    <path class="b" d="M258.78,166a7.19,7.19,0,0,1-7.2,7.19H12.88A7.19,7.19,0,0,1,5.68,166V7.19A7.19,7.19,0,0,1,12.88,0h238.7a7.19,7.19,0,0,1,7.2,7.19Z"/>
+    <polygon class="c" points="54.07 173.15 71.02 173.15 193.28 0 173.4 0 54.07 173.15"/>
+    <path class="d" d="M12.88,0a7.19,7.19,0,0,0-7.2,7.19V166a7.19,7.19,0,0,0,7.2,7.19h14.2L154.6,0Z"/>
+    <polygon class="c" points="212.13 173.15 258.78 107.08 258.78 80.39 194.85 173.15 212.13 173.15"/>
+    <path class="e" d="M75.41,64.6v84.55H189V64.6ZM181.85,142H82.61V71.79h99.24Z"/>
+    <path class="e" d="M12.88,7.19V166h238.7V7.19Zm231.5,151.58H20.07V14.38H244.38Z"/>
+  </g>
+</svg>

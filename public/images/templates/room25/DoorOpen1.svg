@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="302" height="702" viewBox="0 0 302 702">
+  <defs>
+    <style>
+      .a {
+        fill: #e6e6e6;
+      }
+
+      .b {
+        fill: #9c9;
+      }
+
+      .c, .l {
+        fill: none;
+        stroke: #999;
+        stroke-miterlimit: 10;
+        stroke-width: 0.5px;
+      }
+
+      .d {
+        fill: #666;
+      }
+
+      .e {
+        fill: gray;
+      }
+
+      .f {
+        fill: #4d4d4d;
+      }
+
+      .g {
+        fill: #1a1a1a;
+      }
+
+      .h {
+        fill: #b3b3b3;
+      }
+
+      .i {
+        fill: #ccc;
+      }
+
+      .j {
+        fill: #f2f2f2;
+      }
+
+      .k {
+        fill: #fff;
+      }
+
+      .l {
+        stroke-linecap: round;
+      }
+
+      .m {
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="302 702 145 612.75 145 29 302 0 302 702"/>
+    <polygon class="b" points="291 695.75 155 618.5 155 37 291 13 291 695.75"/>
+    <polygon class="a" points="155 67 242 55.99 242 478 155 446 155 67"/>
+    <polyline class="c" points="155 446 155 74 236.5 63.5 236 475"/>
+    <g>
+      <polygon class="d" points="218.85 306.59 226 308.63 226 295.35 218.85 293.81 218.85 306.59"/>
+      <polygon class="e" points="217.31 306.59 224.47 308.63 224.47 295.35 217.31 293.81 217.31 306.59"/>
+      <rect class="f" x="224.47" y="295.35" width="1.53" height="13.28"/>
+      <polygon class="d" points="224.47 295.35 217.31 293.81 218.85 293.81 226 295.35 224.47 295.35"/>
+      <path class="g" d="M221.91,300.2c0-.7-.4-1.28-.89-1.28s-.89.58-.89,1.28a1.32,1.32,0,0,0,.59,1.2V304h.6V301.4A1.34,1.34,0,0,0,221.91,300.2Z"/>
+    </g>
+    <g>
+      <g>
+        <polygon class="d" points="218.85 291.77 226 293.81 226 280.53 218.85 279 218.85 291.77"/>
+        <polygon class="e" points="217.31 291.77 224.47 293.81 224.47 280.53 217.31 279 217.31 291.77"/>
+        <rect class="f" x="224.47" y="280.53" width="1.53" height="13.28"/>
+        <polygon class="d" points="224.47 280.53 217.31 279 218.85 279 226 280.53 224.47 280.53"/>
+      </g>
+      <polygon class="d" points="222.42 289.22 219.36 288.49 219.36 283.09 222.42 283.78 222.42 289.22"/>
+      <rect class="f" x="217.83" y="283.6" width="4.6" height="5.62"/>
+      <polygon class="e" points="198 285.62 217.83 289.22 217.83 283.6 198 280 198 285.62"/>
+      <polygon class="d" points="198.41 280 201.99 280 222.42 283.6 217.83 283.6 198.41 280"/>
+    </g>
+    <polygon class="h" points="291 695.75 155 618.5 155 446 291 495 291 695.75"/>
+    <rect class="i" x="155" y="37" width="20" height="581.5"/>
+    <polygon class="a" points="291 683 291 695.75 155 618.5 175 618.5 291 683"/>
+    <polygon class="h" points="175 37 291 17 291 13 155 37 175 37"/>
+    <polygon class="j" points="20 696 175 618.5 175 37 20 13 20 696"/>
+    <polygon class="k" points="0 691 20 696 20 13 0 16 0 691"/>
+    <g>
+      <polygon class="d" points="50 383 36 387 36 361 50 358 50 383"/>
+      <polygon class="e" points="53 383 39 387 39 361 53 358 53 383"/>
+      <rect class="f" x="36" y="361" width="3" height="26" transform="translate(75 748) rotate(-180)"/>
+      <polygon class="d" points="39 361 53 358 50 358 36 361 39 361"/>
+      <polygon class="d" points="43 378 49 376.57 49 366 43 367.35 43 378"/>
+      <rect class="f" x="43" y="367" width="9" height="11" transform="translate(95 745) rotate(-180)"/>
+      <polygon class="e" points="90 369 52 378 52 367 90 358 90 369"/>
+      <polygon class="d" points="90 358 83 358 43 367 52 367 90 358"/>
+    </g>
+    <line class="l" x1="291" y1="13" x2="291" y2="695.5"/>
+    <g>
+      <polygon class="d" points="50 412 36 416 36 390 50 387 50 412"/>
+      <polygon class="e" points="53 412 39 416 39 390 53 387 53 412"/>
+      <rect class="f" x="36" y="390" width="3" height="26" transform="translate(75 806) rotate(-180)"/>
+      <polygon class="d" points="39 390 53 387 50 387 36 390 39 390"/>
+      <path class="g" d="M44,399.5c0-1.38.78-2.5,1.75-2.5s1.75,1.12,1.75,2.5a2.6,2.6,0,0,1-1.17,2.35V407H45.17v-5.15A2.6,2.6,0,0,1,44,399.5Z"/>
+    </g>
+    <polygon class="m" points="0 691 2 697 20 702 178 620 175 618.5 20 696 0 691"/>
+    <polygon class="i" points="176 619 291 587 291 683 176 619"/>
+  </g>
+</svg>

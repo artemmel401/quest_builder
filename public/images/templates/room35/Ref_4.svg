@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="164" height="141.13" viewBox="0 0 164 141.13">
+  <defs>
+    <style>
+      .a, .b, .c {
+        opacity: 0.5;
+      }
+
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: url(#b);
+      }
+
+      .c {
+        fill: url(#c);
+      }
+    </style>
+    <linearGradient id="a" x1="-9.5" y1="141.13" x2="-9.5" y2="2.13" gradientTransform="matrix(-1, 0, 0, 1, 27, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.17" stop-color="#fe9734" stop-opacity="0"/>
+      <stop offset="1" stop-color="#c76716" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="b" x1="-58" y1="137.13" x2="-58" y2="32" gradientTransform="matrix(-1, 0, 0, 1, 27, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.17" stop-color="#fed126" stop-opacity="0"/>
+      <stop offset="0.97" stop-color="#fed024" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fed024"/>
+    </linearGradient>
+    <linearGradient id="c" x1="130.98" y1="122.19" x2="130.98" gradientUnits="userSpaceOnUse">
+      <stop offset="0.17" stop-color="#eb673a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#cb3332" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon class="a" points="57 133.13 0 141.13 20 5.13 73 2.13 57 133.13"/>
+    <path class="b" d="M100,128.13l-64,9,43-96,6.41-2.78A76.93,76.93,0,0,1,134,34.13h0Z"/>
+    <path class="c" d="M115.41,6.35,109,9.13l-11,25a77,77,0,0,1,36,0l-31.85,88.06L121,120.13l43-118A76.93,76.93,0,0,0,115.41,6.35Z"/>
+  </g>
+</svg>

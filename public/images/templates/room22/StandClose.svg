@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130.25" height="102.75" viewBox="0 0 130.25 102.75">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        opacity: 0.3;
+      }
+
+      .c {
+        fill: #963;
+      }
+
+      .d {
+        fill: #c93;
+      }
+
+      .e {
+        fill: none;
+        stroke: #42210b;
+        stroke-miterlimit: 10;
+        stroke-width: 0.75px;
+      }
+    </style>
+    <linearGradient id="a" x1="29.89" y1="112.4" x2="137.66" y2="-74.26" gradientUnits="userSpaceOnUse">
+      <stop offset="0.18" stop-color="#603813"/>
+      <stop offset="0.39" stop-color="#643c17"/>
+      <stop offset="0.61" stop-color="#724921"/>
+      <stop offset="0.65" stop-color="#754c24"/>
+      <stop offset="0.84" stop-color="#886544"/>
+      <stop offset="1" stop-color="#9b7d64"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" x="0.38" y="0.38" width="129.5" height="102"/>
+    <g>
+      <circle class="b" cx="113.38" cy="53.38" r="5"/>
+      <circle class="c" cx="113.88" cy="51.88" r="3.5"/>
+      <circle class="d" cx="112.88" cy="52.88" r="3.5"/>
+    </g>
+    <rect class="e" x="0.38" y="0.38" width="129.5" height="102"/>
+  </g>
+</svg>

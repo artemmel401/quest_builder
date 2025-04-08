@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1310.3" height="187.04" viewBox="0 0 1310.3 187.04">
+  <defs>
+    <style>
+      .a, .c {
+        fill: #600;
+      }
+
+      .a {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .b {
+        fill: #900;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="1308.63 186.04 1.98 186.04 138.73 1 1209.83 1 1308.63 186.04"/>
+    <polygon class="b" points="1257.58 163.43 58.63 163.43 156.58 17.95 1188.73 17.95 1257.58 163.43"/>
+    <polygon class="c" points="1213.93 144.06 113.69 143.14 182.36 36.06 1162.41 37.22 1213.93 144.06"/>
+  </g>
+</svg>

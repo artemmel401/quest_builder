@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="150" viewBox="0 0 90 150">
+  <defs>
+    <style>
+      .a {
+        fill: #ffede1;
+      }
+
+      .b {
+        fill: #c3c;
+      }
+
+      .c {
+        fill: #fc3;
+      }
+
+      .d {
+        fill: #399;
+      }
+
+      .e {
+        fill: #f93;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" width="90" height="150"/>
+    <rect class="b" y="107" width="53" height="43"/>
+    <rect class="c" y="79" width="30" height="43"/>
+    <rect class="d" x="60" width="30" height="43"/>
+    <rect class="e" x="53" width="15" height="150"/>
+    <path class="d" d="M13.5,118V92.52L8.12,94.39,5.78,89l8.65-3.74h7.48V118Z"/>
+  </g>
+</svg>

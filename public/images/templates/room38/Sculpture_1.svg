@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: url(#b);
+      }
+
+      .c {
+        fill: url(#c);
+      }
+
+      .d {
+        fill: #e6e6e6;
+      }
+
+      .e {
+        fill: #999;
+      }
+
+      .f {
+        fill: gray;
+      }
+
+      .g {
+        opacity: 0.5;
+      }
+
+      .h {
+        fill: url(#d);
+      }
+
+      .i {
+        fill: url(#e);
+      }
+
+      .j {
+        fill: url(#f);
+      }
+
+      .k {
+        fill: url(#g);
+      }
+
+      .l {
+        fill: url(#h);
+      }
+
+      .m {
+        fill: url(#i);
+      }
+
+      .n {
+        fill: url(#j);
+      }
+
+      .o {
+        fill: url(#k);
+      }
+
+      .p {
+        fill: url(#l);
+      }
+
+      .q {
+        fill: url(#m);
+      }
+
+      .r {
+        fill: url(#n);
+      }
+
+      .s {
+        fill: url(#o);
+      }
+    </style>
+    <linearGradient id="a" x1="23.76" y1="23.76" x2="151.04" y2="151.04" gradientUnits="userSpaceOnUse">
+      <stop offset="0.03" stop-color="#b3b3b3"/>
+      <stop offset="0.16" stop-color="#a6a6a6"/>
+      <stop offset="0.33" stop-color="#9c9c9c"/>
+      <stop offset="0.54" stop-color="#999"/>
+      <stop offset="0.66" stop-color="#939393"/>
+      <stop offset="0.81" stop-color="#848484"/>
+      <stop offset="0.98" stop-color="#6a6a6a"/>
+      <stop offset="1" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="b" x1="72.62" y1="-8.54" x2="106.75" y2="184.98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="0.11" stop-color="#dfdfdf" stop-opacity="0.21"/>
+      <stop offset="0.28" stop-color="#b9b9b9" stop-opacity="0.09"/>
+      <stop offset="0.43" stop-color="#a1a1a1" stop-opacity="0.02"/>
+      <stop offset="0.54" stop-color="#999" stop-opacity="0"/>
+      <stop offset="0.73" stop-color="#83838e" stop-opacity="0.04"/>
+      <stop offset="0.93" stop-color="#42426d" stop-opacity="0.17"/>
+      <stop offset="0.97" stop-color="#336" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="c" x1="145.38" y1="135" x2="89.3" y2="41.86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b3b3b3"/>
+      <stop offset="0.1" stop-color="#9b9b9b"/>
+      <stop offset="0.2" stop-color="#878787"/>
+      <stop offset="0.27" stop-color="gray"/>
+      <stop offset="0.45" stop-color="#6b6b6b"/>
+      <stop offset="0.49" stop-color="#666"/>
+      <stop offset="0.87" stop-color="#4d4d4d"/>
+    </linearGradient>
+    <linearGradient id="d" x1="99.49" y1="48.37" x2="77.56" y2="35.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0.03" stop-color="#b3b3b3"/>
+      <stop offset="0.16" stop-color="#a6a6a6"/>
+      <stop offset="0.33" stop-color="#9c9c9c"/>
+      <stop offset="0.54" stop-color="#999"/>
+      <stop offset="0.72" stop-color="#939393"/>
+      <stop offset="0.96" stop-color="#848484"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="e" x1="91.16" y1="20.64" x2="87.84" y2="18.72" xlink:href="#d"/>
+    <linearGradient id="f" x1="72.1" y1="39.32" x2="67.86" y2="36.88" xlink:href="#d"/>
+    <linearGradient id="g" x1="111.15" y1="39.32" x2="106.91" y2="36.87" xlink:href="#d"/>
+    <linearGradient id="h" x1="74.31" y1="48.25" x2="70.94" y2="46.3" xlink:href="#d"/>
+    <linearGradient id="i" x1="108.05" y1="29.88" x2="104.68" y2="27.93" xlink:href="#d"/>
+    <linearGradient id="j" x1="100.38" y1="22.83" x2="98.12" y2="21.52" xlink:href="#d"/>
+    <linearGradient id="k" x1="81.82" y1="23.37" x2="77.72" y2="21" xlink:href="#d"/>
+    <linearGradient id="l" x1="108.59" y1="48.56" x2="104.17" y2="46.01" xlink:href="#d"/>
+    <linearGradient id="m" x1="74.85" y1="30.19" x2="70.42" y2="27.63" xlink:href="#d"/>
+    <linearGradient id="n" x1="92.66" y1="39.09" x2="86" y2="35.25" xlink:href="#d"/>
+    <linearGradient id="o" x1="90.61" y1="46.08" x2="88.39" y2="44.8" xlink:href="#d"/>
+  </defs>
+  <g>
+    <circle class="a" cx="90" cy="90" r="90"/>
+    <circle class="b" cx="90" cy="90" r="90"/>
+    <path class="c" d="M168,70c-.41-8-1.28-21.49-10-35-4.5-7-9.24-11.08-15-16-3.22-2.75-19.2-12.52-22.91-13.84A63.52,63.52,0,0,1,139,28a45.45,45.45,0,0,1,5,19,43.18,43.18,0,0,1-7,25c-8.11,12-20,17-32,19-3.57.6-11.67,1-19,3-5.2,1.38-9.25,2.51-13,6-5.76,5.37-6.78,12.57-7,15-.92,10.25,5.12,17.69,7,20,8.23,10.14,20.18,12.06,26,13a53.82,53.82,0,0,0,30-4c17.82-7.88,25.85-23.12,30-31A81.66,81.66,0,0,0,168,70Z"/>
+    <path class="d" d="M103.52,94a121.07,121.07,0,0,0-16.23,2.51c-5,1.27-8.85,2.31-12.43,5.53a21.49,21.49,0,0,0-6.7,13.82c-.88,9.45,4.9,16.31,6.7,18.44C82,142.75,92,145,98,146a30.61,30.61,0,0,0,11.42-7.93,29.92,29.92,0,0,0,7.06-14.75c.62-3.19,2.16-11.27-2.35-19.28A25.85,25.85,0,0,0,103.52,94Z"/>
+    <g>
+      <g>
+        <circle class="e" cx="55.5" cy="45.5" r="0.5"/>
+        <circle class="e" cx="59.5" cy="41.5" r="0.5"/>
+        <circle class="e" cx="56.5" cy="37.5" r="0.5"/>
+        <circle class="e" cx="43.5" cy="43.5" r="0.5"/>
+        <circle class="e" cx="51.5" cy="60.5" r="0.5"/>
+        <circle class="e" cx="47.5" cy="53.5" r="0.5"/>
+        <circle class="e" cx="28.5" cy="49.5" r="0.5"/>
+      </g>
+      <g>
+        <circle class="e" cx="94.5" cy="14.5" r="0.5"/>
+        <circle class="e" cx="70.5" cy="18.5" r="0.5"/>
+        <circle class="e" cx="61.5" cy="21.5" r="0.5"/>
+        <circle class="e" cx="38.5" cy="33.5" r="0.5"/>
+        <circle class="e" cx="47.5" cy="34.5" r="0.5"/>
+        <circle class="e" cx="70.74" cy="33.68" r="0.5"/>
+        <circle class="e" cx="85.6" cy="22.18" r="0.5"/>
+        <circle class="e" cx="79.63" cy="27.61" r="0.5"/>
+        <circle class="e" cx="79.85" cy="47.02" r="0.5"/>
+      </g>
+      <g>
+        <circle class="e" cx="35.77" cy="68.83" r="0.5"/>
+        <circle class="e" cx="36.96" cy="63.3" r="0.5"/>
+        <circle class="e" cx="32.27" cy="61.56" r="0.5"/>
+        <circle class="e" cx="24.6" cy="73.65" r="0.5"/>
+        <circle class="e" cx="40.54" cy="83.6" r="0.5"/>
+        <circle class="e" cx="33.38" cy="79.88" r="0.5"/>
+        <circle class="e" cx="15.24" cy="86.82" r="0.5"/>
+      </g>
+      <g>
+        <circle class="e" cx="112.1" cy="40.62" r="0.5"/>
+        <circle class="e" cx="115.95" cy="44.75" r="0.5"/>
+        <circle class="e" cx="120.06" cy="41.89" r="0.5"/>
+        <circle class="e" cx="114.51" cy="28.69" r="0.5"/>
+        <circle class="e" cx="97.24" cy="36.09" r="0.5"/>
+        <circle class="e" cx="104.38" cy="32.34" r="0.5"/>
+        <circle class="e" cx="109.04" cy="13.49" r="0.5"/>
+      </g>
+      <g>
+        <circle class="e" cx="53.1" cy="149.62" r="0.5"/>
+        <circle class="e" cx="56.95" cy="153.75" r="0.5"/>
+        <circle class="e" cx="61.06" cy="150.89" r="0.5"/>
+        <circle class="e" cx="55.51" cy="137.69" r="0.5"/>
+        <circle class="e" cx="38.24" cy="145.09" r="0.5"/>
+        <circle class="e" cx="45.38" cy="141.34" r="0.5"/>
+        <circle class="e" cx="50.04" cy="122.49" r="0.5"/>
+      </g>
+      <g>
+        <circle class="e" cx="76.1" cy="78.62" r="0.5"/>
+        <circle class="e" cx="79.95" cy="82.75" r="0.5"/>
+        <circle class="e" cx="84.06" cy="79.89" r="0.5"/>
+        <circle class="e" cx="78.51" cy="66.69" r="0.5"/>
+        <circle class="e" cx="61.24" cy="74.09" r="0.5"/>
+        <circle class="e" cx="68.38" cy="70.34" r="0.5"/>
+        <circle class="e" cx="73.04" cy="51.49" r="0.5"/>
+      </g>
+      <g>
+        <circle class="e" cx="36.1" cy="129.62" r="0.5"/>
+        <circle class="e" cx="39.95" cy="133.75" r="0.5"/>
+        <circle class="e" cx="44.06" cy="130.89" r="0.5"/>
+        <circle class="e" cx="38.51" cy="117.69" r="0.5"/>
+        <circle class="e" cx="21.24" cy="125.09" r="0.5"/>
+        <circle class="e" cx="28.38" cy="121.34" r="0.5"/>
+        <circle class="e" cx="33.04" cy="102.49" r="0.5"/>
+      </g>
+      <g>
+        <circle class="f" cx="118.27" cy="165.18" r="0.5"/>
+        <circle class="f" cx="142.5" cy="157.5" r="0.5"/>
+        <circle class="f" cx="123.88" cy="164.41" r="0.5"/>
+        <circle class="f" cx="133.5" cy="149.5" r="0.5"/>
+        <circle class="f" cx="123.91" cy="159.41" r="0.5"/>
+        <circle class="f" cx="155.5" cy="140.5" r="0.5"/>
+        <circle class="f" cx="109.93" cy="156.32" r="0.5"/>
+        <circle class="f" cx="106.01" cy="174.69" r="0.5"/>
+        <circle class="f" cx="107.06" cy="166.7" r="0.5"/>
+        <circle class="f" cx="94.36" cy="152.02" r="0.5"/>
+      </g>
+      <g>
+        <circle class="f" cx="82.48" cy="170.41" r="0.5"/>
+        <circle class="f" cx="87.67" cy="172.66" r="0.5"/>
+        <circle class="f" cx="90.29" cy="168.4" r="0.5"/>
+        <circle class="f" cx="79.93" cy="158.51" r="0.5"/>
+        <circle class="f" cx="67.06" cy="172.2" r="0.5"/>
+        <circle class="f" cx="72.1" cy="165.91" r="0.5"/>
+      </g>
+    </g>
+    <g class="g">
+      <path class="h" d="M86.74,27.37c-6.26,1.42-10.11,7.36-8.6,13.26a10.78,10.78,0,0,0,3.16,5.26A5.66,5.66,0,0,1,83,50v2.5A6.39,6.39,0,0,0,89.5,59,6.31,6.31,0,0,0,96,52.87V50a5.78,5.78,0,0,1,1.81-4.21,10.6,10.6,0,0,0,3.39-7.73c0-6.09-5.24-11-11.71-11a12.06,12.06,0,0,0-2.74.31ZM89.5,56.55a3.88,3.88,0,0,1-3.9-4v-1h7.8v1.3a3.8,3.8,0,0,1-3.9,3.68ZM96,44.09a8.2,8.2,0,0,0-2.51,5H85.56a7.94,7.94,0,0,0-2.44-5,8.14,8.14,0,0,1-2.43-8.22,8.7,8.7,0,0,1,6.63-6.17,9.15,9.15,0,0,1,11,6.28,8.35,8.35,0,0,1,.26,2.05A8.19,8.19,0,0,1,96,44.09Z"/>
+      <path class="i" d="M88.2,18.41v2.53a1.3,1.3,0,0,0,2.6,0V18.41a1.3,1.3,0,0,0-2.6,0Z"/>
+      <path class="j" d="M72.62,38.09a1.25,1.25,0,0,0-1.29-1.21h-2.7a1.23,1.23,0,1,0,0,2.45h2.69a1.27,1.27,0,0,0,1.3-1.21Z"/>
+      <path class="k" d="M110.38,36.87h-2.7a1.23,1.23,0,1,0,0,2.45h2.7a1.23,1.23,0,1,0,0-2.45Z"/>
+      <path class="l" d="M73.11,45.61l-2.26,1.21a1.19,1.19,0,0,0-.48,1.67,1.33,1.33,0,0,0,1.77.45l2.25-1.21a1.18,1.18,0,0,0,.48-1.67,1.34,1.34,0,0,0-1.77-.45Z"/>
+      <path class="m" d="M106.85,27.23l-2.25,1.22a1.18,1.18,0,0,0-.48,1.67,1.34,1.34,0,0,0,1.77.45l2.24-1.21a1.19,1.19,0,0,0,.49-1.67,1.35,1.35,0,0,0-1.77-.46Z"/>
+      <path class="n" d="M98.77,20.51l-1.29,2.12A1.18,1.18,0,0,0,98,24.3a1.35,1.35,0,0,0,1.77-.46h0L101,21.72a1.18,1.18,0,0,0-.48-1.66,1.33,1.33,0,0,0-1.77.45Z"/>
+      <path class="o" d="M79.29,23.85a1.33,1.33,0,0,0,1.76.46,1.18,1.18,0,0,0,.48-1.67l-1.28-2.12a1.35,1.35,0,0,0-1.77-.46A1.19,1.19,0,0,0,78,21.73Z"/>
+      <path class="p" d="M108.15,46.83l-2.25-1.21a1.34,1.34,0,0,0-1.77.45,1.19,1.19,0,0,0,.48,1.67L106.86,49a1.33,1.33,0,0,0,1.77-.45,1.18,1.18,0,0,0-.48-1.67Z"/>
+      <path class="q" d="M74.4,28.46l-2.25-1.22a1.33,1.33,0,0,0-1.76.46,1.19,1.19,0,0,0,.48,1.67l2.25,1.21a1.34,1.34,0,0,0,1.77-.45,1.19,1.19,0,0,0-.48-1.67Z"/>
+      <path class="r" d="M89.5,33.19a3.81,3.81,0,0,0-3.9,3.68,1.3,1.3,0,0,0,2.6,0,1.29,1.29,0,0,1,2.58,0A1.23,1.23,0,0,1,90,38a2.67,2.67,0,0,0-1.78,2.47v.06a1.31,1.31,0,0,0,2.61,0v-.06a.21.21,0,0,1,.14-.2,3.6,3.6,0,0,0,2.18-4.77,3.91,3.91,0,0,0-3.62-2.32Z"/>
+      <ellipse class="s" cx="89.5" cy="45.44" rx="1.3" ry="1.22"/>
+    </g>
+  </g>
+</svg>

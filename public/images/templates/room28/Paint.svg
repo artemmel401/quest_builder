@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119" height="91" viewBox="0 0 119 91">
+  <defs>
+    <style>
+      .a, .g {
+        fill: #333;
+      }
+
+      .a {
+        opacity: 0.5;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: #a57c52;
+      }
+
+      .d {
+        fill: #989898;
+      }
+
+      .e {
+        fill: url(#b);
+      }
+
+      .f {
+        fill: url(#c);
+      }
+
+      .h {
+        fill: url(#d);
+      }
+    </style>
+    <linearGradient id="a" x1="70" y1="38.5" x2="119" y2="38.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#666"/>
+      <stop offset="0.13" stop-color="#6f6f6f"/>
+      <stop offset="0.27" stop-color="#888"/>
+      <stop offset="0.44" stop-color="#b0b0b0"/>
+      <stop offset="0.54" stop-color="#cbcbcb"/>
+      <stop offset="0.61" stop-color="#c5c5c5"/>
+      <stop offset="0.7" stop-color="#b5b5b5"/>
+      <stop offset="0.79" stop-color="#9b9b9b"/>
+      <stop offset="0.8" stop-color="#989898"/>
+    </linearGradient>
+    <linearGradient id="b" x1="70" y1="38.5" x2="119" y2="38.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#cbcbcb"/>
+      <stop offset="0.24" stop-color="#d4d4d4"/>
+      <stop offset="0.55" stop-color="#ededed"/>
+      <stop offset="0.74" stop-color="#fff"/>
+      <stop offset="0.84" stop-color="#f9f9f9"/>
+      <stop offset="0.97" stop-color="#e9e9e9"/>
+      <stop offset="1" stop-color="#e5e5e5"/>
+    </linearGradient>
+    <linearGradient id="c" x1="28" y1="56.5" x2="77" y2="56.5" xlink:href="#a"/>
+    <linearGradient id="d" x1="28" y1="56.5" x2="77" y2="56.5" xlink:href="#b"/>
+  </defs>
+  <g>
+    <g>
+      <ellipse class="a" cx="80.5" cy="62.5" rx="38.5" ry="10.5"/>
+      <path class="b" d="M70,8V60c0,5,11,9,24.5,9S119,65,119,60V8Z"/>
+      <g>
+        <ellipse class="c" cx="94.5" cy="8" rx="23.5" ry="7"/>
+        <path class="d" d="M94.5,2C109.06,2,117,6,117,8s-7.94,6-22.5,6S72,10,72,8s7.94-6,22.5-6m0-2C81,0,70,3.58,70,8s11,8,24.5,8S119,12.42,119,8,108,0,94.5,0Z"/>
+      </g>
+      <path class="e" d="M94.5,32C81,32,70,28.42,70,24V45c0,4.42,11,8,24.5,8S119,49.42,119,45V24C119,28.42,108,32,94.5,32Z"/>
+      <ellipse class="c" cx="111" cy="40" rx="4" ry="6"/>
+    </g>
+    <g>
+      <ellipse class="a" cx="38.5" cy="80.5" rx="38.5" ry="10.5"/>
+      <path class="f" d="M28,26V78c0,5,11,9,24.5,9S77,83,77,78V26Z"/>
+      <g>
+        <ellipse class="g" cx="52.5" cy="26" rx="23.5" ry="7"/>
+        <path class="d" d="M52.5,20C67.06,20,75,24,75,26s-7.94,6-22.5,6S30,28,30,26s7.94-6,22.5-6m0-2C39,18,28,21.58,28,26s11,8,24.5,8S77,30.42,77,26s-11-8-24.5-8Z"/>
+      </g>
+      <path class="h" d="M52.5,50C39,50,28,46.42,28,42V63c0,4.42,11,8,24.5,8S77,67.42,77,63V42C77,46.42,66,50,52.5,50Z"/>
+      <ellipse class="g" cx="69" cy="58" rx="4" ry="6"/>
+    </g>
+  </g>
+</svg>

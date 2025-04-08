@@ -1,0 +1,19 @@
+<svg width="85" height="48" viewBox="0 0 85 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.3" d="M20 0.5H64L85 9.5V43.5L75.5 46L46 47.5H1L20 43.5V0.5Z" fill="#660033"/>
+<path opacity="0.6" d="M46.5 47.5H1.5L20 43.5H64L46.5 47.5Z" fill="#B24B75"/>
+<path d="M46 47.5H1L20 43.5H64L46 47.5Z" stroke="#660033" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path opacity="0.6" d="M64 0.5H20V43.5H64V0.5Z" fill="#B74E79"/>
+<path d="M64 0.5H20V43.5H64V0.5Z" stroke="#660033" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path opacity="0.6" d="M64 43.5L46 47.5V2.5L64 0.5V43.5Z" fill="#AF4B74"/>
+<path opacity="0.1" d="M49.5 46L63.5 43V1L49.5 46Z" fill="white"/>
+<path d="M64 43.5L46 47.5V2.5L64 0.5V43.5Z" stroke="#660033" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path opacity="0.6" d="M20 43.5L1 47.5V2.5L20 0.5V43.5Z" fill="#CE618D"/>
+<path d="M20 43.5L1 47.5V2.5L20 0.5V43.5Z" stroke="#660033" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path opacity="0.6" d="M46 2.5H1V47.5H46V2.5Z" fill="#CE6791"/>
+<path opacity="0.2" d="M18.5 47H1.5V3H35.5L18.5 47Z" fill="white"/>
+<path opacity="0.2" d="M5.5 47H1.5V2L24.5 3L5.5 47Z" fill="white"/>
+<path d="M46 2.5H1V47.5H46V2.5Z" stroke="#660033" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path opacity="0.6" d="M46 2.5H1L20 0.5H64L46 2.5Z" fill="#CE638F"/>
+<path opacity="0.2" d="M27.5 2H5.5L20.5 1H36.5L27.5 2Z" fill="white"/>
+<path d="M46 2.5H1L20 0.5H64L46 2.5Z" stroke="#660033" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+</svg>

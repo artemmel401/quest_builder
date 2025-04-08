@@ -39,6 +39,11 @@ export default function CreateQuest() {
     onGetTemplates()
   }
 
+  const onClickCard = (id: string) => {
+    setSelectedTemplateId(id)
+    //router.push(`/edit/template/${id}`)
+  }
+
   useEffect(() => {
     onGetTemplates()
   },[])
@@ -60,7 +65,7 @@ export default function CreateQuest() {
             <Button onClick={selectedTemplateId ? onCreateQuest : onCreateTemplate} mainClass="ld_button_secondary2" text={selectedTemplateId ? 'СОЗДАТЬ КВЕСТ' : 'СОЗДАТЬ ШАБЛОН'} style={{width: '345px', height: '55px', fontSize: '20px'}}/>
           </div>
           <div className={styles.main__cards}>
-            {templates.map((template)=>(<Card onDelete={()=>onDeleteTemplate(template._id)} background={template.rooms[0].background ? template.rooms[0].background : {type: 'color', value: '#ffffff'}} title={template.title} description={''} onClick={()=>{router.push(`/edit/template/${template._id}`)}}/>))}
+            {templates.map((template)=>(<Card onDelete={()=>onDeleteTemplate(template._id)} background={template.rooms[0].background ? template.rooms[0].background : {type: 'color', value: '#ffffff'}} title={template.title} description={''} onClick={()=>{onClickCard(template._id)}}/>))}
           </div>
         </main>
       </div>

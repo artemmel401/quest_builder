@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="51.6" viewBox="0 0 54 51.6">
+  <defs>
+    <style>
+      .a {
+        fill: #efd4b4;
+        stroke: #ab9065;
+        stroke-miterlimit: 10;
+        stroke-width: 0.2px;
+      }
+
+      .b {
+        fill: #23140c;
+        opacity: 0.57;
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="43.6 21.8 40.2 45.6 21.9 31.8 31.9 23.8 43.6 21.8"/>
+      <path class="a" d="M52.9,46.2c-.1-1.9-.3-4.2-.6-6.8-.2-1.5-.7-4.8-1.6-8.9-.6-2.7-1.5-5.8-2.6-9.3l-4.4.6L40.3,45.6Z"/>
+    </g>
+    <path class="b" d="M0,51.6C.1,23.1,12.2,0,27,0S53.9,23.1,54,51.5H27Z"/>
+  </g>
+</svg>

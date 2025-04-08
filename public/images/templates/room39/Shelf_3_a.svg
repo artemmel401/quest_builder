@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="54" viewBox="0 0 44 54">
+  <defs>
+    <style>
+      .a {
+        fill: #c9f;
+      }
+
+      .b {
+        fill: #a97cdd;
+      }
+
+      .c {
+        fill: #7951a8;
+      }
+
+      .d {
+        fill: #96c;
+      }
+
+      .e {
+        fill: #f2f2f2;
+      }
+
+      .f {
+        fill: #ff9;
+      }
+
+      .g {
+        fill: #93c;
+      }
+
+      .h {
+        fill: #c36;
+      }
+
+      .i {
+        fill: url(#a);
+      }
+
+      .j {
+        fill: none;
+      }
+    </style>
+    <linearGradient id="a" x1="43.5" y1="4.5" x2="-2.5" y2="50.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.25"/>
+      <stop offset="0.66" stop-color="#fff" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" x="1" y="1" width="39" height="53"/>
+    <polygon class="b" points="40 1 44 2 44 53 40 54 40 1"/>
+    <polygon class="c" points="40 1 44 2 44 13 40 16 40 1"/>
+    <path class="d" d="M40,15.8A38.42,38.42,0,0,1,20,21,39.08,39.08,0,0,1,1,16.39V1H40Z"/>
+    <rect class="e" x="11" y="9" width="19" height="7" rx="3.5"/>
+    <g>
+      <ellipse class="e" cx="20.52" cy="38.5" rx="14.47" ry="7.5"/>
+      <ellipse class="f" cx="20.63" cy="38" rx="11.58" ry="6"/>
+      <circle class="g" cx="21" cy="33" r="2"/>
+      <circle class="g" cx="27" cy="35" r="2"/>
+      <circle class="g" cx="18" cy="40" r="2"/>
+      <circle class="h" cx="16" cy="35" r="1"/>
+      <circle class="h" cx="26" cy="40" r="1"/>
+      <circle class="h" cx="23" cy="37" r="1"/>
+      <circle class="h" cx="12" cy="39" r="1"/>
+    </g>
+    <rect class="i" x="1" y="1" width="39" height="53"/>
+    <rect class="j" width="40" height="54"/>
+  </g>
+</svg>

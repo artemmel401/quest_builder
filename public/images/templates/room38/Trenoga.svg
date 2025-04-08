@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="229" height="326" viewBox="0 0 229 326">
+  <defs>
+    <style>
+      .a {
+        fill: #1b1b3a;
+        opacity: 0.3;
+      }
+
+      .b {
+        fill: #4d4d4d;
+      }
+
+      .c {
+        fill: #333;
+      }
+
+      .d {
+        fill: #666;
+      }
+
+      .e {
+        fill: url(#a);
+      }
+
+      .f {
+        fill: url(#b);
+      }
+
+      .g {
+        fill: gray;
+      }
+    </style>
+    <linearGradient id="a" x1="138.41" y1="310" x2="138.41" y2="115.29" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset="0.02" stop-color="#353535"/>
+      <stop offset="0.34" stop-color="#474747"/>
+      <stop offset="0.57" stop-color="#4d4d4d"/>
+    </linearGradient>
+    <linearGradient id="b" x1="63.33" y1="309.4" x2="63.33" y2="112.73" xlink:href="#a"/>
+  </defs>
+  <g>
+    <polygon class="a" points="108 280 54 280 0 312 21 326 229 326 193 303 108 280"/>
+    <polygon class="b" points="93.58 116.6 78 290 82 290 97 116 93.58 116.6"/>
+    <polygon class="b" points="85 5 92 116 97 116 90 5 85 5"/>
+    <rect class="b" x="79" y="112" width="30" height="7"/>
+    <g>
+      <rect class="c" x="32.99" y="308.11" width="10" height="11" transform="translate(68.56 -0.81) rotate(12.46)"/>
+      <ellipse class="c" cx="36.8" cy="318.98" rx="2" ry="5" transform="translate(-282.6 286.09) rotate(-77.54)"/>
+      <ellipse class="b" cx="39.17" cy="308.24" rx="2" ry="5" transform="translate(-270.26 279.98) rotate(-77.54)"/>
+    </g>
+    <g>
+      <rect class="c" x="76.52" y="282.22" width="6.94" height="7.63" transform="translate(19.84 -4.82) rotate(3.94)"/>
+      <ellipse class="c" cx="79.72" cy="289.84" rx="1.39" ry="3.47" transform="translate(-214.91 349.46) rotate(-86.06)"/>
+      <ellipse class="d" cx="80.25" cy="282.23" rx="1.39" ry="3.47" transform="translate(-206.83 342.89) rotate(-86.06)"/>
+    </g>
+    <g>
+      <rect class="c" x="171.99" y="308.11" width="10" height="11" transform="translate(-102.46 86.49) rotate(-21.46)"/>
+      <ellipse class="c" cx="179" cy="318.73" rx="5" ry="2" transform="translate(-104.2 87.58) rotate(-21.46)"/>
+      <ellipse class="b" cx="174.98" cy="308.49" rx="5" ry="2" transform="translate(-100.73 85.4) rotate(-21.46)"/>
+    </g>
+    <path class="e" d="M178,307,105.33,115.29l-6.51,2.56L172,310h.39a6.75,6.75,0,0,0,5.61-3Z"/>
+    <path class="f" d="M36,307,83.85,112.73l6.81,1.63L43,309l-1.46.29A5.38,5.38,0,0,1,36,307Z"/>
+    <path class="c" d="M91.68,112.78,78,282h0a5.36,5.36,0,0,0,4.12.29L83,282,97.23,113.23Z"/>
+    <g>
+      <rect class="b" x="67" width="38" height="7"/>
+      <polygon class="d" points="70.45 2 105 2 105 0 67 0 67 7 70.45 7 70.45 2"/>
+    </g>
+    <rect class="b" x="14.5" y="191" width="170" height="5"/>
+    <polygon class="d" points="16 193 184.5 193 184.5 191 14.5 191 14.5 196 16 196 16 193"/>
+    <path class="b" d="M38.9,305c.27-1.79.61-3.56.91-5.34l1-5.3c.68-3.54,1.44-7,2.21-10.57,1.54-7,3.42-14,5.19-21l5.29-20.93L58.9,221l.2,0-4.61,21.1-4.71,21.07c-1.56,7-3,14.07-4.81,21-.9,3.48-1.8,7-2.79,10.43l-1.49,5.2c-.53,1.72-1,3.45-1.59,5.16Z"/>
+    <path class="b" d="M174.91,307c-.84-1.8-1.6-3.62-2.4-5.43l-2.29-5.48c-1.52-3.66-3-7.34-4.41-11-2.87-7.37-5.41-14.87-8.06-22.32l-8-22.36L141.91,218l.18-.06,8.63,22.11,8.53,22.14c2.85,7.38,5.81,14.72,8.44,22.18,1.3,3.74,2.61,7.47,3.84,11.23l1.84,5.65c.57,1.89,1.18,3.78,1.72,5.69Z"/>
+    <path class="g" d="M141,192.5c-10.42.21-20.83.3-31.25.38L78.5,193l-31.25-.12-15.62-.13L16,192.5l15.63-.25,15.62-.13L78.5,192l31.25.12C120.17,192.2,130.58,192.29,141,192.5Z"/>
+    <path class="g" d="M100,1.5c-2.5.21-5,.3-7.5.38S87.5,2,85,2s-5,0-7.5-.12l-3.75-.13c-1.25-.09-2.5-.14-3.75-.25,1.25-.11,2.5-.16,3.75-.25l3.75-.13C80,1,82.5,1,85,1s5,0,7.5.12S97.5,1.29,100,1.5Z"/>
+  </g>
+</svg>

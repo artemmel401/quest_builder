@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="277.62" height="150.73" viewBox="0 0 277.62 150.73">
+  <defs>
+    <style>
+      .a {
+        isolation: isolate;
+      }
+
+      .b {
+        fill: #bf9467;
+      }
+
+      .c {
+        fill: #c4a37c;
+      }
+
+      .d {
+        fill: #a77b4f;
+      }
+
+      .e {
+        fill: #dbba91;
+      }
+
+      .f, .i {
+        fill: #4c4040;
+      }
+
+      .f {
+        mix-blend-mode: multiply;
+        opacity: 0.3;
+      }
+
+      .g {
+        fill: url(#a);
+      }
+
+      .h {
+        fill: url(#b);
+      }
+
+      .j {
+        fill: none;
+        stroke: #7d4e24;
+        stroke-miterlimit: 10;
+      }
+
+      .k {
+        fill: url(#c);
+      }
+
+      .l {
+        fill: url(#d);
+      }
+
+      .m {
+        fill: url(#e);
+      }
+    </style>
+    <linearGradient id="a" x1="5056.67" y1="98.02" x2="5056.67" y2="26.48" gradientTransform="translate(-4881.65)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a77b4f"/>
+      <stop offset="1" stop-color="#75502a"/>
+    </linearGradient>
+    <linearGradient id="b" x1="154.18" y1="92.47" x2="162.72" y2="92.47" gradientTransform="matrix(-1, 0, 0, 1, 224.38, 0)" xlink:href="#a"/>
+    <linearGradient id="c" x1="51.77" y1="43.5" x2="51.77" y2="32.75" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#a"/>
+    <linearGradient id="d" x1="47.5" y1="54.5" x2="47.5" y2="49.92" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#a"/>
+    <linearGradient id="e" x1="10.28" y1="46.32" x2="13.4" y2="35.19" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#a"/>
+  </defs>
+  <g class="a">
+    <g>
+      <g>
+        <rect class="b" x="8.19" y="18.02" width="261.23" height="8.46"/>
+        <rect class="c" x="8.19" y="142.07" width="81.52" height="8.61"/>
+        <polygon class="d" points="93.3 131.3 93.3 26.48 89.71 26.48 89.71 150.68 93.3 131.3"/>
+        <polygon class="d" points="269.43 150.73 269.43 26.53 256.61 26.53 256.61 126.6 269.43 150.73"/>
+        <path class="e" d="M20.89,0,8.19,18H269.37L255.25.05Z"/>
+        <rect class="b" y="18.02" width="8.19" height="132.66"/>
+        <polygon class="b" points="0 18.02 8.2 18.02 23.57 0 17.49 0 0 18.02"/>
+        <polyline class="f" points="8.2 18.02 9.87 18.02 25.25 0 23.57 0"/>
+        <rect class="b" x="269.43" y="18.07" width="8.19" height="132.66"/>
+        <polygon class="b" points="277.62 18.07 269.43 18.07 254.05 0.05 260.13 0.05 277.62 18.07"/>
+        <polygon class="f" points="270.07 18.07 268.39 18.07 253.01 0.05 254.69 0.05 270.07 18.07"/>
+        <rect class="f" x="267.75" y="18.07" width="1.67" height="8.46"/>
+        <rect class="g" x="93.3" y="26.48" width="163.45" height="71.54"/>
+        <rect class="b" x="85.18" y="26.48" width="4.53" height="124.2"/>
+        <rect class="e" x="8.19" y="58.46" width="77.25" height="31.98"/>
+        <rect class="e" x="8.3" y="89.47" width="77.14" height="52.6"/>
+        <circle class="h" cx="65.94" cy="92.47" r="4.27"/>
+        <circle class="f" cx="65.83" cy="93.72" r="4.27"/>
+        <g>
+          <rect class="e" x="8.19" y="26.48" width="77.25" height="31.98"/>
+          <rect class="i" x="8.19" y="57.8" width="77.25" height="1.37"/>
+        </g>
+        <line class="j" x1="8.19" y1="58.46" x2="17.68" y2="48.96"/>
+        <line class="j" x1="17.3" y1="48.96" x2="85.44" y2="48.96"/>
+        <line class="j" x1="17.68" y1="49.22" x2="17.68" y2="26.48"/>
+      </g>
+      <rect class="k" x="18.11" y="26.48" width="67.33" height="22.08"/>
+      <path class="l" d="M85.44,57.8H9.55l8.52-8.47,67.37.15Z"/>
+      <path class="m" d="M17.3,48.56,8.19,57.8V26.48H17.3Z"/>
+    </g>
+  </g>
+</svg>

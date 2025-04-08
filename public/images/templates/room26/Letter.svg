@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.3" height="40.3" viewBox="0 0 70.3 40.3">
+  <defs>
+    <style>
+      .a {
+        fill: #c7b299;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .b {
+        fill: none;
+      }
+
+      .c {
+        fill: #d8c6b4;
+      }
+
+      .d {
+        fill: #fff;
+        opacity: 0.16;
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" x="0.5" y="0.5" width="69.3" height="39.3"/>
+    <line class="b" x1="70.1" y1="40.1" x2="70.1" y2="0.1"/>
+    <g>
+      <polygon class="c" points="1 0.5 69.2 0.5 35.1 32.1 1 0.5"/>
+      <path d="M68.3.9,35.1,31.7,1.9.9H68.3M70.1.1H.1l35,32.4L70.1.1Z"/>
+    </g>
+    <polygon class="d" points="14.3 40.1 0.1 40.1 0.1 0.2 33.2 0.2 14.3 40.1"/>
+    <line class="b" x1="39.9" y1="40.1" x2="57.7" y2="0.1"/>
+  </g>
+</svg>

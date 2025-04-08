@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="74" viewBox="0 0 65 74">
+  <defs>
+    <style>
+      .a {
+        fill: #534741;
+      }
+
+      .b {
+        fill: #333;
+      }
+
+      .c {
+        fill: #443a35;
+      }
+
+      .d {
+        fill: #736357;
+      }
+
+      .e {
+        fill: #e0cfbd;
+      }
+
+      .f {
+        fill: #fff;
+        opacity: 0.3;
+      }
+
+      .g {
+        fill: #c7b299;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="0.25 60.78 0.25 1.26 64.75 3.24 64.75 68.72 0.25 60.78"/>
+      <path class="b" d="M.5,1.52l64,2v65L.5,60.56v-59M0,1V61l65,8V3L0,1Z"/>
+    </g>
+    <polygon class="c" points="0 1 56 3 56 61 0 61 0 1"/>
+    <g>
+      <polygon class="d" points="4.08 61.25 56 61.25 64.75 62.22 64.75 68.72 4.08 61.25"/>
+      <path class="b" d="M56,61.5l8.53,1v6L8.16,61.5H56m0-.5H0l65,8V62l-9-1Z"/>
+    </g>
+    <g>
+      <polygon class="e" points="0.25 60.87 0.25 1.24 17.75 0.27 17.75 73.51 0.25 60.87"/>
+      <path class="b" d="M17.5.53V73L.5,60.74V1.47l17-.94M18,0,0,1V61L18,74V0Z"/>
+    </g>
+    <path class="f" d="M5.51,33.62c0,5.37,1.07,9.82,2.39,9.94s2.41-4.17,2.41-9.58S9.23,24.12,7.9,24,5.51,28.24,5.51,33.62Z"/>
+    <g>
+      <rect class="g" x="18.25" y="0.25" width="3.5" height="73.5"/>
+      <path class="b" d="M21.5.5v73h-3V.5h3M22,0H18V74h4V0Z"/>
+    </g>
+  </g>
+</svg>

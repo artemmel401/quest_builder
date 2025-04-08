@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115.7" height="55" viewBox="0 0 115.7 55">
+  <defs>
+    <style>
+      .a {
+        fill: #036;
+        opacity: 0.4;
+      }
+
+      .b {
+        fill: #efe2da;
+      }
+
+      .c {
+        fill: #c7bfba;
+      }
+
+      .d {
+        fill: #fff5ee;
+      }
+
+      .e {
+        fill: #bf272d;
+      }
+
+      .f {
+        fill: #a12e3a;
+      }
+
+      .g {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="18 55 115 35 115 31.88 0 21.52 0 27 18 55"/>
+    <polygon class="b" points="19.31 52.28 115.7 31.25 97.11 0 0.72 21.02 19.31 52.28"/>
+    <polygon class="c" points="2.38 20.66 20.25 50.69 114.97 30.03 115.7 31.25 19.31 52.28 0.72 21.02 2.38 20.66"/>
+    <polygon class="d" points="0.72 21.02 62.41 31.63 97.11 0 0.72 21.02"/>
+    <ellipse class="e" cx="63.03" cy="29.07" rx="4.88" ry="7.43" transform="translate(28.77 89.44) rotate(-85.2)"/>
+    <ellipse class="f" cx="63.03" cy="28.28" rx="3.43" ry="5.23" transform="translate(29.57 88.71) rotate(-85.2)"/>
+    <path class="g" d="M.47,21c7.86-2.77,15.83-5,23.83-7.13,4-1.1,8-2,12-3l12.1-2.72c4.05-.81,8.09-1.67,12.15-2.45S68.71,4.13,72.8,3.49C81,2.13,89.16,1,97.47.25l.06.3L49.06,11.05.53,21.27Z"/>
+  </g>
+</svg>

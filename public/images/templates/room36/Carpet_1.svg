@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="211.62" height="25.11" viewBox="0 0 211.62 25.11">
+  <defs>
+    <style>
+      .a {
+        fill: #4b2c77;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: none;
+        stroke: #4b2c77;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <linearGradient id="a" x1="105.81" x2="105.81" y2="23.11" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4b2c77"/>
+      <stop offset="0.6" stop-color="#5e318f"/>
+      <stop offset="1" stop-color="#639"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="a" d="M207.79,23.11H3.48A3.45,3.45,0,0,1,.16,20.63a3.47,3.47,0,0,0,3.32,4.48H207.79a3.82,3.82,0,0,0,3.69-4.81A3.82,3.82,0,0,1,207.79,23.11Z"/>
+    <path class="b" d="M207.79,23.11H3.48a3.47,3.47,0,0,1-3-5.29L6.37,8.24a6.54,6.54,0,0,1,5.57-3.13H164.81c4.06,0,14-4,19-5,.09,0,14-2,24,11.35h0l3.32,6A3.82,3.82,0,0,1,207.79,23.11Z"/>
+    <g>
+      <path class="c" d="M15.81,8.11H168.89c6.26,0,12.53-.27,18.77-.82l7.65-.68"/>
+      <line class="c" x1="13.31" y1="12.11" x2="198.31" y2="12.11"/>
+      <line class="c" x1="10.81" y1="16.11" x2="200.81" y2="16.11"/>
+      <line class="c" x1="8.31" y1="20.11" x2="203.31" y2="20.11"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,201 @@
+<img src="images/allback.png" style="width: 100vw; height: auto; max-height: 100%; border: 0px solid red;; margin: 0; padding: 0;	z-index: 1; position: absolute;">
+	<img src="images/door.svg" style="" class="obj door">
+	<img src="images/kod.svg" style="" class="obj kod">
+	<img src="images/polka.svg" style="" class="obj-static polka">
+	<img src="images/matryoshka.svg" style="" class="obj matryoshka">
+	<img src="images/window.svg" style="" class="obj clear_window">
+	<a data-rel="popup" href="#popup5"  data-position-to="window" class="frame5 hide">
+		<?php
+		if($pieces_types[5] == 'audio') {
+			echo '<img class="obj frame5_img" src="https://www.learnis.ru/images/audio_thumb_ico.jpg" style="" alt="">';
+		}
+		else if($pieces_types[5] == 'image') {
+			echo '<img class="obj frame5_img" src="https://www.learnis.ru/quests/'.$id_quest.'/'.$pieces[5].'" style="" alt="">';
+		}
+		?>
+	</a>
+	<img src="images/left_shtora.svg" style="border: 0px solid red;" class="obj left_shtora">
+	<img src="images/right_shtora.svg" style="" class="obj right_shtora">
+	<img src="images/gardina_only.svg" style="" class="obj-static gardina_only">
+	<img src="images/up_left.svg" style="" class="obj up_left">
+	<img src="images/up_right.svg" style="" class="obj up_right">
+	<img src="images/down_left.svg" style="" class="obj down_left">
+	<img src="images/down_right.svg" style="" class="obj down_right">
+	<img src="images/palas.svg" style="" class="obj palas">
+	<img src="images/list.svg" style="" class="obj list">	
+	<img src="images/wardrobe.svg" style="" class="obj wardrobe">
+	<img src="images/open.svg" style="" class="obj open hide">
+	<img src="images/close.svg" style="" class="obj close">
+	<img src="images/triapka.svg" style="" class="obj triapka hide">
+	<img src="images/loup.svg" style="" class="obj loup hide">
+	<img src="images/cloth1.svg" style="" class="obj cloth1 cloth">
+	<img src="images/cloth2.svg" style="" class="obj cloth2 cloth">
+	<img src="images/cloth3.svg" style="" class="obj cloth3 cloth">
+	<img src="images/cloth4.svg" style="" class="obj cloth4 cloth">
+	<img src="images/cloth5.svg" style="" class="obj cloth5 cloth">
+	<img src="images/cloth6.svg" style="" class="obj cloth6 cloth">
+	<a data-rel="popup" href="#popup1"  data-position-to="window" class="frame1">
+		<?php
+		if($pieces_types[1] == 'audio') {
+			echo '<img class="obj frame1_img" src="https://www.learnis.ru/images/audio_thumb_ico.jpg" style="" alt="">';
+		}
+		else if($pieces_types[1] == 'image') {
+			echo '<img class="obj frame1_img" src="https://www.learnis.ru/quests/'.$id_quest.'/'.$pieces[1].'" style="" alt="">';
+		}
+		?>
+	</a>
+	<a data-rel="popup" href="#popup2"  data-position-to="window" class="frame2">
+		<?php
+		if($pieces_types[2] == 'audio') {
+			echo '<img class="obj frame2_img" src="https://www.learnis.ru/images/audio_thumb_ico.jpg" style="" alt="">';
+		}
+		else if($pieces_types[2] == 'image') {
+			echo '<img class="obj frame2_img" src="https://www.learnis.ru/quests/'.$id_quest.'/'.$pieces[2].'" style="" alt="">';
+		}
+		?>
+	</a>
+	<img src="images/shvabra.svg" style="" class="obj shvabra">
+	<img src="images/plant.svg" style="" class="obj plant">
+	<img src="images/spiderweb.svg" style="" class="obj spiderweb">
+	<img src="images/stvorka.svg" style="" class="obj stvorka hide">
+	
+	
+	
+	
+	
+	<div data-role="popup" id="popupsmall" data-overlay-theme="a" data-corners="false" data-tolerance="30,15" style="">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<p style="padding: 2wmin; font-size: 5vw; text-align: center;">В матрешке лежит записка, но прочитать ее невозможно.
+		<br>Шрифт слишком маленький!</p>
+	</div>
+	<div data-role="popup" id="popupnonclear" data-overlay-theme="a" data-corners="false" data-tolerance="30,15" style="">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<p style="padding: 2wmin; font-size: 5vw; text-align: center;">Окно запотело. <br>Ничего не видно.</p>
+	</div>
+	<div data-role="popup" id="popupclosed" data-overlay-theme="a" data-corners="false" data-tolerance="30,15" style="">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<p style="padding: 2wmin; font-size: 5vw; text-align: center;">Дверь заперта</p>
+	</div>
+	<div data-role="popup" id="popupspiderweb" data-overlay-theme="a" data-corners="false" data-tolerance="30,15" style="">
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+		<p style="padding: 2wmin; font-size: 5vw; text-align: center;">За паутиной что-то есть...</p>
+	</div>
+	
+	
+	
+	
+	$('#logo').width(100  * 	coef_w);
+			$('#logo').offset({left: 15 * coef_w + offset_w, top: 1215 * coef_h });
+			
+			$('.door').width(434 * coef_w);				
+			$('.door').css({left: 20 * coef_w + offset_w, top: 135 * coef_h });	
+			
+			$('.kod').width(82 * coef_w);				
+			$('.kod').css({left: 440 * coef_w + offset_w, top: 500 * coef_h });	
+
+			$('.shvabra').width(74 * coef_w);				
+			$('.shvabra').css({left: 510 * coef_w + offset_w, top: 465 * coef_h });
+				
+			
+			$('.polka').width(338 * coef_w);				
+			$('.polka').css({left: 460 * coef_w + offset_w, top: 300 * coef_h });
+			
+			$('.matryoshka').width(76 * coef_w);				
+			$('.matryoshka').css({left: 500 * coef_w + offset_w, top: 170 * coef_h });
+			
+			
+			
+			$('.open').width(416 * coef_w);				
+			$('.open').css({left: 816 * coef_w + offset_w, top: 792 * coef_h });
+			
+			$('.close').width(350 * coef_w);				
+			$('.close').css({left: 848 * coef_w + offset_w, top: 792 * coef_h });
+			
+			
+			$('.triapka').width(108 * coef_w);				
+			$('.triapka').css({left: 906 * coef_w + offset_w, top: 838 * coef_h });
+			
+			$('.loup').width(132 * coef_w);				
+			$('.loup').css({left: 1026 * coef_w + offset_w, top: 838 * coef_h });
+
+			
+			$('.gardina_only').width(546 * coef_w);				
+			$('.gardina_only').css({left: 1250 * coef_w + offset_w, top: 210 * coef_h });
+
+			$('.clear_window').width(462 * coef_w);				
+			$('.clear_window').css({left: 1290 * coef_w + offset_w, top: 240 * coef_h });
+			
+			$('.left_shtora').width(w_left_shtora * coef_w);	
+			if(w_left_shtora == 117) coef_h_add_L = 2;
+			//console.log(w_left_shtora * coef_h * coef_h_add);
+			$('.left_shtora').height(w_left_shtora * 338/117 * coef_h * coef_h_add_L);		
+			$('.left_shtora').css({left: 1285 * coef_w + offset_w, top: 235 * coef_h });
+			
+			$('.right_shtora').width(w_right_shtora * coef_w);		
+			if(w_right_shtora == 125) 
+			{
+				coef_h_add_R = 2;		
+				$('.right_shtora').css({marginLeft: w_right_shtora * coef_w }); 
+			}				
+			$('.right_shtora').height(w_right_shtora * 338/125 * coef_h * coef_h_add_R);
+			$('.right_shtora').css({left: 1515 * coef_w + offset_w, top: 235 * coef_h});
+			
+			$('.up_left').width(156 * coef_w);				
+			$('.up_left').css({left: 860 * coef_w + offset_w, top: 60 * coef_h });
+			
+			$('.up_right').width(154 * coef_w);				
+			$('.up_right').css({left: 990 * coef_w + offset_w, top: 60 * coef_h });
+			
+			
+			$('.down_left').width(152 * coef_w);				
+			$('.down_left').css({left: 860 * coef_w + offset_w, top: 148 * coef_h });
+			
+			$('.down_right').width(158 * coef_w);				
+			$('.down_right').css({left: 988 * coef_w + offset_w, top: 170 * coef_h });
+			
+			$('.spiderweb').width(676 * coef_w);				
+			$('.spiderweb').css({left: 660 * coef_w + offset_w, top: 0 * coef_h });
+			
+			$('.wardrobe').width(408 * coef_w);				
+			$('.wardrobe').css({left: 820 * coef_w + offset_w, top: 310 * coef_h });
+			
+			$('.palas').width(818 * coef_w);				
+			$('.palas').css({left: 620 * coef_w + offset_w, top: 1069 * coef_h });
+			
+			$('.shvabra').width(74 * coef_w);				
+			$('.shvabra').css({left: 530 * coef_w + offset_w, top: 465 * coef_h });
+			
+			$('.plant').width(325 * coef_w);				
+			$('.plant').css({left: 430 * coef_w + offset_w, top: 315 * coef_h });
+			
+			$('.cloth1').width(528 * coef_w);				
+			$('.cloth1').css({left: 70 * coef_w + offset_w, top: 1025 * coef_h });
+			$('.cloth2').width(268 * coef_w);				
+			$('.cloth2').css({left: 80 * coef_w + offset_w, top: 1027 * coef_h });
+			$('.cloth3').width(324 * coef_w);				
+			$('.cloth3').css({left: 70 * coef_w + offset_w, top: 1020 * coef_h });
+			$('.cloth4').width(322 * coef_w);				
+			$('.cloth4').css({left: 80 * coef_w + offset_w, top: 1022 * coef_h });
+			$('.cloth5').width(216 * coef_w);				
+			$('.cloth5').css({left: 70 * coef_w + offset_w, top: 1028 * coef_h });
+			$('.cloth6').width(292 * coef_w);				
+			$('.cloth6').css({left: 120 * coef_w + offset_w, top: 1069 * coef_h });
+			$('.list').width(150 * coef_w);				
+			$('.list').css({left: 120 * coef_w + offset_w, top: 1069 * coef_h });
+			
+			
+			$('.frame1_img').width(100 * coef_w);	//35.9 233.87
+			$('.frame1_img').height(79 * coef_w);
+			$('.frame1_img').css({left: 1016 * coef_w + offset_w, top: 88 * coef_h });
+			
+			$('.frame2_img').width(98 * coef_w);	//35.9 233.87
+			$('.frame2_img').height(79 * coef_w);
+			$('.frame2_img').css({left: 888 * coef_w + offset_w, top: 174 * coef_h });
+			
+			$('.frame5_img').width(220 * coef_w);	//35.9 233.87
+			$('.frame5_img').height(150 * coef_w);
+			$('.frame5_img').css({left: 1410 * coef_w + offset_w, top: 356 * coef_h });
+	
+	
+			$('.stvorka').width(38 * coef_w);				
+			$('.stvorka').css({left: 1460 * coef_w + offset_w, top: 268 * coef_h });

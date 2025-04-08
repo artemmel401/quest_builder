@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="28" viewBox="0 0 60 28">
+  <defs>
+    <style>
+      .a {
+        fill: #fc6;
+      }
+
+      .b {
+        fill: #e5af51;
+      }
+
+      .c {
+        fill: #d88d2b;
+      }
+
+      .d {
+        fill: url(#a);
+      }
+    </style>
+    <linearGradient id="a" x1="30.02" x2="30.02" y2="11.37" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="0.39" stop-color="#fff" stop-opacity="0.19"/>
+      <stop offset="0.95" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="a" d="M50.68,28H8.57a4.87,4.87,0,0,1-4.64-3.41L0,12H60L56.29,23.88A5.88,5.88,0,0,1,50.68,28Z"/>
+    <path class="b" d="M50,26H9a23.45,23.45,0,0,1-5.12-1.6l.05.19A4.87,4.87,0,0,0,8.57,28H50.68a5.87,5.87,0,0,0,5.53-3.93A22.56,22.56,0,0,1,50,26Z"/>
+    <path class="c" d="M60,11.5c0,8-12.52,5.5-29.09,5.5S0,19.51,0,11.5,13.43,0,30,0,60,3.49,60,11.5Z"/>
+    <path class="d" d="M30,0C15.84,0,4,2.55.83,8.29,4.1,12.84,16.68,11,30.91,11s25.33,1.82,28.3-2.63C56.13,2.58,44.22,0,30,0Z"/>
+  </g>
+</svg>

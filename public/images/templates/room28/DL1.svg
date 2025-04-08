@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="114" viewBox="0 0 105 114">
+  <defs>
+    <style>
+      .a, .e {
+        fill: #333;
+      }
+
+      .a {
+        opacity: 0.2;
+      }
+
+      .b {
+        fill: #cbcbcb;
+      }
+
+      .c {
+        fill: #b2b2b2;
+      }
+
+      .d {
+        fill: #f1f1f1;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="a" points="9 114 0 107 105 107 9 114"/>
+    <g>
+      <polygon class="b" points="7 98 0 107 0 2 7 2 7 98"/>
+      <polygon class="c" points="105 107 0 107 7 98 105 98 105 107"/>
+    </g>
+    <g>
+      <polygon class="d" points="13.25 0.26 104.75 2.25 104.75 106.76 13.25 110.74 13.25 0.26"/>
+      <path class="c" d="M13.5.51l91,2v104l-91,4V.51M13,0V111l92-4V2L13,0Z"/>
+    </g>
+    <g>
+      <circle class="c" cx="26.5" cy="58.5" r="2.5"/>
+      <circle class="b" cx="29" cy="59" r="3"/>
+    </g>
+    <g>
+      <ellipse class="e" cx="26.5" cy="68" rx="1.5" ry="2"/>
+      <rect class="e" x="25.75" y="68" width="1.5" height="6" rx="0.75"/>
+    </g>
+  </g>
+</svg>

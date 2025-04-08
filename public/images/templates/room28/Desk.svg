@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="815" height="297" viewBox="0 0 815 297">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+      }
+
+      .b {
+        fill: #666;
+      }
+
+      .c {
+        fill: #4d4d4d;
+      }
+
+      .d {
+        fill: #8b6239;
+      }
+
+      .e {
+        fill: #a57c52;
+      }
+
+      .f {
+        clip-path: url(#a);
+      }
+
+      .g {
+        fill: #fff;
+        opacity: 0.2;
+      }
+    </style>
+    <clipPath id="a" transform="translate(0 1)">
+      <polygon class="a" points="44 28 742 28 742 14 669 0 0 0 44 28"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g>
+      <polygon class="b" points="131 286 120 286 67 220 78 220 131 286"/>
+      <polygon class="c" points="120 297 67 231 67 220 120 286 120 297"/>
+      <rect class="c" x="120" y="286" width="11" height="11"/>
+    </g>
+    <g>
+      <rect class="b" x="110" y="29" width="10" height="244"/>
+      <polygon class="c" points="110 284 105 278 105 24 110 29 110 284"/>
+    </g>
+    <g>
+      <polygon class="b" points="755 286 744 286 652 220 663 220 755 286"/>
+      <polygon class="c" points="652 220 744 286 744 297 652 229 652 220"/>
+    </g>
+    <g>
+      <rect class="b" x="718" y="29" width="10" height="238"/>
+      <polygon class="c" points="717.91 272.99 712.91 268.99 713 29 718 29 717.91 272.99"/>
+    </g>
+    <rect class="d" x="44" y="29" width="771" height="10"/>
+    <polygon class="d" points="737.5 70 104.5 74 100.5 66.5 730.5 66.5 737.5 70"/>
+    <rect class="e" x="104.5" y="70" width="633" height="100"/>
+    <polygon class="d" points="100.5 165 104.5 170 104.5 73.5 100.5 66.5 100.5 165"/>
+    <g>
+      <circle class="b" cx="114" cy="81" r="3"/>
+      <circle class="b" cx="115" cy="162" r="3"/>
+      <circle class="b" cx="726" cy="81" r="3"/>
+      <circle class="b" cx="727" cy="162" r="3"/>
+    </g>
+    <g>
+      <polygon class="e" points="0 1 669 1 815 29 44 29 0 1"/>
+      <polygon class="d" points="0 9 44 39 44 29 0 1 0 9"/>
+      <g class="f">
+        <polygon class="g" points="669 1 705 7 653 29 519 29 576 1 669 1"/>
+        <polygon class="g" points="536 0 455 30 398 29 497 0 536 0"/>
+      </g>
+      <g>
+        <ellipse class="b" cx="110.5" cy="20.5" rx="3.5" ry="1.5"/>
+        <ellipse class="b" cx="718.5" cy="21.5" rx="3.5" ry="1.5"/>
+        <ellipse class="b" cx="660.5" cy="5.5" rx="3.5" ry="1.5"/>
+        <ellipse class="b" cx="79.5" cy="5.5" rx="3.5" ry="1.5"/>
+      </g>
+    </g>
+    <rect class="b" x="744" y="286" width="11" height="11"/>
+  </g>
+</svg>

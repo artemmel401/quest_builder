@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="257.68" height="250" viewBox="0 0 257.68 250">
+  <defs>
+    <style>
+      .a {
+        fill: #242447;
+        opacity: 0.5;
+      }
+
+      .b {
+        fill: #ffe98d;
+      }
+
+      .c {
+        fill: #3f312b;
+      }
+
+      .d {
+        fill: #564641;
+      }
+
+      .e {
+        opacity: 0.75;
+      }
+
+      .f {
+        fill: url(#a);
+      }
+    </style>
+    <radialGradient id="a" cx="-128.25" cy="-2413.24" fx="-114.05895685576637" fy="-2443.8471074515865" r="97.83" gradientTransform="matrix(1.26, 0, 0, -1.28, 286.74, -2955.34)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe98d" stop-opacity="0.85"/>
+      <stop offset="0.05" stop-color="#ffe98d" stop-opacity="0.79"/>
+      <stop offset="0.23" stop-color="#ffe98d" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#ffe98d" stop-opacity="0.35"/>
+      <stop offset="0.57" stop-color="#ffe98d" stop-opacity="0.2"/>
+      <stop offset="0.72" stop-color="#ffe98d" stop-opacity="0.09"/>
+      <stop offset="0.85" stop-color="#ffe98d" stop-opacity="0.02"/>
+      <stop offset="0.94" stop-color="#ffe98d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <ellipse class="a" cx="127.48" cy="179.5" rx="46.84" ry="17.5"/>
+    <g>
+      <g>
+        <rect class="b" x="114.85" y="110.16" width="27.07" height="68.3"/>
+        <path class="c" d="M140.41,111.66V177H116.35v-65.3h24.06m3-3H113.35V180h30.06v-71.3Z"/>
+      </g>
+      <g>
+        <polygon class="b" points="100.24 172.13 100.24 107.11 111.85 109.84 111.85 177.59 100.24 172.13"/>
+        <path class="c" d="M101.74,109l8.61,2v64.2l-8.61-4V109m-3-3.79v67.86L113.35,180v-71.3l-14.61-3.44Z"/>
+      </g>
+      <g>
+        <polygon class="b" points="144.91 109.84 156.52 107.11 156.52 172.13 144.91 177.59 144.91 109.84"/>
+        <path class="c" d="M155,109v62.17l-8.61,4V111l8.61-2m3-3.79-14.61,3.44V180L158,173.08V105.22Z"/>
+      </g>
+      <polygon class="c" points="109.91 186.83 93.59 179.1 93.59 176.52 109.91 184.25 109.91 186.83"/>
+      <polygon class="c" points="145.13 186.83 161.45 179.1 161.45 176.52 145.13 184.25 145.13 186.83"/>
+      <rect class="c" x="109.91" y="184.25" width="35.22" height="2.58"/>
+      <polygon class="d" points="113.35 108.66 98.74 105.22 92.73 99.21 109.91 104.36 113.35 108.66"/>
+      <polygon class="d" points="143.41 108.66 158.01 105.22 163.17 100.07 145.99 104.36 143.41 108.66"/>
+      <polygon class="d" points="145.99 104.36 109.91 104.36 113.35 108.66 143.41 108.66 145.99 104.36"/>
+      <polygon class="d" points="113.35 179.96 98.74 173.08 93.59 176.52 109.91 184.25 113.35 179.96"/>
+      <polygon class="d" points="143.41 179.96 158.01 173.08 161.45 176.52 145.13 184.25 143.41 179.96"/>
+      <polygon class="d" points="143.41 179.96 113.35 179.96 109.91 184.25 145.13 184.25 143.41 179.96"/>
+      <polygon class="c" points="133.1 88.04 122.8 88.04 109.91 104.36 145.99 104.36 133.1 88.04"/>
+      <polygon class="c" points="163.17 100.07 133.1 88.04 145.99 104.36 163.17 100.07"/>
+      <polygon class="c" points="92.73 99.21 122.8 88.04 109.91 104.36 92.73 99.21"/>
+      <path class="d" d="M119.36,82.89c0,3.79,3.84,6.87,8.59,6.87s8.59-3.08,8.59-6.87"/>
+      <ellipse class="c" cx="127.95" cy="82.89" rx="8.59" ry="1.72"/>
+      <circle class="c" cx="127.95" cy="80.31" r="4.3"/>
+    </g>
+    <g class="e">
+      <ellipse class="f" cx="128.84" cy="125" rx="128.84" ry="125"/>
+    </g>
+  </g>
+</svg>

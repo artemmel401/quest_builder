@@ -1,0 +1,22 @@
+<svg width="405" height="27" viewBox="0 0 405 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.3" d="M404.5 1H3.5V22H404.5V1Z" fill="black"/>
+<path d="M400.5 1H0.5V18.5H400.5V1Z" fill="url(#paint0_linear_573_44)" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M200.5 1V14" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M240.5 1V14" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M280.5 1V14" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M320.5 1V14" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M360.5 1V14" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M160.5 1V14" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M120.5 1V14" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M80.5 1V14" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M40.5 1V14" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M101.1 26.1008C103.475 26.1008 105.4 24.1309 105.4 21.7008C105.4 19.2708 103.475 17.3008 101.1 17.3008C98.725 17.3008 96.7998 19.2708 96.7998 21.7008C96.7998 24.1309 98.725 26.1008 101.1 26.1008Z" fill="#999999" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="bevel"/>
+<path d="M201.1 25.1008C203.475 25.1008 205.4 23.1309 205.4 20.7008C205.4 18.2708 203.475 16.3008 201.1 16.3008C198.725 16.3008 196.8 18.2708 196.8 20.7008C196.8 23.1309 198.725 25.1008 201.1 25.1008Z" fill="#999999" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="bevel"/>
+<path d="M300.1 25.1008C302.475 25.1008 304.4 23.1309 304.4 20.7008C304.4 18.2708 302.475 16.3008 300.1 16.3008C297.725 16.3008 295.8 18.2708 295.8 20.7008C295.8 23.1309 297.725 25.1008 300.1 25.1008Z" fill="#999999" stroke="black" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="bevel"/>
+<defs>
+<linearGradient id="paint0_linear_573_44" x1="0.5" y1="9.75" x2="400.5" y2="9.75" gradientUnits="userSpaceOnUse">
+<stop offset="0.3107" stop-color="#CCA885"/>
+<stop offset="0.9959" stop-color="#BF9773"/>
+</linearGradient>
+</defs>
+</svg>

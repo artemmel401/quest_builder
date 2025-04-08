@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="68" viewBox="0 0 68 68">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: #d1c0f2;
+      }
+
+      .c {
+        fill: #96c;
+      }
+
+      .d {
+        fill: #b576ff;
+      }
+
+      .e {
+        fill: #ede6ff;
+      }
+
+      .f {
+        fill: url(#b);
+      }
+
+      .g {
+        fill: #fff;
+        opacity: 0.85;
+      }
+    </style>
+    <radialGradient id="a" cx="37.14" cy="39.26" r="34" gradientTransform="translate(32.28 -20.02) rotate(41.58)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.06" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="0.1" stop-color="#fff" stop-opacity="0.83"/>
+      <stop offset="0.23" stop-color="#fff" stop-opacity="0.61"/>
+      <stop offset="0.35" stop-color="#fff" stop-opacity="0.42"/>
+      <stop offset="0.48" stop-color="#fff" stop-opacity="0.27"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0.15"/>
+      <stop offset="0.72" stop-color="#fff" stop-opacity="0.07"/>
+      <stop offset="0.84" stop-color="#fff" stop-opacity="0.02"/>
+      <stop offset="0.95" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="39.42" cy="36.57" fx="28.590443852479265" r="29.5" gradientTransform="translate(32.28 -20.02) rotate(41.58)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="0.11" stop-color="#fff" stop-opacity="0.72"/>
+      <stop offset="0.18" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="0.25" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="0.33" stop-color="#fff" stop-opacity="0.28"/>
+      <stop offset="0.41" stop-color="#fff" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.1"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0.04"/>
+      <stop offset="0.73" stop-color="#fff" stop-opacity="0.01"/>
+      <stop offset="0.95" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <circle class="a" cx="34" cy="34" r="34"/>
+    <polygon class="b" points="54.94 35.39 48.21 22.79 29.7 19.61 15.92 27.94 31.21 55.09 54.94 35.39"/>
+    <polygon class="c" points="54.94 35.39 43.76 30.71 28.61 28.45 15.92 27.94 31.21 55.09 54.94 35.39"/>
+    <polygon class="d" points="43.76 30.71 31.21 55.09 28.61 28.45 43.76 30.71"/>
+    <polygon class="c" points="48.21 22.79 43.76 30.71 28.61 28.45 29.7 19.61 48.21 22.79"/>
+    <polygon class="e" points="39.91 21.36 28.61 28.45 29.7 19.61 39.91 21.36"/>
+    <circle class="f" cx="37.5" cy="33.5" r="29.5"/>
+    <polygon class="g" points="45.67 26.26 37.65 22.15 31.16 30.09 36.48 21.28 30.59 16.82 37.35 20.12 41.22 13.38 38.52 20.99 45.67 26.26"/>
+  </g>
+</svg>

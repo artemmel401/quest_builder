@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.45" height="336.47" viewBox="0 0 43.45 336.47">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: url(#b);
+      }
+
+      .c {
+        fill: url(#c);
+      }
+
+      .d {
+        fill: url(#d);
+      }
+
+      .e {
+        fill: url(#e);
+      }
+
+      .f {
+        fill: url(#f);
+      }
+
+      .g {
+        fill: url(#g);
+      }
+
+      .h {
+        fill: url(#h);
+      }
+    </style>
+    <linearGradient id="a" x1="35.3" x2="35.3" y2="336.47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#57bc51"/>
+      <stop offset="0.36" stop-color="#79d970"/>
+      <stop offset="1" stop-color="#007000"/>
+    </linearGradient>
+    <linearGradient id="b" x1="40.73" x2="40.73" y2="336.47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#79b233"/>
+      <stop offset="0.32" stop-color="#227f00"/>
+      <stop offset="1" stop-color="#006a06"/>
+    </linearGradient>
+    <linearGradient id="c" x1="24.44" x2="24.44" y2="336.47" xlink:href="#a"/>
+    <linearGradient id="d" x1="29.87" x2="29.87" y2="336.47" xlink:href="#b"/>
+    <linearGradient id="e" x1="13.58" x2="13.58" y2="336.47" xlink:href="#a"/>
+    <linearGradient id="f" x1="19.01" x2="19.01" y2="336.47" xlink:href="#b"/>
+    <linearGradient id="g" x1="2.72" x2="2.72" y2="336.47" xlink:href="#a"/>
+    <linearGradient id="h" x1="8.15" x2="8.15" y2="336.47" xlink:href="#b"/>
+  </defs>
+  <g>
+    <g>
+      <polygon class="a" points="38.02 336.47 32.58 328.39 32.58 0 38.02 0 38.02 336.47"/>
+      <polygon class="b" points="38.02 336.47 43.45 328.39 43.45 0 38.02 0 38.02 336.47"/>
+    </g>
+    <g>
+      <polygon class="c" points="27.15 336.47 21.72 328.39 21.72 0 27.15 0 27.15 336.47"/>
+      <polygon class="d" points="27.15 336.47 32.58 328.39 32.58 0 27.15 0 27.15 336.47"/>
+    </g>
+    <g>
+      <polygon class="e" points="16.29 336.47 10.86 328.39 10.86 0 16.29 0 16.29 336.47"/>
+      <polygon class="f" points="16.29 336.47 21.72 328.39 21.72 0 16.29 0 16.29 336.47"/>
+    </g>
+    <g>
+      <polygon class="g" points="5.43 336.47 0 328.39 0 0 5.43 0 5.43 336.47"/>
+      <polygon class="h" points="5.43 336.47 10.86 328.39 10.86 0 5.43 0 5.43 336.47"/>
+    </g>
+  </g>
+</svg>

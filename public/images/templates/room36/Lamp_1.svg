@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="659.49" height="598" viewBox="0 0 659.49 598">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: #242447;
+        opacity: 0.5;
+      }
+
+      .c {
+        fill: #ffe98d;
+      }
+
+      .d {
+        fill: #3f312b;
+      }
+
+      .e {
+        fill: #564641;
+      }
+
+      .f {
+        opacity: 0.75;
+      }
+
+      .g {
+        fill: url(#b);
+      }
+    </style>
+    <radialGradient id="a" cx="141.55" cy="-2116.87" fx="203.3103457910166" fy="-2190.664005165994" r="196.44" gradientTransform="matrix(1.6, 0, 0, -1.52, 93.47, -2921.03)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe98d" stop-opacity="0.85"/>
+      <stop offset="0.02" stop-color="#ffe98d" stop-opacity="0.82"/>
+      <stop offset="0.25" stop-color="#ffe98d" stop-opacity="0.53"/>
+      <stop offset="0.46" stop-color="#ffe98d" stop-opacity="0.3"/>
+      <stop offset="0.64" stop-color="#ffe98d" stop-opacity="0.14"/>
+      <stop offset="0.78" stop-color="#ffe98d" stop-opacity="0.04"/>
+      <stop offset="0.86" stop-color="#ffe98d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="146.77" cy="-2143.49" fx="159.42238201459014" fy="-2170.7913145578445" r="87.26" gradientTransform="matrix(1.26, 0, 0, -1.28, 214.97, -2337.52)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe98d" stop-opacity="0.85"/>
+      <stop offset="0.13" stop-color="#ffe98d" stop-opacity="0.63"/>
+      <stop offset="0.26" stop-color="#ffe98d" stop-opacity="0.44"/>
+      <stop offset="0.39" stop-color="#ffe98d" stop-opacity="0.28"/>
+      <stop offset="0.52" stop-color="#ffe98d" stop-opacity="0.16"/>
+      <stop offset="0.64" stop-color="#ffe98d" stop-opacity="0.07"/>
+      <stop offset="0.75" stop-color="#ffe98d" stop-opacity="0.02"/>
+      <stop offset="0.86" stop-color="#ffe98d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <ellipse class="a" cx="329.74" cy="299" rx="329.74" ry="299"/>
+    <ellipse class="b" cx="404.57" cy="450.5" rx="46.84" ry="17.5"/>
+    <g>
+      <g>
+        <rect class="c" x="391.94" y="381.16" width="27.07" height="68.3"/>
+        <path class="d" d="M417.5,382.66V448H393.44v-65.3H417.5m3-3H390.44V451H420.5v-71.3Z"/>
+      </g>
+      <g>
+        <polygon class="c" points="377.33 443.13 377.33 378.11 388.94 380.85 388.94 448.59 377.33 443.13"/>
+        <path class="d" d="M378.83,380l8.61,2v64.2l-8.61-4.05V380m-3-3.79v67.86L390.44,451v-71.3l-14.61-3.44Z"/>
+      </g>
+      <g>
+        <polygon class="c" points="422 380.85 433.61 378.11 433.61 443.13 422 448.59 422 380.85"/>
+        <path class="d" d="M432.11,380v62.17l-8.61,4.05V382l8.61-2m3-3.79-14.61,3.44V451l14.61-6.88V376.22Z"/>
+      </g>
+      <polygon class="d" points="387 457.83 370.68 450.1 370.68 447.52 387 455.25 387 457.83"/>
+      <polygon class="d" points="422.22 457.83 438.54 450.1 438.54 447.52 422.22 455.25 422.22 457.83"/>
+      <rect class="d" x="387" y="455.25" width="35.22" height="2.58"/>
+      <polygon class="e" points="390.44 379.66 375.83 376.22 369.82 370.21 387 375.36 390.44 379.66"/>
+      <polygon class="e" points="420.5 379.66 435.11 376.22 440.26 371.07 423.08 375.36 420.5 379.66"/>
+      <polygon class="e" points="423.08 375.36 387 375.36 390.44 379.66 420.5 379.66 423.08 375.36"/>
+      <polygon class="e" points="390.44 450.96 375.83 444.08 370.68 447.52 387 455.25 390.44 450.96"/>
+      <polygon class="e" points="420.5 450.96 435.11 444.08 438.54 447.52 422.22 455.25 420.5 450.96"/>
+      <polygon class="e" points="420.5 450.96 390.44 450.96 387 455.25 422.22 455.25 420.5 450.96"/>
+      <polygon class="d" points="410.19 359.04 399.88 359.04 387 375.36 423.08 375.36 410.19 359.04"/>
+      <polygon class="d" points="440.26 371.07 410.19 359.04 423.08 375.36 440.26 371.07"/>
+      <polygon class="d" points="369.82 370.21 399.88 359.04 387 375.36 369.82 370.21"/>
+      <path class="e" d="M396.45,353.89c0,3.79,3.85,6.87,8.59,6.87s8.59-3.08,8.59-6.87"/>
+      <ellipse class="d" cx="405.04" cy="353.89" rx="8.59" ry="1.72"/>
+      <circle class="d" cx="405.04" cy="351.31" r="4.3"/>
+    </g>
+    <g class="f">
+      <ellipse class="g" cx="402.93" cy="398.5" rx="114.93" ry="111.5"/>
+    </g>
+  </g>
+</svg>

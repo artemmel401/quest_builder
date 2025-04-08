@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180.05" height="132.36" viewBox="0 0 180.05 132.36">
+  <defs>
+    <style>
+      .a {
+        fill: #9dc4c1;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: #ccc;
+        opacity: 0.07;
+      }
+
+      .d {
+        fill: #3addd4;
+        opacity: 0.15;
+      }
+    </style>
+    <linearGradient id="a" x1="7.58" y1="58.18" x2="139.2" y2="58.18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.3" stop-color="#fbffff"/>
+      <stop offset="0.62" stop-color="#eefffe"/>
+      <stop offset="0.67" stop-color="#ebfffe"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <ellipse class="a" cx="90.02" cy="101.86" rx="90.02" ry="30.5"/>
+    <path class="b" d="M139.2,65.81c0,36.34-29.24,50.55-65.58,50.55s-66-14.21-66-50.55a65.81,65.81,0,1,1,131.62,0Z"/>
+    <path class="c" d="M139.2,65.81c0,36.34-29.24,50.55-65.58,50.55s-66-14.21-66-50.55a65.81,65.81,0,1,1,131.62,0Z"/>
+    <path class="d" d="M107.33,9.42A65.53,65.53,0,0,1,121.2,49.81c0,36.34-29.24,50.55-65.58,50.55-15.53,0-29.84-2.6-41.14-8.41,10.83,17.22,33.3,24.41,59.14,24.41,36.34,0,65.58-14.21,65.58-50.55A65.79,65.79,0,0,0,107.33,9.42Z"/>
+  </g>
+</svg>

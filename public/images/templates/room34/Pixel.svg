@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="1080" viewBox="0 0 100 1080">
+  <defs>
+    <style>
+      .a {
+        isolation: isolate;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: url(#b);
+      }
+
+      .d {
+        fill: url(#c);
+      }
+
+      .e {
+        fill: url(#d);
+      }
+
+      .f {
+        fill: #012401;
+      }
+
+      .g {
+        fill: #720a4d;
+        opacity: 0.5;
+        mix-blend-mode: multiply;
+      }
+    </style>
+    <linearGradient id="a" x1="50" y1="858.35" x2="50" y2="502.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#535900"/>
+      <stop offset="0.08" stop-color="#586000"/>
+      <stop offset="0.31" stop-color="#636f00"/>
+      <stop offset="0.58" stop-color="#697700"/>
+      <stop offset="1" stop-color="#6b7a00"/>
+    </linearGradient>
+    <linearGradient id="b" x1="50" y1="1367.2" x2="50" y2="809.11" gradientUnits="userSpaceOnUse">
+      <stop offset="0.12" stop-color="#6b7a00"/>
+      <stop offset="0.3" stop-color="#717e00"/>
+      <stop offset="0.53" stop-color="#828b00"/>
+      <stop offset="0.8" stop-color="#9e9f01"/>
+      <stop offset="1" stop-color="#b7b201"/>
+    </linearGradient>
+    <linearGradient id="c" x1="50" y1="593.01" x2="50" y2="349.15" gradientUnits="userSpaceOnUse">
+      <stop offset="0.11" stop-color="#6b7a00"/>
+      <stop offset="0.14" stop-color="#6f7d00"/>
+      <stop offset="0.52" stop-color="#969a01"/>
+      <stop offset="0.82" stop-color="#aeab01"/>
+      <stop offset="1" stop-color="#b7b201"/>
+    </linearGradient>
+    <linearGradient id="d" x1="50" y1="421.66" x2="50" y2="203.47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6b7a00"/>
+      <stop offset="0.25" stop-color="#888f00"/>
+      <stop offset="0.59" stop-color="#aaa801"/>
+      <stop offset="0.78" stop-color="#b7b201"/>
+    </linearGradient>
+  </defs>
+  <g class="a">
+    <g>
+      <polygon class="b" points="100 0 0 0 0.18 1080 100 1080 100 0"/>
+      <polygon class="c" points="100 813 0 813 0.18 1080 100 1080 100 813"/>
+      <polygon class="d" points="100 359 0 359 0.18 498 100 498 100 359"/>
+      <polygon class="e" points="100 251 0 251 0.18 359 100 359 100 251"/>
+      <rect class="f" width="100" height="251"/>
+      <rect class="g" y="873" width="100" height="207"/>
+    </g>
+  </g>
+</svg>

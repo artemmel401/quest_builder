@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="184" viewBox="0 0 90 184">
+  <defs>
+    <style>
+      .a {
+        fill: #ffede1;
+      }
+
+      .b {
+        fill: #399;
+      }
+
+      .c {
+        fill: url(#a);
+      }
+
+      .d {
+        fill: #c3c;
+      }
+
+      .e {
+        fill: url(#b);
+      }
+
+      .f {
+        fill: #333;
+      }
+
+      .g {
+        fill: #f93;
+      }
+
+      .h {
+        fill: url(#c);
+      }
+    </style>
+    <linearGradient id="a" x1="80.44" y1="177.84" x2="54.06" y2="132.16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c93"/>
+      <stop offset="0.09" stop-color="#e2af33"/>
+      <stop offset="0.2" stop-color="#f7c433"/>
+      <stop offset="0.27" stop-color="#fc3"/>
+      <stop offset="0.31" stop-color="#ffd14c"/>
+      <stop offset="0.37" stop-color="#ffd971"/>
+      <stop offset="0.43" stop-color="#ffdf8b"/>
+      <stop offset="0.48" stop-color="#ffe39b"/>
+      <stop offset="0.52" stop-color="#ffe4a1"/>
+      <stop offset="0.55" stop-color="#ffe194"/>
+      <stop offset="0.61" stop-color="#ffda72"/>
+      <stop offset="0.69" stop-color="#ffce3c"/>
+      <stop offset="0.7" stop-color="#fc3"/>
+    </linearGradient>
+    <linearGradient id="b" x1="57.55" y1="60.74" x2="32.45" y2="17.26" xlink:href="#a"/>
+    <linearGradient id="c" x1="43.11" y1="118.63" x2="13.52" y2="67.37" xlink:href="#a"/>
+  </defs>
+  <g>
+    <rect class="a" width="90" height="184"/>
+    <rect class="b" x="56.63" y="46" width="33.37" height="80"/>
+    <rect class="c" x="64.72" y="126" width="5.06" height="58"/>
+    <rect class="b" y="147" width="90" height="5"/>
+    <rect class="d" width="30.34" height="60"/>
+    <rect class="e" y="36" width="90" height="6"/>
+    <rect class="f" x="56.63" y="42" width="33.37" height="4"/>
+    <rect class="f" x="51.57" y="126" width="5.06" height="58"/>
+    <rect class="g" y="126" width="51.57" height="15"/>
+    <rect class="g" x="45.51" y="46" width="11.12" height="4"/>
+    <rect class="h" x="26.29" y="60" width="4.04" height="66"/>
+  </g>
+</svg>

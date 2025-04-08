@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="530" height="392" viewBox="0 0 530 392">
+  <defs>
+    <style>
+      .a {
+        fill: #1b1b3a;
+        opacity: 0.3;
+      }
+
+      .b, .k, .q {
+        fill: #336;
+      }
+
+      .b {
+        opacity: 0.2;
+      }
+
+      .c {
+        fill: #c69c6d;
+      }
+
+      .d {
+        fill: #8c6239;
+      }
+
+      .e {
+        fill: #775137;
+      }
+
+      .f {
+        fill: #603813;
+      }
+
+      .g {
+        fill: #a67c52;
+      }
+
+      .h {
+        fill: none;
+        stroke: #603813;
+        stroke-miterlimit: 10;
+      }
+
+      .i {
+        fill: #666;
+      }
+
+      .j {
+        fill: gray;
+      }
+
+      .k {
+        opacity: 0.25;
+      }
+
+      .l {
+        fill: #dbc9b6;
+      }
+
+      .m {
+        fill: #998675;
+      }
+
+      .n {
+        fill: #736357;
+      }
+
+      .o {
+        fill: url(#a);
+      }
+
+      .p {
+        fill: #ffede1;
+      }
+
+      .q {
+        opacity: 0.1;
+      }
+
+      .r {
+        fill: url(#b);
+      }
+
+      .s {
+        fill: url(#c);
+      }
+    </style>
+    <linearGradient id="a" x1="92" y1="290" x2="24" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0.65" stop-color="#e8d8cd"/>
+      <stop offset="0.82" stop-color="#ebdacf"/>
+      <stop offset="0.92" stop-color="#f3e2d7"/>
+      <stop offset="1" stop-color="#ffede1"/>
+    </linearGradient>
+    <linearGradient id="b" x1="101.37" y1="290" x2="33.37" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0.34" stop-color="#e8d8cd"/>
+      <stop offset="0.66" stop-color="#ebdacf"/>
+      <stop offset="0.86" stop-color="#f3e2d7"/>
+      <stop offset="1" stop-color="#ffede1"/>
+    </linearGradient>
+    <linearGradient id="c" x1="109.49" y1="307" x2="54.49" y2="307" xlink:href="#b"/>
+  </defs>
+  <g>
+    <polygon class="a" points="0 392 524 392 530 345 22 345 0 392"/>
+    <polygon class="b" points="513 149 428.95 149 423 2 150 2 105.81 149 63 149 22 345 530 345 513 149"/>
+    <polygon class="c" points="8 165 518 165 513 149 63 149 8 165"/>
+    <rect class="d" x="8" y="165" width="510" height="10"/>
+    <g>
+      <g>
+        <rect class="d" x="156" y="175" width="7" height="174"/>
+        <polygon class="e" points="167 345 163 349 163 175 167 175 167 345"/>
+      </g>
+      <g>
+        <polygon class="e" points="70 345 65 349 65 175 70 175 70 345"/>
+        <rect class="d" x="58" y="175" width="7" height="174"/>
+      </g>
+      <polygon class="f" points="163 312 65 312 18 348 120 348 163 312"/>
+      <g>
+        <polygon class="c" points="18 348 70 312 58 313 8 348 18 348"/>
+        <polygon class="f" points="18 354 65 319 65 312 18 348 18 354"/>
+      </g>
+      <g>
+        <rect class="e" x="65" y="312" width="98" height="7"/>
+        <polygon class="d" points="163 312 65 312 70 309 163 309 163 312"/>
+      </g>
+      <g>
+        <rect class="d" x="110" y="175" width="10" height="213"/>
+        <polygon class="e" points="124 384 120 388 120 175 124 175 124 384"/>
+      </g>
+      <g>
+        <polygon class="e" points="23 384 18 388 18 175 23 175 23 384"/>
+        <rect class="d" x="8" y="175" width="10" height="213"/>
+      </g>
+      <g>
+        <polygon class="d" points="156 312 124 340 124 345 163 312 156 312"/>
+        <polygon class="e" points="163 312 120 348 120 358 166 316 163 312"/>
+      </g>
+      <g>
+        <rect class="d" x="8" y="348" width="112" height="10"/>
+        <polygon class="c" points="18 348 110 348 110 344 23 344 18 348"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <polygon class="e" points="508 345 504 349 504 175 508 175 508 345"/>
+        <rect class="d" x="505" y="175" width="8" height="174"/>
+      </g>
+      <g>
+        <polygon class="e" points="422 345 420 349 420 175 422 175 422 345"/>
+        <rect class="d" x="413" y="175" width="7" height="174"/>
+      </g>
+      <polygon class="f" points="506 312 420 312 416 348 509 348 506 312"/>
+      <g>
+        <polygon class="d" points="416 348 420.07 311.89 410 312 406 348 416 348"/>
+        <polygon class="e" points="416 354 420 319 420 312 416 348 416 354"/>
+      </g>
+      <g>
+        <rect class="e" x="420" y="312" width="98" height="7"/>
+        <polygon class="d" points="518 312 420 312 422 309 518 309 518 312"/>
+      </g>
+      <polygon class="d" points="505 309 506 344 516 344 510 309 505 309"/>
+      <g>
+        <rect class="d" x="508" y="175" width="10" height="213"/>
+        <polygon class="e" points="506 384 508 388 508 175 506 175 506 384"/>
+      </g>
+      <g>
+        <polygon class="e" points="418 384 416 388 416 175 418 175 418 384"/>
+        <rect class="d" x="406" y="175" width="10" height="213"/>
+      </g>
+      <g>
+        <rect class="d" x="406" y="348" width="112" height="10"/>
+        <polygon class="c" points="416 348 508 348 506 344 418 344 416 348"/>
+      </g>
+    </g>
+    <polygon class="g" points="120 165 406 165 415 149 160 149 120 165"/>
+    <g>
+      <rect class="d" x="120" y="160" width="286" height="12"/>
+      <line class="h" x1="120" y1="165" x2="406" y2="165"/>
+      <rect class="i" x="152" y="163" width="13" height="5"/>
+      <rect class="i" x="361" y="163" width="13" height="5"/>
+      <rect class="j" x="361" y="167" width="13" height="1"/>
+      <rect class="j" x="152" y="167" width="13" height="1"/>
+    </g>
+    <g>
+      <polygon class="c" points="423 0 148 0 120 160 406 160 423 0"/>
+      <polygon class="d" points="406 166 423 6 423 0 406 160 406 166"/>
+    </g>
+    <g>
+      <polygon class="e" points="402 149 116 149 120 160 406 160 402 149"/>
+      <rect class="d" x="116" y="146" width="286" height="3"/>
+      <polygon class="d" points="402 149 406 160 407 157 402 146 402 149"/>
+    </g>
+    <g>
+      <polygon class="k" points="501.95 318.6 423.07 318.6 420 333.5 504 333.5 501.95 318.6"/>
+      <g>
+        <rect class="l" x="424" y="303.69" width="77" height="26.83"/>
+        <rect class="b" x="424" y="303.69" width="77" height="4.97"/>
+        <g>
+          <polygon class="m" points="500 297.73 424 297.73 422 303.69 503 303.69 500 297.73"/>
+          <rect class="n" x="422" y="303.69" width="81" height="1.99"/>
+        </g>
+      </g>
+      <g>
+        <rect class="l" x="431.58" y="280.05" width="60.84" height="21.2"/>
+        <rect class="b" x="431.58" y="280.05" width="60.84" height="5.76"/>
+        <g>
+          <polygon class="m" points="491.63 275.34 431.58 275.34 430 280.05 494 280.05 491.63 275.34"/>
+          <rect class="n" x="430" y="280.05" width="64" height="1.57"/>
+        </g>
+      </g>
+      <g>
+        <rect class="l" x="431.58" y="255.21" width="60.84" height="21.2"/>
+        <rect class="b" x="431.58" y="255.21" width="60.84" height="4.77"/>
+        <g>
+          <polygon class="m" points="491.63 250.5 431.58 250.5 430 255.21 494 255.21 491.63 250.5"/>
+          <rect class="n" x="430" y="255.21" width="64" height="1.57"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <polygon class="k" points="31 344 83 344 110 325 110 323 63 321 31 344"/>
+      <g>
+        <polygon class="o" points="47 344 55 344 92 321 72 236 24 252 47 344"/>
+        <polygon class="p" points="47 344 42 344 20 252 24 252 47 344"/>
+        <polygon class="p" points="24 252 72 236 67 236 20 252 24 252"/>
+        <polygon class="q" points="44 333 47 344 55 344 92 321 72 237 29 252 44 333"/>
+      </g>
+      <g>
+        <polygon class="r" points="57 344 65 344 102 321 82 236 34 252 57 344"/>
+        <polygon class="p" points="57 344 52 344 29 252 34 252 57 344"/>
+        <polygon class="p" points="34 252 82 236 77 236 29 252 34 252"/>
+        <polygon class="q" points="56 340 57 344 65 344 102 321 90 271 50 286 56 340"/>
+      </g>
+      <g>
+        <polygon class="s" points="69 344 77 344 110 323 110 304 102 270 55 286 69 344"/>
+        <polygon class="p" points="69 344 65 344 50 286 55 286 69 344"/>
+        <polygon class="p" points="54.44 286.45 102 270 98 270 50 286 54.44 286.45"/>
+      </g>
+    </g>
+  </g>
+</svg>

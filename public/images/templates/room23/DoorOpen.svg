@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="427" height="598" viewBox="0 0 427 598">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: #333;
+      }
+
+      .c {
+        fill: url(#b);
+      }
+
+      .d {
+        fill: #1a1a1a;
+      }
+
+      .e {
+        fill: gray;
+      }
+
+      .f {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .g {
+        fill: #4d4d4d;
+      }
+    </style>
+    <linearGradient id="a" x1="137.5" y1="524" x2="137.5" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#ccc"/>
+      <stop offset="0.25" stop-color="#ddd"/>
+      <stop offset="0.44" stop-color="#ededed"/>
+      <stop offset="0.59" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <linearGradient id="b" x1="399.22" y1="597.58" x2="399.22" y2="0.32" gradientTransform="matrix(-0.31, 0, 0, 1, 460.85, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c7b299"/>
+      <stop offset="0.28" stop-color="#d3bfa8"/>
+      <stop offset="0.66" stop-color="#decbb5"/>
+      <stop offset="1" stop-color="#e2cfba"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" y="24" width="275" height="500"/>
+    <g>
+      <path class="b" d="M.5,523.75V24.25H275v499.5Zm8.5-2.5H265.5V33.75H9Z" transform="translate(-0.25)"/>
+      <path d="M274.75,24.5v499H.75V24.5h274m-266,497h257V33.5H8.75v488M275.25,24H.25V524h275V24ZM9.25,521V34h256V521Z" transform="translate(-0.25)"/>
+    </g>
+    <g>
+      <polygon class="c" points="265.25 520.85 265.25 34.2 406.75 0.32 406.75 597.58 265.25 520.85"/>
+      <path d="M406.75.63V597.16l-141-76.46V34.39L406.75.63m.5-.63-142,34V521l142,77V0Z" transform="translate(-0.25)"/>
+    </g>
+    <g>
+      <polygon class="b" points="389.25 587.85 389.25 4.2 406.75 0.31 406.75 597.58 389.25 587.85"/>
+      <path d="M406.75.62V597.15l-17-9.44V4.4l17-3.78m.5-.62-18,4V588l18,10V0Z" transform="translate(-0.25)"/>
+    </g>
+    <g>
+      <g>
+        <polygon class="d" points="407.25 0.26 426.75 1.24 426.75 596.76 407.25 597.74 407.25 0.26"/>
+        <path d="M407.75.53l19,1v595l-19,1V.53m-.5-.53V598l20-1V1l-20-1Z" transform="translate(-0.25)"/>
+      </g>
+      <g>
+        <rect class="b" x="260.25" y="380.25" width="9.5" height="49.5"/>
+        <path d="M269.75,380.5v49h-9v-49h9m.5-.5h-10v50h10V380Z" transform="translate(-0.25)"/>
+      </g>
+      <g>
+        <rect class="b" x="260.25" y="131.25" width="9.5" height="49.5"/>
+        <path d="M269.75,131.5v49h-9v-49h9m.5-.5h-10v50h10V131Z" transform="translate(-0.25)"/>
+      </g>
+      <rect class="e" x="9" y="437" width="256" height="84"/>
+      <line class="f" x1="9" y1="437" x2="265" y2="437"/>
+    </g>
+    <g>
+      <g>
+        <polygon class="d" points="370.75 303.52 370.75 280.79 380.25 282.17 380.25 305.2 370.75 303.52"/>
+        <path d="M371.25,281.08l9,1.31V304.9l-9-1.59V281.08m-.5-.58v23.23l10,1.77V282l-10-1.45Z" transform="translate(-0.25)"/>
+      </g>
+      <g>
+        <polygon class="d" points="370.75 332.14 370.75 309.8 380.25 311.56 380.25 334.19 370.75 332.14"/>
+        <path d="M371.25,310.1l9,1.66v22.12l-9-1.94V310.1m-.5-.6v22.84l10,2.16V311.35l-10-1.85Z" transform="translate(-0.25)"/>
+      </g>
+      <g>
+        <polygon class="d" points="373.25 326.76 373.25 317.3 377.75 318.18 377.75 327.69 373.25 326.76"/>
+        <path d="M373.75,317.61l4,.77v9l-4-.84v-8.94m-.5-.61v10l5,1V318l-5-1Z" transform="translate(-0.25)"/>
+      </g>
+      <g>
+        <polygon class="b" points="370.13 290.11 377.88 289.14 377.88 298.89 370.13 299.86 370.13 290.11"/>
+        <path d="M378,289.28v9.5l-7.5.94v-9.5l7.5-.94m.25-.28-8,1v10l8-1V289Z" transform="translate(-0.25)"/>
+      </g>
+      <g>
+        <polygon class="d" points="343.13 294.9 343.13 286.14 369.88 290.11 369.88 299.85 343.13 294.9"/>
+        <path d="M343.5,286.29l26.5,3.93v9.48l-26.5-4.91v-8.5m-.25-.29v9l27,5V290l-27-4Z" transform="translate(-0.25)"/>
+      </g>
+      <g>
+        <polygon class="g" points="343.95 286.01 347.29 285.62 367.57 288.67 373.01 288.12 377.22 288.97 370 289.87 343.95 286.01"/>
+        <path d="M347.52,285.75l20.28,3h.07l5.37-.54,3.45.69-6.44.81L345.15,286l2.37-.28m0-.25-4.28.5,27,4,8-1-5-1-5.41.54-20.31-3Z" transform="translate(-0.25)"/>
+      </g>
+    </g>
+  </g>
+</svg>

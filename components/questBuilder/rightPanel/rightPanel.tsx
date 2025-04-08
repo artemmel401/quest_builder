@@ -109,6 +109,7 @@ export default function RightPanel({
   };
 
   useEffect(() => {
+    console.log(selectedEntity)
     setIsDisplayInput(false);
     setActiveTabIndex(0);
   }, [selectedEntity.id]); 
@@ -191,7 +192,6 @@ export default function RightPanel({
               activeRelation={getActiveObjectRelation()}
               addNewRelation={updateRelationList}
               getFreeEntityToResult={getFreeEntityToResult} 
-              getFreeQuestions={getFreeQuestions}
               getFreeRooms={getFreeRooms}
               getFreeSubjects={getFreeSubjects}
             />

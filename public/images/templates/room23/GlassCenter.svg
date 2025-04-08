@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="499" height="237" viewBox="0 0 499 237">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.2;
+      }
+
+      .b {
+        fill: #69c;
+      }
+
+      .c {
+        fill: #fff;
+        opacity: 0.35;
+      }
+    </style>
+  </defs>
+  <g>
+    <g class="a">
+      <rect class="b" x="1.5" y="1.5" width="496" height="234"/>
+      <path d="M496,3V234H3V3H496m3-3H0V237H499V0Z"/>
+    </g>
+    <path d="M494,5V232H5V5H494m5-5H0V237H499V0Z"/>
+    <g>
+      <polygon class="c" points="0 0 0 237 6.62 237 233.33 0 0 0"/>
+      <polygon class="c" points="253.15 0 39.12 237 98.31 237 312.35 0 253.15 0"/>
+      <polygon class="c" points="0 54.62 49.32 0 28.46 0 0 31.52 0 54.62"/>
+      <polygon class="c" points="499 117.75 391.31 237 412.17 237 499 140.85 499 117.75"/>
+      <polygon class="c" points="499 237 499 8.45 292.6 237 499 237"/>
+    </g>
+  </g>
+</svg>

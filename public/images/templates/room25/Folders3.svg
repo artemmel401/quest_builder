@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="238" height="110" viewBox="0 0 238 110">
+  <defs>
+    <style>
+      .a {
+        fill: #696;
+      }
+
+      .b {
+        fill: #333;
+      }
+
+      .c {
+        fill: #b3b3b3;
+      }
+
+      .d {
+        fill: #3e593e;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <rect class="a" width="38" height="110"/>
+      <rect class="a" x="82" width="38" height="110"/>
+      <rect class="a" x="123" width="38" height="110"/>
+      <rect class="a" x="164" width="38" height="110"/>
+      <rect class="a" x="205" width="33" height="110"/>
+    </g>
+    <g>
+      <g>
+        <circle class="b" cx="19" cy="85" r="7.5"/>
+        <path class="c" d="M19,78a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-1a8,8,0,1,0,8,8,8,8,0,0,0-8-8Z"/>
+      </g>
+      <g>
+        <circle class="b" cx="101" cy="85" r="7.5"/>
+        <path class="c" d="M101,78a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-1a8,8,0,1,0,8,8,8,8,0,0,0-8-8Z"/>
+      </g>
+      <g>
+        <circle class="b" cx="142" cy="85" r="7.5"/>
+        <path class="c" d="M142,78a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-1a8,8,0,1,0,8,8,8,8,0,0,0-8-8Z"/>
+      </g>
+      <g>
+        <circle class="b" cx="184" cy="85" r="7.5"/>
+        <path class="c" d="M184,78a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-1a8,8,0,1,0,8,8,8,8,0,0,0-8-8Z"/>
+      </g>
+      <g>
+        <circle class="b" cx="224" cy="85" r="7.5"/>
+        <path class="c" d="M224,78a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-1a8,8,0,1,0,8,8,8,8,0,0,0-8-8Z"/>
+      </g>
+    </g>
+    <g>
+      <polygon class="d" points="82 110 38 110 38 0 82 8 82 110"/>
+      <polygon class="d" points="123 110 120 110 120 0 123 1 123 110"/>
+      <polygon class="d" points="164 110 161 110 161 0 164 1 164 110"/>
+      <polygon class="d" points="205 110 202 110 202 0 205 1 205 110"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="232" viewBox="0 0 1520 232">
+  <defs>
+    <style>
+      .a {
+        fill: #a67c52;
+      }
+
+      .b {
+        fill: #736357;
+      }
+
+      .c {
+        fill: #d8aa7d;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" y="182" width="1520" height="50"/>
+    <rect class="b" x="337" width="986" height="40"/>
+    <polygon class="c" points="1520 182 0 182 337 0 1323 0 1520 182"/>
+  </g>
+</svg>

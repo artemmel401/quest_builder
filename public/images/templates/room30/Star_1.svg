@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115" height="115" viewBox="0 0 115 115">
+  <defs>
+    <style>
+      .a {
+        fill: #ffd019;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+    </style>
+    <radialGradient id="a" cx="57.5" cy="57.5" r="57.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.24" stop-color="#ffd019"/>
+      <stop offset="0.36" stop-color="#e2b924" stop-opacity="0.86"/>
+      <stop offset="0.65" stop-color="#978040" stop-opacity="0.49"/>
+      <stop offset="1" stop-color="#336" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <circle class="a" cx="56.88" cy="56.88" r="11.13"/>
+    <circle class="b" cx="57.5" cy="57.5" r="57.5"/>
+  </g>
+</svg>

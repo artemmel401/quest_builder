@@ -14,6 +14,12 @@ type ButtonProps = {
   style?: CSSProperties
 }
 
+type ButtonTaskProps = {
+    pressed: boolean
+    text: string
+    pic: string | boolean
+}
+
 export function Button(props: ButtonProps) {
   const [hover, setHover] = useState(false);
   function toggleHover() {
@@ -75,3 +81,15 @@ export function Button(props: ButtonProps) {
       </>
   )
 }
+
+export function ButtonTask(props:ButtonTaskProps) {
+    return (
+        <div className={`${styles.buttonTask} ${(props.pressed) && styles.buttonTask_pressed}`}>
+            <div className={styles.buttonTask__text}>{props.text}</div>
+            {typeof props.pic === 'string' && <div className={styles.buttonTask__pic}>
+                <img src={props.pic} />
+            </div>}
+        </div>
+    )
+}
+

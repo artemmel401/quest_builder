@@ -26,7 +26,7 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
   const [rooms, setRooms] = useState(template.rooms)
   const [relations, setRelations] = useState(template.relations)
   const [selectedImage, setSelectedImage] = useState<{ type: EntityType, src: string }>()
-  const [seletedSubject, setSeletedSubject] = useState<{type: EntityType, item: Subject | Object}>()
+  const [seletedSubject, setSeletedSubject] = useState<Subject | Object>()
 
   const contentRef = useRef<HTMLDivElement>(null);
 
@@ -65,7 +65,7 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
     if (!activeRoom) {
       return
     }
-    if (seletedSubject && object.id === seletedSubject.item.id && toDelete) {
+    if (seletedSubject && object.id === seletedSubject.id && toDelete) {
       setSeletedSubject(undefined)
     }
     const newRooms = rooms.slice()
@@ -89,7 +89,7 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
     if (!activeRoom) {
       return
     }
-    if (seletedSubject && subject.id === seletedSubject.item.id && toDelete) {
+    if (seletedSubject && subject.id === seletedSubject.id && toDelete) {
       setSeletedSubject(undefined)
     }
     let newSubjects = subjects.slice()
@@ -107,13 +107,28 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
     setSubjects(newSubjects)
     onChangeField(newSubjects, 'subjects')
   }
-  const updateTitleInSelected = (value: string, item: {type: EntityType, item: Subject | Object}) => {
-    if (!('roomId' in item.item)) {
-      updateObjectInRoom({...item.item, title: value})
-    } else if ('roomId' in item.item) {
-      updateSubject({...item.item, title: value})
+
+  const changeEntityPosition = (item: Subject | Object) => {
+    console.log(item.position)
+    setSeletedSubject(undefined)
+    if (!activeRoom) {
+      return
     }
-    item.item.title = value
+    if (item.type === 'subject') {
+      updateSubject({...item})
+    } else {
+      updateObjectInRoom({...item})
+    }
+    setSeletedSubject({...item, position: {...item.position}})
+  }
+
+  const updateTitleInSelected = (value: string, item: Subject | Object) => {
+    if (!('roomId' in item)) {
+      updateObjectInRoom({...item, title: value})
+    } else if ('roomId' in item) {
+      updateSubject({...item, title: value})
+    }
+    item.title = value
     setSeletedSubject({...item})
   }
 
@@ -152,33 +167,33 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
 
   const changeSize = (value: number, field: 'x' | 'y') => {
     if (seletedSubject) {
-      let defaultSize: Size = seletedSubject.item.size
+      let defaultSize: Size = seletedSubject.size
       if (defaultSize === 'default') {
         defaultSize = { x: 96, y: 96 }
         defaultSize = { ...defaultSize, [field]: value }
       }
       defaultSize = { ...defaultSize, [field]: value }
       console.log(defaultSize)
-      const item = seletedSubject.item
+      const item = seletedSubject
       if (!itemIsSubject(item)) {
         updateObjectInRoom({ ...item, size: defaultSize })
       } else {
         updateSubject({ ...item, size: defaultSize })
       }
-      setSeletedSubject({...seletedSubject, item: { ...item, size: defaultSize }})
+      setSeletedSubject({...item, size: defaultSize })
     }
   }
   const changePosition = (value: number, field: keyof Position) => {
     if (!seletedSubject) {
       return
     }
-    const item = seletedSubject.item
+    const item = seletedSubject
     if (!itemIsSubject(item)) {
       updateObjectInRoom({ ...item, position: { ...item.position, [field]: value } })
     } else {
       updateSubject({ ...item, position: { ...item.position, [field]: value } })
     }
-    setSeletedSubject({...seletedSubject, item: { ...item, position: {...item.position, [field]: value} }})
+    setSeletedSubject({...item, position: {...item.position, [field]: value} })
   }
 
   useEffect(() => {
@@ -206,10 +221,6 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
     };
   }, [selectedImage]);
 
-  useEffect(() => {
-    console.log(seletedSubject)
-  },[seletedSubject])
-
   return (
     <div className={styles.container}>
       <LeftPanel 
@@ -230,7 +241,7 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
                 {type: 'file', value: `/img/backgrounds/${activeRoom.background.value}`} }
             entities={[...subjects.filter((item)=>item.roomId === activeRoom.id), ...activeRoom.objects]}
             onSelect={setSeletedSubject}
-            changePosition={(item, position)=>{item.type === 'subject' ? updateSubject({...item, position: position}) : updateObjectInRoom({...item, position: position})}}
+            changePosition={(item, position)=>{changeEntityPosition({...item, position: position})}}
             deleteEntity={(entity)=>{entity.type === 'object' ? updateObjectInRoom(entity, true) : updateSubject(entity, true)}}
             /> : 
           <p className={styles.container__empty}>Выберите комнату или создайте новую</p> 
@@ -238,6 +249,7 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
       </div>
       {seletedSubject && activeRoom &&
         <RightPanel
+          key={`${seletedSubject.id}--${seletedSubject.position.x}--${seletedSubject.position.y}`}
           templateType={template.type}
           relations={relations} 
           allObjects={activeRoom.objects}
@@ -246,8 +258,10 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
           changeSize={changeSize}
           changePosition={changePosition}
           roomIds={rooms.filter((room)=>room.id !== activeRoom.id).map((room)=>({id: room.id, name: room.title}))}
-          selectedEntity={seletedSubject.item} 
-          onChangeTitle={(title)=>updateTitleInSelected(title, seletedSubject)}/>}
+          selectedEntity={seletedSubject} 
+          onChangeTitle={(title)=>updateTitleInSelected(title, seletedSubject)}
+        />
+      }
     </div>
   )
 }

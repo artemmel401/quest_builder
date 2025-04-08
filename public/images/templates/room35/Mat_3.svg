@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129.71" height="281.01" viewBox="0 0 129.71 281.01">
+  <defs>
+    <style>
+      .a, .b, .c, .d {
+        fill-rule: evenodd;
+      }
+
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: url(#b);
+      }
+
+      .c {
+        fill: #e2b700;
+      }
+
+      .d {
+        fill: #b29000;
+      }
+    </style>
+    <linearGradient id="a" x1="64.85" y1="9.03" x2="64.85" y2="281.01" gradientUnits="userSpaceOnUse">
+      <stop offset="0.06" stop-color="#333" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#333" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="b"  x1="63.43" x2="63.43" y2="275.21" gradientUnits="userSpaceOnUse">
+      <stop offset="0.21" stop-color="#ffda40"/>
+      <stop offset="0.71" stop-color="#ffd119"/>
+      <stop offset="1" stop-color="#fc0"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="a" d="M95.16,270.86l34.55,1.68L89.86,280c-17.21,2.68-25,0-40-8l-11-15L0,13.69,40.81,9l24,252Z"/>
+    <g>
+      <path class="b" d="M63.78,275.21,0,13.69S21.31-4.4,48.89,1l78,258S95.73,253.82,63.78,275.21Z"/>
+      <g>
+        <path class="c" d="M126.76,259.9s-3.24-4.77-29-4l-.08,3.27S78.44,263,63.58,275C63.58,275,97.64,291.93,126.76,259.9Z"/>
+        <path class="d" d="M97.69,259.16s11.45,2.64,13.64,4.52-18.2,13.07-37.16,8.56c0,0,12.77-8.72,24.18-9.09l4.84,1s-5.06,6.7-15.79,6.6c0,0,11.56.23,17.49-7.27a18.09,18.09,0,0,0-7.17-1.65c-4.16-.11-22.93,5.76-27.48,11.11,0,0,12.25,3.14,24.27.62a40.37,40.37,0,0,0,19.28-10.11A43.13,43.13,0,0,0,97.69,259.16Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

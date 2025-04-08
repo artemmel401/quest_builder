@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111.77" height="78.57" viewBox="0 0 111.77 78.57">
+  <defs>
+    <style>
+      .a {
+        fill: #cb9866;
+      }
+
+      .b, .f {
+        fill: #a9805b;
+      }
+
+      .c {
+        fill: #736357;
+      }
+
+      .d {
+        fill: #534741;
+      }
+
+      .e {
+        fill: #3a3330;
+      }
+
+      .f {
+        stroke: #534741;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="a" d="M111.77,78.53V11h-.06a73,73,0,0,0-25.37,0h0V78.53Z"/>
+    <path class="a" d="M86.34,78.53V11l-1-.19a67.67,67.67,0,0,0-23.41,0l-1,.18V78.53Z"/>
+    <path class="a" d="M60.91,78.53V11h0a73.38,73.38,0,0,0-25.43,0h0V78.53Z"/>
+    <path class="b" d="M66.37,78.53V10.25q-2.85.27-5.67.77h-.05V78.53Z"/>
+    <path class="b" d="M40.92,78.53V10.24q-2.85.27-5.68.78h-.05V78.53Z"/>
+    <path class="b" d="M91.8,78.53V10.25q-2.85.27-5.66.77h-.06V78.53Z"/>
+    <g>
+      <polygon class="c" points="13.87 78.57 0 75.57 0 3.01 13.87 1.12 13.87 78.57"/>
+      <path class="d" d="M35.45,78.57V1.11h0A53,53,0,0,0,14,1.08l-.15,0V78.57Z"/>
+      <path class="e" d="M13.87,78.57h5.61V.25c-1.9.21-3.72.48-5.61.86Z"/>
+    </g>
+    <g>
+      <ellipse class="f" cx="48.32" cy="30.15" rx="5.59" ry="9.28"/>
+      <ellipse class="f" cx="73.54" cy="30.15" rx="5.59" ry="9.28"/>
+      <ellipse class="f" cx="99.95" cy="30.15" rx="5.59" ry="9.28"/>
+    </g>
+  </g>
+</svg>

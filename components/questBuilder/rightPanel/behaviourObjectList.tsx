@@ -2,7 +2,7 @@ import { Subject } from '@/types/subject'
 import styles from './rightPanel.module.scss'
 import { StrippedRoom } from '@/types/room'
 import { Object } from '@/types/object'
-import { useEffect, useState } from 'react'
+import { act, useEffect, useState } from 'react'
 import { Relation, RelationType } from '@/types/relation'
 import { nanoid } from 'nanoid'
 import { isRelation } from '@/utils'
@@ -16,13 +16,12 @@ type BehaviourObjectListProps = {
   getFreeSubjects: () => Subject[]
   getFreeEntityToResult: () => (Object | Subject)[]
   getFreeRooms: () => StrippedRoom[]
-  getFreeQuestions: () => string[]
   hintText?: string
   addNewRelation: (newRelation: Relation) => void
 }
 
 export default function BehaviourObjectList({
-  activeObject, activeRelation, templateType, getFreeSubjects, getFreeEntityToResult, getFreeRooms, hintText, getFreeQuestions, addNewRelation
+  activeObject, activeRelation, templateType, getFreeSubjects, getFreeEntityToResult, getFreeRooms, hintText, addNewRelation
 }: BehaviourObjectListProps) {
   const [newRelation, setNewRelation] = useState<Partial<Relation>>(activeRelation ? activeRelation :
     { id: nanoid(), type: 'object', object: { id: activeObject.id, name: activeObject.title } }
@@ -208,7 +207,7 @@ export default function BehaviourObjectList({
                   `При правильном ответе появлется "${newRelation.resultEntity ? newRelation.resultEntity.name : '____'}"`}
                   </p>
                 <div className={styles.addList}>
-                  {getFreeEntityToResult().map((entity) => (
+                  {getFreeEntityToResult().filter((entity) => entity.id !== activeObject.id).map((entity) => (
                     <p key={`${entity.id}`} onClick={() => { addResult(entity) }} className={styles.addList__item}>{entity.title}</p>
                   ))}
                 </div>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="955.03" height="16.25" viewBox="0 0 955.03 16.25">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        fill: #ccc;
+      }
+    </style>
+    <linearGradient id="a" x1="477.53" x2="477.53" y2="16.25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9797ff"/>
+      <stop offset="0.04" stop-color="#9a9afe"/>
+      <stop offset="0.3" stop-color="#aaaaf9"/>
+      <stop offset="0.59" stop-color="#b3b3f6"/>
+      <stop offset="1" stop-color="#b6b6f5"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" x="0.03" width="955" height="16.25"/>
+    <rect class="b" y="3.79" width="955.03" height="1"/>
+  </g>
+</svg>

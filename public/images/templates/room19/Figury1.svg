@@ -1,0 +1,13 @@
+<svg width="70" height="65" viewBox="0 0 70 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.5" d="M69 64L28 64.3L36 0.5L69 64Z" fill="#FBB03B"/>
+<path d="M69 64L28 64.3L36 0.5L69 64Z" stroke="#AF5112" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M42 64.5L36 0.5" stroke="#AF5112" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path opacity="0.5" d="M28 64.3H1L36 0.5L28 64.3Z" fill="#FBB03B"/>
+<path d="M28 64.3H1L36 0.5L28 64.3Z" stroke="#AF5112" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path opacity="0.5" d="M52 64.3H42L36 0.5L69 64L52 64.3Z" fill="#E59123"/>
+<path d="M52 64.3H42L36 0.5L69 64L52 64.3Z" stroke="#AF5112" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path opacity="0.5" d="M42 64.3H1L36 0.5L42 64.3Z" fill="#FBB03B"/>
+<path opacity="0.2" d="M23.5 64H1.5L35.5 2L38.5 33L23.5 64Z" fill="white"/>
+<path opacity="0.2" d="M12.5 64H1.5L35.5 2L37.5 22L12.5 64Z" fill="white"/>
+<path d="M42 64.3H1L36 0.5L42 64.3Z" stroke="#AF5112" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+</svg>
