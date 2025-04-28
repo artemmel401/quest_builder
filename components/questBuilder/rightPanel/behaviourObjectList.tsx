@@ -94,7 +94,6 @@ export default function BehaviourObjectList({
       setIsOkRelation(false)
     }
   }, [newRelation])
-
   return (
     <div className={styles.behaviourList}>
       <div className={styles.behaviourList__block}>

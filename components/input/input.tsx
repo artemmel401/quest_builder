@@ -3,7 +3,7 @@ import styles from './input.module.scss'
 import fileStyles from './fileInput.module.scss'
 
 type InputProps = {
-  label: string
+  label?: string
   placeholder: string
   value?: string | number
   onChange: (value: string | number) => void

@@ -1,5 +1,10 @@
 @import "mixins";
 
+.edit {
+  position: absolute;
+  right: 30px;
+}
+
 .alert{
   margin-right: 24px;
   max-width: 840px;
@@ -853,16 +858,6 @@
             @media (min-width: $md) {width: 400px;}
             @media (min-width: $lg) {width: 505px;}
             @media (min-width: $xl) {width: 505px;}
-            /*@media (min-width: $xs) {flex-basis: 240px; min-width: 240px;}
-            @media (min-width: $sm) {flex-basis: 320px; min-width: 320px;}
-            @media (min-width: $md) {flex-basis: 320px; min-width: 320px;}
-            @media (min-width: $lg) {flex-basis: 380px; min-width: 380px;}
-            @media (min-width: $xl) {flex-basis: 450px; min-width: 450px;}*/
-            /*@media (min-width: $xs) {}
-            @media (min-width: $sm) {}
-            @media (min-width: $md) {width: 315px}
-            @media (min-width: $lg) {width: 315px;}
-            @media (min-width: $xl) {width: 505px;}*/
             .editRoom__taskCreatorField {
               margin-bottom: 12px;
             }
@@ -953,14 +948,6 @@
   }
 }
 
-/*
-  @media (min-width: $xs) {}
-  @media (min-width: $sm) {}
-  @media (min-width: $md) {}
-  @media (min-width: $lg) {}
-  @media (min-width: $xl) {}
- */
-
 
 .questAnswerList {
   width: 100%;
@@ -1034,14 +1021,6 @@
     margin-right: 48px;
   }
 }
-/*
-  @media (min-width: $xs) {}
-  @media (min-width: $sm) {}
-  @media (min-width: $md) {}
-  @media (min-width: $lg) {}
-  @media (min-width: $xl) {}
-  @media (min-width: $xxl) {}
- */
 
 .fullContainer {
   width: 100%;
@@ -1300,3 +1279,261 @@
   position: relative;
 }
 
+.roomPublish {
+  margin-left: 32px;
+  margin-top: 48px;
+  max-width: 1130px;
+  padding-right: 24px;
+  .roomPublish__pagetitle {
+    @include ld_font_h2();
+  }
+  .roomPublish__group {
+    margin-bottom: 48px;
+    .roomPublish__subtitle {
+      //display: flex;
+      margin-top: 48px;
+      margin-bottom: 32px;
+      @include ld_font_subtitle_inner();
+      color: $ld_color_gray2;
+
+      .roomPublish__indicatorContainer {
+        height: 24px;
+        overflow: visible;
+        //border: 1px solid red;
+        width: 0;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .roomPublish__indicator {
+          //border: 1px solid blue;
+          height: 24px;
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          //right: 8px;
+          left: 8px;
+          color: $ld_color_black;
+        }
+      }
+    }
+    .roomPublish__param {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      .roomPublish__name {
+        flex-grow: 0;
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding-right: 24px;
+        //min-width: 300px;
+        //flex-basis: 300px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+      }
+      .roomPublish__value {
+        flex-grow: 1;
+        //flex-shrink: 0;
+        //width: 346px;
+        //display: flex;
+        //justify-content: space-between;
+        //align-items: center;
+        &_name {
+          font-weight: bold;
+        }
+        &_number {
+          font-weight: bold;
+          color: $ld_color_darkGreen;
+        }
+        &_link {
+          a {
+            color: $ld_color_darkGreen;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .roomPublish__qrCode {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .roomPublish__info {
+          display: flex;
+          flex-direction: column;
+          font-family: "Roboto";
+          font-style: normal;
+          @media (min-width: $xs) {
+            width: 164px;
+          }
+          @media (min-width: $md) {
+            width: 315px;
+          }
+
+          .roomPublish__title {
+            font-weight: 400;
+          }
+          .roomPublish__buttons {
+            display: flex;
+            align-items: center;
+            @media (min-width: $xs) {
+              height: 32px;
+              margin-top: 32px;
+              font-size: 12px;
+              line-height: 16px;
+              flex-direction: column;
+            }
+            @media (min-width: $md) {
+              height: 42px;
+              margin-top: 24px;
+              font-size: 14px;
+              line-height: 18px;
+              flex-direction: row;
+            }
+
+            .roomPublish__download {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-weight: 500;
+              padding: 12px 17px;
+              color: #006666;
+              text-transform: uppercase;
+              background: #e6f0f0;
+              border-radius: 6px;
+              cursor: pointer;
+              @media (min-width: $xs) {
+                width: 164px;
+                height: 32px;
+              }
+              @media (min-width: $md) {
+                width: 160px;
+                height: 42px;
+              }
+              .roomPublish__img {
+                width: 24px;
+                height: 24px;
+                background: url("/images/icons/download__dark__green.svg") no-repeat;
+                margin-right: 8px;
+              }
+            }
+            .roomPublish__download:hover {
+              background: $ld_color_turquoise;
+              color: $ld_color_white;
+              .roomPublish__img {
+                background: url("/images/icons/download__white.svg") no-repeat;
+              }
+            }
+            .roomPublish__download:active {
+              background: $ld_color_darkGreen;
+            }
+
+            .roomPublish__copy {
+              display: flex;
+              align-items: center;
+              color: #006262;
+              font-weight: 500;
+              border-bottom: 2px solid #006262;
+              text-transform: uppercase;
+              cursor: pointer;
+              @media (min-width: $xs) {
+                height: 20px;
+                margin-top: 16px;
+                margin-left: 0px;
+              }
+              @media (min-width: $md) {
+                height: 22px;
+                margin-top: 0px;
+                margin-left: 16px;
+              }
+            }
+          }
+        }
+
+        .roomPublish__code {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 2px solid #e0e0e0;
+          box-sizing: border-box;
+          border-radius: 15px;
+          margin-left: 16px;
+          overflow: hidden;
+          @media (min-width: $xs) {
+            width: 140px;
+            height: 140px;
+          }
+          @media (min-width: $md) {
+            width: 150px;
+            height: 150px;
+          }
+        }
+      }
+    }
+  }
+  .roomPublish__controls {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 346px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .roomPublish__input {
+      width: 162px;
+    }
+  }
+
+  .roomPublish__button {
+    display: flex;
+    width: 176px;
+    height: 42px;
+    align-items: center;
+    background: #e6f0f0;
+    text-transform: uppercase;
+    color: #006666;
+    padding: 9px 20px;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 18px;
+    img {
+      margin-right: 12px;
+    }
+  }
+  .roomPublish__button:hover {
+    background: #3ab8bc;
+    color: white;
+  }
+  .roomPublish__button:active {
+    background: #00ead9;
+    color: white;
+  }
+
+  .roomPublish__buttonDisabled {
+    display: flex;
+    width: 176px;
+    height: 42px;
+    align-items: center;
+    background: #f2f2f2;
+    text-transform: uppercase;
+    color: #4f4f4f;
+    padding: 9px 20px;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: not-allowed;
+    line-height: 18px;
+    img {
+      margin-right: 12px;
+    }
+  }
+}

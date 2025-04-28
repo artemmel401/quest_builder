@@ -22,6 +22,14 @@ export const getQuests = async () => {
   return response.ok ? await response.json() : { error: 'error getQuests' };
 }
 
+export const getGameQuest = async (number) => {
+  let response = await fetch('../api/db/getGameQuest',{
+    method: 'POST', headers: { 'Content-Type': 'application/json;charset=utf-8' },
+    body: JSON.stringify({number: number})
+});
+  return response.ok ? await response.json() : { error: 'error getQuests' };
+}
+
 export const createQuest = async (templateId) => {
   let response = await fetch('/api/db/createQuest',{
     method: 'POST', headers: { 'Content-Type': 'application/json;charset=utf-8' },
@@ -95,4 +103,12 @@ export const getDirectoriesInDirectory = async (dirpath) => {
     body: JSON.stringify({dirpath: dirpath})
   });
   return response.ok ? await response.json() : { error: 'error createQuest' };
+}
+
+export const checkUserTask = async (number, variantNumber, taskIndex, userAnswer, taskType) => {
+  let response = await fetch('/api/db/checkAnswers', {
+    method: 'POST', headers: { 'Content-Type': 'application/json;charset=utf-8' },
+    body: JSON.stringify({number: number, variantNumber: variantNumber, taskIndex: taskIndex, userAnswer: userAnswer, taskType: taskType})
+  });
+  return response.ok ? await response.json() : { error: 'error checkAnswers' };
 }

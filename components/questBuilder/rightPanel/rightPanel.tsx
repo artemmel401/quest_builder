@@ -72,9 +72,6 @@ export default function RightPanel({
     }
   }
   
-  const getFreeQuestions = () => {
-    return []
-  }
   const getFreeRooms = () => {
     let rooms = [...roomIds]
     return rooms

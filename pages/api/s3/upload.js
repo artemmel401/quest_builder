@@ -40,7 +40,7 @@ export default async function (req, res)  {
                         if (!err) {
                             let key = "users/" + userId + "/"+fields.activityNumber.toString()+
                                 "/"+Date.now().toString()+"."+ files.file.name.split('.').pop();
-                            let params = {Body: data,Bucket: "quizzezimages",'Key': key,ACL: "public-read"};
+                            let params = {Body: data,Bucket: "learnis",'Key': key,ACL: "public-read"};
                             let putObjectPromise = s3.putObject(params).promise();
                             //console.log('5');
                             await putObjectPromise.then( (data) => {

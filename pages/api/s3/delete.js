@@ -20,7 +20,7 @@ export default async function (req, res) {
         //console.log('key', key);
         if (user !== null && key.includes(userId.toString())) {
             //console.log('try to delete');
-            let params = { Bucket: "quizzezimages", 'Key': key };
+            let params = { Bucket: "learnis", 'Key': key };
             let deleteObjectPromise = s3.deleteObject(params).promise();
             await deleteObjectPromise.then(() => {
                 res.status(200).json({ 'result': 'ok' });    // successful response

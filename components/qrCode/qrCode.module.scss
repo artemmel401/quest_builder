@@ -1,0 +1,17 @@
+@import "mixins";
+
+.container {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  &__qr {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+
+  }
+}

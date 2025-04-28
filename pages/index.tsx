@@ -3,9 +3,8 @@ import Header from "@/components/header/header"
 import { Button } from "@/components/button/button"
 import Card from "@/components/card/card"
 import { useRouter } from "next/router"
-import { createQuest, deleteQuest, getQuests } from "../utils/requests"
+import { deleteQuest, getQuests } from "../utils/requests"
 import { useEffect, useState } from 'react'
-import { Template } from '@/types/template'
 import { LoaderFullScreen } from '@/components/loaders/Loaders'
 import { Quest } from '@/types/quest'
 

@@ -1,0 +1,15 @@
+@import "mixins";
+
+.helper {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__triangle {
+    position: absolute;
+    top: 100%;
+  }
+}

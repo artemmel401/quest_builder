@@ -1,0 +1,150 @@
+@import "mixins";
+
+.bigselector {
+  width: 96px; height: 96px;
+  background: $ld_color_hover1;
+  border: 8px solid $ld_color_darkGreen;
+  border-radius: 48px;
+  display: flex;
+  align-items: center; justify-content: center;
+  .bigselector__check {
+    width: 100%; height: 100%;
+    background: url('../../../public/components/selectors/check_gray.svg') center center no-repeat;
+  }
+}
+
+.bigselector_checked {
+  border: 8px solid $ld_color_brightTurquoise !important;
+  .bigselector__check {
+    background: url('../../../public/components/selectors/check_tur.svg') center center no-repeat !important;
+  }
+}
+
+.bigselector_hover {
+  border: 8px solid $ld_color_darkGreen;
+  .bigselector__check {
+    background: url('../../../public/components/selectors/check_green.svg') center center no-repeat;
+  }
+}
+
+.block {
+  &_s {
+    width: 20px;
+    height: 20px;
+  }
+  &_m {
+    width: 36px;
+    height: 36px;
+  }
+  &_l {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+.radio {
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid $ld_color_gray2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_hoverActive {
+    &:hover {
+      border-color: $ld_color_brightTurquoise;
+    }
+  } 
+  &_hover {
+    border-color: $ld_color_brightTurquoise;
+  }
+  &_checked {
+    border-color: $ld_color_brightTurquoise;
+  }
+  &_disabled {
+    border-color: #eee;
+    &:hover {
+      border-color: #eee;
+    }
+  }
+  &_error {
+    border-color: $ld_color_negative;
+    &:hover {
+      border-color: $ld_color_negative;
+    }
+  }
+    &_s {
+      border-width: 2px;
+    }
+    &_m {
+      border-width: 3px;
+    }
+    &_l {
+      border-width: 4px;
+    }
+  &__checked {
+    border-radius: 50%;
+    background-color: $ld_color_brightTurquoise;
+    &_s {
+      width: 12px;
+      height: 12px;
+    }
+    &_m {
+      width: 20px;
+      height: 20px;
+    }
+    &_l {
+      width: 32px;
+      width: 32px;
+    }
+  }
+}
+
+.checkbox {
+  cursor: pointer;
+  &_s {
+    width: 24px;
+    height: 24px;
+  }
+  &_m {
+    width: 40px;
+    height: 40px;
+  }
+  &_l {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.circle {
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid $ld_color_gray2;
+  &_s {
+    border-width: 6px;
+  }
+  &_m {
+    border-width: 10px;
+  }
+  &_l {
+    border-width: 16px;
+  }
+  &:hover {
+    border-color: $ld_color_brightTurquoise;
+  }
+  &_checked {
+    background-color: $ld_color_brightTurquoise;
+    border-color: $ld_color_brightTurquoise;
+  }
+  &_disabled {
+    border-color: #eee;
+    &:hover {
+      border-color: #eee;
+    }
+  }
+  &_error {
+    border-color: $ld_color_negative;
+    &:hover {
+      border-color: $ld_color_negative;
+    }
+  }
+}

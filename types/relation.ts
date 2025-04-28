@@ -21,11 +21,13 @@ export type DisplayTextRelation = {
 
 export type DisplayQuestionRelation = {
   resultEntity: EntityRelationType
+  questionIndex?: number
   type: 'question'
 }
 
 export type DisplayQuestionRelationList = {
   type: 'questionList'
+  questionIndex?: number
 }
 
 export type ExitQuestRelation = {

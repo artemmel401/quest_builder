@@ -27,6 +27,7 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
   const [relations, setRelations] = useState(template.relations)
   const [selectedImage, setSelectedImage] = useState<{ type: EntityType, src: string }>()
   const [seletedSubject, setSeletedSubject] = useState<Subject | Object>()
+  const [questionCount, setQuestionCount] = useState(0)
 
   const contentRef = useRef<HTMLDivElement>(null);
 
@@ -73,6 +74,14 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
     let newObjects = newRooms[roomIndex].objects.slice()
     if (toDelete) {
       newObjects = newObjects.filter((item) => item.id !== object.id)
+      setRelations(relations.filter((rel)=>{
+        if (rel.object.id === object.id){
+          return false
+        }  else if ((rel.type === 'question' || rel.type === 'object') && rel.resultEntity.id === object.id) {
+          return false
+        }
+        return true
+      }))
     } else {
       const objectIndex = newObjects.findIndex((item) => item.id === object.id)
       if (objectIndex === -1) {
@@ -196,12 +205,23 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
     setSeletedSubject({...item, position: {...item.position, [field]: value} })
   }
 
+  const countQuestions = (relations: Relation[]) => {
+    let count = 0
+    for (const relation of relations) {
+      if (relation.type === 'question' || relation.type === 'questionList') {
+        count++
+      }
+    }
+    return count
+  }
+
   useEffect(() => {
     onChangeField(rooms, 'rooms')
   }, [rooms])
 
   useEffect(()=>{
     onChangeField(relations, 'relations')
+    setQuestionCount(countQuestions(relations))
   },[relations])
 
   useEffect(() => {

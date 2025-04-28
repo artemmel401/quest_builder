@@ -1,0 +1,316 @@
+@import 'mixins.scss';
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.gameboard {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  &_hidden::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: '';
+    z-index: 2;
+    background-color: rgba(51, 51, 51, 0.4);
+  }
+}
+
+.welcome {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 35%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 60px 0px #0000001A;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  background-color: #fff;
+  &__header {
+    height: 96px;
+    padding: 16px 64px;
+    border-bottom: 1px solid $ld_color_gray3;
+  }
+  &__content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &__description {
+    margin-bottom: 64px;
+  }
+}
+
+.finish {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 60px 0px #0000001A;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  background-color: #fff;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 96px;
+    padding: 16px 64px;
+    border-bottom: 1px solid $ld_color_gray3;
+  }
+  &__content {
+    flex: 1;
+    padding-left: 64px;
+  }
+  &__text {
+    @include ld_font_h2();
+    color: $ld_color_blackIntensive;
+  }
+  &__description {
+    @include joy_font_screen_main_text();
+    margin-top: 48px;
+  }
+}
+
+.hoverControls {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 96px;
+  height: 100vh;
+  z-index: 1000;
+  &_disable {
+    z-index: 0;
+  }
+  &__arrow {
+    position: absolute;
+    z-index: 1000;
+    width: 16px;
+    height: 90px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: $ld_color_darkGreen;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.controls {
+  user-select: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  box-shadow: 0px 0px 60px 0px #0000001A;
+  border-top-right-radius: 56px;
+  border-bottom-right-radius: 56px;
+  background-color: #fff;
+  transition: .4s;
+  z-index: 2;
+  &_active {
+    width: 96px;
+  }
+  &__backpack {
+    cursor: pointer;
+    position: relative;
+    &::after {
+      content: 'Найденные предметы';
+      display: block;
+      position: absolute;
+      width: 185px;
+      left: 105%;
+      top: 25%;
+      z-index: 2;
+      @include ld_font_menu();
+      text-wrap: nowrap;
+      padding: 8px;
+      color: #fff;
+      background-color: $ld_color_darkGreen;
+      border-radius: 10px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    &:hover {
+      & svg g path {
+        fill: $ld_color_darkGreen;
+      }
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+  &__questionList {
+    cursor: pointer;
+    cursor: pointer;
+    position: relative;
+    &::after {
+      content: 'задания';
+      display: block;
+      position: absolute;
+      width: 83px;
+      left: 105%;
+      top: 15%;
+      z-index: 2;
+      @include ld_font_menu();
+      padding: 8px;
+      color: #fff;
+      background-color: $ld_color_darkGreen;
+      border-radius: 10px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    &:hover {
+      & svg path {
+        fill: $ld_color_darkGreen;
+      }
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+  &_disable {
+    width: 0px;
+  }
+  &_full {
+    width: 80%;
+  }
+  &_notFull {
+    width: 28%;
+  }
+  &__logo {
+    padding: 24px;
+    border-bottom: 1px solid $ld_color_gray4
+  }
+  &__buttons {
+    padding-top: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 56px;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 64px;
+    border-bottom: 1px solid $ld_color_gray4
+  }
+  &__title {
+    @include ld_font_subtitle_inner();
+    color: $ld_color_black;
+    text-transform: uppercase;
+  }
+  &__main {
+    padding: 64px;
+    .main {
+      &__title {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 130%;
+        color: #000;
+        margin-bottom: 48px;
+      }
+      &__subjects {
+        display: flex;
+        align-items: center;
+        gap:24px;
+        flex-wrap: wrap;
+      }
+      &__subject {
+        cursor: pointer;
+        padding: 20px;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        &:hover {
+          border: 2px solid $ld_color_gray3;
+        }
+      }
+    }
+  }
+  &__questions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 64px;
+    .questions {
+      &__title {
+        @include ld_font_h2();
+        color: $ld_color_blackIntensive;
+        margin-bottom: 24px;
+      }
+      &__info {
+        @include ld_font_medium();
+        color: $ld_color_blackIntensive;
+        margin-bottom: 32px;
+      }
+      &__text {
+        @include ld_font_text();
+        color: $ld_color_blackIntensive;
+        margin-bottom: 24px;
+        text-align: left;
+      }
+      &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-bottom: 64px;
+      }
+      &__question {
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background-color: #fff;
+        & p {
+          @include ld_font_h5();
+          color: $ld_color_blackIntensive;
+          margin-right: -5px;
+        }
+        &_right {
+          box-shadow: 0px 15px 40px 0px #0000001A;
+        }
+        &_notStarted {
+          box-shadow: 0px 0px 4px 0px #BDBDBD;
+        }
+        &_right {
+          box-shadow: 0px 15px 40px 0px #0000001A;
+        }
+        &_incorrect {
+          box-shadow: 0px 15px 40px 0px #0000001A;
+        }
+        &_notFind {
+          box-shadow: 0px 0px 4px 0px #BDBDBD;
+          color: $ld_color_gray3;
+        }
+        &__status {
+          position: absolute;
+          right: -2px;
+          bottom: -2px;
+        }
+      }
+    }
+  }
+}
