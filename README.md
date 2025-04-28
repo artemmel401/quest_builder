@@ -11,7 +11,7 @@ npm run dev
 Для деплоя запустить команду:
 
 ```bash
-docker-compose up -d --build
+docker compose up -d --build
 ```
 
 По адресу [http://localhost:3000](http://localhost:3000) будет запущено приложение.
