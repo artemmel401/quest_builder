@@ -4,6 +4,9 @@ import * as PIXI from 'pixi.js';
 import { Object } from "@/types/object";
 import styles from './gameBoard.module.scss'
 
+const VIRTUAL_WIDTH = 1920;
+const VIRTUAL_HEIGHT = 1080;
+
 type GameBoardProps = {
   size: {width: number, height: number},
   background: {type: 'file' | 'color', value: string}
@@ -38,15 +41,18 @@ const GameBoardComponent = (props:GameBoardProps) => {
 
       const targetWidth = sprite.size === 'default' ? 96 : sprite.size.x;
       const targetHeight = sprite.size === 'default' ? 96 : sprite.size.y;
-
+      const targetIndex = sprite.size === 'default' ? 0 : sprite.size.z;
+      const normalizedX = sprite.position.x
+      const normalizedY = sprite.position.y;
       const img = new Image(targetWidth, targetHeight);
       img.src = sprite.src
       const texture = PIXI.Texture.from(img);
 
       const spriteObject = new PIXI.Sprite(texture)
       spriteObject.isSprite = true
-      spriteObject.x = sprite.position.x;
-      spriteObject.y = sprite.position.y;
+      spriteObject.x = normalizedX;
+      spriteObject.y = normalizedY;
+      spriteObject.zIndex = targetIndex
       spriteObject.rotation = sprite.position.rotate%360 * (180 / Math.PI);
       spriteObject.width = targetWidth
       spriteObject.height = targetHeight
@@ -71,6 +77,7 @@ const GameBoardComponent = (props:GameBoardProps) => {
           setHoveredEntity(undefined);
         }, 500);
       });
+      console.log(spriteObject, spriteObject.x, spriteObject.y, app.stage.width, app.stage.height)
       app.stage.addChild(spriteObject);
     }
 
@@ -104,13 +111,21 @@ const GameBoardComponent = (props:GameBoardProps) => {
     //console.log(props)
     let app = appRef.current
     if (!app) {
-      app = new PIXI.Application({ background: props.background.type === 'color' ? props.background.value : '#fff', width: props.size.width, height: props.size.height });
+      app = new PIXI.Application(
+        { 
+          background: props.background.type === 'color' ? props.background.value : '#fff', 
+          width: VIRTUAL_WIDTH, 
+          height: VIRTUAL_HEIGHT,
+          resolution: 1,
+          autoDensity: true,
+          resizeTo: window
+        });
       appRef.current = app;
     }
     if (pixiContainerRef.current) {
       pixiContainerRef.current.appendChild(app.view as HTMLCanvasElement);
     }
-
+    app.stage.sortableChildren = true
     createSprites(app);
 
 /*     return () => {
@@ -124,7 +139,7 @@ const GameBoardComponent = (props:GameBoardProps) => {
 
   return (
     <div style={{position: 'relative'}}>
-      <div id="pixi-container" ref={pixiContainerRef} />
+      <div onClick={()=>props.onSelect(undefined)} id="pixi-container" ref={pixiContainerRef} />
       {hoveredEntity && (
         <div className={styles.imgContent}
         style={{

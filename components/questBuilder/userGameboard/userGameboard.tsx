@@ -137,6 +137,7 @@ export default function UserGameboard(props: UserGameboardProps) {
     if (pixiContainerRef.current) {
       pixiContainerRef.current.appendChild(app.view as HTMLCanvasElement);
     }
+    app.stage.sortableChildren = true
     createSprites(app);
 
   }, [props]);

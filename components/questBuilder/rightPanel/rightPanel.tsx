@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import styles from './rightPanel.module.scss'
 import { Subject } from '@/types/subject'
 import { Object } from '@/types/object'
@@ -14,28 +14,30 @@ type RightPanelProps = {
   relations: Relation[]
   updateRelations: (newRelations: Relation[]) => void
   onChangeTitle: (value: string) => void
-  changeSize: (value: number, field: "x" | "y") => void
+  changeSize: (value: number, field: "x" | "y" | 'z') => void
   changePosition: (value: number, field: keyof Position) => void
   roomIds: StrippedRoom[]
   allSubjects: Subject[]
   allObjects: Object[]
   templateType: ExitType
+  resetSelectedEntity: () => void
 }
 
 export default function RightPanel({ 
   selectedEntity, relations, roomIds, allObjects, allSubjects, templateType,
-  updateRelations, onChangeTitle, changeSize, changePosition
+  updateRelations, onChangeTitle, changeSize, changePosition, resetSelectedEntity
 }: RightPanelProps) {
 
   const [isDisplayInput, setIsDisplayInput] = useState(false)
 
   const [activeTabIndex, setActiveTabIndex] = useState(0)
 
-  const onChangeSize = (value: string, field: 'x' | 'y') => {
-    changeSize(parseInt(value), field)
+
+  const onChangeSize = (value: string, field: 'x' | 'y' | 'z') => {
+    changeSize(parseInt(value) ? parseInt(value) : 0, field)
   }
   const onChangePostition = (value: string, field: keyof Position) => {
-    changePosition(parseInt(value), field)
+    changePosition(parseInt(value) ? parseInt(value) : 0, field)
   }
 
   const getFreeObjectsToHover = () => {
@@ -168,6 +170,11 @@ export default function RightPanel({
             <button onClick={()=>onChangePostition((selectedEntity.position.y + 10).toString(), 'y')} className={styles.position__button}><img src={'/icons/down.svg'}/></button>
             <button onClick={()=>onChangePostition((selectedEntity.position.rotate + 90).toString(), 'rotate')} className={styles.position__button}><img src={'/icons/rotateRight.svg'}/></button>
             <button onClick={()=>onChangePostition((selectedEntity.position.rotate + 180).toString(), 'rotate')} className={styles.position__button}><img src={'/icons/rotateUp.svg'}/></button>
+          </div>
+          <p className={styles.position__title}>Слой</p>
+          <div className={styles.position__content}>
+              <span className={styles.position__subTitle}>Номер</span>
+              <input onChange={(e)=>onChangeSize(e.target.value, 'z')} className={styles.position__input} value={selectedEntity.size !== 'default' ? selectedEntity.size.z : 0} />
           </div>
         </div>
         }

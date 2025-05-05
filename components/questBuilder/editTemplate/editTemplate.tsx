@@ -27,7 +27,6 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
   const [relations, setRelations] = useState(template.relations)
   const [selectedImage, setSelectedImage] = useState<{ type: EntityType, src: string }>()
   const [seletedSubject, setSeletedSubject] = useState<Subject | Object>()
-  const [questionCount, setQuestionCount] = useState(0)
 
   const contentRef = useRef<HTMLDivElement>(null);
 
@@ -174,15 +173,14 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
     }
   }
 
-  const changeSize = (value: number, field: 'x' | 'y') => {
+  const changeSize = (value: number, field: 'x' | 'y' | 'z') => {
     if (seletedSubject) {
       let defaultSize: Size = seletedSubject.size
       if (defaultSize === 'default') {
-        defaultSize = { x: 96, y: 96 }
+        defaultSize = { x: 96, y: 96, z: 0 }
         defaultSize = { ...defaultSize, [field]: value }
       }
       defaultSize = { ...defaultSize, [field]: value }
-      console.log(defaultSize)
       const item = seletedSubject
       if (!itemIsSubject(item)) {
         updateObjectInRoom({ ...item, size: defaultSize })
@@ -221,7 +219,6 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
 
   useEffect(()=>{
     onChangeField(relations, 'relations')
-    setQuestionCount(countQuestions(relations))
   },[relations])
 
   useEffect(() => {
@@ -269,6 +266,7 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
       </div>
       {seletedSubject && activeRoom &&
         <RightPanel
+          resetSelectedEntity={()=>setSeletedSubject(undefined)}
           key={`${seletedSubject.id}--${seletedSubject.position.x}--${seletedSubject.position.y}`}
           templateType={template.type}
           relations={relations} 

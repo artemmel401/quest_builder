@@ -19,7 +19,7 @@ type LeftPanelProps = {
 export default function LeftPanel({rooms, selectedRoomId, changeBackground, changeSelectedImage, changeActiveRoom, createRoom}:LeftPanelProps){
 
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
-
+  const [isDisplay, setIsDisplay] = useState(false)
   const [backgrounds, setBackgrounds] = useState<string[]>([])
   const [objectNames, setObjectNames] = useState<{directory: string, files: string[]}[]>([])
 
@@ -52,49 +52,55 @@ export default function LeftPanel({rooms, selectedRoomId, changeBackground, chan
   },[])
 
   return (
-    <div className={styles.container}>
-      <div className={styles.container__tabs}>
-        <Tab name='комнаты' icon='/questBuilder/edit/tabs/room.svg' isActive={selectedTabIndex === 0} onClick={()=>{setSelectedTabIndex(0)}}/>
-        <Tab name='фон' icon='/questBuilder/edit/tabs/background.svg' isActive={selectedTabIndex === 1} onClick={()=>{selectedRoomId && setSelectedTabIndex(1)}}/>
-        <Tab name='объекты' icon='/questBuilder/edit/tabs/object.svg' isActive={selectedTabIndex === 2} onClick={()=>{selectedRoomId && setSelectedTabIndex(2)}}/>
-        <Tab name='предметы' icon='/questBuilder/edit/tabs/subject.svg' isActive={selectedTabIndex === 3} onClick={()=>{selectedRoomId && setSelectedTabIndex(3)}}/>
+    <div onMouseLeave={()=>setIsDisplay(false)} onMouseEnter={()=>setIsDisplay(true)} className={`${styles.container} ${!isDisplay ? styles.container_hide : ''}`}>
+      {isDisplay ?<div className={styles.content}>
+        <div className={styles.container__tabs}>
+          <Tab name='комнаты' icon='/questBuilder/edit/tabs/room.svg' isActive={selectedTabIndex === 0} onClick={() => { setSelectedTabIndex(0) }} />
+          <Tab name='фон' icon='/questBuilder/edit/tabs/background.svg' isActive={selectedTabIndex === 1} onClick={() => { selectedRoomId && setSelectedTabIndex(1) }} />
+          <Tab name='объекты' icon='/questBuilder/edit/tabs/object.svg' isActive={selectedTabIndex === 2} onClick={() => { selectedRoomId && setSelectedTabIndex(2) }} />
+          <Tab name='предметы' icon='/questBuilder/edit/tabs/subject.svg' isActive={selectedTabIndex === 3} onClick={() => { selectedRoomId && setSelectedTabIndex(3) }} />
+        </div>
+        <div className={styles.container__content}>
+          {selectedTabIndex === 0 &&
+            <div className={styles.rooms}>
+              {rooms.map((room) => (
+                <RoomPreview isActive={selectedRoomId === room.id} key={room.id} title={room.title} background={room.background}
+                  onClick={() => { changeActiveRoom(room.id) }}
+                />))}
+              {rooms.length === 0 && <p className={styles.container__emptyRooms}>Не создано ни одной комнаты<br />
+                Для создания нажмите на кнопку</p>}
+              <div className={styles.container__createRoom}>
+                <Button text='Создать комнату' mainClass='ld_button_secondary2' onClick={createRoom} />
+              </div>
+            </div>
+          }
+          {selectedRoomId && selectedTabIndex === 1 &&
+            <>
+              {backgrounds.map((background) => (
+                <div
+                  onClick={() => { changeBackground(background, selectedRoomId) }}
+                  style={{ backgroundImage: `url(/img/backgrounds/${background})` }}
+                  key={background} className={`${styles.room}`}>
+                </div>
+              ))}
+            </>}
+          {selectedTabIndex !== 1 && selectedTabIndex !== 0 &&
+            <>
+              {objectNames.map((el, index) => (
+                <div key={`${el.directory}--${index}`} className={styles.container__objects}>
+                  <ObjectList
+                    onSelect={(src) => selectImage(selectedTabIndex === 2 ? 'Object' : 'Subject', src)}
+                    name={el.directory} list={el.files}
+                  />
+                </div>
+              ))}
+            </>}
+        </div>
+      </div> :
+      <div className={styles.content__arrow}>
+        <img src='/questBuilder/icons/arrowRightWhite.svg'/>
       </div>
-      <div className={styles.container__content}>
-        {selectedTabIndex === 0 &&
-          <div className={styles.rooms}>
-            {rooms.map((room)=>(
-              <RoomPreview isActive={selectedRoomId === room.id} key={room.id} title={room.title} background={room.background} 
-              onClick={()=>{changeActiveRoom(room.id)}}
-            />))}
-            {rooms.length === 0 && <p className={styles.container__emptyRooms}>Не создано ни одной комнаты<br/>
-            Для создания нажмите на кнопку</p>}
-            <div className={styles.container__createRoom}>
-              <Button text='Создать комнату' mainClass='ld_button_secondary2' onClick={createRoom}/>
-            </div>
-          </div>
-        }
-        {selectedRoomId && selectedTabIndex === 1 &&
-          <>
-          {backgrounds.map((background) => (
-            <div 
-              onClick={()=>{changeBackground(background, selectedRoomId)}}
-              style={{backgroundImage: `url(/img/backgrounds/${background})`}} 
-              key={background} className={`${styles.room}`}>
-            </div>
-          ))}
-          </>}
-          {selectedTabIndex !== 1 && selectedTabIndex !== 0 && 
-          <>
-          {objectNames.map((el, index)=>(
-            <div key={`${el.directory}--${index}`} className={styles.container__objects}>
-              <ObjectList 
-                onSelect={(src)=>selectImage(selectedTabIndex === 2 ? 'Object' : 'Subject', src)} 
-                name={el.directory} list={el.files}
-              />
-            </div>
-          ))}
-          </>}
-      </div>
+    }
     </div>
   )
 }

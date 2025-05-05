@@ -7,8 +7,32 @@
   justify-content: center;
   width: 100%;
   flex-shrink: 0;
+  z-index: 2;
   height: 88px;
   border-bottom: 2px solid #E0E0E0;
+  transition: .4s;
+  &_absolute {
+    position: absolute;
+  }
+  &_hide {
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    border-bottom: none;
+  }
+  &__arrow {
+    width: 90px;
+    height: 16px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $ld_color_darkGreen;
+    & img {
+      transform: rotate(90deg);
+    }
+  }
 }
 
 .header {

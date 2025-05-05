@@ -72,7 +72,7 @@ export default function CreateTemplate() {
 
   return (
       <div className={styles.content}>
-        <Header isNewQuest>
+        <Header isHide isNewQuest>
           {stage !== 0 ? <div className={styles.header__button}><Button text={'готово'} onClick={finishTemplate} mainClass='ld_button_secondary2'/></div> : <></>}
         </Header>
         <main className={`${styles.main} ${stage == 2 ? styles.main_notPadding : ''}`}>

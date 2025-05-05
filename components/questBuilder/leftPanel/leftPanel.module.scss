@@ -1,9 +1,33 @@
 @import "mixins";
 
 .container {
-  flex: 25%;
-  max-width: 352px;
-  border-right: 1px solid $ld_color_gray4;
+  position: absolute;
+  z-index: 2;
+  height: calc(100vh - 88px);
+  width: 25%;
+  transition: .4s;
+  &_hide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 66px;
+  }
+  .content {
+    background-color: #fff;
+    max-width: 352px;
+    border-right: 1px solid $ld_color_gray4;
+    height: 100%;
+    &__arrow {
+      width: 16px;
+      height: 90px;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $ld_color_darkGreen;
+    }
+  }
   &__tabs {
     display: flex;
   }
