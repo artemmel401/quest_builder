@@ -1,4 +1,4 @@
-import { TemplateContent } from '@/types/template'
+import { TemplateContent, UserImage } from '@/types/template'
 import styles from './editTemplate.module.scss'
 import LeftPanel from '../leftPanel/leftPanel'
 import { useEffect, useRef, useState } from 'react'
@@ -13,18 +13,21 @@ import { Size } from '@/types/size'
 import { Position } from '@/types/position'
 import { Relation } from '@/types/relation'
 import { GameBoard } from '../gameBoard/gameBoard'
+import { BASKET_URL } from '@/const'
 
 type EditTemplateProps = {
   template: TemplateContent
-  onChangeField: (newValue: Room[] | Subject[] | Relation[], field: 'rooms' | 'subjects' | 'relations') => void
+  templateId: string
+  onChangeField: (newValue: Room[] | Subject[] | Relation[] | UserImage[], field: 'rooms' | 'subjects' | 'relations' | 'userImages') => void
 }
 
-export default function EditTemplate({ template, onChangeField }: EditTemplateProps) {
+export default function EditTemplate({ template, onChangeField, templateId }: EditTemplateProps) {
 
   const [subjects, setSubjects] = useState<Subject[]>(template.subjects)
   const [activeRoom, setActiveRoom] = useState<Room | undefined>()
   const [rooms, setRooms] = useState(template.rooms)
   const [relations, setRelations] = useState(template.relations)
+  const [userImages, setUserImages] = useState(template.userImages || [])
   const [selectedImage, setSelectedImage] = useState<{ type: EntityType, src: string }>()
   const [seletedSubject, setSeletedSubject] = useState<Subject | Object>()
 
@@ -203,14 +206,11 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
     setSeletedSubject({...item, position: {...item.position, [field]: value} })
   }
 
-  const countQuestions = (relations: Relation[]) => {
-    let count = 0
-    for (const relation of relations) {
-      if (relation.type === 'question' || relation.type === 'questionList') {
-        count++
-      }
-    }
-    return count
+  const addNewUserImage = (url: string, type: EntityType | "Room") => {
+    setUserImages([...userImages, {url: BASKET_URL +  url, type}])
+  }
+  const deleteUserImage = (url: string) => {
+    setUserImages(userImages.filter((img)=>img.url !== url))
   }
 
   useEffect(() => {
@@ -220,6 +220,10 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
   useEffect(()=>{
     onChangeField(relations, 'relations')
   },[relations])
+
+  useEffect(()=>{
+    onChangeField(userImages, 'userImages')
+  },[userImages])
 
   useEffect(() => {
     const targetElement = contentRef.current;
@@ -240,7 +244,11 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
 
   return (
     <div className={styles.container}>
-      <LeftPanel 
+      <LeftPanel
+        deleteUserImage={deleteUserImage}
+        createUserImage={addNewUserImage}
+        userImages={userImages}
+        templateId={templateId}
         changeSelectedImage={changeSelectedImage} 
         changeBackground={changeRoomBackground} 
         selectedRoomId={activeRoom?.id} 
@@ -255,7 +263,7 @@ export default function EditTemplate({ template, onChangeField }: EditTemplatePr
             background={
               activeRoom.background.type === 'color' ? 
                 {type: 'color', value: activeRoom.background.value} : 
-                {type: 'file', value: `/img/backgrounds/${activeRoom.background.value}`} }
+                {type: 'file', value: activeRoom.background.value} }
             entities={[...subjects.filter((item)=>item.roomId === activeRoom.id), ...activeRoom.objects]}
             onSelect={setSeletedSubject}
             changePosition={(item, position)=>{changeEntityPosition({...item, position: position})}}

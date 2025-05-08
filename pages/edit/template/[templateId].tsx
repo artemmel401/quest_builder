@@ -37,7 +37,7 @@ export default function CreateTemplate() {
   }
 
 
-  const changeTemplateContentField = (newValue: any, field: 'rooms' | 'subjects' | 'relations') => {
+  const changeTemplateContentField = (newValue: any, field: 'rooms' | 'subjects' | 'relations' | 'userImages') => {
     changeTemplateField(templateId, field, newValue)
   }
 
@@ -89,7 +89,7 @@ export default function CreateTemplate() {
               <Button text={stage === 0 ? 'СОЗДАТЬ Шаблон' : 'ПРОДОЛЖИТЬ'} onClick={()=>{setStage(stage + 1)}} mainClass='ld_button_secondary2' style={{width: '345px'}}/>
             </div>
           </div> :
-          <EditTemplate template={template as Template} onChangeField={changeTemplateContentField}/>}
+          <EditTemplate templateId={template._id} template={template as Template} onChangeField={changeTemplateContentField}/>}
         </main>
       </div>
   )

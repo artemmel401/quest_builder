@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import styles from './userGameboard.module.scss'
 import * as PIXI from 'pixi.js';
 import { GameObject, GameSubject } from '@/types/game';
+import { BASKET_URL } from '@/const';
 
 type UserGameboardProps = {
   size: { width: number, height: number },
@@ -19,13 +20,28 @@ export default function UserGameboard(props: UserGameboardProps) {
   const appRef = useRef<PIXI.Application | null>(null);
   const pixiContainerRef = useRef<HTMLDivElement | null>(null);
 
-  const createSprite = (entity: GameObject | GameSubject) => {
+
+  const loadImage = async (sprite: GameObject | GameSubject, targetWidth: number, targetHeight: number) => {
+      const img = new Image(targetWidth, targetHeight);
+      if (sprite.src.includes(`${BASKET_URL}`)) {
+        const proxyUrl = `/api/proxyEntity?url=${encodeURIComponent(sprite.src)}`;
+        img.crossOrigin = "anonymous";
+        await new Promise((resolve, reject) => {
+          img.onload = resolve;
+          img.onerror = () => reject(new Error('Failed to load image'));
+          img.src = proxyUrl;
+        });
+      } else {
+        img.src = sprite.src;
+      }
+      return img;
+    };
+
+  const createSprite = async (entity: GameObject | GameSubject) => {
     const targetWidth = entity.size === 'default' ? 96 : entity.size.x;
     const targetHeight = entity.size === 'default' ? 96 : entity.size.y;
 
-    const img = new Image(targetWidth, targetHeight);
-    img.src = entity.src
-    const texture = PIXI.Texture.from(img);
+    const texture = PIXI.Texture.from(await loadImage(entity, targetWidth, targetHeight));
 
     const spriteObject = new PIXI.Sprite(texture)
     spriteObject.isSprite = true
@@ -56,14 +72,19 @@ export default function UserGameboard(props: UserGameboardProps) {
     return spriteObject
   }
 
-  const createSprites = (app: PIXI.Application) => {
+  const createSprites = async (app: PIXI.Application) => {
     const toRemove = app.stage.children.filter(child => (child).isSprite);
     toRemove.forEach(child => {
       child.destroy({ children: true });
       app.stage.removeChild(child);
     });
     if (props.background.type === 'file') {
-      const backgroundTexture = PIXI.Texture.from(props.background.value);
+      let backgroundTexture
+      if (props.background.value.includes(`${BASKET_URL}`)) {
+        backgroundTexture = await PIXI.Texture.fromURL(`/api/proxyImage?url=${encodeURIComponent(props.background.value)}`);
+      } else {
+        backgroundTexture = PIXI.Texture.from(props.background.value);
+      }
       const backgroundSprite = new PIXI.Sprite(backgroundTexture);
       backgroundSprite.width = props.size.width;
       backgroundSprite.height = props.size.height;
@@ -71,7 +92,7 @@ export default function UserGameboard(props: UserGameboardProps) {
       app.stage.addChild(backgroundSprite);
     }
     for (const sprite of props.entities) {
-      const spriteObject = createSprite(sprite)
+      const spriteObject = await createSprite(sprite)
       app.stage.addChild(spriteObject);
     }
 
@@ -80,7 +101,7 @@ export default function UserGameboard(props: UserGameboardProps) {
     app.stage.hitArea = app.screen;
 
     if (props.selectedSubject) {
-      const subjectSprite = createSprite(props.selectedSubject)
+      const subjectSprite = await createSprite(props.selectedSubject)
       dragTarget = subjectSprite
       app.stage.on('pointermove', onDragMove);
       app.stage.addChild(subjectSprite);

@@ -1,6 +1,7 @@
 import { ChangeEvent, DragEventHandler, useEffect, useRef, useState } from 'react'
 import styles from './input.module.scss'
 import fileStyles from './fileInput.module.scss'
+import { BASKET_URL } from '@/const'
 
 type InputProps = {
   label?: string
@@ -513,7 +514,7 @@ export function FileInput(props:FileInputProps) {
           </label>}
           {(props.previewImage) && <div className={styles.fileinput__preview}>
               <div className={styles.fileinput__image}>
-                  {audioIndex !== -1 ? <img src={'/images/icons/volume-black.svg'} /> : <img src={'' + "https://static.joyteka.com/" + props.previewImage} />}
+                  {audioIndex !== -1 ? <img src={'/images/icons/volume-black.svg'} /> : <img src={'' + BASKET_URL + props.previewImage} />}
               </div>
               <div className={styles.fileinput__text}>
                   {locale.loaded[lang]}
@@ -597,7 +598,7 @@ export default function ImageInput(props:ImageInputProps){
                   }
                   {
                       props.previewImage !== undefined && props.previewImage !== '' ? 
-                          <img src={'' + "https://static.joyteka.com/" + props.previewImage} /> : 
+                          <img src={'' + BASKET_URL + props.previewImage} /> : 
                           <div className={fileStyles.input__icons}>
                               {(!loading) && <div className={fileStyles.input__adddimg}/>}
                           </div>

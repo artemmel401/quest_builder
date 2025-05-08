@@ -4,6 +4,7 @@ import { Button } from '@/components/button/button'
 import { CheckBox, RadioButton } from '@/components/newComponents/selectors/selectors'
 import { useRef, useState } from 'react'
 import { Input } from '@/components/input/input'
+import { BASKET_URL } from '@/const'
 
 type QuestionProps = {
   task: UserTask
@@ -56,7 +57,7 @@ export default function Question({task, taskIndex, confirmAnswers}: QuestionProp
       <div className={styles.container__main}>
         <div className={styles.question}>
           <p className={styles.question__content}>{newUserTask.content}</p>
-          {newUserTask.image && <img src={'' + "https://static.joyteka.com/" +  newUserTask.image}/>}
+          {newUserTask.image && <img src={'' + BASKET_URL +  newUserTask.image}/>}
           {newUserTask.type !== 'text' ? 
             <div className={styles.question__buttons}>
               {newUserTask.answers.map((answer)=>(
@@ -73,7 +74,7 @@ export default function Question({task, taskIndex, confirmAnswers}: QuestionProp
                   </div>
                   {answer.fileUrl && 
                     <div className={styles.answer_img}>
-                      <img ref={fileRef} src={'' + "https://static.joyteka.com/" +  answer.fileUrl}/>
+                      <img ref={fileRef} src={'' + BASKET_URL +  answer.fileUrl}/>
                       <div onClick={()=>{fileRef.current&&fileRef.current.requestFullscreen()}} className={styles.answer_img_full}>
                         <img src='/images/icons/file_input/full_image.svg'/>
                       </div>

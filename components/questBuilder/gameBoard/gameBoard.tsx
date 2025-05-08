@@ -3,6 +3,7 @@ import { memo, useEffect, useRef, useState } from "react"
 import * as PIXI from 'pixi.js';
 import { Object } from "@/types/object";
 import styles from './gameBoard.module.scss'
+import { BASKET_URL } from "@/const";
 
 const VIRTUAL_WIDTH = 1920;
 const VIRTUAL_HEIGHT = 1080;
@@ -23,18 +24,40 @@ const GameBoardComponent = (props:GameBoardProps) => {
   const [hoveredEntity, setHoveredEntity] = useState<Subject | Object>();
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
-  const createSprites = (app: PIXI.Application) => {
+  const loadImage = async (sprite: Object | Subject, targetWidth: number, targetHeight: number) => {
+    const img = new Image(targetWidth, targetHeight);
+    if (sprite.src.includes(`${BASKET_URL}`)) {
+      const proxyUrl = `/api/proxyEntity?url=${encodeURIComponent(sprite.src)}`;
+      img.crossOrigin = "anonymous";
+      await new Promise((resolve, reject) => {
+        img.onload = resolve;
+        img.onerror = () => reject(new Error('Failed to load image'));
+        img.src = proxyUrl;
+      });
+    } else {
+      img.src = sprite.src;
+    }
+    return img;
+  };
+
+  const createSprites = async (app: PIXI.Application) => {
     const toRemove = app.stage.children.filter(child => (child).isSprite);
     toRemove.forEach(child => {
         child.destroy({ children: true });
         app.stage.removeChild(child);
     });
     if (props.background.type === 'file') {
-      const backgroundTexture = PIXI.Texture.from(props.background.value);
+      let backgroundTexture
+      if (props.background.value.includes(`${BASKET_URL}`)) {
+        backgroundTexture = await PIXI.Texture.fromURL(`/api/proxyImage?url=${encodeURIComponent(props.background.value)}`);
+      } else {
+        backgroundTexture = PIXI.Texture.from(props.background.value);
+      }
       const backgroundSprite = new PIXI.Sprite(backgroundTexture);
       backgroundSprite.width = props.size.width;
       backgroundSprite.height = props.size.height;
       backgroundSprite.isSprite = true
+      backgroundSprite.zIndex = -1
       app.stage.addChild(backgroundSprite);
     }
     for (const sprite of props.entities) {
@@ -44,9 +67,7 @@ const GameBoardComponent = (props:GameBoardProps) => {
       const targetIndex = sprite.size === 'default' ? 0 : sprite.size.z;
       const normalizedX = sprite.position.x
       const normalizedY = sprite.position.y;
-      const img = new Image(targetWidth, targetHeight);
-      img.src = sprite.src
-      const texture = PIXI.Texture.from(img);
+      const texture = PIXI.Texture.from(await loadImage(sprite, targetWidth, targetHeight));
 
       const spriteObject = new PIXI.Sprite(texture)
       spriteObject.isSprite = true
@@ -112,14 +133,14 @@ const GameBoardComponent = (props:GameBoardProps) => {
     let app = appRef.current
     if (!app) {
       app = new PIXI.Application(
-        { 
-          background: props.background.type === 'color' ? props.background.value : '#fff', 
+        {
           width: VIRTUAL_WIDTH, 
           height: VIRTUAL_HEIGHT,
           resolution: 1,
           autoDensity: true,
           resizeTo: window
         });
+      console.log(app)
       appRef.current = app;
     }
     if (pixiContainerRef.current) {

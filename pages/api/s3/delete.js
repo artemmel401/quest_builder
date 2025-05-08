@@ -11,8 +11,8 @@ export default async function (req, res) {
     let s3 = new AWS.S3();
     const user = ''
     let key = req.body.split('?t')[0];
-    //console.log('req.body');
-    //console.log(key);
+    console.log('req.body');
+    console.log(key);
     let userId = '6606e2dd22428850e0b5bf4f';
     return new Promise(async (resolve, reject) => {
         //let key = req.body.key;
@@ -22,6 +22,7 @@ export default async function (req, res) {
             //console.log('try to delete');
             let params = { Bucket: "learnis", 'Key': key };
             let deleteObjectPromise = s3.deleteObject(params).promise();
+            console.log('deleteObjectPromise', deleteObjectPromise)
             await deleteObjectPromise.then(() => {
                 res.status(200).json({ 'result': 'ok' });    // successful response
                 return resolve(1);

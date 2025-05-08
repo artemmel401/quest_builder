@@ -451,7 +451,7 @@ export default function QuestPage() {
             background={
               activeRoom.background.type === 'color'
                 ? { type: 'color', value: activeRoom.background.value }
-                : { type: 'file', value: `/img/backgrounds/${activeRoom.background.value}` }
+                : { type: 'file', value: `${activeRoom.background.value}` }
             }
             entities={stage === 0 ? [] : getEntitiesToRender()}
             onSelect={onClickObject}
